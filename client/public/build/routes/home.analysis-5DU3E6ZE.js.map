@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["browser-route-module:routes/home.analysis.jsx?browser", "../../../app/routes/home.analysis.jsx"],
+  "sourcesContent": ["export { default } from \"./routes/home.analysis.jsx\";", "export default function Analysis () {\n    return <h1>This is analysic Page</h1>\n}\n\n"],
+  "mappings": ";;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;;;ACAA;AAAA;AAAA;AAAA;AAAA;AACW;AADI,SAAR,WAA6B;AAChC,SAAO,mDAAC,QAAG,qCAAJ;AAAA;AAAA;AAAA;AAAA,SAAyB;AACpC;",
+  "names": []
+}

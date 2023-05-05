@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["browser-route-module:routes/staff.$staffId.jsx?browser", "../../../app/routes/staff.$staffId.jsx"],
+  "sourcesContent": ["export { default } from \"./routes/staff.$staffId.jsx\";", "export default function Infopage() {\n    return <h1>This is InfoPage</h1>\n}\n\n"],
+  "mappings": ";;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;;;ACAA;AAAA;AAAA;AAAA;AAAA;AACW;AADI,SAAR,WAA4B;AAC/B,SAAO,mDAAC,QAAG,gCAAJ;AAAA;AAAA;AAAA;AAAA,SAAoB;AAC/B;",
+  "names": []
+}
