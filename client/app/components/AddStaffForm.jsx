@@ -1,30 +1,10 @@
-import {
-  Link,
-  useLoaderData,
-  useMatches,
-  useRouteLoaderData,
-  Form
-} from "@remix-run/react";
-export default function Infopage() {
-  const matches = useMatches();
-  // console.log(matches);
-  const info = matches.find((match) => match.id === "routes/_home").data;
-  // console.log(info);
-  const { name, SSN, dateOfBirth, phone } = info.data;
-  var date = new Date(dateOfBirth);
+import { Form, useLoaderData } from "@remix-run/react";
 
-  var options = { month: "numeric", day: "numeric", year: "numeric" };
-  var formattedDate = date.toLocaleDateString("en-GB", options);
-  // console.log(formattedDate);
-  // console.log(info.email);
+export default function AddForm() {
+    const data= useLoaderData();
+    console.log(data);
+    const option = data.map((dt) => <option key={dt._id}>{dt.name}</option>)
   return (
-    // <>
-    //   <div>{name}</div>
-    //   <div>{ssn}</div>
-    //   <div>{dateOfBirth}</div>
-    //   <Link to='/changepass'>thay doi pass</Link>
-    // </>
-
     <Form>
       <div className="grid gap-6 mb-6 md:grid-cols-2">
         <div>
@@ -41,7 +21,7 @@ export default function Infopage() {
             className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
             placeholder="Name"
             required
-            defaultValue={name}
+            defaultValue=""
           />
         </div>
         <div>
@@ -56,10 +36,9 @@ export default function Infopage() {
             name="SSN"
             id="SSN"
             className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-            placeholder="Doe"
+            placeholder="Social Security Number"
             required
-            defaultValue={SSN}
-            readOnly
+            defaultValue=""
           />
         </div>
         <div>
@@ -76,26 +55,46 @@ export default function Infopage() {
             className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
             placeholder="dd/mm/yyyy"
             required
-            defaultValue={dateOfBirth}
+            defaultValue=""
           />
         </div>
+        {/* <div>
+        <label
+          htmlFor="work"
+          className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+        >
+          Works
+        </label>
+        <input
+          type="text"
+          id="work"
+          name="work"
+          className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+          placeholder=""
+          defaultValue=''
+          required
+        />
+      </div> */}
         <div>
           <label
-            htmlFor="work"
+            htmlFor="workFor"
             className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
           >
             Works
           </label>
-          <input
-            type="text"
-            id="work"
-            name="work"
-            className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-            placeholder=""
-            defaultValue={info.workFor.name}
-            required
-            readOnly
-          />
+          <select
+            name="workFor"
+            id="workFor"
+            className="block py-2.5 px-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border  border-gray-300 appearance-none dark:text-gray-400 dark:border-gray-700 focus:outline-none focus:ring-0 focus:border-blue-500 peer"
+            placeholder="Trung tâm đăng kiểm"
+          >
+            {/* <option value="HN">Trung tâm đăng kiểm Hà nội số 1</option>
+            <option value="HN">Trung tâm đăng kiểm Thanh Hóa sô 1</option>
+            <option value="HN">Trung tâm đăng kiểm Nghệ An sô 1</option>
+            <option value="HN">Trung tâm đăng kiểm Hải Phòng sô 1</option>
+            <option value="HN">Trung tâm đăng kiểm Ninh Bình sô 1</option> */}
+            {option}
+          </select>
         </div>
         <div>
           <label
@@ -109,9 +108,9 @@ export default function Infopage() {
             id="phone"
             name="phone"
             className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-            placeholder="flowbite.com"
+            placeholder="10 numbers"
             required
-            defaultValue={phone}
+            defaultValue=""
           />
         </div>
         <div>
@@ -127,49 +126,26 @@ export default function Infopage() {
             name="email"
             className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
             placeholder="example@gmail.com"
-            defaultValue={info.email}
-            readOnly
+            defaultValue=""
             required
           />
         </div>
       </div>
       {/* <div className="mb-6">
-        <label for="email" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Email address</label>
-        <input type="email" id="email" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="john.doe@company.com" required />
-    </div>  */}
+      <label for="email" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Email address</label>
+      <input type="email" id="email" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="john.doe@company.com" required />
+  </div>  */}
       {/* <div className="flex items-start mb-6">
-        <div className="flex items-center h-5">
-        <input id="remember" type="checkbox" value="" className="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800" required />
-        </div>
-        <label for="remember" className="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">I agree with the <a href="#" className="text-blue-600 hover:underline dark:text-blue-500">terms and conditions</a>.</label>
-    </div> */}
+      <div className="flex items-center h-5">
+      <input id="remember" type="checkbox" value="" className="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800" required />
+      </div>
+      <label for="remember" className="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">I agree with the <a href="#" className="text-blue-600 hover:underline dark:text-blue-500">terms and conditions</a>.</label>
+  </div> */}
       <button className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-        Save
+        ADD
       </button>
     </Form>
   );
 }
 
-// // export async function loader(request) {
-// //   // return await authenticator.isAuthenticated(request, {
-// //   //   successRedirect: "/home",
-// //   // });
 
-// // }
-// // export async function loader(request) {
-// //   // const token = requireUserSession(request);
-// //   // const response = await fetch('https://sleepy-coast-93816.herokuapp.com/api/v1/users/getMe',{
-// //   // method: 'GET',
-// //   // headers: {
-// //   //   "content-type": "application/json",
-// //   //   "Authorization": "Bearer" + token,
-// //   // }
-// // });
-// const resData = await response.json();
-// console.log(resData);
-// return json(resData);
-// }
-
-// export async function action () {
-    
-// }

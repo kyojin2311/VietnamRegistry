@@ -1,4 +1,5 @@
-/* ===== Sidebar ===== */
+/*
+
 .sidebar {
   position: fixed;
   top: 0;
@@ -9,11 +10,12 @@
   background: var(--sidebar-color);
   transition: var(--tran-05);
   z-index: 100;
+  writing-mode: horizontal-tb;
 }
 a {
   text-decoration: none;
 }
-/* ===== Reusable code - Here ===== */
+
 .sidebar li {
   height: 50px;
   list-style: none;
@@ -43,13 +45,13 @@ a {
 .sidebar .text {
   font-size: 17px;
   font-weight: 500;
-  white-space: nowrap;
+  /* white-space: nowrap; 
   opacity: 1;
 }
 .sidebar.close .text {
   opacity: 0;
 }
-/* =========================== */
+
 .sidebar header {
   position: relative;
 }
@@ -69,7 +71,8 @@ header .image-text .name {
 header .image-text .profession {
   font-size: 16px;
   margin-top: -2px;
-  display: block;
+  max-width: 250px;
+  word-break: break-word;
 }
 .sidebar header .image {
   display: flex;
@@ -156,4 +159,4 @@ header .image-text .profession {
   color: var(--text-color);
   padding: 12px 60px;
 }
-
+ */

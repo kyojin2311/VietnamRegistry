@@ -1,5 +1,6 @@
 import { cssBundleHref } from "@remix-run/css-bundle";
 import ShareStyles from "~/styles/ShareStyles.css";
+import styles from "./styles/tailwind.css";
 
 import {
   Links,
@@ -17,8 +18,8 @@ import {
 export function links() {
   return [
     {
-      rel: "stylesheet",
-      href: ShareStyles,
+     rel: "stylesheet", 
+     href: styles 
     },
     {
       rel: "stylesheet",

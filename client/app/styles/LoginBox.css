@@ -1,11 +1,11 @@
-.form {
+/* .form {
     position: relative;
     background-color: white;
     width: 40%;
     height: 50%;
     top: 25%;
     left: 33%;
-    /* margin-top: 200px; */
+    /* margin-top: 200px; 
     padding: 45px;
     text-align: center;
     border: 1px white solid;
@@ -76,4 +76,4 @@
 .button:active {
   box-shadow: none;
   transform: translateY(0);
-}
+} */
