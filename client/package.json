@@ -19,6 +19,8 @@
     "@remix-run/serve": "^1.16.0",
     "@remix-run/v1-route-convention": "^0.1.1",
     "dompurify": "^3.0.2",
+    "flowbite": "^1.6.5",
+    "flowbite-react": "^0.4.4",
     "isbot": "^3.6.8",
     "objectmodel": "^2.6.4",
     "passport": "^0.6.0",

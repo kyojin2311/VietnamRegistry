@@ -1,11 +1,25 @@
 import { NavLink, Link, useLoaderData } from "@remix-run/react";
 import { Form } from "@remix-run/react";
+import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faMagnifyingGlass, faGauge, faChartLine, faUserPlus, faRightFromBracket } from "@fortawesome/free-solid-svg-icons";
+import {
+  faMagnifyingGlass,
+  faGauge,
+  faChartLine,
+  faUserPlus,
+  faRightFromBracket,
+  faBuilding, 
+  faUser, 
+  faCar
+} from "@fortawesome/free-solid-svg-icons";
 export default function MainNavigation() {
   //Take Loader data from the _home.jsx loader for fixing what admin and nonadmin can do in the NavBar
   const data = useLoaderData();
   const { isAdmin } = data;
+  const [toggle, setIsToggle] = useState(false);
+  const toggleHandler = () => {
+    setIsToggle(!toggle);
+  }
   return (
     <>
       <aside
@@ -40,21 +54,74 @@ export default function MainNavigation() {
                 to="/login"
                 className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700"
               >
-               <FontAwesomeIcon icon={faChartLine} size="lg" />
+                <FontAwesomeIcon icon={faChartLine} size="lg" />
                 <span className="flex-1 ml-3 whitespace-nowrap">Analytics</span>
               </Link>
             </li>
             <li>
-              <Link
-                to="/info"
-                className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700"
+              <button
+                type="button"
+                className="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+                aria-controls="dropdown-example"
+                data-collapse-toggle="dropdown-example"
+                onClick={toggleHandler}
               >
                 <FontAwesomeIcon icon={faMagnifyingGlass} size="lg" />
-                <span className="flex-1 ml-3 whitespace-nowrap">Search</span>
-                <span className="inline-flex items-center justify-center w-3 h-3 p-3 ml-3 text-sm font-medium text-blue-800 bg-blue-100 rounded-full dark:bg-blue-900 dark:text-blue-300">
-                  3
+                <span
+                  className="flex-1 ml-3 text-left whitespace-nowrap"
+                  sidebar-toggle-item = 'true'
+                >
+                  Search
                 </span>
-              </Link>
+                <svg
+                  sidebar-toggle-item = 'true'
+                  className="w-6 h-6"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fillRule="evenodd"
+                    d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                    clipRule="evenodd"
+                  ></path>
+                </svg>
+              </button>
+              <ul id="dropdown-example" className={`py-2 space-y-2 ${toggle ? '' : 'hidden'}`}>
+                <li>
+                  <a
+                    href="#"
+                    className="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+                  >
+                    <FontAwesomeIcon icon={faUser} size="lg" />
+                  <span className="flex-1 ml-3 whitespace-nowrap">
+                    Staff
+                  </span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    className="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+                  >
+                  <FontAwesomeIcon icon={faBuilding} size="lg" />
+                  <span className="flex-1 ml-3 whitespace-nowrap">
+                    Centre
+                  </span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    className="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+                  >
+                    <FontAwesomeIcon icon={faCar} size="lg" />
+                  <span className="flex-1 ml-3 whitespace-nowrap">
+                    Inspections 
+                  </span>
+                  </a>
+                </li>
+              </ul>
             </li>
             {isAdmin === 1 && (
               <li>
@@ -62,40 +129,32 @@ export default function MainNavigation() {
                   to="/addStaff"
                   className="flex items-center self-end p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700"
                 >
-                <FontAwesomeIcon icon={faUserPlus} size="lg" />
+                  <FontAwesomeIcon icon={faUserPlus} size="lg" />
                   <span className="flex-1 ml-3 whitespace-nowrap">
                     Add Staff
                   </span>
                 </Link>
               </li>
             )}
-            {/* <li>
-              <Link
-                to="/info"
-                className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700"
-              >
-                <svg
-                  aria-hidden="true"
-                  className="flex-shrink-0 w-6 h-6 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
-                  xmlns="http://www.w3.org/2000/svg"
+              {isAdmin === 1 && (
+              <li>
+                <Link
+                  to="/addStaff"
+                  className="flex items-center self-end p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700"
                 >
-                  <path
-                    fillRule="evenodd"
-                    d="M10 2a4 4 0 00-4 4v1H5a1 1 0 00-.994.89l-1 9A1 1 0 004 18h12a1 1 0 00.994-1.11l-1-9A1 1 0 0015 7h-1V6a4 4 0 00-4-4zm2 5V6a2 2 0 10-4 0v1h4zm-6 3a1 1 0 112 0 1 1 0 01-2 0zm7-1a1 1 0 100 2 1 1 0 000-2z"
-                    clipRule="evenodd"
-                  ></path>
-                </svg>
-                <span className="flex-1 ml-3 whitespace-nowrap">Products</span>
-              </Link>
-            </li> */}
+                  <FontAwesomeIcon icon={faBuilding} size="lg" />
+                  <span className="flex-1 ml-3 whitespace-nowrap">
+                    Add Centre
+                  </span>
+                </Link>
+              </li>
+            )}
             <li>
               <Link
                 to="/logout"
                 className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 self-end"
               >
-              <FontAwesomeIcon icon={faRightFromBracket} size="lg" />
+                <FontAwesomeIcon icon={faRightFromBracket} size="lg" />
                 <span className="flex-1 ml-3 whitespace-nowrap">Sign Out</span>
               </Link>
             </li>

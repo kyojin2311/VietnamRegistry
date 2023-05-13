@@ -18,8 +18,8 @@ import {
 export function links() {
   return [
     {
-     rel: "stylesheet", 
-     href: styles 
+      rel: "stylesheet",
+      href: styles,
     },
     {
       rel: "stylesheet",

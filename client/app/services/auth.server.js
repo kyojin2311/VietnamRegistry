@@ -17,7 +17,6 @@ const sessionStorage = createCookieSessionStorage({
 async function createUserSession(sessionToken, redirectPath) {
   const session = await sessionStorage.getSession();
   session.set("sessionToken", sessionToken);
-  // console.log(session);
   return redirect(redirectPath, {
     headers: {
       "Set-Cookie": await sessionStorage.commitSession(session),
@@ -26,17 +25,12 @@ async function createUserSession(sessionToken, redirectPath) {
 }
 
 export async function getUserFromSession(request) {
-  // console.log("alo");
-  // console.log(request.headers.get("cookie"));
   const data = request.headers.get("cookie");
   const session = await sessionStorage.getSession(data);
-  
   const token = session.get("sessionToken");
-  // console.log(token);
   if (!token) {
     return null;
   }
-
   return token;
 }
 // export async function getUserInfo(request) {
@@ -75,10 +69,6 @@ export async function destroyUserSession(request) {
   const session = await sessionStorage.getSession(
     request.headers.get("cookie")
   );
-  // console.log(session.get("sessionToken"));
-  // if (!session.get("token")) {
-  //   return redirect("/login");
-  // }
   return redirect("/login", {
     headers: {
       "Set-Cookie": await sessionStorage.destroySession(session),
@@ -114,7 +104,6 @@ export async function login(email, password) {
     body: JSON.stringify({ email: email, password: password }),
   });
   const user = await response.json();
-  // console.log(user.token);
   if (!user) {
     // const error = new Error("Invalid login");
     // error.status = 401;
@@ -152,6 +141,5 @@ export async function changePassword(cu, moi, confirmMoi) {
     }
   );
   const resData = await response.json();
-  console.log(resData);
   return resData;
 }

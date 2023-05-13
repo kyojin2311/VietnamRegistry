@@ -4,7 +4,7 @@ import { requireUserSession } from "../services/auth.server";
 import { redirect } from "@remix-run/node";
 
 export const meta = () => {
-  return [{ title: "New Remix App" }];
+  return [{ title: "VietNam Registry" }];
 };
 
 export default function Index() {
