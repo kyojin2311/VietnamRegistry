@@ -10,7 +10,7 @@ import {
   faRightFromBracket,
   faBuilding, 
   faUser, 
-  faCar
+  faCar, faFileLines
 } from "@fortawesome/free-solid-svg-icons";
 export default function MainNavigation() {
   //Take Loader data from the _home.jsx loader for fixing what admin and nonadmin can do in the NavBar
@@ -111,15 +111,15 @@ export default function MainNavigation() {
                   </a>
                 </li>
                 <li>
-                  <a
-                    href="#"
+                  <Link
+                    to='/Inspections'
                     className="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
                   >
                     <FontAwesomeIcon icon={faCar} size="lg" />
                   <span className="flex-1 ml-3 whitespace-nowrap">
                     Inspections 
                   </span>
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </li>
@@ -149,6 +149,12 @@ export default function MainNavigation() {
                 </Link>
               </li>
             )}
+            <li>
+              <Link to='/addInspections' className="flex items-center self-end p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
+              <FontAwesomeIcon icon={faFileLines} size="lg" />
+              <span className="flex-1 ml-3 whitespace-nowrap"> Create Inspections</span>
+              </Link>
+            </li>
             <li>
               <Link
                 to="/logout"

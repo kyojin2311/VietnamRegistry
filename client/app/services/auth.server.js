@@ -16,6 +16,7 @@ const sessionStorage = createCookieSessionStorage({
 
 async function createUserSession(sessionToken, redirectPath) {
   const session = await sessionStorage.getSession();
+  console.log(sessionToken);
   session.set("sessionToken", sessionToken);
   return redirect(redirectPath, {
     headers: {
@@ -33,20 +34,10 @@ export async function getUserFromSession(request) {
   }
   return token;
 }
+
 // export async function getUserInfo(request) {
 //   // const session = await sessionStorage.getSession(
 //   //   request.headers.get("cookie")
-//   // );
-//   // const data = session.get("token");
-//   // const response = await fetch(
-//   //   "https://sleepy-coast-93816.herokuapp.com/api/v1/users/getMe",
-//   //   {
-//   //     method: "GET",
-//   //     headers: {
-//   //       "content-type": "application/json",
-//   //       Authorization: `Bearer ${data}`,
-//   //     },
-//   //   }
 //   // );
 //    const response = await fetch(
 //       "https://registrytotal.herokuapp.com/api/staff/",
@@ -115,6 +106,7 @@ export async function login(email, password) {
       },
     });
   }
+  // console.log(user); 
 
   // return createUserSession(user.token, "/main");
   return createUserSession(user.session, "/main");

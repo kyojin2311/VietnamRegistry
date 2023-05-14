@@ -1,6 +1,10 @@
 import AddForm from "../components/AddStaffForm";
 import { requireUserSession } from "../services/auth.server";
 import { redirect } from "@remix-run/node";
+
+export function meta (){
+  return[{title: "Add Staff"}] 
+}
 export default function addStaffPage() {
     return <AddForm />
 }
@@ -17,4 +21,14 @@ export async function loader({request}) {
     });
     const resData = await data.json();
     return resData;
+  }
+  export async function action ({request}) {
+    const formData = await request.formData();
+    const data = {
+      email: formData.get("email"),
+      name: formData.get("name"),
+      workFor: formData.get("workFor")
+    };
+    console.log(data);
+    return null;
   }

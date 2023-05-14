@@ -7,24 +7,14 @@ import {
 } from "@remix-run/react";
 export default function Infopage() {
   const matches = useMatches();
-  // console.log(matches);
   const info = matches.find((match) => match.id === "routes/_home").data;
-  // console.log(info);
   const { name, SSN, dateOfBirth, phone } = info.data;
   var date = new Date(dateOfBirth);
 
   var options = { month: "numeric", day: "numeric", year: "numeric" };
   var formattedDate = date.toLocaleDateString("en-GB", options);
-  // console.log(formattedDate);
-  // console.log(info.email);
-  return (
-    // <>
-    //   <div>{name}</div>
-    //   <div>{ssn}</div>
-    //   <div>{dateOfBirth}</div>
-    //   <Link to='/changepass'>thay doi pass</Link>
-    // </>
 
+  return (
     <Form>
       <div className="grid gap-6 mb-6 md:grid-cols-2">
         <div>
@@ -155,26 +145,4 @@ export default function Infopage() {
   );
 }
 
-// // export async function loader(request) {
-// //   // return await authenticator.isAuthenticated(request, {
-// //   //   successRedirect: "/home",
-// //   // });
 
-// // }
-// // export async function loader(request) {
-// //   // const token = requireUserSession(request);
-// //   // const response = await fetch('https://sleepy-coast-93816.herokuapp.com/api/v1/users/getMe',{
-// //   // method: 'GET',
-// //   // headers: {
-// //   //   "content-type": "application/json",
-// //   //   "Authorization": "Bearer" + token,
-// //   // }
-// // });
-// const resData = await response.json();
-// console.log(resData);
-// return json(resData);
-// }
-
-// export async function action () {
-
-// }
