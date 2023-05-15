@@ -17,6 +17,7 @@
     "@remix-run/node": "^1.16.0",
     "@remix-run/react": "^1.16.0",
     "@remix-run/serve": "^1.16.0",
+    "@remix-run/v1-meta": "^0.1.1",
     "@remix-run/v1-route-convention": "^0.1.1",
     "dompurify": "^3.0.2",
     "flowbite": "^1.6.5",

@@ -1,23 +1,10 @@
-import { Form } from "@remix-run/react"
+import { Form, useActionData } from "@remix-run/react"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faKey } from '@fortawesome/free-solid-svg-icons'
 export default function Login() {
-//     return <div classNameName="login">
-//     <Form method='post' classNameName='form'>
-//         <h1>Welcome to VietNam Registry</h1>
-//         <h6>Enter your credentials to access your account</h6>
-//         {/* {data && data.errors && <p>Invalid Login</p>} */}
-//         <label classNameName='input'>
-//             <FontAwesomeIcon icon={faEnvelope} />
-//             <input name='email' id="email" placeholder="Please enter your email" required></input>
-//         </label>
-//         <label classNameName='input'>
-//         <FontAwesomeIcon icon={faKey} size="sm" />
-//         <input type='password' name='password' id='password' placeholder='Please enter your password' required></input>
-//         </label>
-//         <button classNameName='button'>Login</button>
-//     </Form>
-// </div>
+    const data = useActionData(); 
+    console.log("alo");
+    console.log(data);
 return (
     <section className="bg-gray-50 dark:bg-gray-900">
   <div className="flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0">
@@ -27,9 +14,11 @@ return (
       </a>
       <div className="w-full bg-white rounded-lg shadow dark:border md:mt-0 sm:max-w-md xl:p-0 dark:bg-gray-800 dark:border-gray-700" >
           <div className="p-6 space-y-4 md:space-y-6 sm:p-8">
-              <h1 className="text-xl font-bold leading-tight tracking-tight text-gray-900 md:text-2xl dark:text-white" >
-                  Sign in to your account
+              <h1 className="text-xl font-bold leading-tight text-center tracking-tight text-gray-900 md:text-2xl dark:text-white" >
+              Welcome to VietNam Registry
               </h1>
+              <h6 className="italic text-center text-md mt-1">Enter your credentials to access your account</h6>
+             {data ?  <h6 className="text-red-500 text-sm text-center bold">{data.message}</h6> : ""}
               <Form className="space-y-4 md:space-y-6" method="post">
                   <div>
                       <label htmlFor="email" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your email</label>
