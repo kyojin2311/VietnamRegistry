@@ -34,7 +34,7 @@ __export(assets_manifest_exports, {
 });
 var assets_manifest_default, init_assets_manifest = __esm({
   "server-assets-manifest:@remix-run/dev/assets-manifest"() {
-    assets_manifest_default = { version: "4d0e6de2", entry: { module: "/build/entry.client-VYYEG75V.js", imports: ["/build/_shared/chunk-AHJMLCF6.js", "/build/_shared/chunk-RQ7GWW3B.js", "/build/_shared/chunk-DG4HR4CT.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-LA5P3WDB.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home": { id: "routes/_home", parentId: "root", path: void 0, index: void 0, caseSensitive: void 0, module: "/build/routes/_home-TMR6OC2N.js", imports: ["/build/_shared/chunk-3KBHGX5U.js", "/build/_shared/chunk-2L3TLXHT.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.Inspections": { id: "routes/_home.Inspections", parentId: "routes/_home", path: "Inspections", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.Inspections-VYDMY45U.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.addStaff": { id: "routes/_home.addStaff", parentId: "routes/_home", path: "addStaff", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.addStaff-XZWBCYHI.js", imports: void 0, hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.info._index": { id: "routes/_home.info._index", parentId: "routes/_home", path: "info", index: !0, caseSensitive: void 0, module: "/build/routes/_home.info._index-DJW3TV2J.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.info.edit": { id: "routes/_home.info.edit", parentId: "routes/_home", path: "info/edit", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.info.edit-TZQWV2SF.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.main": { id: "routes/_home.main", parentId: "routes/_home", path: "main", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.main-ZEQVBPVT.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office.$id": { id: "routes/_home.office.$id", parentId: "routes/_home", path: "office/:id", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.office.$id-OBUTWKU5.js", imports: void 0, hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office._index": { id: "routes/_home.office._index", parentId: "routes/_home", path: "office", index: !0, caseSensitive: void 0, module: "/build/routes/_home.office._index-5TM77I5L.js", imports: void 0, hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.search": { id: "routes/_home.search", parentId: "routes/_home", path: "search", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.search-5XEW27VJ.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_index": { id: "routes/_index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_index-4IP2TA2V.js", imports: ["/build/_shared/chunk-2L3TLXHT.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/changepass": { id: "routes/changepass", parentId: "root", path: "changepass", index: void 0, caseSensitive: void 0, module: "/build/routes/changepass-Y2VS6VFC.js", imports: ["/build/_shared/chunk-2L3TLXHT.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/forgotpassword": { id: "routes/forgotpassword", parentId: "root", path: "forgotpassword", index: void 0, caseSensitive: void 0, module: "/build/routes/forgotpassword-N6CMP3FP.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/login": { id: "routes/login", parentId: "root", path: "login", index: void 0, caseSensitive: void 0, module: "/build/routes/login-DDHT5QYI.js", imports: ["/build/_shared/chunk-3KBHGX5U.js", "/build/_shared/chunk-2L3TLXHT.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/logout": { id: "routes/logout", parentId: "root", path: "logout", index: void 0, caseSensitive: void 0, module: "/build/routes/logout-YO44EPFE.js", imports: void 0, hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, cssBundleHref: void 0, hmr: void 0, url: "/build/manifest-4D0E6DE2.js" };
+    assets_manifest_default = { version: "1bee4c78", entry: { module: "/build/entry.client-DSON4NKS.js", imports: ["/build/_shared/chunk-F6DWSPH4.js", "/build/_shared/chunk-LVPVSEIS.js", "/build/_shared/chunk-7HUBQURA.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-FGPHCUFQ.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home": { id: "routes/_home", parentId: "root", path: void 0, index: void 0, caseSensitive: void 0, module: "/build/routes/_home-MW2NFMQZ.js", imports: ["/build/_shared/chunk-Y5D4XQWU.js", "/build/_shared/chunk-OYPMSNFW.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.Inspections": { id: "routes/_home.Inspections", parentId: "routes/_home", path: "Inspections", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.Inspections-DDGGZADY.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.addStaff": { id: "routes/_home.addStaff", parentId: "routes/_home", path: "addStaff", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.addStaff-TNHN4SLC.js", imports: void 0, hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.info._index": { id: "routes/_home.info._index", parentId: "routes/_home", path: "info", index: !0, caseSensitive: void 0, module: "/build/routes/_home.info._index-7STRBM45.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.info.edit": { id: "routes/_home.info.edit", parentId: "routes/_home", path: "info/edit", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.info.edit-IEVDBQHJ.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.main": { id: "routes/_home.main", parentId: "routes/_home", path: "main", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.main-5O4J4YV5.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office.$id": { id: "routes/_home.office.$id", parentId: "routes/_home", path: "office/:id", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.office.$id-HVAQQBWN.js", imports: void 0, hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office._index": { id: "routes/_home.office._index", parentId: "routes/_home", path: "office", index: !0, caseSensitive: void 0, module: "/build/routes/_home.office._index-QD26UNE4.js", imports: void 0, hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.search": { id: "routes/_home.search", parentId: "routes/_home", path: "search", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.search-VDEN4T6E.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_index": { id: "routes/_index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_index-4YI2DK3W.js", imports: ["/build/_shared/chunk-OYPMSNFW.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/changepass": { id: "routes/changepass", parentId: "root", path: "changepass", index: void 0, caseSensitive: void 0, module: "/build/routes/changepass-7K4XZ4PY.js", imports: ["/build/_shared/chunk-OYPMSNFW.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/forgotpassword": { id: "routes/forgotpassword", parentId: "root", path: "forgotpassword", index: void 0, caseSensitive: void 0, module: "/build/routes/forgotpassword-HZRGZ7WH.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/login": { id: "routes/login", parentId: "root", path: "login", index: void 0, caseSensitive: void 0, module: "/build/routes/login-3KPHV4P6.js", imports: ["/build/_shared/chunk-Y5D4XQWU.js", "/build/_shared/chunk-OYPMSNFW.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/logout": { id: "routes/logout", parentId: "root", path: "logout", index: void 0, caseSensitive: void 0, module: "/build/routes/logout-Q4KFFCZD.js", imports: void 0, hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, cssBundleHref: void 0, hmr: void 0, url: "/build/manifest-1BEE4C78.js" };
   }
 });
 
@@ -180,7 +180,7 @@ __export(root_exports, {
 var import_css_bundle = __toESM(require_server());
 
 // app/styles/tailwind.css
-var tailwind_default = "/build/_assets/tailwind-V2OZDQ4B.css";
+var tailwind_default = "/build/_assets/tailwind-BB43MJKS.css";
 
 // app/root.jsx
 var import_react2 = require("@remix-run/react"), import_jsx_dev_runtime2 = require("react/jsx-dev-runtime");
@@ -1291,28 +1291,86 @@ function Infopage() {
 var home_office_id_exports = {};
 __export(home_office_id_exports, {
   default: () => OfficeDetailPage,
-  loader: () => loader2
+  loader: () => loader2,
+  options: () => options
 });
 var import_node4 = require("@remix-run/node");
-var import_react6 = require("@remix-run/react"), import_jsx_dev_runtime9 = require("react/jsx-dev-runtime");
+var import_react6 = require("@remix-run/react"), import_react_chartjs_2 = require("react-chartjs-2"), import_chart = require("chart.js"), import_jsx_dev_runtime9 = require("react/jsx-dev-runtime");
+import_chart.Chart.register(
+  import_chart.CategoryScale,
+  import_chart.LinearScale,
+  import_chart.PointElement,
+  import_chart.LineElement,
+  import_chart.Title,
+  import_chart.Tooltip,
+  import_chart.Legend
+);
+var options = {
+  responsive: !0,
+  maintainAspectRatio: !1,
+  plugins: {
+    legend: {
+      position: "top"
+    },
+    title: {
+      display: !0,
+      text: "Chart.js Line Chart"
+    }
+  }
+};
 function OfficeDetailPage() {
   let data = (0, import_react6.useLoaderData)();
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("div", { children: "This is office info page" }, void 0, !1, {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("div", { style: { position: "static", height: "80vh", width: "60vw" }, children: /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)(
+    import_react_chartjs_2.Line,
+    {
+      datasetIdKey: "id",
+      data: {
+        labels: ["Jun", "Jul", "Aug"],
+        datasets: [
+          {
+            id: 1,
+            label: "data2",
+            data: [5, 1, 7],
+            borderColor: "rgb(53, 162, 235)",
+            backgroundColor: "rgba(53, 162, 235, 0.5)"
+          },
+          {
+            id: 2,
+            label: "data2",
+            data: [3, 6, 1],
+            borderColor: "rgb(255, 99, 132)",
+            backgroundColor: "rgba(255, 99, 132, 0.5)"
+          }
+        ]
+      }
+    },
+    void 0,
+    !1,
+    {
+      fileName: "app/routes/_home.office.$id.jsx",
+      lineNumber: 42,
+      columnNumber: 7
+    },
+    this
+  ) }, void 0, !1, {
     fileName: "app/routes/_home.office.$id.jsx",
-    lineNumber: 6,
-    columnNumber: 12
+    lineNumber: 41,
+    columnNumber: 5
   }, this);
 }
 async function loader2({ request: request2, params }) {
   let token = await requireUserSession(request2);
   if (!token)
     return (0, import_node4.redirect)("/login");
-  let data = await (await fetch("https://registrytotal.herokuapp.com/api/office/" + params.id, {
-    method: "GET",
-    headers: {
-      Authorization: `Bearer ${token}`
+  let data = await (await fetch(
+    "https://registrytotal.herokuapp.com/api/office/" + params.id,
+    {
+      method: "GET",
+      headers: {
+        Authorization: `Bearer ${token}`
+      }
     }
-  })).json();
+  )).json();
   return console.log(data), data;
 }
 
