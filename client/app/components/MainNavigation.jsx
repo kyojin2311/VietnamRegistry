@@ -1,5 +1,4 @@
-import { NavLink, Link, useLoaderData } from "@remix-run/react";
-import { Form } from "@remix-run/react";
+import { Link, useLoaderData } from "@remix-run/react";
 import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -8,9 +7,10 @@ import {
   faChartLine,
   faUserPlus,
   faRightFromBracket,
-  faBuilding, 
-  faUser, 
-  faCar, faFileLines
+  faBuilding,
+  faUser,
+  faCar,
+  faFileLines,
 } from "@fortawesome/free-solid-svg-icons";
 export default function MainNavigation() {
   //Take Loader data from the _home.jsx loader for fixing what admin and nonadmin can do in the NavBar
@@ -19,7 +19,7 @@ export default function MainNavigation() {
   const [toggle, setIsToggle] = useState(false);
   const toggleHandler = () => {
     setIsToggle(!toggle);
-  }
+  };
   return (
     <>
       <aside
@@ -69,12 +69,12 @@ export default function MainNavigation() {
                 <FontAwesomeIcon icon={faMagnifyingGlass} size="lg" />
                 <span
                   className="flex-1 ml-3 text-left whitespace-nowrap"
-                  sidebar-toggle-item = 'true'
+                  sidebar-toggle-item="true"
                 >
                   Search
                 </span>
                 <svg
-                  sidebar-toggle-item = 'true'
+                  sidebar-toggle-item="true"
                   className="w-6 h-6"
                   fill="currentColor"
                   viewBox="0 0 20 20"
@@ -87,38 +87,45 @@ export default function MainNavigation() {
                   ></path>
                 </svg>
               </button>
-              <ul id="dropdown-example" className={`py-2 space-y-2 ${toggle ? '' : 'hidden'}`}>
-                <li>
-                  <a
-                    href="#"
-                    className="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
-                  >
-                    <FontAwesomeIcon icon={faUser} size="lg" />
-                  <span className="flex-1 ml-3 whitespace-nowrap">
-                    Staff
-                  </span>
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    className="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
-                  >
-                  <FontAwesomeIcon icon={faBuilding} size="lg" />
-                  <span className="flex-1 ml-3 whitespace-nowrap">
-                    Centre
-                  </span>
-                  </a>
-                </li>
+              <ul
+                id="dropdown-example"
+                className={`py-2 space-y-2 ${toggle ? "" : "hidden"}`}
+              >
+                {isAdmin === 1 && (
+                  <li>
+                    <a
+                      href="#"
+                      className="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+                    >
+                      <FontAwesomeIcon icon={faUser} size="lg" />
+                      <span className="flex-1 ml-3 whitespace-nowrap">
+                        Staff
+                      </span>
+                    </a>
+                  </li>
+                )}
+                {isAdmin === 1 && (
+                  <li>
+                    <Link
+                      to="/office"
+                      className="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+                    >
+                      <FontAwesomeIcon icon={faBuilding} size="lg" />
+                      <span className="flex-1 ml-3 whitespace-nowrap">
+                        Centre
+                      </span>
+                    </Link>
+                  </li>
+                )}
                 <li>
                   <Link
-                    to='/Inspections'
+                    to="/Inspections"
                     className="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
                   >
                     <FontAwesomeIcon icon={faCar} size="lg" />
-                  <span className="flex-1 ml-3 whitespace-nowrap">
-                    Inspections 
-                  </span>
+                    <span className="flex-1 ml-3 whitespace-nowrap">
+                      Inspections
+                    </span>
                   </Link>
                 </li>
               </ul>
@@ -136,7 +143,7 @@ export default function MainNavigation() {
                 </Link>
               </li>
             )}
-              {isAdmin === 1 && (
+            {isAdmin === 1 && (
               <li>
                 <Link
                   to="/addStaff"
@@ -150,9 +157,15 @@ export default function MainNavigation() {
               </li>
             )}
             <li>
-              <Link to='/addInspections' className="flex items-center self-end p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
-              <FontAwesomeIcon icon={faFileLines} size="lg" />
-              <span className="flex-1 ml-3 whitespace-nowrap"> Create Inspections</span>
+              <Link
+                to="/addInspections"
+                className="flex items-center self-end p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700"
+              >
+                <FontAwesomeIcon icon={faFileLines} size="lg" />
+                <span className="flex-1 ml-3 whitespace-nowrap">
+                  {" "}
+                  Create Inspections
+                </span>
               </Link>
             </li>
             <li>

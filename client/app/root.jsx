@@ -1,7 +1,6 @@
 import { cssBundleHref } from "@remix-run/css-bundle";
 import ShareStyles from "~/styles/ShareStyles.css";
 import styles from "./styles/tailwind.css";
-
 import {
   Links,
   LiveReload,
@@ -25,6 +24,7 @@ export function links() {
       rel: "stylesheet",
       href: "https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css",
     },
+  
   ];
 }
 
