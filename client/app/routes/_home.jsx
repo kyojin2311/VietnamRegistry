@@ -17,6 +17,7 @@ export default function HomeLayout() {
 export async function loader({ request }) {
   // console.log(request);
   const response = await requireUserSession(request);
+  // console.log(response)
   if (!response) return redirect("/login");
   // console.log('blo');
   // console.log(response);
@@ -27,7 +28,6 @@ export async function loader({ request }) {
       "content-type": "application/json",
     },
   });
-
   const resData = await data.json();
   return resData;
 }
