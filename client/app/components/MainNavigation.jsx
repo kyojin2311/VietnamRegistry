@@ -91,7 +91,7 @@ export default function MainNavigation() {
                 id="dropdown-example"
                 className={`py-2 space-y-2 ${toggle ? "" : "hidden"}`}
               >
-                {isAdmin === 1 && (
+                {/* {isAdmin === 1 && (
                   <li>
                     <a
                       href="#"
@@ -103,7 +103,7 @@ export default function MainNavigation() {
                       </span>
                     </a>
                   </li>
-                )}
+                )} */}
                 {isAdmin === 1 && (
                   <li>
                     <Link
@@ -158,7 +158,7 @@ export default function MainNavigation() {
             )}
             <li>
               <Link
-                to="/addInspections"
+                to="/Inspections/add"
                 className="flex items-center self-end p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700"
               >
                 <FontAwesomeIcon icon={faFileLines} size="lg" />

@@ -38,7 +38,7 @@ export default function OfficeDetailPage() {
   const data = useLoaderData();
 
   return (
-    <div style={{position:"static",height: "80vh", width:"60vw"}}>
+    <div style={{ position: "static", height: "80vh", width: "60vw" }}>
       <Line
         datasetIdKey="id"
         data={{
@@ -77,7 +77,25 @@ export async function loader({ request, params }) {
       },
     }
   );
+  const dataPass = {
+    time: "month",
+    unit: "1",
+  };
+  const url =
+    "https://registrytotal.herokuapp.com/api/office/" + params.id + "/car";
+  console.log(url);
+
   const data = await response.json();
   console.log(data);
+  const response_2 = await fetch(url, {
+    method: "POST",
+    headers: {
+      "content-type": "application/json",
+      Authorization: `Bearer ${token}`,
+    },
+    body: JSON.stringify(dataPass),
+  });
+  console.log(await response_2.json());
+
   return data;
 }
