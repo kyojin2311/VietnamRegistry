@@ -14,7 +14,7 @@ const sessionStorage = createCookieSessionStorage({
   },
 });
 
-async function createUserSession(sessionToken, redirectPath) {
+export async function createUserSession(sessionToken, redirectPath) {
   const session = await sessionStorage.getSession();
   session.set("sessionToken", sessionToken);
   return redirect(redirectPath, {
@@ -76,35 +76,35 @@ export async function requireUserSession(request) {
   return token;
 }
 
-export async function login(email, password) {
-  // const session = await sessionStorage.getSession();
-  const response = await fetch("https://registrytotal.herokuapp.com/login", {
-    method: "POST",
-    credentials: "include",
-    headers: { "content-type": "application/json" },
-    body: JSON.stringify({ email: email, password: password }),
-  });
-  // console.log(response.ok);
-  if (response.ok === false) throw new Error("Invalid Credentials, please try again");
-  else {
-    const user = await response.json();
-    // if (!user) {
-    //   // const error = new Error("Invalid login");
-    //   // error.status = 401;
-    //   // throw error;
-    //   session.flash('error', "Invalid login");
-    //   return redirect("/login", {
-    //     headers: {
-    //       "Set-Cookie": await commitSession(session),
-    //     },
-    //   });
-    // }
-    // console.log(user);
+// export async function login(email, password) {
+//   // const session = await sessionStorage.getSession();
+//   const response = await fetch("https://registrytotal.herokuapp.com/login", {
+//     method: "POST",
+//     credentials: "include",
+//     headers: { "content-type": "application/json" },
+//     body: JSON.stringify({ email: email, password: password }),
+//   });
+//   // console.log(response.ok);
+//   if (response.ok === false) throw new Error("Invalid Credentials, please try again");
+//   else {
+//     const user = await response.json();
+//     // if (!user) {
+//     //   // const error = new Error("Invalid login");
+//     //   // error.status = 401;
+//     //   // throw error;
+//     //   session.flash('error', "Invalid login");
+//     //   return redirect("/login", {
+//     //     headers: {
+//     //       "Set-Cookie": await commitSession(session),
+//     //     },
+//     //   });
+//     // }
+//     // console.log(user);
 
-    // return createUserSession(user.token, "/main");
-    return createUserSession(user.session, "/main");
-  }
-}
+//     // return createUserSession(user.token, "/main");
+//     return createUserSession(user.session, "/main");
+//   }
+// }
 export async function changePassword(cu, moi, confirmMoi) {
   const token = await getUserFromSession(request);
   if (!token) {

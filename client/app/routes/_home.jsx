@@ -6,9 +6,9 @@ import { redirect } from "@remix-run/node";
 
 export default function HomeLayout() {
   return (
-    <div className="page bg-gray-100 ">
+    <div className="page">
       <MainNavigation></MainNavigation>
-      <section className="p-4 sm:ml-64 min-h-screen">
+      <section className="p-4 sm:ml-64 min-h-screen dark:bg-gray-900">
         <Outlet />
       </section>
     </div>
@@ -29,6 +29,6 @@ export async function loader({ request }) {
     },
   });
   const resData = await data.json();
-  console.log(resData);
+  // console.log(resData);
   return resData;
 }
