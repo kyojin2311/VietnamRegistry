@@ -13,7 +13,6 @@ export default function InfoEditpage() {
   const month = ("0" + (date.getMonth() + 1)).slice(-2);
   const day = ("0" + date.getDate()).slice(-2);
   const formattedDate = `${year}-${month}-${day}`;
-
   return (
     <Form className="dark">
       <div className="grid gap-6 mb-6 md:grid-cols-2">

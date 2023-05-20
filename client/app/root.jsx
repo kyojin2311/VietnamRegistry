@@ -9,6 +9,7 @@ import {
   Scripts,
   ScrollRestoration,
   useLoaderData,
+  useNavigate,
 } from "@remix-run/react";
 
 import { useRouteError, isRouteErrorResponse } from "@remix-run/react";
@@ -56,7 +57,10 @@ export default function App() {
 }
 export function ErrorBoundary() {
   const error = useRouteError();
-
+  const backHandler = () => {
+    const navigate = useNavigate();
+    return navigate('..');
+  }
   if (isRouteErrorResponse(error)) {
     return (
       <div>
@@ -68,11 +72,10 @@ export function ErrorBoundary() {
     );
   } else if (error instanceof Error) {
     return (
-      <div>
-        <h1>Error</h1>
+      <div className="dark m-auto">
+        <h1 className="font-bold dark:text-red-600">Error</h1>
         <p>{error.message}</p>
-        <p>The stack trace is:</p>
-        <pre>{error.stack}</pre>
+        <p onClick={backHandler}>Please back to the previous page</p>
       </div>
     );
   } else {
