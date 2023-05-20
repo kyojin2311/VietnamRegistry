@@ -3,8 +3,9 @@ import link from "../images/ava.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPencil } from "@fortawesome/free-solid-svg-icons";
 import { formatDate } from "../util/formatDate";
-export default function OwnInfo() {
+export default function StaffInfo() {
   const matches = useMatches();
+  console.log(matches);
   const info = matches.find((match) => match.id === "routes/_home");
   const { name, SSN, dateOfBirth, phone } = info.data.data;
   const formattedDate = formatDate(dateOfBirth);

@@ -17,7 +17,7 @@ return (
               <h1 className="text-xl font-bold leading-tight text-center tracking-tight text-gray-900 md:text-2xl dark:text-white" >
               Welcome to VietNam Registry
               </h1>
-              <h6 className="italic text-center text-md mt-1">Enter your credentials to access your account</h6>
+              <h6 className="italic text-center text-md mt-1 dark:text-white">Enter your credentials to access your account</h6>
              {data ?  <h6 className="text-red-500 text-sm text-center bold">{data.message}</h6> : ""}
               <Form className="space-y-4 md:space-y-6" method="post">
                   <div>

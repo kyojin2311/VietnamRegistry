@@ -1,6 +1,7 @@
 import type { Config } from 'tailwindcss'
 
 export default {
+  darkMode: 'class',
   content: ["./app/**/*.{js,jsx,ts,tsx}", "./node_modules/flowbite/**/*.js","./node_modules/flowbite-react/**/*.js"],
   theme: {
     extend: {colors: {

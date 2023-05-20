@@ -6,7 +6,6 @@ import {
 
 export default function InfoEditpage() {
   const matches = useMatches();
-  console.log(matches);
   const info = matches.find((match) => match.id === "routes/_home").data;
   const { name, SSN, dateOfBirth, phone } = info.data;
   var date = new Date(dateOfBirth);
@@ -16,7 +15,7 @@ export default function InfoEditpage() {
   const formattedDate = `${year}-${month}-${day}`;
 
   return (
-    <Form>
+    <Form className="dark">
       <div className="grid gap-6 mb-6 md:grid-cols-2">
         <div>
           <label

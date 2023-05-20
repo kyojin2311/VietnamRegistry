@@ -1,10 +1,3 @@
-import {
-  Link,
-  useLoaderData,
-  useMatches,
-  useRouteLoaderData,
-  Form,
-} from "@remix-run/react";
 import OwnInfo from "../components/OwnInfo";
 
 export default function Infopage() {
@@ -22,4 +15,8 @@ export default function Infopage() {
   );
 }
 
-
+export function meta({matches}) {
+  return [
+    {title: `${matches[1].data.data.name}`}
+  ]
+}
