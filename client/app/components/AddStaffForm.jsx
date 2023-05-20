@@ -1,12 +1,18 @@
 import { Form, useLoaderData, useActionData } from "@remix-run/react";
-
 export default function AddForm() {
   const data = useLoaderData();
+
+  console.log(data);
   const option = data.data.map((dt) => <option key={dt._id}>{dt.name}</option>);
+
   const error = useActionData();
   return (
     <>
-      {error && <h3 className="text-red-500 text-md bold text-center mb-5">{error.message}, please try again</h3>}
+      {error && (
+        <h3 className="text-red-500 text-md bold text-center mb-5">
+          {error.message}, please try again
+        </h3>
+      )}
       <Form method="post">
         <div className="grid gap-6 mb-6 md:grid-cols-2">
           <div>

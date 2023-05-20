@@ -10,7 +10,7 @@ export default function OwnInfo() {
   const formattedDate = formatDate(dateOfBirth);
   const inspection = info.data.registed;
   return (
-    <div className=" m-auto">
+    <div className=" m-auto p-4">
       <section className="mx-0 dark:text-white">
         <div className="max-w-7xl lg:pt-5 items-stretch">
           <div className="mx-5 max-w-xl">
