@@ -133,7 +133,7 @@ export default function MainNavigation() {
             {isAdmin === 1 && (
               <li>
                 <Link
-                  to="/addStaff"
+                  to="/office/add"
                   className="flex items-center self-end p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700"
                 >
                   <FontAwesomeIcon icon={faBuilding} size="lg" />

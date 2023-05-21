@@ -4,12 +4,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPencil } from "@fortawesome/free-solid-svg-icons";
 import { formatDate } from "../util/formatDate";
 export default function StaffInfo() {
-  const matches = useMatches();
-  console.log(matches);
-  const info = matches.find((match) => match.id === "routes/_home");
-  const { name, SSN, dateOfBirth, phone } = info.data.data;
+  const info = useLoaderData();
+  const { name, SSN, dateOfBirth, phone } = info.data;
   const formattedDate = formatDate(dateOfBirth);
-  const inspection = info.data.registed;
+  const inspection = info.registed;
   return (
     <div className=" m-auto">
       <section className="mx-0 dark:text-white">
@@ -34,7 +32,8 @@ export default function StaffInfo() {
                   <div className="pt-1.5">
                     <h1 className="text-xl font-semibold">{name}</h1>
                     <p className="text-lg font-light text-black-500">
-                      Nhân viên tại: {info.data.workFor.name}
+                      {/* Nhân viên tại: {info.data.workFor.name} */}
+                      Nhân viên tại: Đâu đó
                     </p>
                   </div>
                 </div>
@@ -53,7 +52,7 @@ export default function StaffInfo() {
                     <dt className="mb-1 text-gray-500 md:text-lg dark:text-gray-400">
                       Email address
                     </dt>
-                    <dd className="text-lg font-semibold">{info.data.email}</dd>
+                    <dd className="text-lg font-semibold">{info.email}</dd>
                   </div>
 
                   <div className="flex flex-col py-3">
@@ -81,9 +80,11 @@ export default function StaffInfo() {
         </div>
       </section>
       <section className="ms-5 mt-10 ">
-        <h3 className="text-lg font-semibold dark:text-green-300">Inspections</h3>
+        <h3 className="text-lg font-semibold dark:text-green-300">
+          Inspections
+        </h3>
 
-        <ol className="relative border-l border-gray-200 dark:border-gray-700">
+        {/* <ol className="relative border-l border-gray-200 dark:border-gray-700">
           {inspection.map((inspec) => (
             <li key= {inspec._id} className="mb-10 ml-4">
               <Link to={`/Inspections/${inspec._id}`}>
@@ -103,7 +104,7 @@ export default function StaffInfo() {
               </Link>
             </li>
           ))}
-        </ol>
+        </ol> */}
       </section>
     </div>
   );
