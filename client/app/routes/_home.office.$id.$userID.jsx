@@ -1,9 +1,14 @@
-import { useMatches, useParams } from "@remix-run/react";
 import StaffInfo from "../components/StaffInfo";
+import { getStaffbyId } from "../services/APIAction.server";
 
 export default function StaffInfoPage() {
-    const params = useParams();
-    const matches = useMatches();
-    console.log(matches);
-    return <StaffInfo />;
+  return <StaffInfo />;
+}
+export async function loader({ request, params }) {
+  try {
+    const data = await getStaffbyId(request, params.userID);
+    return data;
+  } catch (error) {
+    throw new Error(`${error.message}`);
+  }
 }

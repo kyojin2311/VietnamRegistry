@@ -8,7 +8,7 @@ export default function ListOfStaff() {
       <h2 className="dark:text-white mt-5 text-xl font-semibold">All staff</h2>
       <div className="relative overflow-x-auto shadow-md sm:rounded-lg">
         <div className="pb-4 bg-white dark:bg-gray-900">
-          <label htmlfor="table-search" className="sr-only">
+          <label htmlFor="table-search" className="sr-only">
             Search
           </label>
           <div className="relative mt-1">

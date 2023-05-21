@@ -3,6 +3,7 @@ import {
   useMatches,
   Form,
 } from "@remix-run/react";
+import { EditInfo } from "../services/APIAction.server";
 
 export default function InfoEditpage() {
   const matches = useMatches();
@@ -122,7 +123,7 @@ export default function InfoEditpage() {
           />
         </div>
       </div>
-      <button className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 mx-2">
+      <button formMethod="put" className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 mx-2">
         Save
       </button>
       <Link to="/changepass">
@@ -133,3 +134,19 @@ export default function InfoEditpage() {
     </Form>
   );
 }
+
+export async function action({request}) {
+  const formData = await request.formData();
+  const data = {
+    email: formData.get("email"),
+    name: formData.get("name"),
+    workFor: formData.get("workFor"),
+    dob: reformatDate(formData.get("dob")),
+    ssn: formData.get("SSN"),
+    phone: formData.get("phone"),
+    password: "12345678",
+    isAdmin: 0,
+  };
+  return await EditInfo(request, data);
+}
+

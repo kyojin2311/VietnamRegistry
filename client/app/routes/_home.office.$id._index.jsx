@@ -106,6 +106,7 @@ export async function loader({ request, params }) {
   // console.log(url);
 
   const data = await response.json();
+  console.log(data);
   // console.log(data[0].staff);
   const response_2 = await fetch(url, {
     method: "POST",
