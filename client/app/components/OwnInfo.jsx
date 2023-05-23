@@ -8,7 +8,9 @@ export default function OwnInfo() {
   const info = matches.find((match) => match.id === "routes/_home");
   const { name, SSN, dateOfBirth, phone } = info.data.data;
   const formattedDate = formatDate(dateOfBirth);
-  const inspection = info.data.registed;
+  const inspection = info.data.registed.sort(function (a, b) {
+    return new Date(b.regisDate) - new Date(a.regisDate);
+  });
   return (
     <div className=" m-auto p-4">
       <section className="mx-0 dark:text-white">
@@ -80,18 +82,20 @@ export default function OwnInfo() {
         </div>
       </section>
       <section className="ms-5 mt-10 ">
-        <h3 className="text-lg font-semibold dark:text-green-300">Inspections</h3>
+        <h3 className="text-lg font-semibold dark:text-green-300">
+          Inspections
+        </h3>
 
         <ol className="relative border-l border-gray-200 dark:border-gray-700">
           {inspection.map((inspec) => (
-            <li key= {inspec._id} className="mb-10 ml-4">
-              <Link to={`/Inspections/${inspec._id}`}>
+            <li key={inspec._id} className="mb-10 ml-4">
+              <Link to={`/Inspections/${inspec.regisNum}`}>
                 <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
                 <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
                   {formatDate(inspec.regisDate)}
                 </time>
                 <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-                  Mã số Đăng kiểm: {inspec._id}
+                  Mã số Đăng kiểm: {inspec.regisNum}
                 </h3>
                 <p className="text-base font-normal text-gray-500 dark:text-gray-400">
                   Biển số xe: {inspec.car.numberPlate}

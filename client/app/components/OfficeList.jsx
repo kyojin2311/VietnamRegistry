@@ -6,7 +6,7 @@ export default function OfficeList() {
   let content = data.data.map((dt) => (
     <tr
       key={dt._id}
-      className="bg-white border-b dark:bg-gray-800 dark:border-gray-700"
+      className="bg-white border-b dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-600"
     >
       <Link to={dt._id}>
         <th

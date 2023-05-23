@@ -16,7 +16,7 @@ export default function InspectionsForm() {
                 {" "}
                 Biển đăng ký: {data.car.numberPlate}
               </div>
-              <div className="flex-1">Số quản lý: </div>
+              <div className="flex-1">Số quản lý: {data.regisNum}</div>
             </div>
             <div className="text-left flex w-full  italic text-sm">
               <div className="flex-1">(Registration Number)</div>
@@ -220,7 +220,7 @@ export default function InspectionsForm() {
               <div className="italic text-sm ">
                 (Inspection Report No)
               </div>
-              <div className=" text-left">{data._id}</div>
+              <div className=" text-left">{data.regisNum}</div>
               <div className="text-left  w-full mt-1">
                 Có hiệu lực đến hết ngày:
               </div>
