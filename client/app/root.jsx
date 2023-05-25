@@ -1,6 +1,7 @@
 import { cssBundleHref } from "@remix-run/css-bundle";
 import ShareStyles from "~/styles/ShareStyles.css";
 import styles from "./styles/tailwind.css";
+import { useGlobalTransitionStates } from "remix-utils";
 import {
   Links,
   LiveReload,
@@ -13,6 +14,7 @@ import {
 } from "@remix-run/react";
 
 import { useRouteError, isRouteErrorResponse } from "@remix-run/react";
+import Spinner from "./util/Loading";
 // export const links = () => [
 //   ...(cssBundleHref ? [{ rel: "stylesheet", href: cssBundleHref }] : []),{rel: "stylesheet", href: shareStyle}, {rel:'stylesheet', href:'https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css'}
 // ];
@@ -33,6 +35,13 @@ export function meta() {
 }
 
 export default function App() {
+  let states = useGlobalTransitionStates();
+  let spinner = "";
+  if (states.includes("submitting") || states.includes("loading")) {
+    spinner = (
+      <Spinner className="absolute -translate-x-1/2 -translate-y-1/2 top-2/4 left-1/2" />
+    );
+  }
   return (
     <html lang="en">
       <head>
@@ -46,6 +55,7 @@ export default function App() {
         <Links />
       </head>
       <body className="dark">
+        {spinner}
         <Outlet />
         <ScrollRestoration />
         <Scripts />
@@ -59,8 +69,8 @@ export function ErrorBoundary() {
   const error = useRouteError();
   const backHandler = () => {
     const navigate = useNavigate();
-    return navigate('..');
-  }
+    return navigate("..");
+  };
   if (isRouteErrorResponse(error)) {
     return (
       <div>

@@ -1,8 +1,7 @@
 import { Link, useLoaderData } from "@remix-run/react";
 
 export default function ListOfStaff() {
-  const data = useLoaderData();
-//   console.log(data);
+  const data = useLoaderData().staff;
   return (
     <>
       <h2 className="dark:text-white mt-5 text-xl font-semibold">All staff</h2>

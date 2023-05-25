@@ -1,3 +1,5 @@
+import SearchModal from "../components/searchModal";
+
 export default function InspectionSearchPage() {
-  return <div> this is fỏ searchhing ínepctions</div>;
+  return <SearchModal />;
 }
