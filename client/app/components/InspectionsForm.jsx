@@ -1,8 +1,6 @@
 import { useLoaderData } from "@remix-run/react";
 import { formatDate } from "../util/formatDate";
-export default function InspectionsForm() {
-  const data = useLoaderData();
-  console.log(data);
+export default function InspectionsForm({ data }) {
   return (
     <section className="text-gray-600 body-font dark:text-white m-auto dark:bg-slate-800">
       <div className="container flex flex-wrap px-3 py-24 mx-auto items-center dark:text-white text-black">
@@ -214,12 +212,8 @@ export default function InspectionsForm() {
 
           <div className="container flex flex-wrap mx-auto items-center pt-3">
             <div className="flex-initial w-1/3 pt-5">
-              <div className="text-left  w-full mt-1">
-                Số phiếu kiểm định:
-              </div>
-              <div className="italic text-sm ">
-                (Inspection Report No)
-              </div>
+              <div className="text-left  w-full mt-1">Số phiếu kiểm định:</div>
+              <div className="italic text-sm ">(Inspection Report No)</div>
               <div className=" text-left">{data.regisNum}</div>
               <div className="text-left  w-full mt-1">
                 Có hiệu lực đến hết ngày:
