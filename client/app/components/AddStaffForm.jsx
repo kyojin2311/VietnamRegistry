@@ -1,10 +1,6 @@
-import { Form, useLoaderData, useActionData } from "@remix-run/react";
-export default function AddForm() {
-  const data = useLoaderData();
-
-  console.log(data);
-  const option = data.data.map((dt) => <option key={dt._id}>{dt.name}</option>);
-
+import { Form, useActionData } from "@remix-run/react";
+export default function AddForm(props) {
+  const option = props.data.data.map((dt) => <option key={dt._id}>{dt.name}</option>);
   const error = useActionData();
   return (
     <>

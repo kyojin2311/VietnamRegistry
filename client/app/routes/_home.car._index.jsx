@@ -1,5 +1,5 @@
 import { redirect, json } from "@remix-run/node";
-import SearchModal from "../components/searchModal";
+import SearchModal from "../components/searchCarModal";
 import { requireUserSession } from "../services/auth.server";
 import { findCarbyNumberPlate } from "../services/APIAction.server";
 import CarPageDefault from "../components/CarPageDefault";
@@ -11,7 +11,6 @@ export default function () {
     </>
   );
 }
-
 export async function loader({ request }) {
   const token = requireUserSession(request);
   if (!token) return redirect("/login");

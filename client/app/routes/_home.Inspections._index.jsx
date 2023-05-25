@@ -1,4 +1,4 @@
-import SearchModal from "../components/searchModal";
+import SearchModal from "../components/searchCarModal";
 
 export default function InspectionSearchPage() {
   return <SearchModal />;

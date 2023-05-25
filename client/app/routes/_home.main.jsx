@@ -77,7 +77,6 @@ export default function MainPage() {
               {typeof window !== "undefined" ? (
                 <ChartCom
                   data={data}
-                  style={{ width: "873px", height: "420px" }}
                 />
               ) : (
                 <Fallback />
@@ -97,7 +96,7 @@ export async function loader({ request }) {
   const token = await requireUserSession(request);
   if (!token) return redirect("/login");
   const info = await getOwnInfo(request);
-  // console.log(info);
+  console.log(info);
   const url =
     "https://registrytotal.herokuapp.com/api/office/" +
     info.workFor._id +
