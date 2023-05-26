@@ -8,9 +8,7 @@ import {
   faUserPlus,
   faRightFromBracket,
   faBuilding,
-  faUser,
   faCar,
-  faFileLines,
 } from "@fortawesome/free-solid-svg-icons";
 export default function MainNavigation() {
   //Take Loader data from the _home.jsx loader for fixing what admin and nonadmin can do in the NavBar
@@ -152,7 +150,7 @@ export default function MainNavigation() {
                 </Link>
               </li>
             )}
-            <li>
+            {/* <li>
               <Link
                 to="/Inspections/add"
                 className="flex items-center self-end p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700"
@@ -163,7 +161,7 @@ export default function MainNavigation() {
                   Create Inspections
                 </span>
               </Link>
-            </li>
+            </li> */}
             <li>
               <Link
                 to="/logout"
