@@ -8,7 +8,7 @@ const sessionStorage = createCookieSessionStorage({
     path: "/",
     secure: process.env.NODE_ENV === "production",
     secrets: ["S3SR$T"],
-    sameSite: true,
+    sameSite: "lax",
     maxAge: 30 * 24 * 60 * 60, // 30 days
     httpOnly: true,
   },

@@ -40,7 +40,8 @@ export default function MainNavigation() {
           <ul className="space-y-2 font-medium">
             <li>
               <Link
-                to="/main"
+                prefetch="render"
+                to="/"
                 className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 active:bg-gray-700"
               >
                 <FontAwesomeIcon icon={faGauge} size="lg" />
@@ -150,18 +151,6 @@ export default function MainNavigation() {
                 </Link>
               </li>
             )}
-            {/* <li>
-              <Link
-                to="/Inspections/add"
-                className="flex items-center self-end p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700"
-              >
-                <FontAwesomeIcon icon={faFileLines} size="lg" />
-                <span className="flex-1 ml-3 whitespace-nowrap">
-                  {" "}
-                  Create Inspections
-                </span>
-              </Link>
-            </li> */}
             <li>
               <Link
                 to="/logout"

@@ -1,7 +1,6 @@
 import { Form, Link } from "@remix-run/react";
 import { formatDate } from "../util/formatDate";
 import { useLoaderData } from "@remix-run/react";
-
 export default function CarPage() {
   const data = useLoaderData();
   const owner = data.owner.data;

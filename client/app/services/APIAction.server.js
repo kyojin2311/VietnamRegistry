@@ -19,7 +19,7 @@ export async function login(email, password) {
     throw new Error("Invalid Credentials, please try again");
   else {
     const user = await response.json();
-    return createUserSession(user.session, "/main");
+    return createUserSession(user.session, "/");
   }
 }
 

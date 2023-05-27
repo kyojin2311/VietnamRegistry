@@ -1,64 +1,64 @@
 import { getOwnInfo } from "../services/APIAction.server";
 import link from "../images/light.jpg";
-import { ClientOnly } from "remix-utils";
 import ChartCom from "../components/Chart.client";
 import { requireUserSession } from "../services/auth.server";
 import { redirect } from "@remix-run/node";
 import { useLoaderData } from "@remix-run/react";
 import Spinner from "../util/Loading";
+import { Suspense } from "react";
+import { ClientOnly } from "remix-utils";
+import styles from "../styles/tailwind.css";
+import Chart2 from "../components/ChartFromChartjs";
 export const meta = () => {
   return [{ title: "VietNam Registry" }];
 };
 
 export default function MainPage() {
   const loaderdata = useLoaderData();
-  const data = {
-    options: {
-      chart: {
-        id: "basic-bar",
 
-        animations: {
-          enabled: true,
-          easing: "easeinout",
-          speed: 800,
-          animateGradually: {
-            enabled: true,
-            delay: 150,
-          },
-          dynamicAnimation: {
-            enabled: true,
-            speed: 350,
-          },
-        },
-      },
-      xaxis: {
-        categories: ["Jan", "Feb", "Mar", "Apr", "May"],
-      },
-      stroke: {
-        curve: "straight",
-      },
-      theme: {
-        mode: "light",
-        palette: "palette1",
-        monochrome: {
-          enabled: true,
-          color: "#255aee",
-          shadeTo: "dark",
-          shadeIntensity: 0.65,
-        },
-      },
-    },
-    series: [
-      {
-        name: "series-1",
-        data: loaderdata.data.map((ld) => ld.count),
-      },
-    ],
-  };
+  // const data = {
+  //   options: {
+  //     chart: {
+  //       id: "basic-bar",
 
-  const Fallback = () => {
-    return <Spinner />;
-  };
+  //       animations: {
+  //         enabled: true,
+  //         easing: "easeinout",
+  //         speed: 800,
+  //         animateGradually: {
+  //           enabled: true,
+  //           delay: 150,
+  //         },
+  //         dynamicAnimation: {
+  //           enabled: true,
+  //           speed: 350,
+  //         },
+  //       },
+  //     },
+  //     xaxis: {
+  //       categories: ["Jan", "Feb", "Mar", "Apr", "May"],
+  //     },
+  //     stroke: {
+  //       curve: "straight",
+  //     },
+  //     theme: {
+  //       mode: "light",
+  //       palette: "palette1",
+  //       monochrome: {
+  //         enabled: true,
+  //         color: "#255aee",
+  //         shadeTo: "dark",
+  //         shadeIntensity: 0.65,
+  //       },
+  //     },
+  //   },
+  //   series: [
+  //     {
+  //       name: "series-1",
+  //       data: loaderdata.data.map((ld) => ld.count),
+  //     },
+  //   ],
+  // };
 
   return (
     <div className="px-4 pt-6">
@@ -73,15 +73,19 @@ export default function MainPage() {
             </div>
           </div>
           <div className="main-chart" style={{ minHeight: "435px" }}>
-            <div>
-              {typeof window !== "undefined" ? (
-                <ChartCom
-                  data={data}
-                />
-              ) : (
-                <Fallback />
-              )}
-            </div>
+            {/* <ClientOnly>
+              <div>
+                {typeof window !== "undefined" ? (
+                  <ChartCom data={data} />
+                ) : (
+                  <Fallback />
+                )}
+              </div>
+            </ClientOnly> */}
+            {/* <ClientOnly fallback={<Spinner />}>
+             {() => <ChartCom data={data} />}
+            </ClientOnly> */}
+            <Chart2 data={loaderdata.data} />
           </div>
         </div>
         <div className="p-4 bg-white border dark:bg-gray-800 sm:p-6 dark:border-gray-700  shadow-sm rounded-lg border-gray-200">
@@ -116,4 +120,12 @@ export async function loader({ request }) {
   const resData = await response.json();
   console.log(resData);
   return resData;
+}
+export function links() {
+  return [
+    {
+      rel: "stylesheet",
+      href: styles,
+    },
+  ];
 }

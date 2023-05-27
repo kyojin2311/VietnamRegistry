@@ -34,7 +34,7 @@ __export(assets_manifest_exports, {
 });
 var assets_manifest_default, init_assets_manifest = __esm({
   "server-assets-manifest:@remix-run/dev/assets-manifest"() {
-    assets_manifest_default = { version: "3451d354", entry: { module: "/build/entry.client-G2IT6O4Z.js", imports: ["/build/_shared/chunk-52JS6F46.js", "/build/_shared/chunk-VBO3XXCF.js", "/build/_shared/chunk-RQ7GWW3B.js", "/build/_shared/chunk-DG4HR4CT.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-OXWPTFYF.js", imports: ["/build/_shared/chunk-2Q7P43ED.js", "/build/_shared/chunk-VUHNCKPL.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !0 }, "routes/_home": { id: "routes/_home", parentId: "root", path: void 0, index: void 0, caseSensitive: void 0, module: "/build/routes/_home-LZR4ZLX4.js", imports: ["/build/_shared/chunk-2KSGMKIB.js", "/build/_shared/chunk-NHPJXLCO.js", "/build/_shared/chunk-AF3DCVCM.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.Inspections.$id": { id: "routes/_home.Inspections.$id", parentId: "routes/_home", path: "Inspections/:id", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.Inspections.$id-5LBVHJ74.js", imports: ["/build/_shared/chunk-GD4LFJXJ.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.Inspections._index": { id: "routes/_home.Inspections._index", parentId: "routes/_home", path: "Inspections", index: !0, caseSensitive: void 0, module: "/build/routes/_home.Inspections._index-6JM364GD.js", imports: ["/build/_shared/chunk-4EMHY7GM.js", "/build/_shared/chunk-VUHNCKPL.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.addStaff": { id: "routes/_home.addStaff", parentId: "routes/_home", path: "addStaff", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.addStaff-OWYR7MBF.js", imports: void 0, hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.car.$numberPlate._index": { id: "routes/_home.car.$numberPlate._index", parentId: "routes/_home", path: "car/:numberPlate", index: !0, caseSensitive: void 0, module: "/build/routes/_home.car.$numberPlate._index-MVNBQ4UD.js", imports: ["/build/_shared/chunk-2L3TLXHT.js", "/build/_shared/chunk-GD4LFJXJ.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.car.$numberPlate.addinspection": { id: "routes/_home.car.$numberPlate.addinspection", parentId: "routes/_home", path: "car/:numberPlate/addinspection", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.car.$numberPlate.addinspection-AGWDF7ND.js", imports: ["/build/_shared/chunk-2L3TLXHT.js", "/build/_shared/chunk-GD4LFJXJ.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.car._index": { id: "routes/_home.car._index", parentId: "routes/_home", path: "car", index: !0, caseSensitive: void 0, module: "/build/routes/_home.car._index-YLYRCA6N.js", imports: ["/build/_shared/chunk-4EMHY7GM.js", "/build/_shared/chunk-VUHNCKPL.js", "/build/_shared/chunk-2L3TLXHT.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.info._index": { id: "routes/_home.info._index", parentId: "routes/_home", path: "info", index: !0, caseSensitive: void 0, module: "/build/routes/_home.info._index-FDYUY22L.js", imports: ["/build/_shared/chunk-QGRJQUMK.js", "/build/_shared/chunk-GD4LFJXJ.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.info.edit": { id: "routes/_home.info.edit", parentId: "routes/_home", path: "info/edit", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.info.edit-3R7DTBVM.js", imports: void 0, hasAction: !0, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.main": { id: "routes/_home.main", parentId: "routes/_home", path: "main", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.main-TVRYR33W.js", imports: ["/build/_shared/chunk-2Q7P43ED.js", "/build/_shared/chunk-VUHNCKPL.js", "/build/_shared/chunk-2L3TLXHT.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office.$id.$userID": { id: "routes/_home.office.$id.$userID", parentId: "routes/_home", path: "office/:id/:userID", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.office.$id.$userID-72UVX4TR.js", imports: ["/build/_shared/chunk-QGRJQUMK.js", "/build/_shared/chunk-GD4LFJXJ.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office.$id._index": { id: "routes/_home.office.$id._index", parentId: "routes/_home", path: "office/:id", index: !0, caseSensitive: void 0, module: "/build/routes/_home.office.$id._index-3FSYSS6D.js", imports: ["/build/_shared/chunk-2L3TLXHT.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office._index": { id: "routes/_home.office._index", parentId: "routes/_home", path: "office", index: !0, caseSensitive: void 0, module: "/build/routes/_home.office._index-PUIV2IUV.js", imports: void 0, hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office.add": { id: "routes/_home.office.add", parentId: "routes/_home", path: "office/add", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.office.add-523SMGDV.js", imports: void 0, hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.search": { id: "routes/_home.search", parentId: "routes/_home", path: "search", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.search-5XEW27VJ.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_index": { id: "routes/_index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_index-XNDSLV42.js", imports: ["/build/_shared/chunk-2L3TLXHT.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/changepass": { id: "routes/changepass", parentId: "root", path: "changepass", index: void 0, caseSensitive: void 0, module: "/build/routes/changepass-MHMCBOPW.js", imports: ["/build/_shared/chunk-2L3TLXHT.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/forgotpassword": { id: "routes/forgotpassword", parentId: "root", path: "forgotpassword", index: void 0, caseSensitive: void 0, module: "/build/routes/forgotpassword-N6CMP3FP.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/login": { id: "routes/login", parentId: "root", path: "login", index: void 0, caseSensitive: void 0, module: "/build/routes/login-KV2E3R3E.js", imports: ["/build/_shared/chunk-2KSGMKIB.js", "/build/_shared/chunk-NHPJXLCO.js", "/build/_shared/chunk-2L3TLXHT.js", "/build/_shared/chunk-AF3DCVCM.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/logout": { id: "routes/logout", parentId: "root", path: "logout", index: void 0, caseSensitive: void 0, module: "/build/routes/logout-YO44EPFE.js", imports: void 0, hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, cssBundleHref: void 0, hmr: void 0, url: "/build/manifest-3451D354.js" };
+    assets_manifest_default = { version: "f566e509", entry: { module: "/build/entry.client-IOKYXFWV.js", imports: ["/build/_shared/chunk-NKOVZXE5.js", "/build/_shared/chunk-VBNNDNVH.js", "/build/_shared/chunk-LVPVSEIS.js", "/build/_shared/chunk-7HUBQURA.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-34IZ5D7X.js", imports: ["/build/_shared/chunk-Z6SVMIEC.js", "/build/_shared/chunk-FKOIKGMB.js", "/build/_shared/chunk-7HPNHJUD.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !0 }, "routes/_home": { id: "routes/_home", parentId: "root", path: void 0, index: void 0, caseSensitive: void 0, module: "/build/routes/_home-GDIA7F3E.js", imports: ["/build/_shared/chunk-GR5FTXFQ.js", "/build/_shared/chunk-72SKTM3J.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.Inspections.$id": { id: "routes/_home.Inspections.$id", parentId: "routes/_home", path: "Inspections/:id", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.Inspections.$id-P2NGETQS.js", imports: ["/build/_shared/chunk-TQWPVPFR.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.Inspections._index": { id: "routes/_home.Inspections._index", parentId: "routes/_home", path: "Inspections", index: !0, caseSensitive: void 0, module: "/build/routes/_home.Inspections._index-J7GMVVRC.js", imports: ["/build/_shared/chunk-IQDPOF4P.js", "/build/_shared/chunk-7HPNHJUD.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home._index": { id: "routes/_home._index", parentId: "routes/_home", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_home._index-SSZ34P7U.js", imports: ["/build/_shared/chunk-Z6SVMIEC.js", "/build/_shared/chunk-FKOIKGMB.js", "/build/_shared/chunk-7HPNHJUD.js", "/build/_shared/chunk-OYPMSNFW.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.addStaff": { id: "routes/_home.addStaff", parentId: "routes/_home", path: "addStaff", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.addStaff-6N3TGLO6.js", imports: void 0, hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.car.$numberPlate._index": { id: "routes/_home.car.$numberPlate._index", parentId: "routes/_home", path: "car/:numberPlate", index: !0, caseSensitive: void 0, module: "/build/routes/_home.car.$numberPlate._index-25UY22ON.js", imports: ["/build/_shared/chunk-OYPMSNFW.js", "/build/_shared/chunk-TQWPVPFR.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.car.$numberPlate.addinspection": { id: "routes/_home.car.$numberPlate.addinspection", parentId: "routes/_home", path: "car/:numberPlate/addinspection", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.car.$numberPlate.addinspection-KTGLMCYD.js", imports: ["/build/_shared/chunk-OYPMSNFW.js", "/build/_shared/chunk-TQWPVPFR.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.car._index": { id: "routes/_home.car._index", parentId: "routes/_home", path: "car", index: !0, caseSensitive: void 0, module: "/build/routes/_home.car._index-ICYGSQRV.js", imports: ["/build/_shared/chunk-FKOIKGMB.js", "/build/_shared/chunk-IQDPOF4P.js", "/build/_shared/chunk-7HPNHJUD.js", "/build/_shared/chunk-OYPMSNFW.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.info._index": { id: "routes/_home.info._index", parentId: "routes/_home", path: "info", index: !0, caseSensitive: void 0, module: "/build/routes/_home.info._index-R4FCWCQO.js", imports: ["/build/_shared/chunk-QGRJQUMK.js", "/build/_shared/chunk-TQWPVPFR.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.info.edit": { id: "routes/_home.info.edit", parentId: "routes/_home", path: "info/edit", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.info.edit-LOGL6SWK.js", imports: void 0, hasAction: !0, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office.$id.$userID": { id: "routes/_home.office.$id.$userID", parentId: "routes/_home", path: "office/:id/:userID", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.office.$id.$userID-6ZN2HT54.js", imports: ["/build/_shared/chunk-QGRJQUMK.js", "/build/_shared/chunk-TQWPVPFR.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office.$id._index": { id: "routes/_home.office.$id._index", parentId: "routes/_home", path: "office/:id", index: !0, caseSensitive: void 0, module: "/build/routes/_home.office.$id._index-FPBAKKC3.js", imports: ["/build/_shared/chunk-OYPMSNFW.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office._index": { id: "routes/_home.office._index", parentId: "routes/_home", path: "office", index: !0, caseSensitive: void 0, module: "/build/routes/_home.office._index-XL2WR435.js", imports: void 0, hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office.add": { id: "routes/_home.office.add", parentId: "routes/_home", path: "office/add", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.office.add-VI4J76DQ.js", imports: void 0, hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.search": { id: "routes/_home.search", parentId: "routes/_home", path: "search", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.search-VDEN4T6E.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/changepass": { id: "routes/changepass", parentId: "root", path: "changepass", index: void 0, caseSensitive: void 0, module: "/build/routes/changepass-77JCNI4B.js", imports: ["/build/_shared/chunk-OYPMSNFW.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/forgotpassword": { id: "routes/forgotpassword", parentId: "root", path: "forgotpassword", index: void 0, caseSensitive: void 0, module: "/build/routes/forgotpassword-HZRGZ7WH.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/login": { id: "routes/login", parentId: "root", path: "login", index: void 0, caseSensitive: void 0, module: "/build/routes/login-ZXDY6G6C.js", imports: ["/build/_shared/chunk-GR5FTXFQ.js", "/build/_shared/chunk-OYPMSNFW.js", "/build/_shared/chunk-72SKTM3J.js"], hasAction: !0, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/logout": { id: "routes/logout", parentId: "root", path: "logout", index: void 0, caseSensitive: void 0, module: "/build/routes/logout-Q4KFFCZD.js", imports: void 0, hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, cssBundleHref: void 0, hmr: void 0, url: "/build/manifest-F566E509.js" };
   }
 });
 
@@ -49,6 +49,13 @@ var require_server = __commonJS({
     }
     var assetsManifest__default = /* @__PURE__ */ _interopDefaultLegacy(assetsManifest), cssBundleHref2 = assetsManifest__default.default.cssBundleHref;
     exports.cssBundleHref = cssBundleHref2;
+  }
+});
+
+// empty-module:../components/searchCarModal.client
+var require_searchCarModal = __commonJS({
+  "empty-module:../components/searchCarModal.client"(exports, module2) {
+    module2.exports = {};
   }
 });
 
@@ -83,7 +90,7 @@ var entry_server_exports = {};
 __export(entry_server_exports, {
   default: () => handleRequest
 });
-var import_node_stream = require("node:stream"), import_node = require("@remix-run/node"), import_react = require("@remix-run/react"), import_isbot = __toESM(require("isbot")), import_server = require("react-dom/server"), import_jsx_dev_runtime = require("react/jsx-dev-runtime"), ABORT_DELAY = 5e3;
+var import_node_stream = require("node:stream"), import_node = require("@remix-run/node"), import_react = require("@remix-run/react"), import_isbot = __toESM(require("isbot")), import_server = require("react-dom/server"), import_remix_utils = require("remix-utils"), import_jsx_dev_runtime = require("react/jsx-dev-runtime"), ABORT_DELAY = 5e3;
 function handleRequest(request2, responseStatusCode, responseHeaders, remixContext) {
   return (0, import_isbot.default)(request2.headers.get("user-agent")) ? handleBotRequest(
     request2,
@@ -111,7 +118,7 @@ function handleBotRequest(request2, responseStatusCode, responseHeaders, remixCo
         !1,
         {
           fileName: "app/entry.server.jsx",
-          lineNumber: 45,
+          lineNumber: 46,
           columnNumber: 7
         },
         this
@@ -151,7 +158,7 @@ function handleBrowserRequest(request2, responseStatusCode, responseHeaders, rem
         !1,
         {
           fileName: "app/entry.server.jsx",
-          lineNumber: 88,
+          lineNumber: 90,
           columnNumber: 7
         },
         this
@@ -192,7 +199,7 @@ var import_css_bundle = __toESM(require_server());
 var tailwind_default = "/build/_assets/tailwind-PFDHTACQ.css";
 
 // app/root.jsx
-var import_remix_utils = require("remix-utils"), import_react2 = require("@remix-run/react"), import_react3 = require("@remix-run/react");
+var import_remix_utils2 = require("remix-utils"), import_react2 = require("@remix-run/react"), import_react3 = require("@remix-run/react");
 
 // app/util/Loading.jsx
 var import_flowbite_react = require("flowbite-react"), import_jsx_dev_runtime2 = require("react/jsx-dev-runtime");
@@ -230,10 +237,6 @@ function links() {
     {
       rel: "stylesheet",
       href: tailwind_default
-    },
-    {
-      rel: "stylesheet",
-      href: "https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
     }
   ];
 }
@@ -241,88 +244,68 @@ function meta() {
   return [{ title: "Vietnam Registry" }];
 }
 function App() {
-  let states = (0, import_remix_utils.useGlobalTransitionStates)(), spinner = "";
+  let states = (0, import_remix_utils2.useGlobalTransitionStates)(), spinner = "";
   return (states.includes("submitting") || states.includes("loading")) && (spinner = /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(Spinner, { className: "absolute -translate-x-1/2 -translate-y-1/2 top-2/4 left-1/2" }, void 0, !1, {
     fileName: "app/root.jsx",
-    lineNumber: 42,
+    lineNumber: 32,
     columnNumber: 5
-  }, this)), /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("html", { lang: "en", children: [
+  }, this)), /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("html", { lang: "en", style: { overflow: "auto" }, children: [
     /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("head", { children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("meta", { charSet: "utf-8" }, void 0, !1, {
         fileName: "app/root.jsx",
-        lineNumber: 48,
+        lineNumber: 38,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("meta", { name: "viewport", content: "width=device-width,initial-scale=1" }, void 0, !1, {
         fileName: "app/root.jsx",
-        lineNumber: 49,
+        lineNumber: 39,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(
-        "link",
-        {
-          href: "https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.css",
-          rel: "stylesheet"
-        },
-        void 0,
-        !1,
-        {
-          fileName: "app/root.jsx",
-          lineNumber: 50,
-          columnNumber: 9
-        },
-        this
-      ),
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(import_react2.Meta, {}, void 0, !1, {
         fileName: "app/root.jsx",
-        lineNumber: 54,
+        lineNumber: 40,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(import_react2.Links, {}, void 0, !1, {
         fileName: "app/root.jsx",
-        lineNumber: 55,
+        lineNumber: 41,
         columnNumber: 9
       }, this)
     ] }, void 0, !0, {
       fileName: "app/root.jsx",
-      lineNumber: 47,
+      lineNumber: 37,
       columnNumber: 7
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("body", { className: "dark", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(import_react2.Outlet, {}, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(import_react2.Outlet, { scrollBehavior: "smooth" }, void 0, !1, {
         fileName: "app/root.jsx",
-        lineNumber: 58,
+        lineNumber: 44,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(import_react2.ScrollRestoration, {}, void 0, !1, {
         fileName: "app/root.jsx",
-        lineNumber: 59,
+        lineNumber: 45,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(import_react2.Scripts, {}, void 0, !1, {
         fileName: "app/root.jsx",
-        lineNumber: 60,
+        lineNumber: 46,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(import_react2.LiveReload, {}, void 0, !1, {
         fileName: "app/root.jsx",
-        lineNumber: 61,
+        lineNumber: 47,
         columnNumber: 9
       }, this),
-      spinner,
-      /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("script", { src: "https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.js" }, void 0, !1, {
-        fileName: "app/root.jsx",
-        lineNumber: 63,
-        columnNumber: 9
-      }, this)
+      spinner
     ] }, void 0, !0, {
       fileName: "app/root.jsx",
-      lineNumber: 57,
+      lineNumber: 43,
       columnNumber: 7
     }, this)
   ] }, void 0, !0, {
     fileName: "app/root.jsx",
-    lineNumber: 46,
+    lineNumber: 36,
     columnNumber: 5
   }, this);
 }
@@ -335,41 +318,41 @@ function ErrorBoundary() {
       error.statusText
     ] }, void 0, !0, {
       fileName: "app/root.jsx",
-      lineNumber: 77,
+      lineNumber: 62,
       columnNumber: 9
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("p", { children: error.data }, void 0, !1, {
       fileName: "app/root.jsx",
-      lineNumber: 80,
+      lineNumber: 65,
       columnNumber: 9
     }, this)
   ] }, void 0, !0, {
     fileName: "app/root.jsx",
-    lineNumber: 76,
+    lineNumber: 61,
     columnNumber: 7
   }, this) : error instanceof Error ? /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "dark m-auto", children: [
     /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("h1", { className: "font-bold dark:text-red-600", children: "Error" }, void 0, !1, {
       fileName: "app/root.jsx",
-      lineNumber: 86,
+      lineNumber: 71,
       columnNumber: 9
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("p", { children: error.message }, void 0, !1, {
       fileName: "app/root.jsx",
-      lineNumber: 87,
+      lineNumber: 72,
       columnNumber: 9
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("p", { onClick: backHandler, children: "Please back to the previous page" }, void 0, !1, {
       fileName: "app/root.jsx",
-      lineNumber: 88,
+      lineNumber: 73,
       columnNumber: 9
     }, this)
   ] }, void 0, !0, {
     fileName: "app/root.jsx",
-    lineNumber: 85,
+    lineNumber: 70,
     columnNumber: 7
   }, this) : /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("h1", { children: "Unknown Error" }, void 0, !1, {
     fileName: "app/root.jsx",
-    lineNumber: 92,
+    lineNumber: 77,
     columnNumber: 12
   }, this);
 }
@@ -1879,7 +1862,7 @@ var import_node2 = require("@remix-run/node"), import_node3 = require("@remix-ru
     path: "/",
     secure: !1,
     secrets: ["S3SR$T"],
-    sameSite: !0,
+    sameSite: "lax",
     maxAge: 30 * 24 * 60 * 60,
     // 30 days
     httpOnly: !0
@@ -2015,23 +1998,23 @@ function CarPage() {
         /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("ol", { className: "flex items-center justify-self-center w-full p-3 space-x-2 text-sm font-medium text-center text-gray-500 bg-white border border-gray-200 rounded-lg shadow-sm dark:text-green-300 sm:text-base dark:bg-gray-800 dark:border-gray-700 sm:p-4 sm:space-x-4 mb-6", children: /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("li", { className: "flex items-center text-primary-700 dark:text-green-300", children: [
           /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("span", { className: "flex items-center justify-center w-5 h-5 mr-2 text-xs border border-primary-700 rounded-full shrink-0 dark:border-green-400", children: "1" }, void 0, !1, {
             fileName: "app/components/CarPage.jsx",
-            lineNumber: 19,
+            lineNumber: 18,
             columnNumber: 15
           }, this),
           "CH\u1EE6 S\u1EDE H\u1EEEU",
           " ",
           /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("span", { className: "hidden sm:inline-flex sm:ml-2", children: "(OWNER)" }, void 0, !1, {
             fileName: "app/components/CarPage.jsx",
-            lineNumber: 23,
+            lineNumber: 22,
             columnNumber: 15
           }, this)
         ] }, void 0, !0, {
           fileName: "app/components/CarPage.jsx",
-          lineNumber: 18,
+          lineNumber: 17,
           columnNumber: 13
         }, this) }, void 0, !1, {
           fileName: "app/components/CarPage.jsx",
-          lineNumber: 17,
+          lineNumber: 16,
           columnNumber: 11
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "grid md:grid-cols-2 md:gap-6", children: [
@@ -2052,7 +2035,7 @@ function CarPage() {
               !1,
               {
                 fileName: "app/components/CarPage.jsx",
-                lineNumber: 28,
+                lineNumber: 27,
                 columnNumber: 15
               },
               this
@@ -2068,14 +2051,14 @@ function CarPage() {
               !1,
               {
                 fileName: "app/components/CarPage.jsx",
-                lineNumber: 38,
+                lineNumber: 37,
                 columnNumber: 15
               },
               this
             )
           ] }, void 0, !0, {
             fileName: "app/components/CarPage.jsx",
-            lineNumber: 27,
+            lineNumber: 26,
             columnNumber: 13
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "relative z-0 w-full mb-6 group", children: [
@@ -2095,7 +2078,7 @@ function CarPage() {
               !1,
               {
                 fileName: "app/components/CarPage.jsx",
-                lineNumber: 46,
+                lineNumber: 45,
                 columnNumber: 15
               },
               this
@@ -2111,19 +2094,19 @@ function CarPage() {
               !1,
               {
                 fileName: "app/components/CarPage.jsx",
-                lineNumber: 56,
+                lineNumber: 55,
                 columnNumber: 15
               },
               this
             )
           ] }, void 0, !0, {
             fileName: "app/components/CarPage.jsx",
-            lineNumber: 45,
+            lineNumber: 44,
             columnNumber: 13
           }, this)
         ] }, void 0, !0, {
           fileName: "app/components/CarPage.jsx",
-          lineNumber: 26,
+          lineNumber: 25,
           columnNumber: 11
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "grid md:grid-cols-3 md:gap-6", children: [
@@ -2144,7 +2127,7 @@ function CarPage() {
               !1,
               {
                 fileName: "app/components/CarPage.jsx",
-                lineNumber: 66,
+                lineNumber: 65,
                 columnNumber: 15
               },
               this
@@ -2160,14 +2143,14 @@ function CarPage() {
               !1,
               {
                 fileName: "app/components/CarPage.jsx",
-                lineNumber: 76,
+                lineNumber: 75,
                 columnNumber: 15
               },
               this
             )
           ] }, void 0, !0, {
             fileName: "app/components/CarPage.jsx",
-            lineNumber: 65,
+            lineNumber: 64,
             columnNumber: 13
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "relative z-0 w-full mb-6 group", children: [
@@ -2187,7 +2170,7 @@ function CarPage() {
               !1,
               {
                 fileName: "app/components/CarPage.jsx",
-                lineNumber: 84,
+                lineNumber: 83,
                 columnNumber: 15
               },
               this
@@ -2203,14 +2186,14 @@ function CarPage() {
               !1,
               {
                 fileName: "app/components/CarPage.jsx",
-                lineNumber: 94,
+                lineNumber: 93,
                 columnNumber: 15
               },
               this
             )
           ] }, void 0, !0, {
             fileName: "app/components/CarPage.jsx",
-            lineNumber: 83,
+            lineNumber: 82,
             columnNumber: 13
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "relative z-0 w-full mb-6 group", children: [
@@ -2230,7 +2213,7 @@ function CarPage() {
               !1,
               {
                 fileName: "app/components/CarPage.jsx",
-                lineNumber: 102,
+                lineNumber: 101,
                 columnNumber: 15
               },
               this
@@ -2246,47 +2229,47 @@ function CarPage() {
               !1,
               {
                 fileName: "app/components/CarPage.jsx",
-                lineNumber: 112,
+                lineNumber: 111,
                 columnNumber: 15
               },
               this
             )
           ] }, void 0, !0, {
             fileName: "app/components/CarPage.jsx",
-            lineNumber: 101,
+            lineNumber: 100,
             columnNumber: 13
           }, this)
         ] }, void 0, !0, {
           fileName: "app/components/CarPage.jsx",
-          lineNumber: 64,
+          lineNumber: 63,
           columnNumber: 11
         }, this)
       ] }, void 0, !0, {
         fileName: "app/components/CarPage.jsx",
-        lineNumber: 16,
+        lineNumber: 15,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("ol", { className: "flex items-center justify-self-center w-full p-3 space-x-2 text-sm font-medium text-center text-gray-500 bg-white border border-gray-200 rounded-lg shadow-sm dark:text-green-300 sm:text-base dark:bg-gray-800 dark:border-gray-700 sm:p-4 sm:space-x-4 mb-6", children: /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("li", { className: "flex items-center text-primary-700 dark:text-green-300", children: [
           /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("span", { className: "flex items-center justify-center w-5 h-5 mr-2 text-xs border border-primary-700 rounded-full shrink-0 dark:border-green-400", children: "2" }, void 0, !1, {
             fileName: "app/components/CarPage.jsx",
-            lineNumber: 124,
+            lineNumber: 123,
             columnNumber: 15
           }, this),
           "PH\u01AF\u01A0NG TI\u1EC6N",
           " ",
           /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("span", { className: "hidden sm:inline-flex sm:ml-2", children: "(VEHICLE)" }, void 0, !1, {
             fileName: "app/components/CarPage.jsx",
-            lineNumber: 128,
+            lineNumber: 127,
             columnNumber: 15
           }, this)
         ] }, void 0, !0, {
           fileName: "app/components/CarPage.jsx",
-          lineNumber: 123,
+          lineNumber: 122,
           columnNumber: 13
         }, this) }, void 0, !1, {
           fileName: "app/components/CarPage.jsx",
-          lineNumber: 122,
+          lineNumber: 121,
           columnNumber: 11
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "grid md:grid-cols-3 md:gap-6", children: [
@@ -2307,7 +2290,7 @@ function CarPage() {
               !1,
               {
                 fileName: "app/components/CarPage.jsx",
-                lineNumber: 133,
+                lineNumber: 132,
                 columnNumber: 15
               },
               this
@@ -2323,14 +2306,14 @@ function CarPage() {
               !1,
               {
                 fileName: "app/components/CarPage.jsx",
-                lineNumber: 143,
+                lineNumber: 142,
                 columnNumber: 15
               },
               this
             )
           ] }, void 0, !0, {
             fileName: "app/components/CarPage.jsx",
-            lineNumber: 132,
+            lineNumber: 131,
             columnNumber: 13
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "relative z-0 w-full mb-6 group", children: [
@@ -2350,7 +2333,7 @@ function CarPage() {
               !1,
               {
                 fileName: "app/components/CarPage.jsx",
-                lineNumber: 151,
+                lineNumber: 150,
                 columnNumber: 15
               },
               this
@@ -2366,14 +2349,14 @@ function CarPage() {
               !1,
               {
                 fileName: "app/components/CarPage.jsx",
-                lineNumber: 161,
+                lineNumber: 160,
                 columnNumber: 15
               },
               this
             )
           ] }, void 0, !0, {
             fileName: "app/components/CarPage.jsx",
-            lineNumber: 150,
+            lineNumber: 149,
             columnNumber: 13
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "relative z-0 w-full mb-6 group", children: [
@@ -2393,7 +2376,7 @@ function CarPage() {
               !1,
               {
                 fileName: "app/components/CarPage.jsx",
-                lineNumber: 169,
+                lineNumber: 168,
                 columnNumber: 15
               },
               this
@@ -2409,19 +2392,19 @@ function CarPage() {
               !1,
               {
                 fileName: "app/components/CarPage.jsx",
-                lineNumber: 179,
+                lineNumber: 178,
                 columnNumber: 15
               },
               this
             )
           ] }, void 0, !0, {
             fileName: "app/components/CarPage.jsx",
-            lineNumber: 168,
+            lineNumber: 167,
             columnNumber: 13
           }, this)
         ] }, void 0, !0, {
           fileName: "app/components/CarPage.jsx",
-          lineNumber: 131,
+          lineNumber: 130,
           columnNumber: 11
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "grid md:grid-cols-2 md:gap-6", children: [
@@ -2442,7 +2425,7 @@ function CarPage() {
               !1,
               {
                 fileName: "app/components/CarPage.jsx",
-                lineNumber: 189,
+                lineNumber: 188,
                 columnNumber: 15
               },
               this
@@ -2458,14 +2441,14 @@ function CarPage() {
               !1,
               {
                 fileName: "app/components/CarPage.jsx",
-                lineNumber: 199,
+                lineNumber: 198,
                 columnNumber: 15
               },
               this
             )
           ] }, void 0, !0, {
             fileName: "app/components/CarPage.jsx",
-            lineNumber: 188,
+            lineNumber: 187,
             columnNumber: 13
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "relative z-0 w-full mb-6 group", children: [
@@ -2485,7 +2468,7 @@ function CarPage() {
               !1,
               {
                 fileName: "app/components/CarPage.jsx",
-                lineNumber: 207,
+                lineNumber: 206,
                 columnNumber: 15
               },
               this
@@ -2501,19 +2484,19 @@ function CarPage() {
               !1,
               {
                 fileName: "app/components/CarPage.jsx",
-                lineNumber: 217,
+                lineNumber: 216,
                 columnNumber: 15
               },
               this
             )
           ] }, void 0, !0, {
             fileName: "app/components/CarPage.jsx",
-            lineNumber: 206,
+            lineNumber: 205,
             columnNumber: 13
           }, this)
         ] }, void 0, !0, {
           fileName: "app/components/CarPage.jsx",
-          lineNumber: 187,
+          lineNumber: 186,
           columnNumber: 11
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "grid md:grid-cols-2 md:gap-6", children: [
@@ -2534,7 +2517,7 @@ function CarPage() {
               !1,
               {
                 fileName: "app/components/CarPage.jsx",
-                lineNumber: 227,
+                lineNumber: 226,
                 columnNumber: 15
               },
               this
@@ -2550,14 +2533,14 @@ function CarPage() {
               !1,
               {
                 fileName: "app/components/CarPage.jsx",
-                lineNumber: 237,
+                lineNumber: 236,
                 columnNumber: 15
               },
               this
             )
           ] }, void 0, !0, {
             fileName: "app/components/CarPage.jsx",
-            lineNumber: 226,
+            lineNumber: 225,
             columnNumber: 13
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "grid md:grid-cols-2 md:gap-6", children: [
@@ -2578,7 +2561,7 @@ function CarPage() {
                 !1,
                 {
                   fileName: "app/components/CarPage.jsx",
-                  lineNumber: 246,
+                  lineNumber: 245,
                   columnNumber: 17
                 },
                 this
@@ -2594,14 +2577,14 @@ function CarPage() {
                 !1,
                 {
                   fileName: "app/components/CarPage.jsx",
-                  lineNumber: 256,
+                  lineNumber: 255,
                   columnNumber: 17
                 },
                 this
               )
             ] }, void 0, !0, {
               fileName: "app/components/CarPage.jsx",
-              lineNumber: 245,
+              lineNumber: 244,
               columnNumber: 15
             }, this),
             /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "relative z-0 w-full mb-6 group", children: [
@@ -2621,7 +2604,7 @@ function CarPage() {
                 !1,
                 {
                   fileName: "app/components/CarPage.jsx",
-                  lineNumber: 264,
+                  lineNumber: 263,
                   columnNumber: 17
                 },
                 this
@@ -2637,24 +2620,24 @@ function CarPage() {
                 !1,
                 {
                   fileName: "app/components/CarPage.jsx",
-                  lineNumber: 274,
+                  lineNumber: 273,
                   columnNumber: 17
                 },
                 this
               )
             ] }, void 0, !0, {
               fileName: "app/components/CarPage.jsx",
-              lineNumber: 263,
+              lineNumber: 262,
               columnNumber: 15
             }, this)
           ] }, void 0, !0, {
             fileName: "app/components/CarPage.jsx",
-            lineNumber: 244,
+            lineNumber: 243,
             columnNumber: 13
           }, this)
         ] }, void 0, !0, {
           fileName: "app/components/CarPage.jsx",
-          lineNumber: 225,
+          lineNumber: 224,
           columnNumber: 11
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "grid md:grid-cols-2 md:gap-6", children: [
@@ -2675,7 +2658,7 @@ function CarPage() {
               !1,
               {
                 fileName: "app/components/CarPage.jsx",
-                lineNumber: 285,
+                lineNumber: 284,
                 columnNumber: 15
               },
               this
@@ -2691,14 +2674,14 @@ function CarPage() {
               !1,
               {
                 fileName: "app/components/CarPage.jsx",
-                lineNumber: 295,
+                lineNumber: 294,
                 columnNumber: 15
               },
               this
             )
           ] }, void 0, !0, {
             fileName: "app/components/CarPage.jsx",
-            lineNumber: 284,
+            lineNumber: 283,
             columnNumber: 13
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "relative z-0 w-full mb-6 group", children: [
@@ -2718,7 +2701,7 @@ function CarPage() {
               !1,
               {
                 fileName: "app/components/CarPage.jsx",
-                lineNumber: 303,
+                lineNumber: 302,
                 columnNumber: 15
               },
               this
@@ -2734,29 +2717,29 @@ function CarPage() {
               !1,
               {
                 fileName: "app/components/CarPage.jsx",
-                lineNumber: 313,
+                lineNumber: 312,
                 columnNumber: 15
               },
               this
             )
           ] }, void 0, !0, {
             fileName: "app/components/CarPage.jsx",
-            lineNumber: 302,
+            lineNumber: 301,
             columnNumber: 13
           }, this)
         ] }, void 0, !0, {
           fileName: "app/components/CarPage.jsx",
-          lineNumber: 283,
+          lineNumber: 282,
           columnNumber: 11
         }, this)
       ] }, void 0, !0, {
         fileName: "app/components/CarPage.jsx",
-        lineNumber: 121,
+        lineNumber: 120,
         columnNumber: 9
       }, this)
     ] }, void 0, !0, {
       fileName: "app/components/CarPage.jsx",
-      lineNumber: 15,
+      lineNumber: 14,
       columnNumber: 7
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { children: [
@@ -2764,18 +2747,18 @@ function CarPage() {
         /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("li", { className: "flex items-center text-primary-700 dark:text-green-300", children: [
           /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("span", { className: "flex items-center justify-center w-5 h-5 mr-2 text-xs border border-primary-700 rounded-full shrink-0 dark:border-green-400", children: "3" }, void 0, !1, {
             fileName: "app/components/CarPage.jsx",
-            lineNumber: 326,
+            lineNumber: 325,
             columnNumber: 13
           }, this),
           "DANH S\xC1CH \u0110\u0102NG KI\u1EC2M",
           /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("span", { className: "hidden sm:inline-flex sm:ml-2", children: "(LIST OF INSPECTIONS)" }, void 0, !1, {
             fileName: "app/components/CarPage.jsx",
-            lineNumber: 330,
+            lineNumber: 329,
             columnNumber: 13
           }, this)
         ] }, void 0, !0, {
           fileName: "app/components/CarPage.jsx",
-          lineNumber: 325,
+          lineNumber: 324,
           columnNumber: 11
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(import_react7.Link, { to: "addinspection", children: [
@@ -2791,7 +2774,7 @@ function CarPage() {
             !1,
             {
               fileName: "app/components/CarPage.jsx",
-              lineNumber: 336,
+              lineNumber: 335,
               columnNumber: 15
             },
             this
@@ -2806,7 +2789,7 @@ function CarPage() {
                 "Clink here to create inspections",
                 /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "tooltip-arrow", "data-popper-arrow": !0 }, void 0, !1, {
                   fileName: "app/components/CarPage.jsx",
-                  lineNumber: 352,
+                  lineNumber: 351,
                   columnNumber: 17
                 }, this)
               ]
@@ -2815,34 +2798,34 @@ function CarPage() {
             !0,
             {
               fileName: "app/components/CarPage.jsx",
-              lineNumber: 346,
+              lineNumber: 345,
               columnNumber: 15
             },
             this
           )
         ] }, void 0, !0, {
           fileName: "app/components/CarPage.jsx",
-          lineNumber: 335,
+          lineNumber: 334,
           columnNumber: 13
         }, this) }, void 0, !1, {
           fileName: "app/components/CarPage.jsx",
-          lineNumber: 334,
+          lineNumber: 333,
           columnNumber: 11
         }, this)
       ] }, void 0, !0, {
         fileName: "app/components/CarPage.jsx",
-        lineNumber: 324,
+        lineNumber: 323,
         columnNumber: 9
       }, this),
       inspection.map((inspec) => /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("li", { className: "mb-10 ml-4", children: /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(import_react7.Link, { to: `/Inspections/${inspec.regisNum}`, children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-500 dark:bg-gray-700" }, void 0, !1, {
           fileName: "app/components/CarPage.jsx",
-          lineNumber: 361,
+          lineNumber: 360,
           columnNumber: 15
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("time", { className: "mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-300", children: formatDate(inspec.regisDate) }, void 0, !1, {
           fileName: "app/components/CarPage.jsx",
-          lineNumber: 362,
+          lineNumber: 361,
           columnNumber: 15
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("h3", { className: "text-lg font-semibold text-gray-900 dark:text-white", children: [
@@ -2850,7 +2833,7 @@ function CarPage() {
           inspec.regisNum
         ] }, void 0, !0, {
           fileName: "app/components/CarPage.jsx",
-          lineNumber: 365,
+          lineNumber: 364,
           columnNumber: 15
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("p", { className: "mb-4 text-base font-normal text-gray-500 dark:text-gray-400", children: [
@@ -2858,26 +2841,26 @@ function CarPage() {
           inspec.regisPlace.name
         ] }, void 0, !0, {
           fileName: "app/components/CarPage.jsx",
-          lineNumber: 371,
+          lineNumber: 370,
           columnNumber: 15
         }, this)
       ] }, void 0, !0, {
         fileName: "app/components/CarPage.jsx",
-        lineNumber: 360,
+        lineNumber: 359,
         columnNumber: 13
       }, this) }, inspec._id, !1, {
         fileName: "app/components/CarPage.jsx",
-        lineNumber: 359,
+        lineNumber: 358,
         columnNumber: 11
       }, this))
     ] }, void 0, !0, {
       fileName: "app/components/CarPage.jsx",
-      lineNumber: 323,
+      lineNumber: 322,
       columnNumber: 7
     }, this)
   ] }, void 0, !0, {
     fileName: "app/components/CarPage.jsx",
-    lineNumber: 14,
+    lineNumber: 13,
     columnNumber: 5
   }, this);
 }
@@ -2916,171 +2899,9 @@ var home_Inspections_index_exports = {};
 __export(home_Inspections_index_exports, {
   default: () => InspectionSearchPage
 });
-
-// app/components/searchCarModal.jsx
-var import_flowbite_react2 = require("flowbite-react"), import_react9 = require("@remix-run/react"), import_flowbite_react3 = require("flowbite-react"), import_free_solid_svg_icons = require("@fortawesome/free-solid-svg-icons"), import_react_fontawesome = require("@fortawesome/react-fontawesome"), import_jsx_dev_runtime8 = require("react/jsx-dev-runtime");
-function SearchModal(props) {
-  let navigate = (0, import_react9.useNavigate)(), clickHandler = () => navigate("/main"), data = (0, import_react9.useActionData)();
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(import_jsx_dev_runtime8.Fragment, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(import_flowbite_react2.Modal, { show: !0, children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(import_flowbite_react2.Modal.Header, { onClick: clickHandler, children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { children: "Searching for Car" }, void 0, !1, {
-        fileName: "app/components/searchCarModal.jsx",
-        lineNumber: 16,
-        columnNumber: 11
-      }, this),
-      data ? /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(import_flowbite_react3.Alert, { color: "failure", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(
-          import_react_fontawesome.FontAwesomeIcon,
-          {
-            icon: import_free_solid_svg_icons.faCircleInfo,
-            style: {
-              "--fa-primary-color": "#ff2600",
-              "--fa-secondary-color": "#ff2600"
-            }
-          },
-          void 0,
-          !1,
-          {
-            fileName: "app/components/searchCarModal.jsx",
-            lineNumber: 19,
-            columnNumber: 15
-          },
-          this
-        ),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("span", { children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("span", { className: "font-medium", children: "Alert!" }, void 0, !1, {
-            fileName: "app/components/searchCarModal.jsx",
-            lineNumber: 27,
-            columnNumber: 17
-          }, this),
-          " ",
-          data.message
-        ] }, void 0, !0, {
-          fileName: "app/components/searchCarModal.jsx",
-          lineNumber: 26,
-          columnNumber: 15
-        }, this)
-      ] }, void 0, !0, {
-        fileName: "app/components/searchCarModal.jsx",
-        lineNumber: 18,
-        columnNumber: 13
-      }, this) : ""
-    ] }, void 0, !0, {
-      fileName: "app/components/searchCarModal.jsx",
-      lineNumber: 15,
-      columnNumber: 9
-    }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(import_flowbite_react2.Modal.Body, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(import_react9.Form, { method: "post", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(
-        "label",
-        {
-          for: "default-search",
-          class: "mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white",
-          children: "Search"
-        },
-        void 0,
-        !1,
-        {
-          fileName: "app/components/searchCarModal.jsx",
-          lineNumber: 36,
-          columnNumber: 13
-        },
-        this
-      ),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { class: "relative", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { class: "absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none", children: /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(
-          "svg",
-          {
-            "aria-hidden": "true",
-            class: "w-5 h-5 text-gray-500 dark:text-gray-400",
-            fill: "none",
-            stroke: "currentColor",
-            viewBox: "0 0 24 24",
-            xmlns: "http://www.w3.org/2000/svg",
-            children: /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(
-              "path",
-              {
-                "stroke-linecap": "round",
-                "stroke-linejoin": "round",
-                "stroke-width": "2",
-                d: "M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
-              },
-              void 0,
-              !1,
-              {
-                fileName: "app/components/searchCarModal.jsx",
-                lineNumber: 52,
-                columnNumber: 19
-              },
-              this
-            )
-          },
-          void 0,
-          !1,
-          {
-            fileName: "app/components/searchCarModal.jsx",
-            lineNumber: 44,
-            columnNumber: 17
-          },
-          this
-        ) }, void 0, !1, {
-          fileName: "app/components/searchCarModal.jsx",
-          lineNumber: 43,
-          columnNumber: 15
-        }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(
-          "input",
-          {
-            type: "search",
-            id: "NumberPlate",
-            name: "NumberPlate",
-            class: "block w-full p-4 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500",
-            placeholder: "Enter Car NumberPlate here (YYXY - YYY.YY)",
-            required: !0
-          },
-          void 0,
-          !1,
-          {
-            fileName: "app/components/searchCarModal.jsx",
-            lineNumber: 60,
-            columnNumber: 15
-          },
-          this
-        ),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("button", { class: "text-white absolute right-2.5 bottom-2.5 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800", children: "Search" }, void 0, !1, {
-          fileName: "app/components/searchCarModal.jsx",
-          lineNumber: 68,
-          columnNumber: 15
-        }, this)
-      ] }, void 0, !0, {
-        fileName: "app/components/searchCarModal.jsx",
-        lineNumber: 42,
-        columnNumber: 13
-      }, this)
-    ] }, void 0, !0, {
-      fileName: "app/components/searchCarModal.jsx",
-      lineNumber: 35,
-      columnNumber: 11
-    }, this) }, void 0, !1, {
-      fileName: "app/components/searchCarModal.jsx",
-      lineNumber: 34,
-      columnNumber: 9
-    }, this)
-  ] }, void 0, !0, {
-    fileName: "app/components/searchCarModal.jsx",
-    lineNumber: 14,
-    columnNumber: 7
-  }, this) }, void 0, !1, {
-    fileName: "app/components/searchCarModal.jsx",
-    lineNumber: 13,
-    columnNumber: 5
-  }, this);
-}
-
-// app/routes/_home.Inspections._index.jsx
-var import_jsx_dev_runtime9 = require("react/jsx-dev-runtime");
+var import_searchCarModal = __toESM(require_searchCarModal()), import_jsx_dev_runtime8 = require("react/jsx-dev-runtime");
 function InspectionSearchPage() {
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)(SearchModal, {}, void 0, !1, {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(import_searchCarModal.default, {}, void 0, !1, {
     fileName: "app/routes/_home.Inspections._index.jsx",
     lineNumber: 4,
     columnNumber: 10
@@ -3095,21 +2916,21 @@ __export(home_office_id_userID_exports, {
 });
 
 // app/components/StaffInfo.jsx
-var import_react10 = require("@remix-run/react");
+var import_react9 = require("@remix-run/react");
 
 // app/images/ava.png
 var ava_default = "/build/_assets/ava-RLJVMXTQ.png";
 
 // app/components/StaffInfo.jsx
-var import_react_fontawesome2 = require("@fortawesome/react-fontawesome"), import_free_solid_svg_icons2 = require("@fortawesome/free-solid-svg-icons");
-var import_jsx_dev_runtime10 = require("react/jsx-dev-runtime");
+var import_react_fontawesome = require("@fortawesome/react-fontawesome"), import_free_solid_svg_icons = require("@fortawesome/free-solid-svg-icons");
+var import_jsx_dev_runtime9 = require("react/jsx-dev-runtime");
 function StaffInfo() {
-  let info = (0, import_react10.useLoaderData)(), { name, SSN, dateOfBirth, phone } = info.data, formattedDate = formatDate(dateOfBirth), inspection = info.registed;
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { className: " m-auto", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("section", { className: "mx-0 dark:text-white", children: /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { className: "max-w-7xl lg:pt-5 items-stretch", children: /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { className: "mx-5 max-w-xl", children: /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { className: "md:flex md:items-center md:justify-between md:space-x-5", children: /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { className: "flex items-center space-x-5", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { className: "flex-shrink-0", children: /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { className: "relative", children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(
+  let info = (0, import_react9.useLoaderData)(), { name, SSN, dateOfBirth, phone } = info.data, formattedDate = formatDate(dateOfBirth), inspection = info.registed;
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("div", { className: " m-auto", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("section", { className: "mx-0 dark:text-white", children: /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("div", { className: "max-w-7xl lg:pt-5 items-stretch", children: /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("div", { className: "mx-5 max-w-xl", children: /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("div", { children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("div", { className: "md:flex md:items-center md:justify-between md:space-x-5", children: /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("div", { className: "flex items-center space-x-5", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("div", { className: "flex-shrink-0", children: /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("div", { className: "relative", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)(
             "img",
             {
               className: "h-16 w-16 lg:h-24 lg:w-24 rounded-full border border-white/10",
@@ -3125,7 +2946,7 @@ function StaffInfo() {
             },
             this
           ),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(
+          /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)(
             "span",
             {
               className: "absolute inset-0 rounded-full shadow-inner",
@@ -3149,13 +2970,13 @@ function StaffInfo() {
           lineNumber: 19,
           columnNumber: 19
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { className: "pt-1.5", children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("h1", { className: "text-xl font-semibold", children: name }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("div", { className: "pt-1.5", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("h1", { className: "text-xl font-semibold", children: name }, void 0, !1, {
             fileName: "app/components/StaffInfo.jsx",
             lineNumber: 33,
             columnNumber: 21
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("p", { className: "text-lg font-light text-black-500", children: "Nh\xE2n vi\xEAn t\u1EA1i: \u0110\xE2u \u0111\xF3" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("p", { className: "text-lg font-light text-black-500", children: "Nh\xE2n vi\xEAn t\u1EA1i: \u0110\xE2u \u0111\xF3" }, void 0, !1, {
             fileName: "app/components/StaffInfo.jsx",
             lineNumber: 34,
             columnNumber: 21
@@ -3174,14 +2995,14 @@ function StaffInfo() {
         lineNumber: 17,
         columnNumber: 15
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { className: "mt-24 text-md font-light dark:text-green-300", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(import_react10.Link, { to: "edit", className: "flex flex-wrap", children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("span", { className: "mb-5 text-lg font-bold ", children: "Th\xF4ng tin c\xE1 nh\xE2n" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("div", { className: "mt-24 text-md font-light dark:text-green-300", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)(import_react9.Link, { to: "edit", className: "flex flex-wrap", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("span", { className: "mb-5 text-lg font-bold ", children: "Th\xF4ng tin c\xE1 nh\xE2n" }, void 0, !1, {
             fileName: "app/components/StaffInfo.jsx",
             lineNumber: 43,
             columnNumber: 19
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("span", { className: "ms-3", children: /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(import_react_fontawesome2.FontAwesomeIcon, { icon: import_free_solid_svg_icons2.faPencil }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("span", { className: "ms-3", children: /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)(import_react_fontawesome.FontAwesomeIcon, { icon: import_free_solid_svg_icons.faPencil }, void 0, !1, {
             fileName: "app/components/StaffInfo.jsx",
             lineNumber: 47,
             columnNumber: 21
@@ -3195,14 +3016,14 @@ function StaffInfo() {
           lineNumber: 42,
           columnNumber: 17
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("dl", { className: "max-w-md text-gray-900 divide-y divide-gray-200 dark:text-white dark:divide-gray-700", children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { className: "flex flex-col pb-3", children: [
-            /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("dt", { className: "mb-1 text-gray-500 md:text-lg dark:text-gray-400", children: "Email address" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("dl", { className: "max-w-md text-gray-900 divide-y divide-gray-200 dark:text-white dark:divide-gray-700", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("div", { className: "flex flex-col pb-3", children: [
+            /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("dt", { className: "mb-1 text-gray-500 md:text-lg dark:text-gray-400", children: "Email address" }, void 0, !1, {
               fileName: "app/components/StaffInfo.jsx",
               lineNumber: 52,
               columnNumber: 21
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("dd", { className: "text-lg font-semibold", children: info.email }, void 0, !1, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("dd", { className: "text-lg font-semibold", children: info.email }, void 0, !1, {
               fileName: "app/components/StaffInfo.jsx",
               lineNumber: 55,
               columnNumber: 21
@@ -3212,13 +3033,13 @@ function StaffInfo() {
             lineNumber: 51,
             columnNumber: 19
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { className: "flex flex-col py-3", children: [
-            /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("dt", { className: "mb-1 text-gray-500 md:text-lg dark:text-gray-400", children: "Social Security Number" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("div", { className: "flex flex-col py-3", children: [
+            /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("dt", { className: "mb-1 text-gray-500 md:text-lg dark:text-gray-400", children: "Social Security Number" }, void 0, !1, {
               fileName: "app/components/StaffInfo.jsx",
               lineNumber: 59,
               columnNumber: 21
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("dd", { className: "text-lg font-semibold", children: SSN }, void 0, !1, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("dd", { className: "text-lg font-semibold", children: SSN }, void 0, !1, {
               fileName: "app/components/StaffInfo.jsx",
               lineNumber: 62,
               columnNumber: 21
@@ -3228,13 +3049,13 @@ function StaffInfo() {
             lineNumber: 58,
             columnNumber: 19
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { className: "flex flex-col pb-3", children: [
-            /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("dt", { className: "mb-1 text-gray-500 md:text-lg dark:text-gray-400", children: "Date of Birth" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("div", { className: "flex flex-col pb-3", children: [
+            /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("dt", { className: "mb-1 text-gray-500 md:text-lg dark:text-gray-400", children: "Date of Birth" }, void 0, !1, {
               fileName: "app/components/StaffInfo.jsx",
               lineNumber: 65,
               columnNumber: 21
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("dd", { className: "text-lg font-semibold", children: formattedDate }, void 0, !1, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("dd", { className: "text-lg font-semibold", children: formattedDate }, void 0, !1, {
               fileName: "app/components/StaffInfo.jsx",
               lineNumber: 68,
               columnNumber: 21
@@ -3244,13 +3065,13 @@ function StaffInfo() {
             lineNumber: 64,
             columnNumber: 19
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { className: "flex flex-col pt-3", children: [
-            /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("dt", { className: "mb-1 text-gray-500 md:text-lg dark:text-gray-400", children: "Phone number" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("div", { className: "flex flex-col pt-3", children: [
+            /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("dt", { className: "mb-1 text-gray-500 md:text-lg dark:text-gray-400", children: "Phone number" }, void 0, !1, {
               fileName: "app/components/StaffInfo.jsx",
               lineNumber: 71,
               columnNumber: 21
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("dd", { className: "text-lg font-semibold", children: phone }, void 0, !1, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("dd", { className: "text-lg font-semibold", children: phone }, void 0, !1, {
               fileName: "app/components/StaffInfo.jsx",
               lineNumber: 74,
               columnNumber: 21
@@ -3287,7 +3108,7 @@ function StaffInfo() {
       lineNumber: 13,
       columnNumber: 7
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("section", { className: "ms-5 mt-10 ", children: /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("h3", { className: "text-lg font-semibold dark:text-green-300", children: "Inspections" }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("section", { className: "ms-5 mt-10 ", children: /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("h3", { className: "text-lg font-semibold dark:text-green-300", children: "Inspections" }, void 0, !1, {
       fileName: "app/components/StaffInfo.jsx",
       lineNumber: 83,
       columnNumber: 9
@@ -3319,7 +3140,7 @@ async function login(email, password) {
     throw new Error("Invalid Credentials, please try again");
   {
     let user = await response.json();
-    return createUserSession(user.session, "/main");
+    return createUserSession(user.session, "/");
   }
 }
 async function getAllOffice(request2) {
@@ -3461,9 +3282,9 @@ async function findCarbyNumberPlate(request2, numberPlate) {
 }
 
 // app/routes/_home.office.$id.$userID.jsx
-var import_jsx_dev_runtime11 = require("react/jsx-dev-runtime");
+var import_jsx_dev_runtime10 = require("react/jsx-dev-runtime");
 function StaffInfoPage() {
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(StaffInfo, {}, void 0, !1, {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(StaffInfo, {}, void 0, !1, {
     fileName: "app/routes/_home.office.$id.$userID.jsx",
     lineNumber: 5,
     columnNumber: 10
@@ -3484,27 +3305,27 @@ __export(home_office_id_index_exports, {
   loader: () => loader4
 });
 var import_node6 = require("@remix-run/node");
-var import_react12 = require("@remix-run/react");
+var import_react11 = require("@remix-run/react");
 
 // app/components/UserTable.jsx
-var import_react11 = require("@remix-run/react"), import_jsx_dev_runtime12 = require("react/jsx-dev-runtime");
+var import_react10 = require("@remix-run/react"), import_jsx_dev_runtime11 = require("react/jsx-dev-runtime");
 function ListOfStaff() {
-  let data = (0, import_react11.useLoaderData)().staff;
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)(import_jsx_dev_runtime12.Fragment, { children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("h2", { className: "dark:text-white mt-5 text-xl font-semibold", children: "All staff" }, void 0, !1, {
+  let data = (0, import_react10.useLoaderData)().staff;
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(import_jsx_dev_runtime11.Fragment, { children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("h2", { className: "dark:text-white mt-5 text-xl font-semibold", children: "All staff" }, void 0, !1, {
       fileName: "app/components/UserTable.jsx",
       lineNumber: 7,
       columnNumber: 7
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("div", { className: "relative overflow-x-auto shadow-md sm:rounded-lg", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("div", { className: "pb-4 bg-white dark:bg-gray-900", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("label", { htmlFor: "table-search", className: "sr-only", children: "Search" }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("div", { className: "relative overflow-x-auto shadow-md sm:rounded-lg", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("div", { className: "pb-4 bg-white dark:bg-gray-900", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("label", { htmlFor: "table-search", className: "sr-only", children: "Search" }, void 0, !1, {
           fileName: "app/components/UserTable.jsx",
           lineNumber: 10,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("div", { className: "relative mt-1", children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("div", { className: "absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none", children: /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)(
+        /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("div", { className: "relative mt-1", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("div", { className: "absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none", children: /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(
             "svg",
             {
               className: "w-5 h-5 text-gray-500 dark:text-gray-400",
@@ -3512,7 +3333,7 @@ function ListOfStaff() {
               fill: "currentColor",
               viewBox: "0 0 20 20",
               xmlns: "http://www.w3.org/2000/svg",
-              children: /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)(
+              children: /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(
                 "path",
                 {
                   fillRule: "evenodd",
@@ -3542,7 +3363,7 @@ function ListOfStaff() {
             lineNumber: 14,
             columnNumber: 13
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)(
+          /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(
             "input",
             {
               type: "text",
@@ -3569,29 +3390,29 @@ function ListOfStaff() {
         lineNumber: 9,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("table", { className: "w-full text-sm text-left text-gray-500 dark:text-gray-400", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("thead", { className: "text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400", children: /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("tr", { children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("th", { scope: "col", className: "px-6 py-3", children: "Staff name" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("table", { className: "w-full text-sm text-left text-gray-500 dark:text-gray-400", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("thead", { className: "text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400", children: /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("tr", { children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("th", { scope: "col", className: "px-6 py-3", children: "Staff name" }, void 0, !1, {
             fileName: "app/components/UserTable.jsx",
             lineNumber: 40,
             columnNumber: 15
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("th", { scope: "col", className: "px-6 py-3", children: "Email" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("th", { scope: "col", className: "px-6 py-3", children: "Email" }, void 0, !1, {
             fileName: "app/components/UserTable.jsx",
             lineNumber: 43,
             columnNumber: 15
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("th", { scope: "col", className: "px-6 py-3", children: "SSN" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("th", { scope: "col", className: "px-6 py-3", children: "SSN" }, void 0, !1, {
             fileName: "app/components/UserTable.jsx",
             lineNumber: 46,
             columnNumber: 15
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("th", { scope: "col", className: "px-6 py-3", children: "Phone" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("th", { scope: "col", className: "px-6 py-3", children: "Phone" }, void 0, !1, {
             fileName: "app/components/UserTable.jsx",
             lineNumber: 49,
             columnNumber: 15
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("th", { scope: "col", className: "px-6 py-3", children: "Action" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("th", { scope: "col", className: "px-6 py-3", children: "Action" }, void 0, !1, {
             fileName: "app/components/UserTable.jsx",
             lineNumber: 52,
             columnNumber: 15
@@ -3605,12 +3426,12 @@ function ListOfStaff() {
           lineNumber: 38,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("tbody", { children: data.staff.map((dt) => /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)(
+        /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("tbody", { children: data.staff.map((dt) => /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(
           "tr",
           {
             className: "bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600",
             children: [
-              /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(
                 "th",
                 {
                   scope: "row",
@@ -3626,23 +3447,23 @@ function ListOfStaff() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("td", { className: "px-6 py-4", children: dt.email }, void 0, !1, {
+              /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("td", { className: "px-6 py-4", children: dt.email }, void 0, !1, {
                 fileName: "app/components/UserTable.jsx",
                 lineNumber: 69,
                 columnNumber: 17
               }, this),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("td", { className: "px-6 py-4", children: dt.data.SSN }, void 0, !1, {
+              /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("td", { className: "px-6 py-4", children: dt.data.SSN }, void 0, !1, {
                 fileName: "app/components/UserTable.jsx",
                 lineNumber: 70,
                 columnNumber: 17
               }, this),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("td", { className: "px-6 py-4", children: dt.data.phone }, void 0, !1, {
+              /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("td", { className: "px-6 py-4", children: dt.data.phone }, void 0, !1, {
                 fileName: "app/components/UserTable.jsx",
                 lineNumber: 71,
                 columnNumber: 17
               }, this),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("td", { className: "px-6 py-4", children: /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)(
-                import_react11.Link,
+              /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("td", { className: "px-6 py-4", children: /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(
+                import_react10.Link,
                 {
                   to: dt._id,
                   className: "font-medium text-blue-600 dark:text-blue-500 hover:underline",
@@ -3694,10 +3515,10 @@ function ListOfStaff() {
 }
 
 // app/routes/_home.office.$id._index.jsx
-var import_jsx_dev_runtime13 = require("react/jsx-dev-runtime");
+var import_jsx_dev_runtime12 = require("react/jsx-dev-runtime");
 function OfficeDetailPage() {
-  let data = (0, import_react12.useLoaderData)();
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(import_jsx_dev_runtime13.Fragment, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(ListOfStaff, {}, void 0, !1, {
+  let data = (0, import_react11.useLoaderData)();
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)(import_jsx_dev_runtime12.Fragment, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)(ListOfStaff, {}, void 0, !1, {
     fileName: "app/routes/_home.office.$id._index.jsx",
     lineNumber: 10,
     columnNumber: 7
@@ -3741,19 +3562,19 @@ __export(home_Inspections_id_exports, {
 });
 
 // app/components/InspectionsForm.jsx
-var import_react13 = require("@remix-run/react");
-var import_jsx_dev_runtime14 = require("react/jsx-dev-runtime");
+var import_react12 = require("@remix-run/react");
+var import_jsx_dev_runtime13 = require("react/jsx-dev-runtime");
 function InspectionsForm({ data }) {
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("section", { className: "text-gray-600 body-font dark:text-white m-auto dark:bg-slate-800", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "container flex flex-wrap px-3 py-24 mx-auto items-center dark:text-white text-black", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "md:w-1/2 md:pr-12 md:py-8 md:border-r md:border-b-0 mb-10 md:mb-0 pb-10 border-b border-gray-200 ", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("section", { className: "m-4", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("h2", { className: "sm:text-2xl text-xl font-medium title-font mb-2 text-gray-900 dark:text-red-500 text-center", children: "1. PH\u01AF\u01A0NG TI\u1EC6N \u2002 (VEHICLE)" }, void 0, !1, {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("section", { className: "text-gray-600 body-font dark:text-white m-auto dark:bg-slate-800", children: /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "container flex flex-wrap px-3 py-24 mx-auto items-center dark:text-white text-black", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "md:w-1/2 md:pr-12 md:py-8 md:border-r md:border-b-0 mb-10 md:mb-0 pb-10 border-b border-gray-200 ", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("section", { className: "m-4", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("h2", { className: "sm:text-2xl text-xl font-medium title-font mb-2 text-gray-900 dark:text-red-500 text-center", children: "1. PH\u01AF\u01A0NG TI\u1EC6N \u2002 (VEHICLE)" }, void 0, !1, {
           fileName: "app/components/InspectionsForm.jsx",
           lineNumber: 9,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "text-left flex w-full mt-1", children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "flex-1", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "text-left flex w-full mt-1", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "flex-1", children: [
             " ",
             "Bi\u1EC3n \u0111\u0103ng k\xFD: ",
             data.car.numberPlate
@@ -3762,7 +3583,7 @@ function InspectionsForm({ data }) {
             lineNumber: 13,
             columnNumber: 15
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "flex-1", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "flex-1", children: [
             "S\u1ED1 qu\u1EA3n l\xFD: ",
             data.regisNum
           ] }, void 0, !0, {
@@ -3775,13 +3596,13 @@ function InspectionsForm({ data }) {
           lineNumber: 12,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "text-left flex w-full  italic text-sm", children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "flex-1", children: "(Registration Number)" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "text-left flex w-full  italic text-sm", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "flex-1", children: "(Registration Number)" }, void 0, !1, {
             fileName: "app/components/InspectionsForm.jsx",
             lineNumber: 20,
             columnNumber: 15
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "flex-1", children: "(Vehicle Inspection No.)" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "flex-1", children: "(Vehicle Inspection No.)" }, void 0, !1, {
             fileName: "app/components/InspectionsForm.jsx",
             lineNumber: 21,
             columnNumber: 15
@@ -3791,9 +3612,9 @@ function InspectionsForm({ data }) {
           lineNumber: 19,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "text-left  w-full mt-1", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "text-left  w-full mt-1", children: [
           "Lo\u1EA1i Ph\u01B0\u01A1ng ti\u1EC7n: ",
-          /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("span", { className: "italic text-sm", children: "(Type)" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("span", { className: "italic text-sm", children: "(Type)" }, void 0, !1, {
             fileName: "app/components/InspectionsForm.jsx",
             lineNumber: 24,
             columnNumber: 33
@@ -3804,9 +3625,9 @@ function InspectionsForm({ data }) {
           lineNumber: 23,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "text-left  w-full mt-1", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "text-left  w-full mt-1", children: [
           "Nh\xE3n Hi\u1EC7u: ",
-          /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("span", { className: "italic text-sm", children: "(Mark)" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("span", { className: "italic text-sm", children: "(Mark)" }, void 0, !1, {
             fileName: "app/components/InspectionsForm.jsx",
             lineNumber: 28,
             columnNumber: 26
@@ -3818,9 +3639,9 @@ function InspectionsForm({ data }) {
           lineNumber: 27,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "text-left  w-full mt-1", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "text-left  w-full mt-1", children: [
           "S\u1ED1 Lo\u1EA1i: ",
-          /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("span", { className: "italic text-sm", children: "(Model Code)" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("span", { className: "italic text-sm", children: "(Model Code)" }, void 0, !1, {
             fileName: "app/components/InspectionsForm.jsx",
             lineNumber: 32,
             columnNumber: 24
@@ -3832,9 +3653,9 @@ function InspectionsForm({ data }) {
           lineNumber: 31,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "text-left  w-full mt-1", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "text-left  w-full mt-1", children: [
           "S\u1ED1 M\xE1y: ",
-          /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("span", { className: "italic text-sm", children: "(Engine Number)" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("span", { className: "italic text-sm", children: "(Engine Number)" }, void 0, !1, {
             fileName: "app/components/InspectionsForm.jsx",
             lineNumber: 36,
             columnNumber: 23
@@ -3846,9 +3667,9 @@ function InspectionsForm({ data }) {
           lineNumber: 35,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "text-left  w-full mt-1", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "text-left  w-full mt-1", children: [
           "S\u1ED1 Khung:",
-          /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("span", { className: "italic text-sm", children: "(Chasis Number)" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("span", { className: "italic text-sm", children: "(Chasis Number)" }, void 0, !1, {
             fileName: "app/components/InspectionsForm.jsx",
             lineNumber: 40,
             columnNumber: 24
@@ -3860,8 +3681,8 @@ function InspectionsForm({ data }) {
           lineNumber: 39,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "text-left flex w-full  mt-1", children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "flex-initial w-3/4", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "text-left flex w-full  mt-1", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "flex-initial w-3/4", children: [
             "N\u0103m, N\u01B0\u1EDBc s\u1EA3n xu\u1EA5t: ",
             data.car.manufacturedYear,
             ",",
@@ -3872,7 +3693,7 @@ function InspectionsForm({ data }) {
             lineNumber: 44,
             columnNumber: 15
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "flex-initial w-32", children: "Ni\xEAn H\u1EA1n SD:" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "flex-initial w-32", children: "Ni\xEAn H\u1EA1n SD:" }, void 0, !1, {
             fileName: "app/components/InspectionsForm.jsx",
             lineNumber: 49,
             columnNumber: 15
@@ -3882,13 +3703,13 @@ function InspectionsForm({ data }) {
           lineNumber: 43,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "text-left flex w-full  italic text-sm", children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "flex-initial w-3/4", children: "(Manufactured Year and Country)" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "text-left flex w-full  italic text-sm", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "flex-initial w-3/4", children: "(Manufactured Year and Country)" }, void 0, !1, {
             fileName: "app/components/InspectionsForm.jsx",
             lineNumber: 52,
             columnNumber: 15
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "flex-initial w-32", children: "(Lifetime limit to)" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "flex-initial w-32", children: "(Lifetime limit to)" }, void 0, !1, {
             fileName: "app/components/InspectionsForm.jsx",
             lineNumber: 55,
             columnNumber: 15
@@ -3898,12 +3719,12 @@ function InspectionsForm({ data }) {
           lineNumber: 51,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "text-left flex w-full  mt-1", children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "flex-initial w-3/5", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "text-left flex w-full  mt-1", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "flex-initial w-3/5", children: [
             "Kinh doanh v\u1EADn t\u1EA3i",
-            /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("span", { className: "italic text-sm", children: [
+            /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("span", { className: "italic text-sm", children: [
               "(Commercial Use)",
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(
                 "input",
                 {
                   type: "checkbox",
@@ -3929,11 +3750,11 @@ function InspectionsForm({ data }) {
             lineNumber: 58,
             columnNumber: 15
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "flex-initial ms-3", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "flex-initial ms-3", children: [
             "C\u1EA3i t\u1EA1o",
-            /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("span", { className: "italic text-sm", children: [
+            /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("span", { className: "italic text-sm", children: [
               "(Modification)",
-              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(
                 "input",
                 {
                   type: "checkbox",
@@ -3968,14 +3789,14 @@ function InspectionsForm({ data }) {
         lineNumber: 8,
         columnNumber: 11
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("section", { className: "m-4", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("h2", { className: "sm:text-2xl text-xl font-medium title-font mb-2 text-gray-900 text-center dark:text-red-500", children: "2. TH\xD4NG S\u1ED0 K\u1EF8 THU\u1EACT\u2002(SPECIFICATIONS)" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("section", { className: "m-4", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("h2", { className: "sm:text-2xl text-xl font-medium title-font mb-2 text-gray-900 text-center dark:text-red-500", children: "2. TH\xD4NG S\u1ED0 K\u1EF8 THU\u1EACT\u2002(SPECIFICATIONS)" }, void 0, !1, {
           fileName: "app/components/InspectionsForm.jsx",
           lineNumber: 82,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "text-left flex w-full  mt-1", children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "flex-1", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "text-left flex w-full  mt-1", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "flex-1", children: [
             "C\xF4ng th\u1EE9c b\xE1nh xe: ",
             data.car.specification.wheelFormula
           ] }, void 0, !0, {
@@ -3983,7 +3804,7 @@ function InspectionsForm({ data }) {
             lineNumber: 86,
             columnNumber: 15
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "flex-1", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "flex-1", children: [
             "V\u1EBFt b\xE1nh xe:",
             data.car.specification.wheelTread
           ] }, void 0, !0, {
@@ -3996,13 +3817,13 @@ function InspectionsForm({ data }) {
           lineNumber: 85,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "text-left flex w-full  italic text-sm", children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "flex-1", children: "(Wheel Formula)" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "text-left flex w-full  italic text-sm", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "flex-1", children: "(Wheel Formula)" }, void 0, !1, {
             fileName: "app/components/InspectionsForm.jsx",
             lineNumber: 94,
             columnNumber: 15
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "flex-1", children: "(Wheel Tread)" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "flex-1", children: "(Wheel Tread)" }, void 0, !1, {
             fileName: "app/components/InspectionsForm.jsx",
             lineNumber: 95,
             columnNumber: 15
@@ -4012,9 +3833,9 @@ function InspectionsForm({ data }) {
           lineNumber: 93,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "text-left  w-full mt-1", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "text-left  w-full mt-1", children: [
           "K\xEDch th\u01B0\u1EDBc bao:",
-          /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("span", { className: "italic text-sm", children: "(Overall Dimension)" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("span", { className: "italic text-sm", children: "(Overall Dimension)" }, void 0, !1, {
             fileName: "app/components/InspectionsForm.jsx",
             lineNumber: 99,
             columnNumber: 15
@@ -4026,10 +3847,10 @@ function InspectionsForm({ data }) {
           lineNumber: 97,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "text-left  w-full mt-1", children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "block w-full", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "text-left  w-full mt-1", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "block w-full", children: [
             "KT khoang h\xE0nh l\xFD l\u1EDBn nh\u1EA5t:",
-            /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("span", { className: "italic text-sm", children: "(Largest luggage container Dimension)" }, void 0, !1, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("span", { className: "italic text-sm", children: "(Largest luggage container Dimension)" }, void 0, !1, {
               fileName: "app/components/InspectionsForm.jsx",
               lineNumber: 105,
               columnNumber: 17
@@ -4039,7 +3860,7 @@ function InspectionsForm({ data }) {
             lineNumber: 103,
             columnNumber: 15
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "block w-full", children: data.car.specification.containerDimension }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "block w-full", children: data.car.specification.containerDimension }, void 0, !1, {
             fileName: "app/components/InspectionsForm.jsx",
             lineNumber: 110,
             columnNumber: 15
@@ -4049,9 +3870,9 @@ function InspectionsForm({ data }) {
           lineNumber: 102,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "text-left  w-full mt-1", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "text-left  w-full mt-1", children: [
           "Chi\u1EC1u d\xE0i c\u01A1 s\u1EDF:",
-          /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("span", { className: "italic text-sm", children: "(WheelBase)" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("span", { className: "italic text-sm", children: "(WheelBase)" }, void 0, !1, {
             fileName: "app/components/InspectionsForm.jsx",
             lineNumber: 116,
             columnNumber: 15
@@ -4063,9 +3884,9 @@ function InspectionsForm({ data }) {
           lineNumber: 114,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "text-left  w-full mt-1", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "text-left  w-full mt-1", children: [
           "Kh\u1ED1i l\u01B0\u1EE3ng b\u1EA3n th\xE2n:",
-          /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("span", { className: "italic text-sm", children: "(KerbMass)" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("span", { className: "italic text-sm", children: "(KerbMass)" }, void 0, !1, {
             fileName: "app/components/InspectionsForm.jsx",
             lineNumber: 121,
             columnNumber: 15
@@ -4076,8 +3897,8 @@ function InspectionsForm({ data }) {
           lineNumber: 119,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "text-left  w-full mt-1", children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "block w-full", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "text-left  w-full mt-1", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "block w-full", children: [
             "Kh\u1ED1i l\u01B0\u1EE3ng h\xE0ng CC theo TK/CP TGGT:",
             " ",
             data.car.specification.authorizedPayload
@@ -4086,7 +3907,7 @@ function InspectionsForm({ data }) {
             lineNumber: 125,
             columnNumber: 15
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "block w-full italic text-sm", children: "(Design/Authorize Payload)" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "block w-full italic text-sm", children: "(Design/Authorize Payload)" }, void 0, !1, {
             fileName: "app/components/InspectionsForm.jsx",
             lineNumber: 129,
             columnNumber: 15
@@ -4096,8 +3917,8 @@ function InspectionsForm({ data }) {
           lineNumber: 124,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "text-left  w-full mt-1", children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "block w-full", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "text-left  w-full mt-1", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "block w-full", children: [
             "Kh\u1ED1i l\u01B0\u1EE3ng to\xE0n b\u1ED9 theo TK/CP TGGT:",
             " ",
             data.car.specification.authorizedTotalMass
@@ -4106,7 +3927,7 @@ function InspectionsForm({ data }) {
             lineNumber: 134,
             columnNumber: 15
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "block w-full italic text-sm", children: "(Design/Authorize total mass)" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "block w-full italic text-sm", children: "(Design/Authorize total mass)" }, void 0, !1, {
             fileName: "app/components/InspectionsForm.jsx",
             lineNumber: 138,
             columnNumber: 15
@@ -4126,9 +3947,9 @@ function InspectionsForm({ data }) {
       lineNumber: 7,
       columnNumber: 9
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "flex flex-col md:w-1/2 md:pl-12 items-start", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "text-left  w-full mt-1", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "block w-full", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "flex flex-col md:w-1/2 md:pl-12 items-start", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "text-left  w-full mt-1", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "block w-full", children: [
           "Kh\u1ED1i l\u01B0\u1EE3ng k\xE9o theo theo TK/CP TGGT:",
           " ",
           data.car.specification.authorizedTowedMass
@@ -4137,7 +3958,7 @@ function InspectionsForm({ data }) {
           lineNumber: 147,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "block w-full italic text-sm", children: "(Design/Authorize towed mass)" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "block w-full italic text-sm", children: "(Design/Authorize towed mass)" }, void 0, !1, {
           fileName: "app/components/InspectionsForm.jsx",
           lineNumber: 151,
           columnNumber: 13
@@ -4147,8 +3968,8 @@ function InspectionsForm({ data }) {
         lineNumber: 146,
         columnNumber: 11
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "text-left  w-full mt-1", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "block w-full", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "text-left  w-full mt-1", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "block w-full", children: [
           "S\u1ED1 ng\u01B0\u1EDDi cho ph\xE9p ch\u1EDF: ",
           data.car.specification.permissibleCarry
         ] }, void 0, !0, {
@@ -4156,7 +3977,7 @@ function InspectionsForm({ data }) {
           lineNumber: 156,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "block w-full italic text-sm", children: "(Permission No. of Pers Carried: seat, stood place, laying place)" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "block w-full italic text-sm", children: "(Permission No. of Pers Carried: seat, stood place, laying place)" }, void 0, !1, {
           fileName: "app/components/InspectionsForm.jsx",
           lineNumber: 159,
           columnNumber: 13
@@ -4166,9 +3987,9 @@ function InspectionsForm({ data }) {
         lineNumber: 155,
         columnNumber: 11
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "text-left  w-full mt-1", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "text-left  w-full mt-1", children: [
         "Lo\u1EA1i nhi\xEAn li\u1EC7u:",
-        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("span", { className: "italic text-sm", children: "(Type of Fuel Used)" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("span", { className: "italic text-sm", children: "(Type of Fuel Used)" }, void 0, !1, {
           fileName: "app/components/InspectionsForm.jsx",
           lineNumber: 165,
           columnNumber: 13
@@ -4179,9 +4000,9 @@ function InspectionsForm({ data }) {
         lineNumber: 163,
         columnNumber: 11
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "text-left  w-full mt-1", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "text-left  w-full mt-1", children: [
         "Th\u1EC3 t\xEDch l\xE0m vi\u1EC7c c\u1EE7a \u0111\u1ED9ng c\u01A1:",
-        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("span", { className: "italic text-sm", children: "(Engine displacement)" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("span", { className: "italic text-sm", children: "(Engine displacement)" }, void 0, !1, {
           fileName: "app/components/InspectionsForm.jsx",
           lineNumber: 170,
           columnNumber: 13
@@ -4192,9 +4013,9 @@ function InspectionsForm({ data }) {
         lineNumber: 168,
         columnNumber: 11
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "text-left  w-full mt-1", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "text-left  w-full mt-1", children: [
         "C\xF4ng su\u1EA5t l\u1EDBn nh\u1EA5t/t\u1ED1c \u0111\u1ED9 quay:",
-        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("span", { className: "italic text-sm", children: "(Max. output/rpm)" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("span", { className: "italic text-sm", children: "(Max. output/rpm)" }, void 0, !1, {
           fileName: "app/components/InspectionsForm.jsx",
           lineNumber: 175,
           columnNumber: 13
@@ -4205,10 +4026,10 @@ function InspectionsForm({ data }) {
         lineNumber: 173,
         columnNumber: 11
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "text-left  w-full mt-1", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "text-left  w-full mt-1", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { children: [
           "S\u1ED1 l\u01B0\u1EE3ng l\u1ED1p, c\u1EE1 l\u1ED1p/tr\u1EE5c:",
-          /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("span", { className: "italic text-sm", children: "(Number of Tires; Tire size/axle)" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("span", { className: "italic text-sm", children: "(Number of Tires; Tire size/axle)" }, void 0, !1, {
             fileName: "app/components/InspectionsForm.jsx",
             lineNumber: 181,
             columnNumber: 15
@@ -4218,13 +4039,13 @@ function InspectionsForm({ data }) {
           lineNumber: 179,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { children: data.car.specification.numberOfTiresAndTireSize }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { children: data.car.specification.numberOfTiresAndTireSize }, void 0, !1, {
             fileName: "app/components/InspectionsForm.jsx",
             lineNumber: 186,
             columnNumber: 15
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { children: data.car.specification.numberOfTiresAndTireSize }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { children: data.car.specification.numberOfTiresAndTireSize }, void 0, !1, {
             fileName: "app/components/InspectionsForm.jsx",
             lineNumber: 187,
             columnNumber: 15
@@ -4239,14 +4060,14 @@ function InspectionsForm({ data }) {
         lineNumber: 178,
         columnNumber: 11
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "text-left  w-full mt-1", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "text-left  w-full mt-1", children: [
         "C\xF3 l\u1EAFp thi\u1EBFt b\u1ECB gi\xE1m s\xE1t h\xE0nh tr\xECnh:",
-        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("span", { className: "italic text-sm", children: "(Equipped with Tachography)" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("span", { className: "italic text-sm", children: "(Equipped with Tachography)" }, void 0, !1, {
           fileName: "app/components/InspectionsForm.jsx",
           lineNumber: 192,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("span", { className: "ms-4", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+        /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("span", { className: "ms-4", children: /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(
           "input",
           {
             type: "checkbox",
@@ -4270,14 +4091,14 @@ function InspectionsForm({ data }) {
         lineNumber: 190,
         columnNumber: 11
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "text-left  w-full mt-1", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "text-left  w-full mt-1", children: [
         "Kh\xF4ng c\u1EA5p tem ki\u1EC3m \u0111\u1ECBnh",
-        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("span", { className: "italic text-sm", children: "(Inspection Stamp was not issued)" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("span", { className: "italic text-sm", children: "(Inspection Stamp was not issued)" }, void 0, !1, {
           fileName: "app/components/InspectionsForm.jsx",
           lineNumber: 202,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("span", { className: "ms-4", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+        /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("span", { className: "ms-4", children: /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(
           "input",
           {
             type: "checkbox",
@@ -4301,31 +4122,31 @@ function InspectionsForm({ data }) {
         lineNumber: 200,
         columnNumber: 11
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "container flex flex-wrap mx-auto items-center pt-3", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "flex-initial w-1/3 pt-5", children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "text-left  w-full mt-1", children: "S\u1ED1 phi\u1EBFu ki\u1EC3m \u0111\u1ECBnh:" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "container flex flex-wrap mx-auto items-center pt-3", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "flex-initial w-1/3 pt-5", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "text-left  w-full mt-1", children: "S\u1ED1 phi\u1EBFu ki\u1EC3m \u0111\u1ECBnh:" }, void 0, !1, {
             fileName: "app/components/InspectionsForm.jsx",
             lineNumber: 215,
             columnNumber: 15
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "italic text-sm ", children: "(Inspection Report No)" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "italic text-sm ", children: "(Inspection Report No)" }, void 0, !1, {
             fileName: "app/components/InspectionsForm.jsx",
             lineNumber: 216,
             columnNumber: 15
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: " text-left", children: data.regisNum }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: " text-left", children: data.regisNum }, void 0, !1, {
             fileName: "app/components/InspectionsForm.jsx",
             lineNumber: 217,
             columnNumber: 15
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "text-left  w-full mt-1", children: "C\xF3 hi\u1EC7u l\u1EF1c \u0111\u1EBFn h\u1EBFt ng\xE0y:" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "text-left  w-full mt-1", children: "C\xF3 hi\u1EC7u l\u1EF1c \u0111\u1EBFn h\u1EBFt ng\xE0y:" }, void 0, !1, {
             fileName: "app/components/InspectionsForm.jsx",
             lineNumber: 218,
             columnNumber: 15
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "italic text-sm ", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "italic text-sm ", children: [
             "(Valid Until)",
-            /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("span", { className: " text-md text-left", children: formatDate(data.expiredDate) }, void 0, !1, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("span", { className: " text-md text-left", children: formatDate(data.expiredDate) }, void 0, !1, {
               fileName: "app/components/InspectionsForm.jsx",
               lineNumber: 223,
               columnNumber: 17
@@ -4340,18 +4161,18 @@ function InspectionsForm({ data }) {
           lineNumber: 214,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "flex-initial w-2/3", children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "text-center  w-full mt-1", children: "H\xE0 N\u1ED9i, ng\xE0y ... th\xE1ng ... n\u0103m" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "flex-initial w-2/3", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "text-center  w-full mt-1", children: "H\xE0 N\u1ED9i, ng\xE0y ... th\xE1ng ... n\u0103m" }, void 0, !1, {
             fileName: "app/components/InspectionsForm.jsx",
             lineNumber: 229,
             columnNumber: 15
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "italic text-sm  text-center", children: "(Issue on Date/Month/Year)" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "italic text-sm  text-center", children: "(Issue on Date/Month/Year)" }, void 0, !1, {
             fileName: "app/components/InspectionsForm.jsx",
             lineNumber: 232,
             columnNumber: 15
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("h3", { className: "font-medium title-font text-center ", children: "\u0110\u01A0N V\u1ECA KI\u1EC2M \u0110\u1ECANH" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("h3", { className: "font-medium title-font text-center ", children: "\u0110\u01A0N V\u1ECA KI\u1EC2M \u0110\u1ECANH" }, void 0, !1, {
             fileName: "app/components/InspectionsForm.jsx",
             lineNumber: 236,
             columnNumber: 17
@@ -4387,10 +4208,10 @@ function InspectionsForm({ data }) {
 }
 
 // app/routes/_home.Inspections.$id.jsx
-var import_react14 = require("@remix-run/react"), import_jsx_dev_runtime15 = require("react/jsx-dev-runtime");
+var import_react13 = require("@remix-run/react"), import_jsx_dev_runtime14 = require("react/jsx-dev-runtime");
 function InpectionsPage() {
-  let data = (0, import_react14.useLoaderData)();
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(InspectionsForm, { data }, void 0, !1, {
+  let data = (0, import_react13.useLoaderData)();
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(InspectionsForm, { data }, void 0, !1, {
     fileName: "app/routes/_home.Inspections.$id.jsx",
     lineNumber: 7,
     columnNumber: 10
@@ -4406,35 +4227,38 @@ __export(home_office_index_exports, {
   default: () => OfficePage,
   loader: () => loader6
 });
-var import_react16 = require("@remix-run/react");
+var import_react15 = require("@remix-run/react");
 
 // app/components/OfficeList.jsx
-var import_react15 = require("@remix-run/react"), import_jsx_dev_runtime16 = require("react/jsx-dev-runtime");
+var import_react14 = require("@remix-run/react"), import_jsx_dev_runtime15 = require("react/jsx-dev-runtime");
 function OfficeList() {
-  let content = (0, import_react15.useLoaderData)().data.map((dt) => /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)(
+  let content = (0, import_react14.useLoaderData)().data.map((dt) => /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
     "tr",
     {
       className: "bg-white border-b dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-600",
-      children: /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)(import_react15.Link, { to: dt._id, children: /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)(
+      children: /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
         "th",
         {
           scope: "row",
           className: "px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white",
-          children: dt.name
+          children: /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(import_react14.Link, { to: dt._id, children: [
+            dt.name,
+            " "
+          ] }, void 0, !0, {
+            fileName: "app/components/OfficeList.jsx",
+            lineNumber: 15,
+            columnNumber: 9
+          }, this)
         },
         void 0,
         !1,
         {
           fileName: "app/components/OfficeList.jsx",
-          lineNumber: 12,
-          columnNumber: 9
+          lineNumber: 11,
+          columnNumber: 7
         },
         this
-      ) }, void 0, !1, {
-        fileName: "app/components/OfficeList.jsx",
-        lineNumber: 11,
-        columnNumber: 7
-      }, this)
+      )
     },
     dt._id,
     !1,
@@ -4445,41 +4269,41 @@ function OfficeList() {
     },
     this
   ));
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { className: "relative overflow-x-auto shadow-md sm:rounded-lg", children: /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("table", { className: "w-full text-sm text-left text-gray-500 dark:text-gray-400", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("thead", { className: "text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400", children: /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("tr", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("th", { scope: "col", className: "px-6 py-3", children: "Office Name" }, void 0, !1, {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("div", { className: "relative overflow-x-auto shadow-md sm:rounded-lg overflow-y-auto", children: /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("table", { className: "w-full text-sm text-left text-gray-500 dark:text-gray-400", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("thead", { className: "text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400", children: /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("tr", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("th", { scope: "col", className: "px-6 py-3", children: "Office Name" }, void 0, !1, {
       fileName: "app/components/OfficeList.jsx",
-      lineNumber: 26,
+      lineNumber: 24,
       columnNumber: 13
     }, this) }, void 0, !1, {
       fileName: "app/components/OfficeList.jsx",
-      lineNumber: 25,
+      lineNumber: 23,
       columnNumber: 11
     }, this) }, void 0, !1, {
       fileName: "app/components/OfficeList.jsx",
-      lineNumber: 24,
+      lineNumber: 22,
       columnNumber: 9
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("tbody", { children: content }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("tbody", { children: content }, void 0, !1, {
       fileName: "app/components/OfficeList.jsx",
-      lineNumber: 31,
+      lineNumber: 29,
       columnNumber: 9
     }, this)
   ] }, void 0, !0, {
     fileName: "app/components/OfficeList.jsx",
-    lineNumber: 23,
+    lineNumber: 21,
     columnNumber: 7
   }, this) }, void 0, !1, {
     fileName: "app/components/OfficeList.jsx",
-    lineNumber: 22,
+    lineNumber: 20,
     columnNumber: 5
   }, this);
 }
 
 // app/routes/_home.office._index.jsx
-var import_jsx_dev_runtime17 = require("react/jsx-dev-runtime");
+var import_jsx_dev_runtime16 = require("react/jsx-dev-runtime");
 function OfficePage() {
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)(import_jsx_dev_runtime17.Fragment, { children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)(OfficeList, {}, void 0, !1, {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)(import_jsx_dev_runtime16.Fragment, { children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)(OfficeList, {}, void 0, !1, {
       fileName: "app/routes/_home.office._index.jsx",
       lineNumber: 7,
       columnNumber: 7
@@ -4503,18 +4327,18 @@ __export(home_info_index_exports, {
 });
 
 // app/components/OwnInfo.jsx
-var import_react17 = require("@remix-run/react");
-var import_react_fontawesome3 = require("@fortawesome/react-fontawesome"), import_free_solid_svg_icons3 = require("@fortawesome/free-solid-svg-icons");
-var import_jsx_dev_runtime18 = require("react/jsx-dev-runtime");
+var import_react16 = require("@remix-run/react");
+var import_react_fontawesome2 = require("@fortawesome/react-fontawesome"), import_free_solid_svg_icons2 = require("@fortawesome/free-solid-svg-icons");
+var import_jsx_dev_runtime17 = require("react/jsx-dev-runtime");
 function OwnInfo() {
-  let info = (0, import_react17.useMatches)().find((match) => match.id === "routes/_home"), { name, SSN, dateOfBirth, phone } = info.data.data, formattedDate = formatDate(dateOfBirth), inspection = info.data.registed.sort(function(a, b) {
+  let info = (0, import_react16.useMatches)().find((match) => match.id === "routes/_home"), { name, SSN, dateOfBirth, phone } = info.data.data, formattedDate = formatDate(dateOfBirth), inspection = info.data.registed.sort(function(a, b) {
     return new Date(b.regisDate) - new Date(a.regisDate);
   });
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("div", { className: " m-auto p-4", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("section", { className: "mx-0 dark:text-white", children: /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("div", { className: "max-w-7xl lg:pt-5 items-stretch", children: /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("div", { className: "mx-5 max-w-xl", children: /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("div", { children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("div", { className: "md:flex md:items-center md:justify-between md:space-x-5", children: /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("div", { className: "flex items-center space-x-5", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("div", { className: "flex-shrink-0", children: /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("div", { className: "relative", children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)(
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("div", { className: " m-auto p-4", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("section", { className: "mx-0 dark:text-white", children: /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("div", { className: "max-w-7xl lg:pt-5 items-stretch", children: /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("div", { className: "mx-5 max-w-xl", children: /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("div", { children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("div", { className: "md:flex md:items-center md:justify-between md:space-x-5", children: /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("div", { className: "flex items-center space-x-5", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("div", { className: "flex-shrink-0", children: /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("div", { className: "relative", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)(
             "img",
             {
               className: "h-16 w-16 lg:h-24 lg:w-24 rounded-full border border-white/10",
@@ -4530,7 +4354,7 @@ function OwnInfo() {
             },
             this
           ),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)(
+          /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)(
             "span",
             {
               className: "absolute inset-0 rounded-full shadow-inner",
@@ -4554,13 +4378,13 @@ function OwnInfo() {
           lineNumber: 22,
           columnNumber: 19
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("div", { className: "pt-1.5", children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("h1", { className: "text-xl font-semibold", children: name }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("div", { className: "pt-1.5", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("h1", { className: "text-xl font-semibold", children: name }, void 0, !1, {
             fileName: "app/components/OwnInfo.jsx",
             lineNumber: 36,
             columnNumber: 21
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("p", { className: "text-lg font-light text-black-500", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("p", { className: "text-lg font-light text-black-500", children: [
             "Nh\xE2n vi\xEAn t\u1EA1i: ",
             info.data.workFor.name
           ] }, void 0, !0, {
@@ -4582,14 +4406,14 @@ function OwnInfo() {
         lineNumber: 20,
         columnNumber: 15
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("div", { className: "mt-24 text-md font-light dark:text-green-300", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)(import_react17.Link, { to: "edit", className: "flex flex-wrap", children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("span", { className: "mb-5 text-lg font-bold ", children: "Th\xF4ng tin c\xE1 nh\xE2n" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("div", { className: "mt-24 text-md font-light dark:text-green-300", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)(import_react16.Link, { to: "edit", className: "flex flex-wrap", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("span", { className: "mb-5 text-lg font-bold ", children: "Th\xF4ng tin c\xE1 nh\xE2n" }, void 0, !1, {
             fileName: "app/components/OwnInfo.jsx",
             lineNumber: 45,
             columnNumber: 19
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("span", { className: "ms-3", children: /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)(import_react_fontawesome3.FontAwesomeIcon, { icon: import_free_solid_svg_icons3.faPencil }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("span", { className: "ms-3", children: /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)(import_react_fontawesome2.FontAwesomeIcon, { icon: import_free_solid_svg_icons2.faPencil }, void 0, !1, {
             fileName: "app/components/OwnInfo.jsx",
             lineNumber: 49,
             columnNumber: 21
@@ -4603,14 +4427,14 @@ function OwnInfo() {
           lineNumber: 44,
           columnNumber: 17
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("dl", { className: "max-w-md text-gray-900 divide-y divide-gray-200 dark:text-white dark:divide-gray-700", children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("div", { className: "flex flex-col pb-3", children: [
-            /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("dt", { className: "mb-1 text-gray-500 md:text-lg dark:text-gray-400", children: "Email address" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("dl", { className: "max-w-md text-gray-900 divide-y divide-gray-200 dark:text-white dark:divide-gray-700", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("div", { className: "flex flex-col pb-3", children: [
+            /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("dt", { className: "mb-1 text-gray-500 md:text-lg dark:text-gray-400", children: "Email address" }, void 0, !1, {
               fileName: "app/components/OwnInfo.jsx",
               lineNumber: 54,
               columnNumber: 21
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("dd", { className: "text-lg font-semibold", children: info.data.email }, void 0, !1, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("dd", { className: "text-lg font-semibold", children: info.data.email }, void 0, !1, {
               fileName: "app/components/OwnInfo.jsx",
               lineNumber: 57,
               columnNumber: 21
@@ -4620,13 +4444,13 @@ function OwnInfo() {
             lineNumber: 53,
             columnNumber: 19
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("div", { className: "flex flex-col py-3", children: [
-            /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("dt", { className: "mb-1 text-gray-500 md:text-lg dark:text-gray-400", children: "Social Security Number" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("div", { className: "flex flex-col py-3", children: [
+            /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("dt", { className: "mb-1 text-gray-500 md:text-lg dark:text-gray-400", children: "Social Security Number" }, void 0, !1, {
               fileName: "app/components/OwnInfo.jsx",
               lineNumber: 61,
               columnNumber: 21
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("dd", { className: "text-lg font-semibold", children: SSN }, void 0, !1, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("dd", { className: "text-lg font-semibold", children: SSN }, void 0, !1, {
               fileName: "app/components/OwnInfo.jsx",
               lineNumber: 64,
               columnNumber: 21
@@ -4636,13 +4460,13 @@ function OwnInfo() {
             lineNumber: 60,
             columnNumber: 19
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("div", { className: "flex flex-col pb-3", children: [
-            /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("dt", { className: "mb-1 text-gray-500 md:text-lg dark:text-gray-400", children: "Date of Birth" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("div", { className: "flex flex-col pb-3", children: [
+            /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("dt", { className: "mb-1 text-gray-500 md:text-lg dark:text-gray-400", children: "Date of Birth" }, void 0, !1, {
               fileName: "app/components/OwnInfo.jsx",
               lineNumber: 67,
               columnNumber: 21
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("dd", { className: "text-lg font-semibold", children: formattedDate }, void 0, !1, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("dd", { className: "text-lg font-semibold", children: formattedDate }, void 0, !1, {
               fileName: "app/components/OwnInfo.jsx",
               lineNumber: 70,
               columnNumber: 21
@@ -4652,13 +4476,13 @@ function OwnInfo() {
             lineNumber: 66,
             columnNumber: 19
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("div", { className: "flex flex-col pt-3", children: [
-            /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("dt", { className: "mb-1 text-gray-500 md:text-lg dark:text-gray-400", children: "Phone number" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("div", { className: "flex flex-col pt-3", children: [
+            /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("dt", { className: "mb-1 text-gray-500 md:text-lg dark:text-gray-400", children: "Phone number" }, void 0, !1, {
               fileName: "app/components/OwnInfo.jsx",
               lineNumber: 73,
               columnNumber: 21
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("dd", { className: "text-lg font-semibold", children: phone }, void 0, !1, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("dd", { className: "text-lg font-semibold", children: phone }, void 0, !1, {
               fileName: "app/components/OwnInfo.jsx",
               lineNumber: 76,
               columnNumber: 21
@@ -4695,24 +4519,24 @@ function OwnInfo() {
       lineNumber: 16,
       columnNumber: 7
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("section", { className: "ms-5 mt-10 ", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("h3", { className: "text-lg font-semibold dark:text-green-300", children: "Inspections" }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("section", { className: "ms-5 mt-10 ", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("h3", { className: "text-lg font-semibold dark:text-green-300", children: "Inspections" }, void 0, !1, {
         fileName: "app/components/OwnInfo.jsx",
         lineNumber: 85,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("ol", { className: "relative border-l border-gray-200 dark:border-gray-700", children: inspection.map((inspec) => /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("li", { className: "mb-10 ml-4", children: /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)(import_react17.Link, { to: `/Inspections/${inspec.regisNum}`, children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("div", { className: "absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("ol", { className: "relative border-l border-gray-200 dark:border-gray-700", children: inspection.map((inspec) => /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("li", { className: "mb-10 ml-4", children: /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)(import_react16.Link, { to: `/Inspections/${inspec.regisNum}`, children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("div", { className: "absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700" }, void 0, !1, {
           fileName: "app/components/OwnInfo.jsx",
           lineNumber: 93,
           columnNumber: 17
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("time", { className: "mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500", children: formatDate(inspec.regisDate) }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("time", { className: "mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500", children: formatDate(inspec.regisDate) }, void 0, !1, {
           fileName: "app/components/OwnInfo.jsx",
           lineNumber: 94,
           columnNumber: 17
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("h3", { className: "text-lg font-semibold text-gray-900 dark:text-white", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("h3", { className: "text-lg font-semibold text-gray-900 dark:text-white", children: [
           "M\xE3 s\u1ED1 \u0110\u0103ng ki\u1EC3m: ",
           inspec.regisNum
         ] }, void 0, !0, {
@@ -4720,7 +4544,7 @@ function OwnInfo() {
           lineNumber: 97,
           columnNumber: 17
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("p", { className: "text-base font-normal text-gray-500 dark:text-gray-400", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("p", { className: "text-base font-normal text-gray-500 dark:text-gray-400", children: [
           "Bi\u1EC3n s\u1ED1 xe: ",
           inspec.car.numberPlate
         ] }, void 0, !0, {
@@ -4728,7 +4552,7 @@ function OwnInfo() {
           lineNumber: 100,
           columnNumber: 17
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("p", { className: "mb-4 text-base font-normal text-gray-500 dark:text-gray-400", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("p", { className: "mb-4 text-base font-normal text-gray-500 dark:text-gray-400", children: [
           "T\u1EA1i: ",
           info.data.workFor.name
         ] }, void 0, !0, {
@@ -4762,9 +4586,9 @@ function OwnInfo() {
 }
 
 // app/routes/_home.info._index.jsx
-var import_jsx_dev_runtime19 = require("react/jsx-dev-runtime");
+var import_jsx_dev_runtime18 = require("react/jsx-dev-runtime");
 function Infopage() {
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)(OwnInfo, {}, void 0, !1, {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)(OwnInfo, {}, void 0, !1, {
     fileName: "app/routes/_home.info._index.jsx",
     lineNumber: 5,
     columnNumber: 5
@@ -4780,25 +4604,25 @@ function meta2({ matches }) {
 var home_car_index_exports = {};
 __export(home_car_index_exports, {
   action: () => action2,
-  default: () => home_car_index_default,
+  default: () => CarIndex,
   loader: () => loader7
 });
-var import_node7 = require("@remix-run/node");
+var import_node7 = require("@remix-run/node"), import_searchCarModal2 = __toESM(require_searchCarModal());
 
 // app/components/CarPageDefault.jsx
-var import_react18 = require("@remix-run/react"), import_jsx_dev_runtime20 = require("react/jsx-dev-runtime");
+var import_react17 = require("@remix-run/react"), import_jsx_dev_runtime19 = require("react/jsx-dev-runtime");
 function CarPageDefault() {
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(import_react18.Form, { children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("div", { children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("ol", { className: "flex items-center justify-self-center w-full p-3 space-x-2 text-sm font-medium text-center text-gray-500 bg-white border border-gray-200 rounded-lg shadow-sm dark:text-green-300 sm:text-base dark:bg-gray-800 dark:border-gray-700 sm:p-4 sm:space-x-4 mb-6", children: /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("li", { className: "flex items-center text-primary-700 dark:text-green-300", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("span", { className: "flex items-center justify-center w-5 h-5 mr-2 text-xs border border-primary-700 rounded-full shrink-0 dark:border-green-400", children: "1" }, void 0, !1, {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)(import_react17.Form, { children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("div", { children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("ol", { className: "flex items-center justify-self-center w-full p-3 space-x-2 text-sm font-medium text-center text-gray-500 bg-white border border-gray-200 rounded-lg shadow-sm dark:text-green-300 sm:text-base dark:bg-gray-800 dark:border-gray-700 sm:p-4 sm:space-x-4 mb-6", children: /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("li", { className: "flex items-center text-primary-700 dark:text-green-300", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("span", { className: "flex items-center justify-center w-5 h-5 mr-2 text-xs border border-primary-700 rounded-full shrink-0 dark:border-green-400", children: "1" }, void 0, !1, {
           fileName: "app/components/CarPageDefault.jsx",
           lineNumber: 9,
           columnNumber: 13
         }, this),
         "CH\u1EE6 S\u1EDE H\u1EEEU",
         " ",
-        /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("span", { className: "hidden sm:inline-flex sm:ml-2", children: "(OWNER)" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("span", { className: "hidden sm:inline-flex sm:ml-2", children: "(OWNER)" }, void 0, !1, {
           fileName: "app/components/CarPageDefault.jsx",
           lineNumber: 13,
           columnNumber: 13
@@ -4812,9 +4636,9 @@ function CarPageDefault() {
         lineNumber: 7,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("div", { className: "grid md:grid-cols-2 md:gap-6", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("div", { className: "relative z-0 w-full mb-6 group", children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(
+      /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("div", { className: "grid md:grid-cols-2 md:gap-6", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("div", { className: "relative z-0 w-full mb-6 group", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)(
             "input",
             {
               type: "text",
@@ -4833,7 +4657,7 @@ function CarPageDefault() {
             },
             this
           ),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(
+          /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)(
             "label",
             {
               htmlFor: "OwnerName",
@@ -4854,8 +4678,8 @@ function CarPageDefault() {
           lineNumber: 17,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("div", { className: "relative z-0 w-full mb-6 group", children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(
+        /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("div", { className: "relative z-0 w-full mb-6 group", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)(
             "input",
             {
               type: "datetime",
@@ -4874,7 +4698,7 @@ function CarPageDefault() {
             },
             this
           ),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(
+          /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)(
             "label",
             {
               htmlFor: "DOB",
@@ -4900,9 +4724,9 @@ function CarPageDefault() {
         lineNumber: 16,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("div", { className: "grid md:grid-cols-3 md:gap-6", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("div", { className: "relative z-0 w-full mb-6 group", children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(
+      /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("div", { className: "grid md:grid-cols-3 md:gap-6", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("div", { className: "relative z-0 w-full mb-6 group", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)(
             "input",
             {
               type: "number",
@@ -4921,7 +4745,7 @@ function CarPageDefault() {
             },
             this
           ),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(
+          /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)(
             "label",
             {
               htmlFor: "carNumberPlate",
@@ -4942,8 +4766,8 @@ function CarPageDefault() {
           lineNumber: 51,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("div", { className: "relative z-0 w-full mb-6 group", children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(
+        /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("div", { className: "relative z-0 w-full mb-6 group", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)(
             "input",
             {
               type: "email",
@@ -4962,7 +4786,7 @@ function CarPageDefault() {
             },
             this
           ),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(
+          /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)(
             "label",
             {
               htmlFor: "Email",
@@ -4983,8 +4807,8 @@ function CarPageDefault() {
           lineNumber: 67,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("div", { className: "relative z-0 w-full mb-6 group", children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(
+        /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("div", { className: "relative z-0 w-full mb-6 group", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)(
             "input",
             {
               type: "number",
@@ -5003,7 +4827,7 @@ function CarPageDefault() {
             },
             this
           ),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(
+          /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)(
             "label",
             {
               htmlFor: "Phone",
@@ -5034,16 +4858,16 @@ function CarPageDefault() {
       lineNumber: 6,
       columnNumber: 7
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("div", { children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("ol", { className: "flex items-center justify-self-center w-full p-3 space-x-2 text-sm font-medium text-center text-gray-500 bg-white border border-gray-200 rounded-lg shadow-sm dark:text-green-300 sm:text-base dark:bg-gray-800 dark:border-gray-700 sm:p-4 sm:space-x-4 mb-6", children: /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("li", { className: "flex items-center text-primary-700 dark:text-green-300", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("span", { className: "flex items-center justify-center w-5 h-5 mr-2 text-xs border border-primary-700 rounded-full shrink-0 dark:border-green-400", children: "2" }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("div", { children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("ol", { className: "flex items-center justify-self-center w-full p-3 space-x-2 text-sm font-medium text-center text-gray-500 bg-white border border-gray-200 rounded-lg shadow-sm dark:text-green-300 sm:text-base dark:bg-gray-800 dark:border-gray-700 sm:p-4 sm:space-x-4 mb-6", children: /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("li", { className: "flex items-center text-primary-700 dark:text-green-300", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("span", { className: "flex items-center justify-center w-5 h-5 mr-2 text-xs border border-primary-700 rounded-full shrink-0 dark:border-green-400", children: "2" }, void 0, !1, {
           fileName: "app/components/CarPageDefault.jsx",
           lineNumber: 104,
           columnNumber: 13
         }, this),
         "PH\u01AF\u01A0NG TI\u1EC6N",
         " ",
-        /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("span", { className: "hidden sm:inline-flex sm:ml-2", children: "(VEHICLE)" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("span", { className: "hidden sm:inline-flex sm:ml-2", children: "(VEHICLE)" }, void 0, !1, {
           fileName: "app/components/CarPageDefault.jsx",
           lineNumber: 108,
           columnNumber: 13
@@ -5057,9 +4881,9 @@ function CarPageDefault() {
         lineNumber: 102,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("div", { className: "grid md:grid-cols-3 md:gap-6", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("div", { className: "relative z-0 w-full mb-6 group", children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(
+      /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("div", { className: "grid md:grid-cols-3 md:gap-6", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("div", { className: "relative z-0 w-full mb-6 group", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)(
             "input",
             {
               type: "text",
@@ -5078,7 +4902,7 @@ function CarPageDefault() {
             },
             this
           ),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(
+          /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)(
             "label",
             {
               htmlFor: "carNumberPlate",
@@ -5099,8 +4923,8 @@ function CarPageDefault() {
           lineNumber: 112,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("div", { className: "relative z-0 w-full mb-6 group", children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(
+        /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("div", { className: "relative z-0 w-full mb-6 group", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)(
             "input",
             {
               type: "text",
@@ -5119,7 +4943,7 @@ function CarPageDefault() {
             },
             this
           ),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(
+          /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)(
             "label",
             {
               htmlFor: "Type",
@@ -5140,8 +4964,8 @@ function CarPageDefault() {
           lineNumber: 128,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("div", { className: "relative z-0 w-full mb-6 group", children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(
+        /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("div", { className: "relative z-0 w-full mb-6 group", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)(
             "input",
             {
               type: "text",
@@ -5160,7 +4984,7 @@ function CarPageDefault() {
             },
             this
           ),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(
+          /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)(
             "label",
             {
               htmlFor: "Mark",
@@ -5186,9 +5010,9 @@ function CarPageDefault() {
         lineNumber: 111,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("div", { className: "grid md:grid-cols-2 md:gap-6", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("div", { className: "relative z-0 w-full mb-6 group", children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(
+      /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("div", { className: "grid md:grid-cols-2 md:gap-6", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("div", { className: "relative z-0 w-full mb-6 group", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)(
             "input",
             {
               type: "text",
@@ -5207,7 +5031,7 @@ function CarPageDefault() {
             },
             this
           ),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(
+          /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)(
             "label",
             {
               htmlFor: "ModelCode",
@@ -5228,8 +5052,8 @@ function CarPageDefault() {
           lineNumber: 162,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("div", { className: "relative z-0 w-full mb-6 group", children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(
+        /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("div", { className: "relative z-0 w-full mb-6 group", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)(
             "input",
             {
               type: "text",
@@ -5248,7 +5072,7 @@ function CarPageDefault() {
             },
             this
           ),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(
+          /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)(
             "label",
             {
               htmlFor: "EngineNumber",
@@ -5274,9 +5098,9 @@ function CarPageDefault() {
         lineNumber: 161,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("div", { className: "grid md:grid-cols-2 md:gap-6", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("div", { className: "relative z-0 w-full mb-6 group", children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(
+      /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("div", { className: "grid md:grid-cols-2 md:gap-6", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("div", { className: "relative z-0 w-full mb-6 group", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)(
             "input",
             {
               type: "text",
@@ -5295,7 +5119,7 @@ function CarPageDefault() {
             },
             this
           ),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(
+          /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)(
             "label",
             {
               htmlFor: "ChassisNumber",
@@ -5316,9 +5140,9 @@ function CarPageDefault() {
           lineNumber: 196,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("div", { className: "grid md:grid-cols-2 md:gap-6", children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("div", { className: "relative z-0 w-full mb-6 group", children: [
-            /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(
+        /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("div", { className: "grid md:grid-cols-2 md:gap-6", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("div", { className: "relative z-0 w-full mb-6 group", children: [
+            /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)(
               "input",
               {
                 type: "text",
@@ -5337,7 +5161,7 @@ function CarPageDefault() {
               },
               this
             ),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(
+            /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)(
               "label",
               {
                 htmlFor: "ManufacturedYear",
@@ -5358,8 +5182,8 @@ function CarPageDefault() {
             lineNumber: 213,
             columnNumber: 13
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("div", { className: "relative z-0 w-full mb-6 group", children: [
-            /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(
+          /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("div", { className: "relative z-0 w-full mb-6 group", children: [
+            /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)(
               "input",
               {
                 type: "text",
@@ -5378,7 +5202,7 @@ function CarPageDefault() {
               },
               this
             ),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(
+            /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)(
               "label",
               {
                 htmlFor: "ManufacturedCountry",
@@ -5404,9 +5228,9 @@ function CarPageDefault() {
           lineNumber: 212,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("div", { className: "grid md:grid-cols-2 md:gap-6", children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("div", { className: "relative z-0 w-full mb-6 group", children: [
-            /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(
+        /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("div", { className: "grid md:grid-cols-2 md:gap-6", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("div", { className: "relative z-0 w-full mb-6 group", children: [
+            /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)(
               "input",
               {
                 type: "text",
@@ -5425,7 +5249,7 @@ function CarPageDefault() {
               },
               this
             ),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(
+            /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)(
               "label",
               {
                 htmlFor: "BoughtPlace",
@@ -5446,8 +5270,8 @@ function CarPageDefault() {
             lineNumber: 247,
             columnNumber: 13
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("div", { className: "relative z-0 w-full mb-6 group", children: [
-            /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(
+          /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("div", { className: "relative z-0 w-full mb-6 group", children: [
+            /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)(
               "input",
               {
                 type: "text",
@@ -5466,7 +5290,7 @@ function CarPageDefault() {
               },
               this
             ),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(
+            /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)(
               "label",
               {
                 htmlFor: "ManufacturedCountry",
@@ -5510,22 +5334,31 @@ function CarPageDefault() {
 }
 
 // app/routes/_home.car._index.jsx
-var import_jsx_dev_runtime21 = require("react/jsx-dev-runtime");
-function home_car_index_default() {
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)(import_jsx_dev_runtime21.Fragment, { children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)(CarPageDefault, {}, void 0, !1, {
+var import_remix_utils3 = require("remix-utils");
+var import_react18 = require("@remix-run/react"), import_jsx_dev_runtime20 = require("react/jsx-dev-runtime");
+function CarIndex() {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(import_jsx_dev_runtime20.Fragment, { children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(import_remix_utils3.ClientOnly, { fallback: /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(Spinner, {}, void 0, !1, {
       fileName: "app/routes/_home.car._index.jsx",
-      lineNumber: 9,
+      lineNumber: 12,
+      columnNumber: 29
+    }, this), children: () => /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(import_searchCarModal2.default, {}, void 0, !1, {
+      fileName: "app/routes/_home.car._index.jsx",
+      lineNumber: 12,
+      columnNumber: 49
+    }, this) }, void 0, !1, {
+      fileName: "app/routes/_home.car._index.jsx",
+      lineNumber: 12,
       columnNumber: 7
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)(SearchModal, {}, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(CarPageDefault, {}, void 0, !1, {
       fileName: "app/routes/_home.car._index.jsx",
-      lineNumber: 10,
+      lineNumber: 13,
       columnNumber: 7
     }, this)
   ] }, void 0, !0, {
     fileName: "app/routes/_home.car._index.jsx",
-    lineNumber: 8,
+    lineNumber: 11,
     columnNumber: 5
   }, this);
 }
@@ -5550,11 +5383,11 @@ __export(home_office_add_exports, {
 });
 
 // app/components/AddOfficeForm.jsx
-var import_react19 = require("@remix-run/react"), import_jsx_dev_runtime22 = require("react/jsx-dev-runtime");
+var import_react19 = require("@remix-run/react"), import_jsx_dev_runtime21 = require("react/jsx-dev-runtime");
 function AddOfficeForm() {
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime22.jsxDEV)(import_react19.Form, { method: "post", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime22.jsxDEV)("div", { className: "relative z-0 w-3/4 mb-6 group", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime22.jsxDEV)(
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)(import_react19.Form, { method: "post", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)("div", { className: "relative z-0 w-3/4 mb-6 group", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)(
         "input",
         {
           type: "text",
@@ -5573,7 +5406,7 @@ function AddOfficeForm() {
         },
         this
       ),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime22.jsxDEV)(
+      /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)(
         "label",
         {
           htmlFor: "OfficeName",
@@ -5597,8 +5430,8 @@ function AddOfficeForm() {
       lineNumber: 6,
       columnNumber: 7
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime22.jsxDEV)("div", { className: "relative z-0 w-3/4 mb-6 group", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime22.jsxDEV)(
+    /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)("div", { className: "relative z-0 w-3/4 mb-6 group", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)(
         "input",
         {
           type: "text",
@@ -5617,7 +5450,7 @@ function AddOfficeForm() {
         },
         this
       ),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime22.jsxDEV)(
+      /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)(
         "label",
         {
           htmlFor: "Address",
@@ -5641,8 +5474,8 @@ function AddOfficeForm() {
       lineNumber: 22,
       columnNumber: 7
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime22.jsxDEV)("div", { className: "relative z-0 w-3/4 mb-6 group", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime22.jsxDEV)(
+    /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)("div", { className: "relative z-0 w-3/4 mb-6 group", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)(
         "input",
         {
           type: "number",
@@ -5661,7 +5494,7 @@ function AddOfficeForm() {
         },
         this
       ),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime22.jsxDEV)(
+      /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)(
         "label",
         {
           htmlFor: "Hotline",
@@ -5686,8 +5519,8 @@ function AddOfficeForm() {
       columnNumber: 7
     }, this),
     " ",
-    /* @__PURE__ */ (0, import_jsx_dev_runtime22.jsxDEV)("div", { className: "relative z-0 w-3/4 mb-6 group", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime22.jsxDEV)(
+    /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)("div", { className: "relative z-0 w-3/4 mb-6 group", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)(
         "input",
         {
           type: "email",
@@ -5706,7 +5539,7 @@ function AddOfficeForm() {
         },
         this
       ),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime22.jsxDEV)(
+      /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)(
         "label",
         {
           htmlFor: "Hotmail",
@@ -5727,7 +5560,7 @@ function AddOfficeForm() {
       lineNumber: 54,
       columnNumber: 7
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime22.jsxDEV)("button", { className: "text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-3/4 sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800", children: "Submit" }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)("button", { className: "text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-3/4 sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800", children: "Submit" }, void 0, !1, {
       fileName: "app/components/AddOfficeForm.jsx",
       lineNumber: 70,
       columnNumber: 7
@@ -5740,9 +5573,9 @@ function AddOfficeForm() {
 }
 
 // app/routes/_home.office.add.jsx
-var import_jsx_dev_runtime23 = require("react/jsx-dev-runtime");
+var import_jsx_dev_runtime22 = require("react/jsx-dev-runtime");
 function AddOfficePage() {
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)(AddOfficeForm, {}, void 0, !1, {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime22.jsxDEV)(AddOfficeForm, {}, void 0, !1, {
     fileName: "app/routes/_home.office.add.jsx",
     lineNumber: 5,
     columnNumber: 10
@@ -5776,15 +5609,15 @@ __export(home_info_edit_exports, {
   default: () => InfoEditpage
 });
 var import_react20 = require("@remix-run/react");
-var import_jsx_dev_runtime24 = require("react/jsx-dev-runtime");
+var import_jsx_dev_runtime23 = require("react/jsx-dev-runtime");
 function InfoEditpage() {
   let info = (0, import_react20.useMatches)().find((match) => match.id === "routes/_home").data, { name, SSN, dateOfBirth, phone } = info.data;
   var date = new Date(dateOfBirth);
   let year = date.getFullYear(), month = ("0" + (date.getMonth() + 1)).slice(-2), day = ("0" + date.getDate()).slice(-2), formattedDate = `${year}-${month}-${day}`;
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime24.jsxDEV)(import_react20.Form, { className: "dark", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime24.jsxDEV)("div", { className: "grid gap-6 mb-6 md:grid-cols-2", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime24.jsxDEV)("div", { children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime24.jsxDEV)(
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)(import_react20.Form, { className: "dark", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)("div", { className: "grid gap-6 mb-6 md:grid-cols-2", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)("div", { children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)(
           "label",
           {
             htmlFor: "name",
@@ -5800,7 +5633,7 @@ function InfoEditpage() {
           },
           this
         ),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime24.jsxDEV)(
+        /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)(
           "input",
           {
             type: "text",
@@ -5825,8 +5658,8 @@ function InfoEditpage() {
         lineNumber: 20,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime24.jsxDEV)("div", { children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime24.jsxDEV)(
+      /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)("div", { children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)(
           "label",
           {
             htmlFor: "SSN",
@@ -5842,7 +5675,7 @@ function InfoEditpage() {
           },
           this
         ),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime24.jsxDEV)(
+        /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)(
           "input",
           {
             type: "text",
@@ -5868,8 +5701,8 @@ function InfoEditpage() {
         lineNumber: 37,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime24.jsxDEV)("div", { children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime24.jsxDEV)(
+      /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)("div", { children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)(
           "label",
           {
             htmlFor: "dob",
@@ -5885,7 +5718,7 @@ function InfoEditpage() {
           },
           this
         ),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime24.jsxDEV)(
+        /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)(
           "input",
           {
             type: "date",
@@ -5910,8 +5743,8 @@ function InfoEditpage() {
         lineNumber: 55,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime24.jsxDEV)("div", { children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime24.jsxDEV)(
+      /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)("div", { children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)(
           "label",
           {
             htmlFor: "work",
@@ -5927,7 +5760,7 @@ function InfoEditpage() {
           },
           this
         ),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime24.jsxDEV)(
+        /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)(
           "input",
           {
             type: "text",
@@ -5953,8 +5786,8 @@ function InfoEditpage() {
         lineNumber: 72,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime24.jsxDEV)("div", { children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime24.jsxDEV)(
+      /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)("div", { children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)(
           "label",
           {
             htmlFor: "phone",
@@ -5970,7 +5803,7 @@ function InfoEditpage() {
           },
           this
         ),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime24.jsxDEV)(
+        /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)(
           "input",
           {
             type: "number",
@@ -5995,8 +5828,8 @@ function InfoEditpage() {
         lineNumber: 90,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime24.jsxDEV)("div", { children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime24.jsxDEV)(
+      /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)("div", { children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)(
           "label",
           {
             htmlFor: "email",
@@ -6012,7 +5845,7 @@ function InfoEditpage() {
           },
           this
         ),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime24.jsxDEV)(
+        /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)(
           "input",
           {
             type: "email",
@@ -6043,12 +5876,12 @@ function InfoEditpage() {
       lineNumber: 19,
       columnNumber: 7
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime24.jsxDEV)("button", { formMethod: "put", className: "text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 mx-2", children: "Save" }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)("button", { formMethod: "put", className: "text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 mx-2", children: "Save" }, void 0, !1, {
       fileName: "app/routes/_home.info.edit.jsx",
       lineNumber: 126,
       columnNumber: 7
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime24.jsxDEV)(import_react20.Link, { to: "/changepass", children: /* @__PURE__ */ (0, import_jsx_dev_runtime24.jsxDEV)("button", { className: "text-white bg-pink-400 hover:bg-pink-700 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800", children: "Change Password" }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)(import_react20.Link, { to: "/changepass", children: /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)("button", { className: "text-white bg-pink-400 hover:bg-pink-700 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800", children: "Change Password" }, void 0, !1, {
       fileName: "app/routes/_home.info.edit.jsx",
       lineNumber: 130,
       columnNumber: 9
@@ -6088,15 +5921,15 @@ __export(home_addStaff_exports, {
 var import_react22 = require("@remix-run/react");
 
 // app/components/AddStaffForm.jsx
-var import_react21 = require("@remix-run/react"), import_jsx_dev_runtime25 = require("react/jsx-dev-runtime");
+var import_react21 = require("@remix-run/react"), import_jsx_dev_runtime24 = require("react/jsx-dev-runtime");
 function AddForm(props) {
-  let option = props.data.data.map((dt) => /* @__PURE__ */ (0, import_jsx_dev_runtime25.jsxDEV)("option", { children: dt.name }, dt._id, !1, {
+  let option = props.data.data.map((dt) => /* @__PURE__ */ (0, import_jsx_dev_runtime24.jsxDEV)("option", { children: dt.name }, dt._id, !1, {
     fileName: "app/components/AddStaffForm.jsx",
     lineNumber: 3,
     columnNumber: 46
   }, this)), error = (0, import_react21.useActionData)();
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime25.jsxDEV)(import_jsx_dev_runtime25.Fragment, { children: [
-    error && /* @__PURE__ */ (0, import_jsx_dev_runtime25.jsxDEV)("h3", { className: "text-red-500 text-md bold text-center mb-5", children: [
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime24.jsxDEV)(import_jsx_dev_runtime24.Fragment, { children: [
+    error && /* @__PURE__ */ (0, import_jsx_dev_runtime24.jsxDEV)("h3", { className: "text-red-500 text-md bold text-center mb-5", children: [
       error.message,
       ", please try again"
     ] }, void 0, !0, {
@@ -6104,10 +5937,10 @@ function AddForm(props) {
       lineNumber: 8,
       columnNumber: 9
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime25.jsxDEV)(import_react21.Form, { method: "post", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime25.jsxDEV)("div", { className: "grid gap-6 mb-6 md:grid-cols-2", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime25.jsxDEV)("div", { children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime25.jsxDEV)(
+    /* @__PURE__ */ (0, import_jsx_dev_runtime24.jsxDEV)(import_react21.Form, { method: "post", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime24.jsxDEV)("div", { className: "grid gap-6 mb-6 md:grid-cols-2", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime24.jsxDEV)("div", { children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime24.jsxDEV)(
             "label",
             {
               htmlFor: "name",
@@ -6123,7 +5956,7 @@ function AddForm(props) {
             },
             this
           ),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime25.jsxDEV)(
+          /* @__PURE__ */ (0, import_jsx_dev_runtime24.jsxDEV)(
             "input",
             {
               type: "text",
@@ -6148,8 +5981,8 @@ function AddForm(props) {
           lineNumber: 14,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime25.jsxDEV)("div", { children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime25.jsxDEV)(
+        /* @__PURE__ */ (0, import_jsx_dev_runtime24.jsxDEV)("div", { children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime24.jsxDEV)(
             "label",
             {
               htmlFor: "SSN",
@@ -6165,7 +5998,7 @@ function AddForm(props) {
             },
             this
           ),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime25.jsxDEV)(
+          /* @__PURE__ */ (0, import_jsx_dev_runtime24.jsxDEV)(
             "input",
             {
               type: "number",
@@ -6190,8 +6023,8 @@ function AddForm(props) {
           lineNumber: 31,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime25.jsxDEV)("div", { children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime25.jsxDEV)(
+        /* @__PURE__ */ (0, import_jsx_dev_runtime24.jsxDEV)("div", { children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime24.jsxDEV)(
             "label",
             {
               htmlFor: "dob",
@@ -6207,7 +6040,7 @@ function AddForm(props) {
             },
             this
           ),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime25.jsxDEV)(
+          /* @__PURE__ */ (0, import_jsx_dev_runtime24.jsxDEV)(
             "input",
             {
               type: "date",
@@ -6232,8 +6065,8 @@ function AddForm(props) {
           lineNumber: 48,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime25.jsxDEV)("div", { children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime25.jsxDEV)(
+        /* @__PURE__ */ (0, import_jsx_dev_runtime24.jsxDEV)("div", { children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime24.jsxDEV)(
             "label",
             {
               htmlFor: "workFor",
@@ -6249,7 +6082,7 @@ function AddForm(props) {
             },
             this
           ),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime25.jsxDEV)(
+          /* @__PURE__ */ (0, import_jsx_dev_runtime24.jsxDEV)(
             "select",
             {
               name: "workFor",
@@ -6272,8 +6105,8 @@ function AddForm(props) {
           lineNumber: 82,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime25.jsxDEV)("div", { children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime25.jsxDEV)(
+        /* @__PURE__ */ (0, import_jsx_dev_runtime24.jsxDEV)("div", { children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime24.jsxDEV)(
             "label",
             {
               htmlFor: "phone",
@@ -6289,7 +6122,7 @@ function AddForm(props) {
             },
             this
           ),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime25.jsxDEV)(
+          /* @__PURE__ */ (0, import_jsx_dev_runtime24.jsxDEV)(
             "input",
             {
               type: "number",
@@ -6314,8 +6147,8 @@ function AddForm(props) {
           lineNumber: 103,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime25.jsxDEV)("div", { children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime25.jsxDEV)(
+        /* @__PURE__ */ (0, import_jsx_dev_runtime24.jsxDEV)("div", { children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime24.jsxDEV)(
             "label",
             {
               htmlFor: "email",
@@ -6331,7 +6164,7 @@ function AddForm(props) {
             },
             this
           ),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime25.jsxDEV)(
+          /* @__PURE__ */ (0, import_jsx_dev_runtime24.jsxDEV)(
             "input",
             {
               type: "email",
@@ -6361,7 +6194,7 @@ function AddForm(props) {
         lineNumber: 13,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime25.jsxDEV)("button", { className: "text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800", children: "ADD" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime24.jsxDEV)("button", { className: "text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800", children: "ADD" }, void 0, !1, {
         fileName: "app/components/AddStaffForm.jsx",
         lineNumber: 148,
         columnNumber: 9
@@ -6379,7 +6212,7 @@ function AddForm(props) {
 }
 
 // app/routes/_home.addStaff.jsx
-var import_jsx_dev_runtime26 = require("react/jsx-dev-runtime");
+var import_jsx_dev_runtime25 = require("react/jsx-dev-runtime");
 function reformatDate2(dateStr) {
   var dArr = dateStr.split("-");
   return dArr[1] + "/" + dArr[2] + "/" + dArr[0];
@@ -6389,7 +6222,7 @@ function meta3() {
 }
 function addStaffPage() {
   let data = (0, import_react22.useLoaderData)();
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime26.jsxDEV)(AddForm, { data }, void 0, !1, {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime25.jsxDEV)(AddForm, { data }, void 0, !1, {
     fileName: "app/routes/_home.addStaff.jsx",
     lineNumber: 13,
     columnNumber: 10
@@ -6419,24 +6252,11 @@ async function action5({ request: request2 }) {
 // server-entry-module:@remix-run/dev/server-build
 var route13 = __toESM(require_forgotpassword());
 
-// app/routes/_home.search.jsx
-var home_search_exports = {};
-__export(home_search_exports, {
-  default: () => SearchPage
-});
-var import_jsx_dev_runtime27 = require("react/jsx-dev-runtime");
-function SearchPage() {
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime27.jsxDEV)("div", { children: "This is for searching" }, void 0, !1, {
-    fileName: "app/routes/_home.search.jsx",
-    lineNumber: 2,
-    columnNumber: 12
-  }, this);
-}
-
-// app/routes/_home.main.jsx
-var home_main_exports = {};
-__export(home_main_exports, {
+// app/routes/_home._index.jsx
+var home_index_exports = {};
+__export(home_index_exports, {
   default: () => MainPage,
+  links: () => links2,
   loader: () => loader10,
   meta: () => meta4
 });
@@ -6444,127 +6264,104 @@ __export(home_main_exports, {
 // app/images/light.jpg
 var light_default = "/build/_assets/light-NMFSS5X3.jpg";
 
-// app/routes/_home.main.jsx
-var import_remix_utils2 = require("remix-utils"), import_Chart = __toESM(require_Chart());
+// app/routes/_home._index.jsx
+var import_Chart = __toESM(require_Chart());
 var import_node8 = require("@remix-run/node"), import_react23 = require("@remix-run/react");
-var import_jsx_dev_runtime28 = require("react/jsx-dev-runtime"), meta4 = () => [{ title: "VietNam Registry" }];
-function MainPage() {
-  let loaderdata = (0, import_react23.useLoaderData)(), data = {
-    options: {
-      chart: {
-        id: "basic-bar",
-        animations: {
-          enabled: !0,
-          easing: "easeinout",
-          speed: 800,
-          animateGradually: {
-            enabled: !0,
-            delay: 150
-          },
-          dynamicAnimation: {
-            enabled: !0,
-            speed: 350
-          }
-        }
-      },
-      xaxis: {
-        categories: ["Jan", "Feb", "Mar", "Apr", "May"]
-      },
-      stroke: {
-        curve: "straight"
-      },
-      theme: {
-        mode: "light",
-        palette: "palette1",
-        monochrome: {
-          enabled: !0,
-          color: "#255aee",
-          shadeTo: "dark",
-          shadeIntensity: 0.65
-        }
+var import_react24 = require("react"), import_remix_utils4 = require("remix-utils");
+
+// app/components/ChartFromChartjs.jsx
+var import_react_chartjs_2 = require("react-chartjs-2"), import_chart = require("chart.js"), import_jsx_dev_runtime26 = require("react/jsx-dev-runtime");
+import_chart.Chart.register(
+  import_chart.CategoryScale,
+  import_chart.LinearScale,
+  import_chart.PointElement,
+  import_chart.LineElement,
+  import_chart.Title,
+  import_chart.Tooltip,
+  import_chart.Legend
+);
+function Chart2(props) {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime26.jsxDEV)(
+    import_react_chartjs_2.Line,
+    {
+      datasetIdKey: "id",
+      data: {
+        labels: ["Jan", "Feb", "Mar", "Apr", "May"],
+        datasets: [
+          { id: 1, label: "Registration Count", data: `${props.data}` }
+        ],
+        borderColor: "rgb(53, 162, 235)",
+        backgroundColor: "rgba(53, 162, 235, 0.5)"
       }
     },
-    series: [
-      {
-        name: "series-1",
-        data: loaderdata.data.map((ld) => ld.count)
-      }
-    ]
-  }, Fallback = () => /* @__PURE__ */ (0, import_jsx_dev_runtime28.jsxDEV)(Spinner, {}, void 0, !1, {
-    fileName: "app/routes/_home.main.jsx",
-    lineNumber: 60,
-    columnNumber: 12
-  }, this);
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime28.jsxDEV)("div", { className: "px-4 pt-6", children: /* @__PURE__ */ (0, import_jsx_dev_runtime28.jsxDEV)("div", { className: "grid gap-4 xl:grid-cols-2 2xl:grid-cols-3", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime28.jsxDEV)("div", { className: "p-4 bg-white border dark:bg-gray-800 sm:p-6 dark:border-gray-700 2xl:col-span-2 shadow-sm rounded-lg border-gray-200", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime28.jsxDEV)("div", { className: "flex items-center justify-between mb-4", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime28.jsxDEV)("div", { className: "flex-shrink-0 dark:text-white text-xl font-bold leading-none", children: [
+    void 0,
+    !1,
+    {
+      fileName: "app/components/ChartFromChartjs.jsx",
+      lineNumber: 36,
+      columnNumber: 5
+    },
+    this
+  );
+}
+
+// app/routes/_home._index.jsx
+var import_jsx_dev_runtime27 = require("react/jsx-dev-runtime"), meta4 = () => [{ title: "VietNam Registry" }];
+function MainPage() {
+  let loaderdata = (0, import_react23.useLoaderData)();
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime27.jsxDEV)("div", { className: "px-4 pt-6", children: /* @__PURE__ */ (0, import_jsx_dev_runtime27.jsxDEV)("div", { className: "grid gap-4 xl:grid-cols-2 2xl:grid-cols-3", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime27.jsxDEV)("div", { className: "p-4 bg-white border dark:bg-gray-800 sm:p-6 dark:border-gray-700 2xl:col-span-2 shadow-sm rounded-lg border-gray-200", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime27.jsxDEV)("div", { className: "flex items-center justify-between mb-4", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime27.jsxDEV)("div", { className: "flex-shrink-0 dark:text-white text-xl font-bold leading-none", children: [
           "T\u1ED5ng s\u1ED1 \u0111\u0103ng ki\u1EC3m n\u0103m : ",
           loaderdata.year
         ] }, void 0, !0, {
-          fileName: "app/routes/_home.main.jsx",
+          fileName: "app/routes/_home._index.jsx",
           lineNumber: 68,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime28.jsxDEV)("div", { className: "flex items-center justify-end flex-1 text-base font-medium text-green-500 dark:text-green-400", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime27.jsxDEV)("div", { className: "flex items-center justify-end flex-1 text-base font-medium text-green-500 dark:text-green-400", children: [
           "T\u1ED5ng: ",
           loaderdata.total
         ] }, void 0, !0, {
-          fileName: "app/routes/_home.main.jsx",
+          fileName: "app/routes/_home._index.jsx",
           lineNumber: 71,
           columnNumber: 13
         }, this)
       ] }, void 0, !0, {
-        fileName: "app/routes/_home.main.jsx",
+        fileName: "app/routes/_home._index.jsx",
         lineNumber: 67,
         columnNumber: 11
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime28.jsxDEV)("div", { className: "main-chart", style: { minHeight: "435px" }, children: /* @__PURE__ */ (0, import_jsx_dev_runtime28.jsxDEV)("div", { children: typeof window < "u" ? /* @__PURE__ */ (0, import_jsx_dev_runtime28.jsxDEV)(
-        import_Chart.default,
-        {
-          data
-        },
-        void 0,
-        !1,
-        {
-          fileName: "app/routes/_home.main.jsx",
-          lineNumber: 78,
-          columnNumber: 17
-        },
-        this
-      ) : /* @__PURE__ */ (0, import_jsx_dev_runtime28.jsxDEV)(Fallback, {}, void 0, !1, {
-        fileName: "app/routes/_home.main.jsx",
-        lineNumber: 82,
-        columnNumber: 17
-      }, this) }, void 0, !1, {
-        fileName: "app/routes/_home.main.jsx",
-        lineNumber: 76,
+      /* @__PURE__ */ (0, import_jsx_dev_runtime27.jsxDEV)("div", { className: "main-chart", style: { minHeight: "435px" }, children: /* @__PURE__ */ (0, import_jsx_dev_runtime27.jsxDEV)(Chart2, { data: loaderdata.data }, void 0, !1, {
+        fileName: "app/routes/_home._index.jsx",
+        lineNumber: 88,
         columnNumber: 13
       }, this) }, void 0, !1, {
-        fileName: "app/routes/_home.main.jsx",
+        fileName: "app/routes/_home._index.jsx",
         lineNumber: 75,
         columnNumber: 11
       }, this)
     ] }, void 0, !0, {
-      fileName: "app/routes/_home.main.jsx",
+      fileName: "app/routes/_home._index.jsx",
       lineNumber: 66,
       columnNumber: 9
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime28.jsxDEV)("div", { className: "p-4 bg-white border dark:bg-gray-800 sm:p-6 dark:border-gray-700  shadow-sm rounded-lg border-gray-200", children: /* @__PURE__ */ (0, import_jsx_dev_runtime28.jsxDEV)("img", { src: light_default, className: "h-auto w-auto" }, void 0, !1, {
-      fileName: "app/routes/_home.main.jsx",
-      lineNumber: 88,
+    /* @__PURE__ */ (0, import_jsx_dev_runtime27.jsxDEV)("div", { className: "p-4 bg-white border dark:bg-gray-800 sm:p-6 dark:border-gray-700  shadow-sm rounded-lg border-gray-200", children: /* @__PURE__ */ (0, import_jsx_dev_runtime27.jsxDEV)("img", { src: light_default, className: "h-auto w-auto" }, void 0, !1, {
+      fileName: "app/routes/_home._index.jsx",
+      lineNumber: 92,
       columnNumber: 11
     }, this) }, void 0, !1, {
-      fileName: "app/routes/_home.main.jsx",
-      lineNumber: 87,
+      fileName: "app/routes/_home._index.jsx",
+      lineNumber: 91,
       columnNumber: 9
     }, this)
   ] }, void 0, !0, {
-    fileName: "app/routes/_home.main.jsx",
+    fileName: "app/routes/_home._index.jsx",
     lineNumber: 65,
     columnNumber: 7
   }, this) }, void 0, !1, {
-    fileName: "app/routes/_home.main.jsx",
+    fileName: "app/routes/_home._index.jsx",
     lineNumber: 64,
     columnNumber: 5
   }, this);
@@ -6588,6 +6385,28 @@ async function loader10({ request: request2 }) {
   })).json();
   return console.log(resData), resData;
 }
+function links2() {
+  return [
+    {
+      rel: "stylesheet",
+      href: tailwind_default
+    }
+  ];
+}
+
+// app/routes/_home.search.jsx
+var home_search_exports = {};
+__export(home_search_exports, {
+  default: () => SearchPage
+});
+var import_jsx_dev_runtime28 = require("react/jsx-dev-runtime");
+function SearchPage() {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime28.jsxDEV)("div", { children: "This is for searching" }, void 0, !1, {
+    fileName: "app/routes/_home.search.jsx",
+    lineNumber: 2,
+    columnNumber: 12
+  }, this);
+}
 
 // app/routes/changepass.jsx
 var changepass_exports = {};
@@ -6597,7 +6416,7 @@ __export(changepass_exports, {
   loader: () => loader11,
   meta: () => meta5
 });
-var import_react24 = require("@remix-run/react"), import_node9 = require("@remix-run/node");
+var import_react25 = require("@remix-run/react"), import_node9 = require("@remix-run/node");
 var import_jsx_dev_runtime29 = require("react/jsx-dev-runtime");
 function meta5() {
   return [{ title: "Change Password" }];
@@ -6609,7 +6428,7 @@ function changepassword() {
       lineNumber: 12,
       columnNumber: 11
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime29.jsxDEV)(import_react24.Form, { class: "mt-1 space-y-4 lg:mt-5 md:space-y-5", method: "patch", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime29.jsxDEV)(import_react25.Form, { class: "mt-1 space-y-4 lg:mt-5 md:space-y-5", method: "patch", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime29.jsxDEV)("div", { children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime29.jsxDEV)("label", { for: "old-password", class: "block mb-2 text-sm font-medium text-gray-900 dark:text-white", children: "Old Password" }, void 0, !1, {
           fileName: "app/routes/changepass.jsx",
@@ -6715,33 +6534,13 @@ async function action6({ request: request2 }) {
   }
 }
 
-// app/routes/_index.jsx
-var index_exports = {};
-__export(index_exports, {
-  default: () => Index,
-  loader: () => loader12,
-  meta: () => meta6
-});
-var import_react25 = require("@remix-run/react");
-var import_node10 = require("@remix-run/node"), import_jsx_dev_runtime30 = require("react/jsx-dev-runtime"), meta6 = () => [{ title: "VietNam Registry" }];
-function Index() {
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime30.jsxDEV)(import_react25.Link, { to: "login", children: "login pls" }, void 0, !1, {
-    fileName: "app/routes/_index.jsx",
-    lineNumber: 11,
-    columnNumber: 10
-  }, this);
-}
-async function loader12({ request: request2 }) {
-  return await requireUserSession(request2) ? (0, import_node10.redirect)("/main") : (0, import_node10.redirect)("/login");
-}
-
 // app/routes/logout.js
 var logout_exports = {};
 __export(logout_exports, {
-  loader: () => loader13
+  loader: () => loader12
 });
-var import_node11 = require("@remix-run/node");
-async function loader13({ request: request2 }) {
+var import_node10 = require("@remix-run/node");
+async function loader12({ request: request2 }) {
   return console.log(request2), await destroyUserSession(request2);
 }
 
@@ -6749,23 +6548,23 @@ async function loader13({ request: request2 }) {
 var home_exports = {};
 __export(home_exports, {
   default: () => HomeLayout,
-  loader: () => loader14
+  loader: () => loader13
 });
 var import_react28 = require("@remix-run/react");
 
 // app/components/MainNavigation.jsx
-var import_react26 = require("@remix-run/react"), import_react27 = require("react"), import_react_fontawesome4 = require("@fortawesome/react-fontawesome"), import_free_solid_svg_icons4 = require("@fortawesome/free-solid-svg-icons"), import_jsx_dev_runtime31 = require("react/jsx-dev-runtime");
+var import_react26 = require("@remix-run/react"), import_react27 = require("react"), import_react_fontawesome3 = require("@fortawesome/react-fontawesome"), import_free_solid_svg_icons3 = require("@fortawesome/free-solid-svg-icons"), import_jsx_dev_runtime30 = require("react/jsx-dev-runtime");
 function MainNavigation() {
   let data = (0, import_react26.useLoaderData)(), { isAdmin } = data, [toggle, setIsToggle] = (0, import_react27.useState)(!1);
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)(import_jsx_dev_runtime31.Fragment, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)(
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime30.jsxDEV)(import_jsx_dev_runtime30.Fragment, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime30.jsxDEV)(
     "aside",
     {
       id: "default-sidebar",
       className: "fixed top-0 left-0 z-40 w-64 h-screen transition-transform -translate-x-full sm:translate-x-0",
       "aria-label": "Sidebar",
-      children: /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)("div", { className: "h-full px-3 py-4 overflow-y-auto bg-gray-50 dark:bg-gray-800", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)(import_react26.Link, { to: "/info", className: "flex items-center pl-2.5 mb-5", children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)(
+      children: /* @__PURE__ */ (0, import_jsx_dev_runtime30.jsxDEV)("div", { className: "h-full px-3 py-4 overflow-y-auto bg-gray-50 dark:bg-gray-800", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime30.jsxDEV)(import_react26.Link, { to: "/info", className: "flex items-center pl-2.5 mb-5", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime30.jsxDEV)(
             "img",
             {
               src: "https://flowbite.com/docs/images/logo.svg",
@@ -6781,7 +6580,7 @@ function MainNavigation() {
             },
             this
           ),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)("span", { className: "self-center text-xl font-semibold whitespace-nowrap dark:text-white", children: "Flowbite" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime30.jsxDEV)("span", { className: "self-center text-xl font-semibold whitespace-nowrap dark:text-white", children: "Flowbite" }, void 0, !1, {
             fileName: "app/components/MainNavigation.jsx",
             lineNumber: 35,
             columnNumber: 13
@@ -6791,21 +6590,22 @@ function MainNavigation() {
           lineNumber: 29,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)("ul", { className: "space-y-2 font-medium", children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)(
+        /* @__PURE__ */ (0, import_jsx_dev_runtime30.jsxDEV)("ul", { className: "space-y-2 font-medium", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime30.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime30.jsxDEV)(
             import_react26.Link,
             {
-              to: "/main",
+              prefetch: "render",
+              to: "/",
               className: "flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 active:bg-gray-700",
               children: [
-                /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)(import_react_fontawesome4.FontAwesomeIcon, { icon: import_free_solid_svg_icons4.faGauge, size: "lg" }, void 0, !1, {
-                  fileName: "app/components/MainNavigation.jsx",
-                  lineNumber: 46,
-                  columnNumber: 17
-                }, this),
-                /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)("span", { className: "ml-3", children: "Dashboard" }, void 0, !1, {
+                /* @__PURE__ */ (0, import_jsx_dev_runtime30.jsxDEV)(import_react_fontawesome3.FontAwesomeIcon, { icon: import_free_solid_svg_icons3.faGauge, size: "lg" }, void 0, !1, {
                   fileName: "app/components/MainNavigation.jsx",
                   lineNumber: 47,
+                  columnNumber: 17
+                }, this),
+                /* @__PURE__ */ (0, import_jsx_dev_runtime30.jsxDEV)("span", { className: "ml-3", children: "Dashboard" }, void 0, !1, {
+                  fileName: "app/components/MainNavigation.jsx",
+                  lineNumber: 48,
                   columnNumber: 17
                 }, this)
               ]
@@ -6823,20 +6623,20 @@ function MainNavigation() {
             lineNumber: 41,
             columnNumber: 13
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)(
+          /* @__PURE__ */ (0, import_jsx_dev_runtime30.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime30.jsxDEV)(
             import_react26.Link,
             {
               to: "/login",
               className: "flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700",
               children: [
-                /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)(import_react_fontawesome4.FontAwesomeIcon, { icon: import_free_solid_svg_icons4.faChartLine, size: "lg" }, void 0, !1, {
-                  fileName: "app/components/MainNavigation.jsx",
-                  lineNumber: 55,
-                  columnNumber: 17
-                }, this),
-                /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)("span", { className: "flex-1 ml-3 whitespace-nowrap", children: "Analytics" }, void 0, !1, {
+                /* @__PURE__ */ (0, import_jsx_dev_runtime30.jsxDEV)(import_react_fontawesome3.FontAwesomeIcon, { icon: import_free_solid_svg_icons3.faChartLine, size: "lg" }, void 0, !1, {
                   fileName: "app/components/MainNavigation.jsx",
                   lineNumber: 56,
+                  columnNumber: 17
+                }, this),
+                /* @__PURE__ */ (0, import_jsx_dev_runtime30.jsxDEV)("span", { className: "flex-1 ml-3 whitespace-nowrap", children: "Analytics" }, void 0, !1, {
+                  fileName: "app/components/MainNavigation.jsx",
+                  lineNumber: 57,
                   columnNumber: 17
                 }, this)
               ]
@@ -6845,29 +6645,29 @@ function MainNavigation() {
             !0,
             {
               fileName: "app/components/MainNavigation.jsx",
-              lineNumber: 51,
+              lineNumber: 52,
               columnNumber: 15
             },
             this
           ) }, void 0, !1, {
             fileName: "app/components/MainNavigation.jsx",
-            lineNumber: 50,
+            lineNumber: 51,
             columnNumber: 13
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)(
+          /* @__PURE__ */ (0, import_jsx_dev_runtime30.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime30.jsxDEV)(
             import_react26.Link,
             {
               to: "/car",
               className: "flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700",
               children: [
-                /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)(import_react_fontawesome4.FontAwesomeIcon, { icon: import_free_solid_svg_icons4.faCar, size: "lg" }, void 0, !1, {
-                  fileName: "app/components/MainNavigation.jsx",
-                  lineNumber: 64,
-                  columnNumber: 17
-                }, this),
-                /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)("span", { className: "flex-1 ml-3 whitespace-nowrap", children: "Cars" }, void 0, !1, {
+                /* @__PURE__ */ (0, import_jsx_dev_runtime30.jsxDEV)(import_react_fontawesome3.FontAwesomeIcon, { icon: import_free_solid_svg_icons3.faCar, size: "lg" }, void 0, !1, {
                   fileName: "app/components/MainNavigation.jsx",
                   lineNumber: 65,
+                  columnNumber: 17
+                }, this),
+                /* @__PURE__ */ (0, import_jsx_dev_runtime30.jsxDEV)("span", { className: "flex-1 ml-3 whitespace-nowrap", children: "Cars" }, void 0, !1, {
+                  fileName: "app/components/MainNavigation.jsx",
+                  lineNumber: 66,
                   columnNumber: 17
                 }, this)
               ]
@@ -6876,17 +6676,17 @@ function MainNavigation() {
             !0,
             {
               fileName: "app/components/MainNavigation.jsx",
-              lineNumber: 60,
+              lineNumber: 61,
               columnNumber: 15
             },
             this
           ) }, void 0, !1, {
             fileName: "app/components/MainNavigation.jsx",
-            lineNumber: 59,
+            lineNumber: 60,
             columnNumber: 13
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)("li", { children: [
-            /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)(
+          /* @__PURE__ */ (0, import_jsx_dev_runtime30.jsxDEV)("li", { children: [
+            /* @__PURE__ */ (0, import_jsx_dev_runtime30.jsxDEV)(
               "button",
               {
                 type: "button",
@@ -6897,12 +6697,12 @@ function MainNavigation() {
                   setIsToggle(!toggle);
                 },
                 children: [
-                  /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)(import_react_fontawesome4.FontAwesomeIcon, { icon: import_free_solid_svg_icons4.faMagnifyingGlass, size: "lg" }, void 0, !1, {
+                  /* @__PURE__ */ (0, import_jsx_dev_runtime30.jsxDEV)(import_react_fontawesome3.FontAwesomeIcon, { icon: import_free_solid_svg_icons3.faMagnifyingGlass, size: "lg" }, void 0, !1, {
                     fileName: "app/components/MainNavigation.jsx",
-                    lineNumber: 76,
+                    lineNumber: 77,
                     columnNumber: 17
                   }, this),
-                  /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)(
+                  /* @__PURE__ */ (0, import_jsx_dev_runtime30.jsxDEV)(
                     "span",
                     {
                       className: "flex-1 ml-3 text-left whitespace-nowrap",
@@ -6913,12 +6713,12 @@ function MainNavigation() {
                     !1,
                     {
                       fileName: "app/components/MainNavigation.jsx",
-                      lineNumber: 77,
+                      lineNumber: 78,
                       columnNumber: 17
                     },
                     this
                   ),
-                  /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)(
+                  /* @__PURE__ */ (0, import_jsx_dev_runtime30.jsxDEV)(
                     "svg",
                     {
                       "sidebar-toggle-item": "true",
@@ -6926,7 +6726,7 @@ function MainNavigation() {
                       fill: "currentColor",
                       viewBox: "0 0 20 20",
                       xmlns: "http://www.w3.org/2000/svg",
-                      children: /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)(
+                      children: /* @__PURE__ */ (0, import_jsx_dev_runtime30.jsxDEV)(
                         "path",
                         {
                           fillRule: "evenodd",
@@ -6937,7 +6737,7 @@ function MainNavigation() {
                         !1,
                         {
                           fileName: "app/components/MainNavigation.jsx",
-                          lineNumber: 90,
+                          lineNumber: 91,
                           columnNumber: 19
                         },
                         this
@@ -6947,7 +6747,7 @@ function MainNavigation() {
                     !1,
                     {
                       fileName: "app/components/MainNavigation.jsx",
-                      lineNumber: 83,
+                      lineNumber: 84,
                       columnNumber: 17
                     },
                     this
@@ -6958,31 +6758,31 @@ function MainNavigation() {
               !0,
               {
                 fileName: "app/components/MainNavigation.jsx",
-                lineNumber: 69,
+                lineNumber: 70,
                 columnNumber: 15
               },
               this
             ),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)(
+            /* @__PURE__ */ (0, import_jsx_dev_runtime30.jsxDEV)(
               "ul",
               {
                 id: "dropdown-example",
                 className: `py-2 space-y-2 ${toggle ? "" : "hidden"}`,
                 children: [
-                  isAdmin === 1 && /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)(
+                  isAdmin === 1 && /* @__PURE__ */ (0, import_jsx_dev_runtime30.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime30.jsxDEV)(
                     import_react26.Link,
                     {
                       to: "/office",
                       className: "flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700",
                       children: [
-                        /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)(import_react_fontawesome4.FontAwesomeIcon, { icon: import_free_solid_svg_icons4.faBuilding, size: "lg" }, void 0, !1, {
-                          fileName: "app/components/MainNavigation.jsx",
-                          lineNumber: 107,
-                          columnNumber: 23
-                        }, this),
-                        /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)("span", { className: "flex-1 ml-3 whitespace-nowrap", children: "Centre" }, void 0, !1, {
+                        /* @__PURE__ */ (0, import_jsx_dev_runtime30.jsxDEV)(import_react_fontawesome3.FontAwesomeIcon, { icon: import_free_solid_svg_icons3.faBuilding, size: "lg" }, void 0, !1, {
                           fileName: "app/components/MainNavigation.jsx",
                           lineNumber: 108,
+                          columnNumber: 23
+                        }, this),
+                        /* @__PURE__ */ (0, import_jsx_dev_runtime30.jsxDEV)("span", { className: "flex-1 ml-3 whitespace-nowrap", children: "Centre" }, void 0, !1, {
+                          fileName: "app/components/MainNavigation.jsx",
+                          lineNumber: 109,
                           columnNumber: 23
                         }, this)
                       ]
@@ -6991,29 +6791,29 @@ function MainNavigation() {
                     !0,
                     {
                       fileName: "app/components/MainNavigation.jsx",
-                      lineNumber: 103,
+                      lineNumber: 104,
                       columnNumber: 21
                     },
                     this
                   ) }, void 0, !1, {
                     fileName: "app/components/MainNavigation.jsx",
-                    lineNumber: 102,
+                    lineNumber: 103,
                     columnNumber: 19
                   }, this),
-                  /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)(
+                  /* @__PURE__ */ (0, import_jsx_dev_runtime30.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime30.jsxDEV)(
                     import_react26.Link,
                     {
                       to: "/Inspections",
                       className: "flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700",
                       children: [
-                        /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)(import_react_fontawesome4.FontAwesomeIcon, { icon: import_free_solid_svg_icons4.faCar, size: "lg" }, void 0, !1, {
-                          fileName: "app/components/MainNavigation.jsx",
-                          lineNumber: 119,
-                          columnNumber: 21
-                        }, this),
-                        /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)("span", { className: "flex-1 ml-3 whitespace-nowrap", children: "Inspections" }, void 0, !1, {
+                        /* @__PURE__ */ (0, import_jsx_dev_runtime30.jsxDEV)(import_react_fontawesome3.FontAwesomeIcon, { icon: import_free_solid_svg_icons3.faCar, size: "lg" }, void 0, !1, {
                           fileName: "app/components/MainNavigation.jsx",
                           lineNumber: 120,
+                          columnNumber: 21
+                        }, this),
+                        /* @__PURE__ */ (0, import_jsx_dev_runtime30.jsxDEV)("span", { className: "flex-1 ml-3 whitespace-nowrap", children: "Inspections" }, void 0, !1, {
+                          fileName: "app/components/MainNavigation.jsx",
+                          lineNumber: 121,
                           columnNumber: 21
                         }, this)
                       ]
@@ -7022,13 +6822,13 @@ function MainNavigation() {
                     !0,
                     {
                       fileName: "app/components/MainNavigation.jsx",
-                      lineNumber: 115,
+                      lineNumber: 116,
                       columnNumber: 19
                     },
                     this
                   ) }, void 0, !1, {
                     fileName: "app/components/MainNavigation.jsx",
-                    lineNumber: 114,
+                    lineNumber: 115,
                     columnNumber: 17
                   }, this)
                 ]
@@ -7037,30 +6837,30 @@ function MainNavigation() {
               !0,
               {
                 fileName: "app/components/MainNavigation.jsx",
-                lineNumber: 97,
+                lineNumber: 98,
                 columnNumber: 15
               },
               this
             )
           ] }, void 0, !0, {
             fileName: "app/components/MainNavigation.jsx",
-            lineNumber: 68,
+            lineNumber: 69,
             columnNumber: 13
           }, this),
-          isAdmin === 1 && /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)(
+          isAdmin === 1 && /* @__PURE__ */ (0, import_jsx_dev_runtime30.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime30.jsxDEV)(
             import_react26.Link,
             {
               to: "/addStaff",
               className: "flex items-center self-end p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700",
               children: [
-                /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)(import_react_fontawesome4.FontAwesomeIcon, { icon: import_free_solid_svg_icons4.faUserPlus, size: "lg" }, void 0, !1, {
-                  fileName: "app/components/MainNavigation.jsx",
-                  lineNumber: 133,
-                  columnNumber: 19
-                }, this),
-                /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)("span", { className: "flex-1 ml-3 whitespace-nowrap", children: "Add Staff" }, void 0, !1, {
+                /* @__PURE__ */ (0, import_jsx_dev_runtime30.jsxDEV)(import_react_fontawesome3.FontAwesomeIcon, { icon: import_free_solid_svg_icons3.faUserPlus, size: "lg" }, void 0, !1, {
                   fileName: "app/components/MainNavigation.jsx",
                   lineNumber: 134,
+                  columnNumber: 19
+                }, this),
+                /* @__PURE__ */ (0, import_jsx_dev_runtime30.jsxDEV)("span", { className: "flex-1 ml-3 whitespace-nowrap", children: "Add Staff" }, void 0, !1, {
+                  fileName: "app/components/MainNavigation.jsx",
+                  lineNumber: 135,
                   columnNumber: 19
                 }, this)
               ]
@@ -7069,29 +6869,29 @@ function MainNavigation() {
             !0,
             {
               fileName: "app/components/MainNavigation.jsx",
-              lineNumber: 129,
+              lineNumber: 130,
               columnNumber: 17
             },
             this
           ) }, void 0, !1, {
             fileName: "app/components/MainNavigation.jsx",
-            lineNumber: 128,
+            lineNumber: 129,
             columnNumber: 15
           }, this),
-          isAdmin === 1 && /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)(
+          isAdmin === 1 && /* @__PURE__ */ (0, import_jsx_dev_runtime30.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime30.jsxDEV)(
             import_react26.Link,
             {
               to: "/office/add",
               className: "flex items-center self-end p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700",
               children: [
-                /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)(import_react_fontawesome4.FontAwesomeIcon, { icon: import_free_solid_svg_icons4.faBuilding, size: "lg" }, void 0, !1, {
-                  fileName: "app/components/MainNavigation.jsx",
-                  lineNumber: 146,
-                  columnNumber: 19
-                }, this),
-                /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)("span", { className: "flex-1 ml-3 whitespace-nowrap", children: "Add Centre" }, void 0, !1, {
+                /* @__PURE__ */ (0, import_jsx_dev_runtime30.jsxDEV)(import_react_fontawesome3.FontAwesomeIcon, { icon: import_free_solid_svg_icons3.faBuilding, size: "lg" }, void 0, !1, {
                   fileName: "app/components/MainNavigation.jsx",
                   lineNumber: 147,
+                  columnNumber: 19
+                }, this),
+                /* @__PURE__ */ (0, import_jsx_dev_runtime30.jsxDEV)("span", { className: "flex-1 ml-3 whitespace-nowrap", children: "Add Centre" }, void 0, !1, {
+                  fileName: "app/components/MainNavigation.jsx",
+                  lineNumber: 148,
                   columnNumber: 19
                 }, this)
               ]
@@ -7100,29 +6900,29 @@ function MainNavigation() {
             !0,
             {
               fileName: "app/components/MainNavigation.jsx",
-              lineNumber: 142,
+              lineNumber: 143,
               columnNumber: 17
             },
             this
           ) }, void 0, !1, {
             fileName: "app/components/MainNavigation.jsx",
-            lineNumber: 141,
+            lineNumber: 142,
             columnNumber: 15
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)(
+          /* @__PURE__ */ (0, import_jsx_dev_runtime30.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime30.jsxDEV)(
             import_react26.Link,
             {
               to: "/logout",
               className: "flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 self-end",
               children: [
-                /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)(import_react_fontawesome4.FontAwesomeIcon, { icon: import_free_solid_svg_icons4.faRightFromBracket, size: "lg" }, void 0, !1, {
+                /* @__PURE__ */ (0, import_jsx_dev_runtime30.jsxDEV)(import_react_fontawesome3.FontAwesomeIcon, { icon: import_free_solid_svg_icons3.faRightFromBracket, size: "lg" }, void 0, !1, {
                   fileName: "app/components/MainNavigation.jsx",
-                  lineNumber: 170,
+                  lineNumber: 159,
                   columnNumber: 17
                 }, this),
-                /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)("span", { className: "flex-1 ml-3 whitespace-nowrap", children: "Sign Out" }, void 0, !1, {
+                /* @__PURE__ */ (0, import_jsx_dev_runtime30.jsxDEV)("span", { className: "flex-1 ml-3 whitespace-nowrap", children: "Sign Out" }, void 0, !1, {
                   fileName: "app/components/MainNavigation.jsx",
-                  lineNumber: 171,
+                  lineNumber: 160,
                   columnNumber: 17
                 }, this)
               ]
@@ -7131,13 +6931,13 @@ function MainNavigation() {
             !0,
             {
               fileName: "app/components/MainNavigation.jsx",
-              lineNumber: 166,
+              lineNumber: 155,
               columnNumber: 15
             },
             this
           ) }, void 0, !1, {
             fileName: "app/components/MainNavigation.jsx",
-            lineNumber: 165,
+            lineNumber: 154,
             columnNumber: 13
           }, this)
         ] }, void 0, !0, {
@@ -7167,15 +6967,15 @@ function MainNavigation() {
 }
 
 // app/routes/_home.jsx
-var import_jsx_dev_runtime32 = require("react/jsx-dev-runtime");
+var import_jsx_dev_runtime31 = require("react/jsx-dev-runtime");
 function HomeLayout() {
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("div", { className: "page", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)(MainNavigation, {}, void 0, !1, {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)("div", { className: "page", style: { overflow: "auto" }, children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)(MainNavigation, {}, void 0, !1, {
       fileName: "app/routes/_home.jsx",
       lineNumber: 8,
       columnNumber: 7
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("section", { className: "p-4 sm:ml-64 min-h-screen dark:bg-gray-900", children: /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)(import_react28.Outlet, {}, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)("section", { className: "p-4 sm:ml-64 min-h-screen dark:bg-gray-900", children: /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)(import_react28.Outlet, {}, void 0, !1, {
       fileName: "app/routes/_home.jsx",
       lineNumber: 11,
       columnNumber: 9
@@ -7190,7 +6990,7 @@ function HomeLayout() {
     columnNumber: 5
   }, this);
 }
-async function loader14({ request: request2 }) {
+async function loader13({ request: request2 }) {
   return await getOwnInfo(request2);
 }
 
@@ -7198,23 +6998,21 @@ async function loader14({ request: request2 }) {
 var login_exports = {};
 __export(login_exports, {
   action: () => action7,
-  default: () => LoginPage,
-  links: () => links2,
-  loader: () => loader15
+  default: () => LoginPage
 });
 
 // app/components/Login.jsx
-var import_react29 = require("@remix-run/react"), import_react_fontawesome5 = require("@fortawesome/react-fontawesome"), import_free_solid_svg_icons5 = require("@fortawesome/free-solid-svg-icons"), import_flowbite_react4 = require("flowbite-react"), import_jsx_dev_runtime33 = require("react/jsx-dev-runtime");
+var import_react29 = require("@remix-run/react"), import_react_fontawesome4 = require("@fortawesome/react-fontawesome"), import_free_solid_svg_icons4 = require("@fortawesome/free-solid-svg-icons"), import_flowbite_react2 = require("flowbite-react"), import_jsx_dev_runtime32 = require("react/jsx-dev-runtime");
 function Login() {
   let data = (0, import_react29.useActionData)();
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)("section", { className: "bg-gray-50 dark:bg-gray-900", children: /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)("div", { className: "flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)(
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("section", { className: "bg-gray-50 dark:bg-gray-900", children: /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("div", { className: "flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)(
       "a",
       {
         href: "#",
         className: "flex items-center mb-6 text-2xl font-semibold text-gray-900 dark:text-white",
         children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)(
+          /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)(
             "img",
             {
               className: "w-8 h-8 mr-2",
@@ -7242,22 +7040,22 @@ function Login() {
       },
       this
     ),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)("div", { className: "w-full bg-white rounded-lg shadow dark:border md:mt-0 sm:max-w-md xl:p-0 dark:bg-gray-800 dark:border-gray-700", children: /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)("div", { className: "p-6 space-y-4 md:space-y-6 sm:p-8", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)("h1", { className: "text-xl font-bold leading-tight text-center tracking-tight text-gray-900 md:text-2xl dark:text-white", children: "Welcome to VietNam Registry" }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("div", { className: "w-full bg-white rounded-lg shadow dark:border md:mt-0 sm:max-w-md xl:p-0 dark:bg-gray-800 dark:border-gray-700", children: /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("div", { className: "p-6 space-y-4 md:space-y-6 sm:p-8", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("h1", { className: "text-xl font-bold leading-tight text-center tracking-tight text-gray-900 md:text-2xl dark:text-white", children: "Welcome to VietNam Registry" }, void 0, !1, {
         fileName: "app/components/Login.jsx",
         lineNumber: 23,
         columnNumber: 13
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)("h6", { className: "italic text-center text-md mt-1 dark:text-white", children: "Enter your credentials to access your account" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("h6", { className: "italic text-center text-md mt-1 dark:text-white", children: "Enter your credentials to access your account" }, void 0, !1, {
         fileName: "app/components/Login.jsx",
         lineNumber: 26,
         columnNumber: 13
       }, this),
-      data ? /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)(import_flowbite_react4.Alert, { color: "failure", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)(
-          import_react_fontawesome5.FontAwesomeIcon,
+      data ? /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)(import_flowbite_react2.Alert, { color: "failure", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)(
+          import_react_fontawesome4.FontAwesomeIcon,
           {
-            icon: import_free_solid_svg_icons5.faCircleInfo,
+            icon: import_free_solid_svg_icons4.faCircleInfo,
             style: {
               "--fa-primary-color": "#ff2600",
               "--fa-secondary-color": "#ff2600"
@@ -7272,7 +7070,7 @@ function Login() {
           },
           this
         ),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)("span", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)("span", { className: "font-medium", children: data.message }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("span", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("span", { className: "font-medium", children: data.message }, void 0, !1, {
           fileName: "app/components/Login.jsx",
           lineNumber: 39,
           columnNumber: 19
@@ -7286,9 +7084,9 @@ function Login() {
         lineNumber: 30,
         columnNumber: 15
       }, this) : "",
-      /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)(import_react29.Form, { className: "space-y-4 md:space-y-6", method: "post", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)("div", { children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)(
+      /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)(import_react29.Form, { className: "space-y-4 md:space-y-6", method: "post", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("div", { children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)(
             "label",
             {
               htmlFor: "email",
@@ -7304,7 +7102,7 @@ function Login() {
             },
             this
           ),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)(
+          /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)(
             "input",
             {
               type: "email",
@@ -7327,8 +7125,8 @@ function Login() {
           lineNumber: 46,
           columnNumber: 15
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)("div", { children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)(
+        /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("div", { children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)(
             "label",
             {
               htmlFor: "password",
@@ -7344,7 +7142,7 @@ function Login() {
             },
             this
           ),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)(
+          /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)(
             "input",
             {
               type: "password",
@@ -7367,7 +7165,7 @@ function Login() {
           lineNumber: 61,
           columnNumber: 15
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)("button", { className: "w-full text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800", children: "Sign in" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("button", { className: "w-full text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800", children: "Sign in" }, void 0, !1, {
           fileName: "app/components/Login.jsx",
           lineNumber: 76,
           columnNumber: 15
@@ -7397,20 +7195,14 @@ function Login() {
   }, this);
 }
 
-// app/styles/LoginBox.css
-var LoginBox_default = "/build/_assets/LoginBox-PCWKDLI7.css";
-
 // app/routes/login.jsx
-var import_node12 = require("@remix-run/node"), import_jsx_dev_runtime34 = require("react/jsx-dev-runtime");
+var import_node11 = require("@remix-run/node"), import_jsx_dev_runtime33 = require("react/jsx-dev-runtime");
 function LoginPage() {
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime34.jsxDEV)(Login, {}, void 0, !1, {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)(Login, {}, void 0, !1, {
     fileName: "app/routes/login.jsx",
-    lineNumber: 7,
+    lineNumber: 6,
     columnNumber: 10
   }, this);
-}
-async function loader15({ request: request2 }) {
-  return await getUserFromSession(request2) ? (0, import_node12.redirect)("/main") : null;
 }
 async function action7({ request: request2 }) {
   let formData = await request2.formData(), data = {
@@ -7420,16 +7212,8 @@ async function action7({ request: request2 }) {
   try {
     return await login(data.email, data.password);
   } catch (error) {
-    return (0, import_node12.json)({ message: error.message });
+    return (0, import_node11.json)({ message: error.message });
   }
-}
-function links2() {
-  return [
-    {
-      rel: "stylesheet",
-      href: LoginBox_default
-    }
-  ];
 }
 
 // server-entry-module:@remix-run/dev/server-build
@@ -7547,6 +7331,14 @@ var assetsBuildDirectory = "public/build", future = { unstable_dev: !1, unstable
     caseSensitive: void 0,
     module: route13
   },
+  "routes/_home._index": {
+    id: "routes/_home._index",
+    parentId: "routes/_home",
+    path: void 0,
+    index: !0,
+    caseSensitive: void 0,
+    module: home_index_exports
+  },
   "routes/_home.search": {
     id: "routes/_home.search",
     parentId: "routes/_home",
@@ -7555,14 +7347,6 @@ var assetsBuildDirectory = "public/build", future = { unstable_dev: !1, unstable
     caseSensitive: void 0,
     module: home_search_exports
   },
-  "routes/_home.main": {
-    id: "routes/_home.main",
-    parentId: "routes/_home",
-    path: "main",
-    index: void 0,
-    caseSensitive: void 0,
-    module: home_main_exports
-  },
   "routes/changepass": {
     id: "routes/changepass",
     parentId: "root",
@@ -7570,14 +7354,6 @@ var assetsBuildDirectory = "public/build", future = { unstable_dev: !1, unstable
     index: void 0,
     caseSensitive: void 0,
     module: changepass_exports
-  },
-  "routes/_index": {
-    id: "routes/_index",
-    parentId: "root",
-    path: void 0,
-    index: !0,
-    caseSensitive: void 0,
-    module: index_exports
   },
   "routes/logout": {
     id: "routes/logout",

@@ -1,7 +1,6 @@
 import { cssBundleHref } from "@remix-run/css-bundle";
-import ShareStyles from "~/styles/ShareStyles.css";
 import styles from "./styles/tailwind.css";
-import { useGlobalTransitionStates } from "remix-utils";
+import { ClientOnly, useGlobalTransitionStates } from "remix-utils";
 import {
   Links,
   LiveReload,
@@ -12,28 +11,19 @@ import {
   useLoaderData,
   useNavigate,
 } from "@remix-run/react";
-
 import { useRouteError, isRouteErrorResponse } from "@remix-run/react";
 import Spinner from "./util/Loading";
-// export const links = () => [
-//   ...(cssBundleHref ? [{ rel: "stylesheet", href: cssBundleHref }] : []),{rel: "stylesheet", href: shareStyle}, {rel:'stylesheet', href:'https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css'}
-// ];
 export function links() {
   return [
     {
       rel: "stylesheet",
       href: styles,
     },
-    {
-      rel: "stylesheet",
-      href: "https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css",
-    },
   ];
 }
 export function meta() {
   return [{ title: "Vietnam Registry" }];
 }
-
 export default function App() {
   let states = useGlobalTransitionStates();
   let spinner = "";
@@ -43,24 +33,19 @@ export default function App() {
     );
   }
   return (
-    <html lang="en">
+    <html lang="en" style={{ overflow: "auto" }}>
       <head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width,initial-scale=1" />
-        <link
-          href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.css"
-          rel="stylesheet"
-        />
         <Meta />
         <Links />
       </head>
       <body className="dark">
-        <Outlet />
+        <Outlet scrollBehavior="smooth" />
         <ScrollRestoration />
         <Scripts />
         <LiveReload />
         {spinner}
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.js"></script>
       </body>
     </html>
   );
