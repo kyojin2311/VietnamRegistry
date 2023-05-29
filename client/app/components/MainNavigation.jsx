@@ -9,6 +9,8 @@ import {
   faRightFromBracket,
   faBuilding,
   faCar,
+  faCertificate,
+  faAddressCard,
 } from "@fortawesome/free-solid-svg-icons";
 export default function MainNavigation() {
   //Take Loader data from the _home.jsx loader for fixing what admin and nonadmin can do in the NavBar
@@ -26,7 +28,7 @@ export default function MainNavigation() {
         aria-label="Sidebar"
       >
         <div className="h-full px-3 py-4 overflow-y-auto bg-gray-50 dark:bg-gray-800">
-          <Link to="/info" className="flex items-center pl-2.5 mb-5">
+          <Link prefetch="intent" to="/" className="flex items-center pl-2.5 mb-5">
             <img
               src="https://flowbite.com/docs/images/logo.svg"
               className="h-6 mr-3 sm:h-7"
@@ -117,7 +119,7 @@ export default function MainNavigation() {
                     to="/Inspections"
                     className="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
                   >
-                    <FontAwesomeIcon icon={faCar} size="lg" />
+                    <FontAwesomeIcon icon={faCertificate} size="lg" />
                     <span className="flex-1 ml-3 whitespace-nowrap">
                       Inspections
                     </span>
@@ -151,6 +153,16 @@ export default function MainNavigation() {
                 </Link>
               </li>
             )}
+            <li>
+              <Link
+                prefetch="render"
+                to="/info"
+                className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 active:bg-gray-700"
+              >
+                <FontAwesomeIcon icon={faAddressCard} size="lg" />
+                <span className="ml-3">About</span>
+              </Link>
+            </li>
             <li>
               <Link
                 to="/logout"
