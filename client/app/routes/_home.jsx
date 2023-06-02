@@ -18,11 +18,3 @@ export async function loader({ request }) {
   const data = await getOwnInfo(request);
   return data;
 }
-// export function links() {
-//   return [
-//     {
-//       rel: "stylesheet",
-//       href: styles,
-//     },
-//   ];
-// }

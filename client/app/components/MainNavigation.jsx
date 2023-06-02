@@ -28,7 +28,11 @@ export default function MainNavigation() {
         aria-label="Sidebar"
       >
         <div className="h-full px-3 py-4 overflow-y-auto bg-gray-50 dark:bg-gray-800">
-          <Link prefetch="intent" to="/" className="flex items-center pl-2.5 mb-5">
+          <Link
+            prefetch="intent"
+            to="/"
+            className="flex items-center pl-2.5 mb-5"
+          >
             <img
               src="https://flowbite.com/docs/images/logo.svg"
               className="h-6 mr-3 sm:h-7"
@@ -50,15 +54,20 @@ export default function MainNavigation() {
                 <span className="ml-3">Dashboard</span>
               </Link>
             </li>
-            <li>
-              <Link
-                to="/login"
-                className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700"
-              >
-                <FontAwesomeIcon icon={faChartLine} size="lg" />
-                <span className="flex-1 ml-3 whitespace-nowrap">Analytics</span>
-              </Link>
-            </li>
+            {/* {isAdmin === 1 && (
+              <li>
+                <Link
+                  to="/login"
+                  className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700"
+                >
+                  <FontAwesomeIcon icon={faChartLine} size="lg" />
+                  <span className="flex-1 ml-3 whitespace-nowrap">
+                    Analytics
+                  </span>
+                </Link>
+              </li>
+            )} */}
+
             <li>
               <Link
                 to="/car"

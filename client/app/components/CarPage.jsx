@@ -8,7 +8,6 @@ export default function CarPage() {
   const inspection = data.registry.sort(function (a, b) {
     return new Date(b.regisDate) - new Date(a.regisDate);
   });
-  // console.log(inspection);
   return (
     <>
       <Form>
