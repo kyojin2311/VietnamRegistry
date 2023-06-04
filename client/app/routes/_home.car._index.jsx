@@ -1,17 +1,19 @@
 import { redirect, json } from "@remix-run/node";
-import SearchModal from "../components/searchModal";
+import SearchModal from "../components/searchCarModal.client";
 import { requireUserSession } from "../services/auth.server";
 import { findCarbyNumberPlate } from "../services/APIAction.server";
 import CarPageDefault from "../components/CarPageDefault";
-export default function () {
+import { ClientOnly } from "remix-utils";
+import Spinner from "../util/Loading";
+import { Outlet } from "@remix-run/react";
+export default function CarIndex() {
   return (
     <>
+      <ClientOnly fallback={<Spinner />}>{() => <SearchModal />}</ClientOnly>
       <CarPageDefault />
-      <SearchModal />
     </>
   );
 }
-
 export async function loader({ request }) {
   const token = requireUserSession(request);
   if (!token) return redirect("/login");

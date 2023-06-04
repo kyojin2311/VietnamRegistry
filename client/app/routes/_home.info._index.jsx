@@ -1,3 +1,4 @@
+import { useOutletContext } from "@remix-run/react";
 import OwnInfo from "../components/OwnInfo";
 
 export default function Infopage() {

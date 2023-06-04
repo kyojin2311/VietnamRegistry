@@ -1,3 +1,4 @@
+import { useLoaderData } from "@remix-run/react";
 import AddForm from "../components/AddStaffForm";
 import { addStaff, getAllOffice } from "../services/APIAction.server";
 function reformatDate(dateStr) {
@@ -8,7 +9,8 @@ export function meta() {
   return [{ title: "Add Staff" }];
 }
 export default function addStaffPage() {
-  return <AddForm />;
+  const data = useLoaderData();
+  return <AddForm data = {data} />;
 }
 //loader for loading all the office the Staff can workFor
 export async function loader({ request }) {

@@ -154,7 +154,7 @@ export default function InspectionsForm({ data }) {
           </div>
           <div className="text-left  w-full mt-1">
             <div className="block w-full">
-              Số người cho phép chở: {data.car.specification.permissibleCarry}
+              Số người cho phép chở: {data.car.specification.carriedNo}
             </div>
             <div className="block w-full italic text-sm">
               (Permission No. of Pers Carried: seat, stood place, laying place)

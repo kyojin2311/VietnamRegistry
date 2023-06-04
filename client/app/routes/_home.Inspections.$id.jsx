@@ -4,6 +4,7 @@ import { useLoaderData } from "@remix-run/react";
 
 export default function InpectionsPage() {
   const data = useLoaderData();
+  console.log(data);
   return <InspectionsForm data={data} />;
 }
 export async function loader({ request, params }) {

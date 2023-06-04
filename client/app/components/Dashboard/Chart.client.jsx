@@ -5,8 +5,7 @@ export default function ChartCom(props) {
     <Chart
       options={props.data.options}
       series={props.data.series}
-      type="bar"
-      width="873px"
+      type="area"
     />
   );
 }
