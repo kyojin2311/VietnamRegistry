@@ -1,8 +1,8 @@
 import { redirect, json } from "@remix-run/node";
-import SearchModal from "../components/searchCarModal.client";
+import SearchModal from "../components/CarPage/searchCarModal.client";
 import { requireUserSession } from "../services/auth.server";
 import { findCarbyNumberPlate } from "../services/APIAction.server";
-import CarPageDefault from "../components/CarPageDefault";
+import CarPageDefault from "../components/CarPage/CarPageDefault";
 import { ClientOnly } from "remix-utils";
 import Spinner from "../util/Loading";
 import { Outlet } from "@remix-run/react";

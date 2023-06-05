@@ -1,4 +1,4 @@
-import StaffInfo from "../components/StaffInfo";
+import StaffInfo from "../components/Office/StaffInfo";
 import { getStaffbyId } from "../services/APIAction.server";
 
 export default function StaffInfoPage() {

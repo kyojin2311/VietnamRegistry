@@ -24,7 +24,7 @@ export default function SearchModal(props) {
                 }}
               />
               <span>
-                <span className="font-medium">Alert!</span> {data.message}
+                <span className="font-medium"></span> {data.message}
               </span>
             </Alert>
           ) : (

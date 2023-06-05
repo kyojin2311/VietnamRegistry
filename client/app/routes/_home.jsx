@@ -1,5 +1,5 @@
 import { Outlet } from "@remix-run/react";
-import MainNavigation from "../components/MainNavigation";
+import MainNavigation from "../components/UI/MainNavigation";
 import { getOwnInfo } from "../services/APIAction.server";
 import { useLoaderData } from "@remix-run/react";
 export default function HomeLayout() {

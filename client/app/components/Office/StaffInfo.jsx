@@ -1,8 +1,8 @@
 import { Link, useLoaderData, useMatches } from "@remix-run/react";
-import link from "../images/ava.png";
+import link from "../../images/ava.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPencil } from "@fortawesome/free-solid-svg-icons";
-import { formatDate } from "../util/formatDate";
+import { formatDate } from "../../util/formatDate";
 export default function StaffInfo() {
   const info = useLoaderData();
   const { name, SSN, dateOfBirth, phone } = info.data;
@@ -32,14 +32,13 @@ export default function StaffInfo() {
                   <div className="pt-1.5">
                     <h1 className="text-xl font-semibold">{name}</h1>
                     <p className="text-lg font-light text-black-500">
-                      {/* Nhân viên tại: {info.data.workFor.name} */}
-                      Nhân viên tại: Đâu đó
+                      Nhân viên tại: {info.workFor.name}
                     </p>
                   </div>
                 </div>
               </div>
               <div className="mt-24 text-md font-light dark:text-green-300">
-                <Link to="edit" className="flex flex-wrap">
+                <Link to="#" className="flex flex-wrap">
                   <span className="mb-5 text-lg font-bold ">
                     Thông tin cá nhân
                   </span>
@@ -83,28 +82,27 @@ export default function StaffInfo() {
         <h3 className="text-lg font-semibold dark:text-green-300">
           Inspections
         </h3>
-
-        {/* <ol className="relative border-l border-gray-200 dark:border-gray-700">
+        <ol className="relative border-l border-gray-200 dark:border-gray-700">
           {inspection.map((inspec) => (
-            <li key= {inspec._id} className="mb-10 ml-4">
-              <Link to={`/Inspections/${inspec._id}`}>
+            <li key={inspec._id} className="mb-10 ml-4">
+              <Link to={`/Inspections/${inspec.regisNum}`}>
                 <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
                 <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
                   {formatDate(inspec.regisDate)}
                 </time>
                 <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-                  Mã số Đăng kiểm: {inspec._id}
+                  Mã số Đăng kiểm: {inspec.regisNum}
                 </h3>
                 <p className="text-base font-normal text-gray-500 dark:text-gray-400">
                   Biển số xe: {inspec.car.numberPlate}
                 </p>
                 <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
-                  Tại: {info.data.workFor.name}
+                  Tại: {info.workFor.name}
                 </p>
               </Link>
             </li>
           ))}
-        </ol> */}
+        </ol>
       </section>
     </div>
   );

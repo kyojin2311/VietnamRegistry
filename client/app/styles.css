@@ -4786,6 +4786,10 @@ input:checked + .toggle-bg {
   fill: #D1D5DB;
 }
 
+:is(.dark .dark\:text-right) {
+  text-align: right;
+}
+
 :is(.dark .dark\:text-xl) {
   font-size: 1.25rem;
   line-height: 1.75rem;

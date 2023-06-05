@@ -1,8 +1,8 @@
-import { Link, useLoaderData, useMatches } from "@remix-run/react";
-import link from "../images/ava.png";
+import { Link, useMatches } from "@remix-run/react";
+import link from "../../images/ava.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPencil } from "@fortawesome/free-solid-svg-icons";
-import { formatDate } from "../util/formatDate";
+import { formatDate } from "../../util/formatDate";
 export default function OwnInfo() {
   const matches = useMatches();
   const info = matches.find((match) => match.id === "routes/_home");
