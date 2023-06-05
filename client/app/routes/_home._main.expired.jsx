@@ -1,8 +1,8 @@
 import { requireUserSession } from "../services/auth.server";
 import { getOwnInfo } from "../services/APIAction.server";
-import ExpiredSoonTable from "../components/Dashboard/ExpiredSoon";
+import ExpiredTable from "../components/Dashboard/Expired";
 export default function ExpiredSoon() {
-  return <ExpiredSoonTable />;
+  return <ExpiredTable />;
 }
 export async function loader({ request }) {
   const token = await requireUserSession(request);
@@ -13,7 +13,7 @@ export async function loader({ request }) {
     info.workFor._id +
     "/outdatecar";
   const dataPass_1 = {
-    status: "soon",
+    status: "expired",
     city: "",
     info: "0",
   };

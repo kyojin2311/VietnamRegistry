@@ -65,7 +65,7 @@ export default function DashBoardFooter() {
         <div className="w-full">
           <Link
             prefetch="render"
-            // to="expiredsoon"
+            to="expired"
             className="inline-flex items-center p-2 text-lg font-medium uppercase rounded-lg text-primary-700 sm:text-sm hover:bg-gray-100 dark:text-primary-500 dark:hover:bg-gray-700"
           >
             View Full List Of Cars
