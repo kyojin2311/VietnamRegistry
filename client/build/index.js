@@ -34,7 +34,7 @@ __export(assets_manifest_exports, {
 });
 var assets_manifest_default, init_assets_manifest = __esm({
   "server-assets-manifest:@remix-run/dev/assets-manifest"() {
-    assets_manifest_default = { version: "dfaf2d7a", entry: { module: "/build/entry.client-G2IT6O4Z.js", imports: ["/build/_shared/chunk-52JS6F46.js", "/build/_shared/chunk-VBO3XXCF.js", "/build/_shared/chunk-RQ7GWW3B.js", "/build/_shared/chunk-DG4HR4CT.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-7OQ6F6F6.js", imports: ["/build/_shared/chunk-5YPH7XAC.js", "/build/_shared/chunk-NML7UF65.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !0 }, "routes/_home": { id: "routes/_home", parentId: "root", path: void 0, index: void 0, caseSensitive: void 0, module: "/build/routes/_home-SUSQNH6F.js", imports: ["/build/_shared/chunk-FPBTDSYD.js", "/build/_shared/chunk-NHPJXLCO.js", "/build/_shared/chunk-AF3DCVCM.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.Inspections.$id": { id: "routes/_home.Inspections.$id", parentId: "routes/_home", path: "Inspections/:id", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.Inspections.$id-VJLFLLPP.js", imports: ["/build/_shared/chunk-GD4LFJXJ.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.Inspections._index": { id: "routes/_home.Inspections._index", parentId: "routes/_home", path: "Inspections", index: !0, caseSensitive: void 0, module: "/build/routes/_home.Inspections._index-KFNTO3LR.js", imports: ["/build/_shared/chunk-NML7UF65.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home._main": { id: "routes/_home._main", parentId: "routes/_home", path: void 0, index: void 0, caseSensitive: void 0, module: "/build/routes/_home._main-HQ6LTRAR.js", imports: ["/build/_shared/chunk-L2PACDDD.js", "/build/_shared/chunk-5YPH7XAC.js", "/build/_shared/chunk-NML7UF65.js", "/build/_shared/chunk-GD4LFJXJ.js", "/build/_shared/chunk-2L3TLXHT.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home._main._index": { id: "routes/_home._main._index", parentId: "routes/_home._main", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_home._main._index-CFZFAQKC.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home._main.expired": { id: "routes/_home._main.expired", parentId: "routes/_home._main", path: "expired", index: void 0, caseSensitive: void 0, module: "/build/routes/_home._main.expired-7JUEOHZQ.js", imports: ["/build/_shared/chunk-AWYGVVX5.js", "/build/_shared/chunk-AF3DCVCM.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home._main.expiredsoon": { id: "routes/_home._main.expiredsoon", parentId: "routes/_home._main", path: "expiredsoon", index: void 0, caseSensitive: void 0, module: "/build/routes/_home._main.expiredsoon-SYYFI67A.js", imports: ["/build/_shared/chunk-AWYGVVX5.js", "/build/_shared/chunk-AF3DCVCM.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.addStaff": { id: "routes/_home.addStaff", parentId: "routes/_home", path: "addStaff", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.addStaff-ZWEI3XGQ.js", imports: void 0, hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.car.$numberPlate._index": { id: "routes/_home.car.$numberPlate._index", parentId: "routes/_home", path: "car/:numberPlate", index: !0, caseSensitive: void 0, module: "/build/routes/_home.car.$numberPlate._index-GMTRM67J.js", imports: ["/build/_shared/chunk-GD4LFJXJ.js", "/build/_shared/chunk-2L3TLXHT.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.car.$numberPlate.addinspection": { id: "routes/_home.car.$numberPlate.addinspection", parentId: "routes/_home", path: "car/:numberPlate/addinspection", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.car.$numberPlate.addinspection-FEGQXT4L.js", imports: ["/build/_shared/chunk-GD4LFJXJ.js", "/build/_shared/chunk-2L3TLXHT.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.car._index": { id: "routes/_home.car._index", parentId: "routes/_home", path: "car", index: !0, caseSensitive: void 0, module: "/build/routes/_home.car._index-KIAVKG77.js", imports: ["/build/_shared/chunk-L2PACDDD.js", "/build/_shared/chunk-5YPH7XAC.js", "/build/_shared/chunk-NML7UF65.js", "/build/_shared/chunk-2L3TLXHT.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.info._index": { id: "routes/_home.info._index", parentId: "routes/_home", path: "info", index: !0, caseSensitive: void 0, module: "/build/routes/_home.info._index-LD5L36P6.js", imports: ["/build/_shared/chunk-QGRJQUMK.js", "/build/_shared/chunk-GD4LFJXJ.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.info.edit": { id: "routes/_home.info.edit", parentId: "routes/_home", path: "info/edit", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.info.edit-HQ5KT2YE.js", imports: void 0, hasAction: !0, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office.$id.$userID": { id: "routes/_home.office.$id.$userID", parentId: "routes/_home", path: "office/:id/:userID", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.office.$id.$userID-TXC7HO56.js", imports: ["/build/_shared/chunk-QGRJQUMK.js", "/build/_shared/chunk-GD4LFJXJ.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office.$id._index": { id: "routes/_home.office.$id._index", parentId: "routes/_home", path: "office/:id", index: !0, caseSensitive: void 0, module: "/build/routes/_home.office.$id._index-7EO3HI25.js", imports: ["/build/_shared/chunk-2L3TLXHT.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office._index": { id: "routes/_home.office._index", parentId: "routes/_home", path: "office", index: !0, caseSensitive: void 0, module: "/build/routes/_home.office._index-5IZTUH53.js", imports: void 0, hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office.add": { id: "routes/_home.office.add", parentId: "routes/_home", path: "office/add", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.office.add-YTGGOKG6.js", imports: void 0, hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.search": { id: "routes/_home.search", parentId: "routes/_home", path: "search", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.search-5XEW27VJ.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/changepass": { id: "routes/changepass", parentId: "root", path: "changepass", index: void 0, caseSensitive: void 0, module: "/build/routes/changepass-MHMCBOPW.js", imports: ["/build/_shared/chunk-2L3TLXHT.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/forgotpassword": { id: "routes/forgotpassword", parentId: "root", path: "forgotpassword", index: void 0, caseSensitive: void 0, module: "/build/routes/forgotpassword-N6CMP3FP.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/login": { id: "routes/login", parentId: "root", path: "login", index: void 0, caseSensitive: void 0, module: "/build/routes/login-4CLDAIFT.js", imports: ["/build/_shared/chunk-FPBTDSYD.js", "/build/_shared/chunk-NHPJXLCO.js", "/build/_shared/chunk-AF3DCVCM.js", "/build/_shared/chunk-2L3TLXHT.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/logout": { id: "routes/logout", parentId: "root", path: "logout", index: void 0, caseSensitive: void 0, module: "/build/routes/logout-YO44EPFE.js", imports: void 0, hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, cssBundleHref: void 0, hmr: void 0, url: "/build/manifest-DFAF2D7A.js" };
+    assets_manifest_default = { version: "5f56372f", entry: { module: "/build/entry.client-G2IT6O4Z.js", imports: ["/build/_shared/chunk-52JS6F46.js", "/build/_shared/chunk-VBO3XXCF.js", "/build/_shared/chunk-RQ7GWW3B.js", "/build/_shared/chunk-DG4HR4CT.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-DG3UXNY7.js", imports: ["/build/_shared/chunk-5YPH7XAC.js", "/build/_shared/chunk-NML7UF65.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !0 }, "routes/_home": { id: "routes/_home", parentId: "root", path: void 0, index: void 0, caseSensitive: void 0, module: "/build/routes/_home-SUSQNH6F.js", imports: ["/build/_shared/chunk-FPBTDSYD.js", "/build/_shared/chunk-NHPJXLCO.js", "/build/_shared/chunk-AF3DCVCM.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.Inspections.$id": { id: "routes/_home.Inspections.$id", parentId: "routes/_home", path: "Inspections/:id", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.Inspections.$id-VJLFLLPP.js", imports: ["/build/_shared/chunk-GD4LFJXJ.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.Inspections._index": { id: "routes/_home.Inspections._index", parentId: "routes/_home", path: "Inspections", index: !0, caseSensitive: void 0, module: "/build/routes/_home.Inspections._index-KFNTO3LR.js", imports: ["/build/_shared/chunk-NML7UF65.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home._main": { id: "routes/_home._main", parentId: "routes/_home", path: void 0, index: void 0, caseSensitive: void 0, module: "/build/routes/_home._main-GA5YOB2P.js", imports: ["/build/_shared/chunk-L2PACDDD.js", "/build/_shared/chunk-5YPH7XAC.js", "/build/_shared/chunk-NML7UF65.js", "/build/_shared/chunk-GD4LFJXJ.js", "/build/_shared/chunk-2L3TLXHT.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home._main._index": { id: "routes/_home._main._index", parentId: "routes/_home._main", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_home._main._index-CFZFAQKC.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home._main.expired": { id: "routes/_home._main.expired", parentId: "routes/_home._main", path: "expired", index: void 0, caseSensitive: void 0, module: "/build/routes/_home._main.expired-5APMTFWV.js", imports: ["/build/_shared/chunk-AWYGVVX5.js", "/build/_shared/chunk-AF3DCVCM.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home._main.expiredsoon": { id: "routes/_home._main.expiredsoon", parentId: "routes/_home._main", path: "expiredsoon", index: void 0, caseSensitive: void 0, module: "/build/routes/_home._main.expiredsoon-ADTO5CGL.js", imports: ["/build/_shared/chunk-AWYGVVX5.js", "/build/_shared/chunk-AF3DCVCM.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.addStaff": { id: "routes/_home.addStaff", parentId: "routes/_home", path: "addStaff", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.addStaff-ZWEI3XGQ.js", imports: void 0, hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.car.$numberPlate._index": { id: "routes/_home.car.$numberPlate._index", parentId: "routes/_home", path: "car/:numberPlate", index: !0, caseSensitive: void 0, module: "/build/routes/_home.car.$numberPlate._index-GMTRM67J.js", imports: ["/build/_shared/chunk-GD4LFJXJ.js", "/build/_shared/chunk-2L3TLXHT.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.car.$numberPlate.addinspection": { id: "routes/_home.car.$numberPlate.addinspection", parentId: "routes/_home", path: "car/:numberPlate/addinspection", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.car.$numberPlate.addinspection-FEGQXT4L.js", imports: ["/build/_shared/chunk-GD4LFJXJ.js", "/build/_shared/chunk-2L3TLXHT.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.car._index": { id: "routes/_home.car._index", parentId: "routes/_home", path: "car", index: !0, caseSensitive: void 0, module: "/build/routes/_home.car._index-KIAVKG77.js", imports: ["/build/_shared/chunk-L2PACDDD.js", "/build/_shared/chunk-5YPH7XAC.js", "/build/_shared/chunk-NML7UF65.js", "/build/_shared/chunk-2L3TLXHT.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.info._index": { id: "routes/_home.info._index", parentId: "routes/_home", path: "info", index: !0, caseSensitive: void 0, module: "/build/routes/_home.info._index-LD5L36P6.js", imports: ["/build/_shared/chunk-QGRJQUMK.js", "/build/_shared/chunk-GD4LFJXJ.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.info.edit": { id: "routes/_home.info.edit", parentId: "routes/_home", path: "info/edit", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.info.edit-HQ5KT2YE.js", imports: void 0, hasAction: !0, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office.$id.$userID": { id: "routes/_home.office.$id.$userID", parentId: "routes/_home", path: "office/:id/:userID", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.office.$id.$userID-TXC7HO56.js", imports: ["/build/_shared/chunk-QGRJQUMK.js", "/build/_shared/chunk-GD4LFJXJ.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office.$id._index": { id: "routes/_home.office.$id._index", parentId: "routes/_home", path: "office/:id", index: !0, caseSensitive: void 0, module: "/build/routes/_home.office.$id._index-7EO3HI25.js", imports: ["/build/_shared/chunk-2L3TLXHT.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office._index": { id: "routes/_home.office._index", parentId: "routes/_home", path: "office", index: !0, caseSensitive: void 0, module: "/build/routes/_home.office._index-5IZTUH53.js", imports: void 0, hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office.add": { id: "routes/_home.office.add", parentId: "routes/_home", path: "office/add", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.office.add-YTGGOKG6.js", imports: void 0, hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.search": { id: "routes/_home.search", parentId: "routes/_home", path: "search", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.search-5XEW27VJ.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/changepass": { id: "routes/changepass", parentId: "root", path: "changepass", index: void 0, caseSensitive: void 0, module: "/build/routes/changepass-MHMCBOPW.js", imports: ["/build/_shared/chunk-2L3TLXHT.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/forgotpassword": { id: "routes/forgotpassword", parentId: "root", path: "forgotpassword", index: void 0, caseSensitive: void 0, module: "/build/routes/forgotpassword-N6CMP3FP.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/login": { id: "routes/login", parentId: "root", path: "login", index: void 0, caseSensitive: void 0, module: "/build/routes/login-4CLDAIFT.js", imports: ["/build/_shared/chunk-FPBTDSYD.js", "/build/_shared/chunk-NHPJXLCO.js", "/build/_shared/chunk-AF3DCVCM.js", "/build/_shared/chunk-2L3TLXHT.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/logout": { id: "routes/logout", parentId: "root", path: "logout", index: void 0, caseSensitive: void 0, module: "/build/routes/logout-YO44EPFE.js", imports: void 0, hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, cssBundleHref: void 0, hmr: void 0, url: "/build/manifest-5F56372F.js" };
   }
 });
 
@@ -203,10 +203,16 @@ __export(root_exports, {
 var import_css_bundle = __toESM(require_server());
 
 // app/styles/tailwind.css
-var tailwind_default = "/build/_assets/tailwind-H4SRLEPN.css";
+var tailwind_default = "/build/_assets/tailwind-THPLYEJB.css";
 
 // app/root.jsx
-var import_remix_utils2 = require("remix-utils"), import_react2 = require("@remix-run/react"), import_react3 = require("@remix-run/react");
+var import_remix_utils2 = require("remix-utils");
+
+// app/images/404.svg
+var __default = "/build/_assets/404-AOA5YYHF.svg";
+
+// app/root.jsx
+var import_react2 = require("@remix-run/react"), import_react3 = require("@remix-run/react");
 
 // app/util/Loading.jsx
 var import_flowbite_react = require("flowbite-react"), import_jsx_dev_runtime2 = require("react/jsx-dev-runtime");
@@ -254,65 +260,65 @@ function App() {
   let states = (0, import_remix_utils2.useGlobalTransitionStates)(), spinner = "";
   return (states.includes("submitting") || states.includes("loading")) && (spinner = /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(Spinner, { className: "absolute -translate-x-1/2 -translate-y-1/2 top-2/4 left-1/2" }, void 0, !1, {
     fileName: "app/root.jsx",
-    lineNumber: 32,
+    lineNumber: 34,
     columnNumber: 5
   }, this)), /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("html", { lang: "en", style: { overflow: "auto" }, children: [
     /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("head", { children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("meta", { charSet: "utf-8" }, void 0, !1, {
         fileName: "app/root.jsx",
-        lineNumber: 38,
+        lineNumber: 40,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("meta", { name: "viewport", content: "width=device-width,initial-scale=1" }, void 0, !1, {
         fileName: "app/root.jsx",
-        lineNumber: 39,
+        lineNumber: 41,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(import_react2.Meta, {}, void 0, !1, {
         fileName: "app/root.jsx",
-        lineNumber: 40,
+        lineNumber: 42,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(import_react2.Links, {}, void 0, !1, {
         fileName: "app/root.jsx",
-        lineNumber: 41,
+        lineNumber: 43,
         columnNumber: 9
       }, this)
     ] }, void 0, !0, {
       fileName: "app/root.jsx",
-      lineNumber: 37,
+      lineNumber: 39,
       columnNumber: 7
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("body", { className: "dark", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(import_react2.Outlet, { scrollBehavior: "smooth" }, void 0, !1, {
         fileName: "app/root.jsx",
-        lineNumber: 44,
+        lineNumber: 46,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(import_react2.ScrollRestoration, {}, void 0, !1, {
         fileName: "app/root.jsx",
-        lineNumber: 45,
+        lineNumber: 47,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(import_react2.Scripts, {}, void 0, !1, {
         fileName: "app/root.jsx",
-        lineNumber: 46,
+        lineNumber: 48,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(import_react2.LiveReload, {}, void 0, !1, {
         fileName: "app/root.jsx",
-        lineNumber: 47,
+        lineNumber: 49,
         columnNumber: 9
       }, this),
       spinner
     ] }, void 0, !0, {
       fileName: "app/root.jsx",
-      lineNumber: 43,
+      lineNumber: 45,
       columnNumber: 7
     }, this)
   ] }, void 0, !0, {
     fileName: "app/root.jsx",
-    lineNumber: 36,
+    lineNumber: 38,
     columnNumber: 5
   }, this);
 }
@@ -325,41 +331,149 @@ function ErrorBoundary() {
       error.statusText
     ] }, void 0, !0, {
       fileName: "app/root.jsx",
-      lineNumber: 62,
+      lineNumber: 64,
       columnNumber: 9
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("p", { children: error.data }, void 0, !1, {
       fileName: "app/root.jsx",
-      lineNumber: 65,
+      lineNumber: 67,
       columnNumber: 9
     }, this)
   ] }, void 0, !0, {
     fileName: "app/root.jsx",
-    lineNumber: 61,
+    lineNumber: 63,
     columnNumber: 7
-  }, this) : error instanceof Error ? /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "dark m-auto", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("h1", { className: "font-bold dark:text-red-600", children: "Error" }, void 0, !1, {
+  }, this) : error instanceof Error ? (
+    // <div className="dark m-auto">
+    //   <h1 className="font-bold dark:text-red-600">Error</h1>
+    //   <p>{error.message}</p>
+    //   <p onClick={backHandler}>Please back to the previous page</p>
+    // </div>
+    /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("html", { lang: "en", style: { overflow: "auto" }, children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("head", { children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("meta", { charSet: "utf-8" }, void 0, !1, {
+          fileName: "app/root.jsx",
+          lineNumber: 79,
+          columnNumber: 11
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("meta", { name: "viewport", content: "width=device-width,initial-scale=1" }, void 0, !1, {
+          fileName: "app/root.jsx",
+          lineNumber: 80,
+          columnNumber: 11
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(import_react2.Meta, {}, void 0, !1, {
+          fileName: "app/root.jsx",
+          lineNumber: 81,
+          columnNumber: 11
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(import_react2.Links, {}, void 0, !1, {
+          fileName: "app/root.jsx",
+          lineNumber: 82,
+          columnNumber: 11
+        }, this)
+      ] }, void 0, !0, {
+        fileName: "app/root.jsx",
+        lineNumber: 78,
+        columnNumber: 9
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("body", { className: "dark", children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("main", { className: "bg-gray-50 dark:bg-gray-900", children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "flex flex-col justify-center items-center px-6 mx-auto h-screen xl:px-0 dark:bg-gray-900", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "block md:max-w-lg", children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("img", { src: __default, alt: "astronaut image" }, void 0, !1, {
+          fileName: "app/root.jsx",
+          lineNumber: 88,
+          columnNumber: 17
+        }, this) }, void 0, !1, {
+          fileName: "app/root.jsx",
+          lineNumber: 87,
+          columnNumber: 15
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "text-center xl:max-w-4xl", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("h1", { className: "mb-3 text-2xl font-bold leading-tight text-gray-900 sm:text-4xl lg:text-5xl dark:text-white", children: "Page not found" }, void 0, !1, {
+            fileName: "app/root.jsx",
+            lineNumber: 91,
+            columnNumber: 17
+          }, this),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("p", { className: "mb-5 text-base font-normal text-gray-500 md:text-lg dark:text-gray-400", children: error.message }, void 0, !1, {
+            fileName: "app/root.jsx",
+            lineNumber: 94,
+            columnNumber: 17
+          }, this),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(
+            import_react2.Link,
+            {
+              to: "/",
+              className: "text-white bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center mr-3 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800",
+              children: [
+                /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(
+                  "svg",
+                  {
+                    className: "mr-2 -ml-1 w-5 h-5",
+                    fill: "currentColor",
+                    viewBox: "0 0 20 20",
+                    xmlns: "http://www.w3.org/2000/svg",
+                    children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(
+                      "path",
+                      {
+                        fillRule: "evenodd",
+                        d: "M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z",
+                        clipRule: "evenodd"
+                      },
+                      void 0,
+                      !1,
+                      {
+                        fileName: "app/root.jsx",
+                        lineNumber: 107,
+                        columnNumber: 21
+                      },
+                      this
+                    )
+                  },
+                  void 0,
+                  !1,
+                  {
+                    fileName: "app/root.jsx",
+                    lineNumber: 101,
+                    columnNumber: 19
+                  },
+                  this
+                ),
+                "Go back home"
+              ]
+            },
+            void 0,
+            !0,
+            {
+              fileName: "app/root.jsx",
+              lineNumber: 97,
+              columnNumber: 17
+            },
+            this
+          )
+        ] }, void 0, !0, {
+          fileName: "app/root.jsx",
+          lineNumber: 90,
+          columnNumber: 15
+        }, this)
+      ] }, void 0, !0, {
+        fileName: "app/root.jsx",
+        lineNumber: 86,
+        columnNumber: 13
+      }, this) }, void 0, !1, {
+        fileName: "app/root.jsx",
+        lineNumber: 85,
+        columnNumber: 11
+      }, this) }, void 0, !1, {
+        fileName: "app/root.jsx",
+        lineNumber: 84,
+        columnNumber: 9
+      }, this)
+    ] }, void 0, !0, {
       fileName: "app/root.jsx",
-      lineNumber: 71,
-      columnNumber: 9
-    }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("p", { children: error.message }, void 0, !1, {
-      fileName: "app/root.jsx",
-      lineNumber: 72,
-      columnNumber: 9
-    }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("p", { onClick: backHandler, children: "Please back to the previous page" }, void 0, !1, {
-      fileName: "app/root.jsx",
-      lineNumber: 73,
-      columnNumber: 9
+      lineNumber: 77,
+      columnNumber: 7
     }, this)
-  ] }, void 0, !0, {
+  ) : /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("h1", { children: "Unknown Error" }, void 0, !1, {
     fileName: "app/root.jsx",
-    lineNumber: 70,
-    columnNumber: 7
-  }, this) : /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("h1", { children: "Unknown Error" }, void 0, !1, {
-    fileName: "app/root.jsx",
-    lineNumber: 77,
+    lineNumber: 122,
     columnNumber: 12
   }, this);
 }
@@ -3524,10 +3638,10 @@ async function loader4({ request: request2 }) {
   let token = await requireUserSession(request2);
   if (!token)
     return redirect("/login");
-  let url = "https://registrytotal.herokuapp.com/api/office/" + (await getOwnInfo(request2)).workFor._id + "/outdatecar", dataPass_1 = {
+  let url = "https://registrytotal.herokuapp.com/api/office/own/outdatecar", dataPass_1 = {
     status: "soon",
     city: "",
-    info: "0"
+    info: "1"
   }, resData = await (await fetch(url, {
     method: "POST",
     headers: {
@@ -4599,10 +4713,10 @@ async function loader7({ request: request2 }) {
   let token = await requireUserSession(request2);
   if (!token)
     return redirect("/login");
-  let url = "https://registrytotal.herokuapp.com/api/office/" + (await getOwnInfo(request2)).workFor._id + "/outdatecar", dataPass_1 = {
+  let url = "https://registrytotal.herokuapp.com/api/office/own/outdatecar", dataPass_1 = {
     status: "expired",
     city: "",
-    info: "0"
+    info: "1"
   }, resData = await (await fetch(url, {
     method: "POST",
     headers: {
@@ -6710,6 +6824,7 @@ function ChartPanel() {
       xaxis: {
         categories: loaderdata.data.map((ld) => ld.month),
         labels: {
+          align: "center",
           style: {
             fontSize: "12px",
             colors: ["#FFFFFF"]
@@ -6760,7 +6875,7 @@ function ChartPanel() {
             loaderdata.year
           ] }, void 0, !0, {
             fileName: "app/components/Dashboard/ChartSection.jsx",
-            lineNumber: 76,
+            lineNumber: 77,
             columnNumber: 9
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)("div", { className: "flex items-center justify-end flex-1 text-base font-medium text-green-500 dark:text-green-400", children: [
@@ -6768,35 +6883,35 @@ function ChartPanel() {
             loaderdata.total
           ] }, void 0, !0, {
             fileName: "app/components/Dashboard/ChartSection.jsx",
-            lineNumber: 79,
+            lineNumber: 80,
             columnNumber: 9
           }, this)
         ] }, void 0, !0, {
           fileName: "app/components/Dashboard/ChartSection.jsx",
-          lineNumber: 75,
+          lineNumber: 76,
           columnNumber: 7
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)("div", { className: "main-chart", children: /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)(import_remix_utils4.ClientOnly, { fallback: /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)(Spinner, {}, void 0, !1, {
           fileName: "app/components/Dashboard/ChartSection.jsx",
-          lineNumber: 85,
+          lineNumber: 86,
           columnNumber: 31
         }, this), children: () => /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)(import_Chart.default, { data }, void 0, !1, {
           fileName: "app/components/Dashboard/ChartSection.jsx",
-          lineNumber: 86,
+          lineNumber: 87,
           columnNumber: 18
         }, this) }, void 0, !1, {
           fileName: "app/components/Dashboard/ChartSection.jsx",
-          lineNumber: 85,
+          lineNumber: 86,
           columnNumber: 9
         }, this) }, void 0, !1, {
           fileName: "app/components/Dashboard/ChartSection.jsx",
-          lineNumber: 84,
+          lineNumber: 85,
           columnNumber: 7
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)("div", { className: "flex items-center justify-between pt-3 mt-2 border-t border-gray-200 dark:border-gray-700 sm:pt-6", children: [
           /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)("div", { className: "inline-flex p-2" }, void 0, !1, {
             fileName: "app/components/Dashboard/ChartSection.jsx",
-            lineNumber: 90,
+            lineNumber: 91,
             columnNumber: 9
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)("div", { className: "flex-shrink-0 ", children: /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)(import_react25.Link, { className: "inline-flex items-center p-2 text-lg font-medium uppercase rounded-lg text-primary-700 sm:text-sm hover:bg-gray-100 dark:text-primary-500 dark:hover:bg-gray-700", children: [
@@ -6821,7 +6936,7 @@ function ChartPanel() {
                   !1,
                   {
                     fileName: "app/components/Dashboard/ChartSection.jsx",
-                    lineNumber: 101,
+                    lineNumber: 102,
                     columnNumber: 15
                   },
                   this
@@ -6831,23 +6946,23 @@ function ChartPanel() {
               !1,
               {
                 fileName: "app/components/Dashboard/ChartSection.jsx",
-                lineNumber: 94,
+                lineNumber: 95,
                 columnNumber: 13
               },
               this
             )
           ] }, void 0, !0, {
             fileName: "app/components/Dashboard/ChartSection.jsx",
-            lineNumber: 92,
+            lineNumber: 93,
             columnNumber: 11
           }, this) }, void 0, !1, {
             fileName: "app/components/Dashboard/ChartSection.jsx",
-            lineNumber: 91,
+            lineNumber: 92,
             columnNumber: 9
           }, this)
         ] }, void 0, !0, {
           fileName: "app/components/Dashboard/ChartSection.jsx",
-          lineNumber: 89,
+          lineNumber: 90,
           columnNumber: 7
         }, this)
       ]
@@ -6856,7 +6971,7 @@ function ChartPanel() {
     !0,
     {
       fileName: "app/components/Dashboard/ChartSection.jsx",
-      lineNumber: 71,
+      lineNumber: 72,
       columnNumber: 5
     },
     this
@@ -7309,13 +7424,13 @@ async function loader12({ request: request2 }) {
   let token = await requireUserSession(request2);
   if (!token)
     return (0, import_node8.redirect)("/login");
-  let info = await getOwnInfo(request2), url = "https://registrytotal.herokuapp.com/api/office/" + info.workFor._id + "/car", dataPass = {
+  let url = "https://registrytotal.herokuapp.com/api/office/own/car", dataPass = {
     time: "2023",
     city: ""
-  }, url_2 = "https://registrytotal.herokuapp.com/api/office/" + info.workFor._id + "/outdatecar", dataPass_1 = {
+  }, url_2 = "https://registrytotal.herokuapp.com/api/office/own/outdatecar", dataPass_1 = {
     status: "soon",
     city: "",
-    info: "1"
+    info: "0"
   }, response = await fetch(url, {
     method: "POST",
     headers: {
@@ -7339,9 +7454,7 @@ async function loader12({ request: request2 }) {
       Authorization: `Bearer ${token}`
     },
     body: JSON.stringify(dataPass_1)
-  }), resData = await response.json();
-  console.log(resData);
-  let resData2 = await response_2.json(), resData3 = await response_3.json();
+  }), resData = await response.json(), resData2 = await response_2.json(), resData3 = await response_3.json();
   return (0, import_node8.json)({
     NewData: resData,
     recentList: resData2,

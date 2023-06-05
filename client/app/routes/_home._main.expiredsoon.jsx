@@ -7,15 +7,12 @@ export default function ExpiredSoon() {
 export async function loader({ request }) {
   const token = await requireUserSession(request);
   if (!token) return redirect("/login");
-  const info = await getOwnInfo(request);
-  const url =
-    "https://registrytotal.herokuapp.com/api/office/" +
-    info.workFor._id +
-    "/outdatecar";
+  // const info = await getOwnInfo(request);
+  const url = "https://registrytotal.herokuapp.com/api/office/own/outdatecar";
   const dataPass_1 = {
     status: "soon",
     city: "",
-    info: "0",
+    info: "1",
   };
   const response = await fetch(url, {
     method: "POST",
