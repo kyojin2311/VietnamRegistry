@@ -16,16 +16,32 @@ export default function DashBoardFooter() {
               Expired soon Registration:
             </h3>
           </Tooltip>
-          <span className="text-2xl font-bold leading-none text-gray-900 sm:text-3xl dark: text-white">
+          <span className="text-2xl font-bold leading-none text-gray-900 sm:text-3xl dark: text-green-500">
             {expired.data.soon}
           </span>
         </div>
-        <div className="w-full" style={{ minHeight: "155px" }}>
+        <div className="w-full dark:text-right">
+          {/* style={{ minHeight: "120px" }} */}
           <Link
+            prefetch="render"
             to="expiredsoon"
-            className="font-bold text-xl dark:text-blue-500  text-base"
+            className="inline-flex items-center p-2 text-lg font-medium uppercase rounded-lg text-primary-700 sm:text-sm hover:bg-gray-100 dark:text-primary-500 dark:hover:bg-gray-700"
           >
-            View Full List Of Cars:
+            View Full List Of Cars
+            <svg
+              className="w-4 h-4 ml-1"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="https://www.w3.org/2000/svg"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M9 5l7 7-7 7"
+              ></path>
+            </svg>
           </Link>
         </div>
       </div>
@@ -42,11 +58,33 @@ export default function DashBoardFooter() {
             </h3>
           </Tooltip>
 
-          <span className="text-2xl font-bold leading-none text-gray-900 sm:text-3xl dark: text-white">
+          <span className="text-2xl font-bold leading-none text-gray-900 sm:text-3xl dark: text-green-500">
             {expired.data.expired}
           </span>
         </div>
-        <div className="w-full" style={{ minHeight: "155px" }}></div>
+        <div className="w-full">
+          <Link
+            prefetch="render"
+            // to="expiredsoon"
+            className="inline-flex items-center p-2 text-lg font-medium uppercase rounded-lg text-primary-700 sm:text-sm hover:bg-gray-100 dark:text-primary-500 dark:hover:bg-gray-700"
+          >
+            View Full List Of Cars
+            <svg
+              className="w-4 h-4 ml-1"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="https://www.w3.org/2000/svg"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M9 5l7 7-7 7"
+              ></path>
+            </svg>
+          </Link>
+        </div>
       </div>
       <div className="p-4 bg-white border border-gray-200 rounded-lg shadow-sm sm:flex dark:border-gray-700 sm:p-6 dark:bg-gray-800">
         <div className="w-full">

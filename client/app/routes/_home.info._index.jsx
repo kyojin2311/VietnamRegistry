@@ -1,14 +1,10 @@
 import { useOutletContext } from "@remix-run/react";
-import OwnInfo from "../components/OwnInfo";
+import OwnInfo from "../components/About/OwnInfo";
 
 export default function Infopage() {
-  return (
-    <OwnInfo />
-  );
+  return <OwnInfo />;
 }
 
-export function meta({matches}) {
-  return [
-    {title: `${matches[1].data.data.name}`}
-  ]
+export function meta({ matches }) {
+  return [{ title: `${matches[1].data.data.name}` }];
 }

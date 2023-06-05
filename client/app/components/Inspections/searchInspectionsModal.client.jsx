@@ -12,7 +12,7 @@ export default function SearchModal(props) {
   return (
     <Modal show={true}>
       <Modal.Header onClick={clickHandler}>
-        <div>Searching for Car</div>
+        <div>Searching Inspections by RegisNum</div>
         {data ? (
           <Alert color="failure">
             <FontAwesomeIcon
@@ -23,7 +23,7 @@ export default function SearchModal(props) {
               }}
             />
             <span>
-              <span className="font-medium">Alert!</span> {data.message}
+              <span className="font-medium"></span> {data.message}
             </span>
           </Alert>
         ) : (

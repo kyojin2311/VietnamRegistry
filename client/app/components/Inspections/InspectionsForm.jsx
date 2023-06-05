@@ -1,5 +1,5 @@
 import { useLoaderData } from "@remix-run/react";
-import { formatDate } from "../util/formatDate";
+import { formatDate } from "../../util/formatDate";
 export default function InspectionsForm({ data }) {
   return (
     <section className="text-gray-600 body-font dark:text-white m-auto dark:bg-slate-800">

@@ -1,6 +1,8 @@
 import { Form, useActionData } from "@remix-run/react";
 export default function AddForm(props) {
-  const option = props.data.data.map((dt) => <option key={dt._id}>{dt.name}</option>);
+  const option = props.data.data.map((dt) => (
+    <option key={dt._id}>{dt.name}</option>
+  ));
   const error = useActionData();
   return (
     <>
@@ -36,7 +38,7 @@ export default function AddForm(props) {
               Social Security Number
             </label>
             <input
-              type="number"
+              type="text"
               name="SSN"
               id="SSN"
               className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
@@ -108,7 +110,7 @@ export default function AddForm(props) {
               Phone
             </label>
             <input
-              type="number"
+              type="text"
               id="phone"
               name="phone"
               className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"

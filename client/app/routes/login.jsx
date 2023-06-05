@@ -1,4 +1,4 @@
-import Login from "../components/Login";
+import Login from "../components/UI/Login";
 import { login } from "../services/APIAction.server";
 import { requireUserSession } from "../services/auth.server";
 import { redirect, json } from "@remix-run/node";

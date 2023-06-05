@@ -1,5 +1,5 @@
 import { useLoaderData, useMatches } from "@remix-run/react";
-import InspectionsAddForm from "../components/InspectionAdd";
+import InspectionsAddForm from "../components/Inspections/InspectionAdd";
 import { requireUserSession } from "../services/auth.server";
 import { redirect, json } from "@remix-run/node";
 

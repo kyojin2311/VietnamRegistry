@@ -1,7 +1,7 @@
 import { json, redirect } from "@remix-run/node";
 import { requireUserSession } from "../services/auth.server";
 import { useLoaderData } from "@remix-run/react";
-import ListOfStaff from "../components/UserTable";
+import ListOfStaff from "../components/Office/UserTable";
 export default function OfficeDetailPage() {
   const data = useLoaderData();
 

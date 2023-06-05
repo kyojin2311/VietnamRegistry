@@ -1,4 +1,4 @@
-import CarPage from "../components/CarPage";
+import CarPage from "../components/CarPage/CarPage";
 import { requireUserSession } from "../services/auth.server";
 export default function CarInfoPage() {
   return <CarPage />;
@@ -23,6 +23,5 @@ export async function loader({ request, params }) {
     }
   );
   const resData = await response.json();
-  // console.log(resData);
   return resData;
 }
