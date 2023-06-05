@@ -5,7 +5,6 @@ import { findCarbyNumberPlate } from "../services/APIAction.server";
 import CarPageDefault from "../components/CarPage/CarPageDefault";
 import { ClientOnly } from "remix-utils";
 import Spinner from "../util/Loading";
-import { Outlet } from "@remix-run/react";
 export default function CarIndex() {
   return (
     <>

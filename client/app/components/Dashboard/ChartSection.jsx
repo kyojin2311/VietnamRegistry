@@ -26,8 +26,9 @@ export default function ChartPanel() {
       },
 
       xaxis: {
-        categories: ["Jan", "Feb", "Mar", "Apr", "May"],
+        categories: loaderdata.data.map((ld) => ld.month),
         labels: {
+          align: "center",
           style: {
             fontSize: "12px",
             colors: ["#FFFFFF"],
