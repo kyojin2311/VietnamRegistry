@@ -2,16 +2,29 @@ import { Table } from "flowbite-react";
 import { formatDate } from "../../util/formatDate";
 import { useLoaderData, Link, useLocation } from "@remix-run/react";
 import PageModal from "../../util/PageModal";
-import { useEffect, useState } from "react";
+import Spinner from "../../util/Loading";
 
+import { useEffect, useState } from "react";
+import { ClientOnly } from "remix-utils";
 export default function ExpiredTable() {
   const data = useLoaderData().data;
   const inspection = data.sort(function (a, b) {
     return new Date(a.registDate) - new Date(b.registDate);
   });
-  const [statte, setStatte] = useState("0");
-  const location = useLocation();
-  console.log(location);
+  const [filterList, setFilterList] = useState(inspection);
+  const [searchInput, setSearchInput] = useState("");
+  const searchHandler = (e) => {
+    if (e.key === "Enter") {
+      setSearchInput(e.target.value);
+    }
+  };
+  useEffect(() => {
+    var filteredList = inspection.filter(
+      (dt) => dt.numberPlate.search(searchInput) === 0
+    );
+    setFilterList(filteredList);
+  }, [searchInput]);
+
   return (
     <PageModal title="This is the list of car have already expired">
       <div className="pb-4 bg-white dark:bg-gray-700">
@@ -35,6 +48,7 @@ export default function ExpiredTable() {
             </svg>
           </div>
           <input
+            onKeyDown={searchHandler}
             type="text"
             id="table-search"
             className="block p-2 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg w-80 bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
@@ -42,40 +56,44 @@ export default function ExpiredTable() {
           />
         </div>
       </div>
-      <Table hoverable className="overflow-y-auto">
-        <Table.Head>
-          <Table.HeadCell>NumberPlate</Table.HeadCell>
-          <Table.HeadCell>RegistDate</Table.HeadCell>
-          <Table.HeadCell>ExpiredDate</Table.HeadCell>
-          <Table.HeadCell>City</Table.HeadCell>
-          <Table.HeadCell>
-            <span className="sr-only">View</span>
-          </Table.HeadCell>
-        </Table.Head>
-        <Table.Body className="divide-y">
-          {inspection.map((dt) => (
-            <Table.Row
-              key={dt.numberPlate}
-              className="bg-white dark:border-gray-700 dark:bg-gray-800"
-            >
-              <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white">
-                {dt.numberPlate}
-              </Table.Cell>
-              <Table.Cell>{formatDate(dt.registDate)}</Table.Cell>
-              <Table.Cell>{formatDate(dt.expiredDate)}</Table.Cell>
-              <Table.Cell>{dt.city}</Table.Cell>
-              <Table.Cell>
-                <Link
-                  className="font-medium text-cyan-600 hover:underline dark:text-cyan-500"
-                  to={`/car/${dt.numberPlate}`}
+      <ClientOnly fallback={<Spinner />}>
+        {() => (
+          <Table hoverable className="overflow-y-auto">
+            <Table.Head>
+              <Table.HeadCell>NumberPlate</Table.HeadCell>
+              <Table.HeadCell>RegistDate</Table.HeadCell>
+              <Table.HeadCell>ExpiredDate</Table.HeadCell>
+              <Table.HeadCell>City</Table.HeadCell>
+              <Table.HeadCell>
+                <span className="sr-only">View</span>
+              </Table.HeadCell>
+            </Table.Head>
+            <Table.Body className="divide-y">
+              {filterList.map((dt) => (
+                <Table.Row
+                  key={dt.numberPlate}
+                  className="bg-white dark:border-gray-700 dark:bg-gray-800"
                 >
-                  <p>View</p>
-                </Link>
-              </Table.Cell>
-            </Table.Row>
-          ))}
-        </Table.Body>
-      </Table>
+                  <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white">
+                    {dt.numberPlate}
+                  </Table.Cell>
+                  <Table.Cell>{formatDate(dt.registDate)}</Table.Cell>
+                  <Table.Cell>{formatDate(dt.expiredDate)}</Table.Cell>
+                  <Table.Cell>{dt.city}</Table.Cell>
+                  <Table.Cell>
+                    <Link
+                      className="font-medium text-cyan-600 hover:underline dark:text-cyan-500"
+                      to={`/car/${dt.numberPlate}`}
+                    >
+                      <p>View</p>
+                    </Link>
+                  </Table.Cell>
+                </Table.Row>
+              ))}
+            </Table.Body>
+          </Table>
+        )}
+      </ClientOnly>
     </PageModal>
   );
 }
