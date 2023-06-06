@@ -34,7 +34,7 @@ __export(assets_manifest_exports, {
 });
 var assets_manifest_default, init_assets_manifest = __esm({
   "server-assets-manifest:@remix-run/dev/assets-manifest"() {
-    assets_manifest_default = { version: "caafbff9", entry: { module: "/build/entry.client-G2IT6O4Z.js", imports: ["/build/_shared/chunk-52JS6F46.js", "/build/_shared/chunk-VBO3XXCF.js", "/build/_shared/chunk-RQ7GWW3B.js", "/build/_shared/chunk-DG4HR4CT.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-KJXZ6653.js", imports: ["/build/_shared/chunk-5YPH7XAC.js", "/build/_shared/chunk-NML7UF65.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !0 }, "routes/_home": { id: "routes/_home", parentId: "root", path: void 0, index: void 0, caseSensitive: void 0, module: "/build/routes/_home-SUSQNH6F.js", imports: ["/build/_shared/chunk-FPBTDSYD.js", "/build/_shared/chunk-NHPJXLCO.js", "/build/_shared/chunk-AF3DCVCM.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.Inspections.$id": { id: "routes/_home.Inspections.$id", parentId: "routes/_home", path: "Inspections/:id", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.Inspections.$id-VJLFLLPP.js", imports: ["/build/_shared/chunk-GD4LFJXJ.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.Inspections._index": { id: "routes/_home.Inspections._index", parentId: "routes/_home", path: "Inspections", index: !0, caseSensitive: void 0, module: "/build/routes/_home.Inspections._index-KFNTO3LR.js", imports: ["/build/_shared/chunk-NML7UF65.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home._main": { id: "routes/_home._main", parentId: "routes/_home", path: void 0, index: void 0, caseSensitive: void 0, module: "/build/routes/_home._main-GA5YOB2P.js", imports: ["/build/_shared/chunk-L2PACDDD.js", "/build/_shared/chunk-5YPH7XAC.js", "/build/_shared/chunk-NML7UF65.js", "/build/_shared/chunk-GD4LFJXJ.js", "/build/_shared/chunk-2L3TLXHT.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home._main._index": { id: "routes/_home._main._index", parentId: "routes/_home._main", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_home._main._index-CFZFAQKC.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home._main.expired": { id: "routes/_home._main.expired", parentId: "routes/_home._main", path: "expired", index: void 0, caseSensitive: void 0, module: "/build/routes/_home._main.expired-5APMTFWV.js", imports: ["/build/_shared/chunk-AWYGVVX5.js", "/build/_shared/chunk-AF3DCVCM.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home._main.expiredsoon": { id: "routes/_home._main.expiredsoon", parentId: "routes/_home._main", path: "expiredsoon", index: void 0, caseSensitive: void 0, module: "/build/routes/_home._main.expiredsoon-ADTO5CGL.js", imports: ["/build/_shared/chunk-AWYGVVX5.js", "/build/_shared/chunk-AF3DCVCM.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.addStaff": { id: "routes/_home.addStaff", parentId: "routes/_home", path: "addStaff", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.addStaff-ZWEI3XGQ.js", imports: void 0, hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.car.$numberPlate._index": { id: "routes/_home.car.$numberPlate._index", parentId: "routes/_home", path: "car/:numberPlate", index: !0, caseSensitive: void 0, module: "/build/routes/_home.car.$numberPlate._index-GMTRM67J.js", imports: ["/build/_shared/chunk-GD4LFJXJ.js", "/build/_shared/chunk-2L3TLXHT.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.car.$numberPlate.addinspection": { id: "routes/_home.car.$numberPlate.addinspection", parentId: "routes/_home", path: "car/:numberPlate/addinspection", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.car.$numberPlate.addinspection-FEGQXT4L.js", imports: ["/build/_shared/chunk-GD4LFJXJ.js", "/build/_shared/chunk-2L3TLXHT.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.car._index": { id: "routes/_home.car._index", parentId: "routes/_home", path: "car", index: !0, caseSensitive: void 0, module: "/build/routes/_home.car._index-KIAVKG77.js", imports: ["/build/_shared/chunk-L2PACDDD.js", "/build/_shared/chunk-5YPH7XAC.js", "/build/_shared/chunk-NML7UF65.js", "/build/_shared/chunk-2L3TLXHT.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.info._index": { id: "routes/_home.info._index", parentId: "routes/_home", path: "info", index: !0, caseSensitive: void 0, module: "/build/routes/_home.info._index-LD5L36P6.js", imports: ["/build/_shared/chunk-QGRJQUMK.js", "/build/_shared/chunk-GD4LFJXJ.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.info.edit": { id: "routes/_home.info.edit", parentId: "routes/_home", path: "info/edit", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.info.edit-HQ5KT2YE.js", imports: void 0, hasAction: !0, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office.$id.$userID": { id: "routes/_home.office.$id.$userID", parentId: "routes/_home", path: "office/:id/:userID", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.office.$id.$userID-TXC7HO56.js", imports: ["/build/_shared/chunk-QGRJQUMK.js", "/build/_shared/chunk-GD4LFJXJ.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office.$id._index": { id: "routes/_home.office.$id._index", parentId: "routes/_home", path: "office/:id", index: !0, caseSensitive: void 0, module: "/build/routes/_home.office.$id._index-7EO3HI25.js", imports: ["/build/_shared/chunk-2L3TLXHT.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office._index": { id: "routes/_home.office._index", parentId: "routes/_home", path: "office", index: !0, caseSensitive: void 0, module: "/build/routes/_home.office._index-5IZTUH53.js", imports: void 0, hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office.add": { id: "routes/_home.office.add", parentId: "routes/_home", path: "office/add", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.office.add-YTGGOKG6.js", imports: void 0, hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.search": { id: "routes/_home.search", parentId: "routes/_home", path: "search", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.search-5XEW27VJ.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/changepass": { id: "routes/changepass", parentId: "root", path: "changepass", index: void 0, caseSensitive: void 0, module: "/build/routes/changepass-MHMCBOPW.js", imports: ["/build/_shared/chunk-2L3TLXHT.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/forgot-pass": { id: "routes/forgot-pass", parentId: "root", path: "forgot-pass", index: void 0, caseSensitive: void 0, module: "/build/routes/forgot-pass-FFCJNGTU.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/forgotpassword": { id: "routes/forgotpassword", parentId: "root", path: "forgotpassword", index: void 0, caseSensitive: void 0, module: "/build/routes/forgotpassword-N6CMP3FP.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/login": { id: "routes/login", parentId: "root", path: "login", index: void 0, caseSensitive: void 0, module: "/build/routes/login-YKYDESIB.js", imports: ["/build/_shared/chunk-FPBTDSYD.js", "/build/_shared/chunk-NHPJXLCO.js", "/build/_shared/chunk-AF3DCVCM.js", "/build/_shared/chunk-2L3TLXHT.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/logout": { id: "routes/logout", parentId: "root", path: "logout", index: void 0, caseSensitive: void 0, module: "/build/routes/logout-YO44EPFE.js", imports: void 0, hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, cssBundleHref: void 0, hmr: void 0, url: "/build/manifest-CAAFBFF9.js" };
+    assets_manifest_default = { version: "884e5033", entry: { module: "/build/entry.client-QGNJVDUE.js", imports: ["/build/_shared/chunk-52JS6F46.js", "/build/_shared/chunk-XG3UYHPB.js", "/build/_shared/chunk-RQ7GWW3B.js", "/build/_shared/chunk-DG4HR4CT.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-RDF2JA64.js", imports: ["/build/_shared/chunk-5YPH7XAC.js", "/build/_shared/chunk-NML7UF65.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !0 }, "routes/_home": { id: "routes/_home", parentId: "root", path: void 0, index: void 0, caseSensitive: void 0, module: "/build/routes/_home-SJWDUFEJ.js", imports: ["/build/_shared/chunk-KPKQHPMA.js", "/build/_shared/chunk-FPBTDSYD.js", "/build/_shared/chunk-NHPJXLCO.js", "/build/_shared/chunk-AF3DCVCM.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.Inspections.$id": { id: "routes/_home.Inspections.$id", parentId: "routes/_home", path: "Inspections/:id", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.Inspections.$id-VEPLBFL3.js", imports: ["/build/_shared/chunk-GD4LFJXJ.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.Inspections._index": { id: "routes/_home.Inspections._index", parentId: "routes/_home", path: "Inspections", index: !0, caseSensitive: void 0, module: "/build/routes/_home.Inspections._index-VJ5Y736A.js", imports: ["/build/_shared/chunk-NML7UF65.js"], hasAction: !0, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home._main": { id: "routes/_home._main", parentId: "routes/_home", path: void 0, index: void 0, caseSensitive: void 0, module: "/build/routes/_home._main-NAKFJL4L.js", imports: ["/build/_shared/chunk-L2PACDDD.js", "/build/_shared/chunk-5YPH7XAC.js", "/build/_shared/chunk-NML7UF65.js", "/build/_shared/chunk-GD4LFJXJ.js", "/build/_shared/chunk-2L3TLXHT.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home._main._index": { id: "routes/_home._main._index", parentId: "routes/_home._main", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_home._main._index-CFZFAQKC.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home._main.expired": { id: "routes/_home._main.expired", parentId: "routes/_home._main", path: "expired", index: void 0, caseSensitive: void 0, module: "/build/routes/_home._main.expired-DRVAUXG7.js", imports: ["/build/_shared/chunk-RVLYRW4V.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home._main.expiredsoon": { id: "routes/_home._main.expiredsoon", parentId: "routes/_home._main", path: "expiredsoon", index: void 0, caseSensitive: void 0, module: "/build/routes/_home._main.expiredsoon-KDTDSTAW.js", imports: ["/build/_shared/chunk-RVLYRW4V.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.addStaff": { id: "routes/_home.addStaff", parentId: "routes/_home", path: "addStaff", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.addStaff-PCBL76M4.js", imports: void 0, hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.car.$numberPlate._index": { id: "routes/_home.car.$numberPlate._index", parentId: "routes/_home", path: "car/:numberPlate", index: !0, caseSensitive: void 0, module: "/build/routes/_home.car.$numberPlate._index-7GVTTQB3.js", imports: ["/build/_shared/chunk-GD4LFJXJ.js", "/build/_shared/chunk-2L3TLXHT.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.car.$numberPlate.addinspection": { id: "routes/_home.car.$numberPlate.addinspection", parentId: "routes/_home", path: "car/:numberPlate/addinspection", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.car.$numberPlate.addinspection-WUOHLPLR.js", imports: ["/build/_shared/chunk-GD4LFJXJ.js", "/build/_shared/chunk-2L3TLXHT.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.car._index": { id: "routes/_home.car._index", parentId: "routes/_home", path: "car", index: !0, caseSensitive: void 0, module: "/build/routes/_home.car._index-KZATQBZY.js", imports: ["/build/_shared/chunk-L2PACDDD.js", "/build/_shared/chunk-5YPH7XAC.js", "/build/_shared/chunk-NML7UF65.js", "/build/_shared/chunk-2L3TLXHT.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.info._index": { id: "routes/_home.info._index", parentId: "routes/_home", path: "info", index: !0, caseSensitive: void 0, module: "/build/routes/_home.info._index-XKC2ZC2P.js", imports: ["/build/_shared/chunk-QGRJQUMK.js", "/build/_shared/chunk-GD4LFJXJ.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.info.edit": { id: "routes/_home.info.edit", parentId: "routes/_home", path: "info/edit", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.info.edit-PILC2SIY.js", imports: void 0, hasAction: !0, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office.$id.$userID": { id: "routes/_home.office.$id.$userID", parentId: "routes/_home", path: "office/:id/:userID", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.office.$id.$userID-3546NNA2.js", imports: ["/build/_shared/chunk-QGRJQUMK.js", "/build/_shared/chunk-GD4LFJXJ.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office.$id._index": { id: "routes/_home.office.$id._index", parentId: "routes/_home", path: "office/:id", index: !0, caseSensitive: void 0, module: "/build/routes/_home.office.$id._index-4LJQVAY4.js", imports: ["/build/_shared/chunk-2L3TLXHT.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office._index": { id: "routes/_home.office._index", parentId: "routes/_home", path: "office", index: !0, caseSensitive: void 0, module: "/build/routes/_home.office._index-3YJOOXUH.js", imports: void 0, hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office.add": { id: "routes/_home.office.add", parentId: "routes/_home", path: "office/add", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.office.add-WL2WKWWI.js", imports: void 0, hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.search": { id: "routes/_home.search", parentId: "routes/_home", path: "search", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.search-5XEW27VJ.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/changepass": { id: "routes/changepass", parentId: "root", path: "changepass", index: void 0, caseSensitive: void 0, module: "/build/routes/changepass-KPNYFUXL.js", imports: ["/build/_shared/chunk-2L3TLXHT.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/forgot-pass": { id: "routes/forgot-pass", parentId: "root", path: "forgot-pass", index: void 0, caseSensitive: void 0, module: "/build/routes/forgot-pass-QFQWTNQF.js", imports: ["/build/_shared/chunk-KPKQHPMA.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/forgotpassword": { id: "routes/forgotpassword", parentId: "root", path: "forgotpassword", index: void 0, caseSensitive: void 0, module: "/build/routes/forgotpassword-N6CMP3FP.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/login": { id: "routes/login", parentId: "root", path: "login", index: void 0, caseSensitive: void 0, module: "/build/routes/login-IU5VWJPP.js", imports: ["/build/_shared/chunk-KPKQHPMA.js", "/build/_shared/chunk-FPBTDSYD.js", "/build/_shared/chunk-NHPJXLCO.js", "/build/_shared/chunk-AF3DCVCM.js", "/build/_shared/chunk-2L3TLXHT.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/logout": { id: "routes/logout", parentId: "root", path: "logout", index: void 0, caseSensitive: void 0, module: "/build/routes/logout-YO44EPFE.js", imports: void 0, hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, cssBundleHref: void 0, hmr: void 0, url: "/build/manifest-884E5033.js" };
   }
 });
 
@@ -97,7 +97,7 @@ var entry_server_exports = {};
 __export(entry_server_exports, {
   default: () => handleRequest
 });
-var import_node_stream = require("node:stream"), import_node = require("@remix-run/node"), import_react = require("@remix-run/react"), import_isbot = __toESM(require("isbot")), import_server = require("react-dom/server"), import_remix_utils = require("remix-utils"), import_jsx_dev_runtime = require("react/jsx-dev-runtime"), ABORT_DELAY = 5e3;
+var import_node_stream = require("node:stream"), import_node = require("@remix-run/node"), import_react = require("@remix-run/react"), import_isbot = __toESM(require("isbot")), import_server = require("react-dom/server"), import_jsx_dev_runtime = require("react/jsx-dev-runtime"), ABORT_DELAY = 5e3;
 function handleRequest(request2, responseStatusCode, responseHeaders, remixContext) {
   return (0, import_isbot.default)(request2.headers.get("user-agent")) ? handleBotRequest(
     request2,
@@ -125,7 +125,7 @@ function handleBotRequest(request2, responseStatusCode, responseHeaders, remixCo
         !1,
         {
           fileName: "app/entry.server.jsx",
-          lineNumber: 46,
+          lineNumber: 45,
           columnNumber: 7
         },
         this
@@ -165,7 +165,7 @@ function handleBrowserRequest(request2, responseStatusCode, responseHeaders, rem
         !1,
         {
           fileName: "app/entry.server.jsx",
-          lineNumber: 90,
+          lineNumber: 88,
           columnNumber: 7
         },
         this
@@ -203,10 +203,10 @@ __export(root_exports, {
 var import_css_bundle = __toESM(require_server());
 
 // app/styles/tailwind.css
-var tailwind_default = "/build/_assets/tailwind-PWIICWB5.css";
+var tailwind_default = "/build/_assets/tailwind-TBJVFEBG.css";
 
 // app/root.jsx
-var import_remix_utils2 = require("remix-utils");
+var import_remix_utils = require("remix-utils");
 
 // app/images/404.svg
 var __default = "/build/_assets/404-AOA5YYHF.svg";
@@ -257,7 +257,7 @@ function meta() {
   return [{ title: "Vietnam Registry" }];
 }
 function App() {
-  let states = (0, import_remix_utils2.useGlobalTransitionStates)(), spinner = "";
+  let states = (0, import_remix_utils.useGlobalTransitionStates)(), spinner = "";
   return (states.includes("submitting") || states.includes("loading")) && (spinner = /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(Spinner, { className: "absolute -translate-x-1/2 -translate-y-1/2 top-2/4 left-1/2" }, void 0, !1, {
     fileName: "app/root.jsx",
     lineNumber: 34,
@@ -3017,15 +3017,199 @@ async function loader2({ request: request2, params }) {
 // app/routes/_home.Inspections._index.jsx
 var home_Inspections_index_exports = {};
 __export(home_Inspections_index_exports, {
+  action: () => action2,
   default: () => InspectionSearchPage
 });
-var import_searchInspectionsModal = __toESM(require_searchInspectionsModal()), import_jsx_dev_runtime8 = require("react/jsx-dev-runtime");
+var import_searchInspectionsModal = __toESM(require_searchInspectionsModal());
+
+// app/services/APIAction.server.js
+var import_node5 = require("@remix-run/node");
+async function login(email, password) {
+  let response = await fetch(
+    "https://registrytotal.herokuapp.com/api/staff/login",
+    {
+      method: "POST",
+      credentials: "include",
+      headers: { "content-type": "application/json" },
+      body: JSON.stringify({ email, password })
+    }
+  );
+  if (response.ok === !1)
+    throw new Error("Invalid Credentials, please try again");
+  {
+    let user = await response.json();
+    return createUserSession(user.session, "/");
+  }
+}
+async function getAllOffice(request2) {
+  let token = await requireUserSession(request2);
+  if (!token)
+    return (0, import_node5.redirect)("/login");
+  let resData = await (await fetch("https://registrytotal.herokuapp.com/api/office", {
+    method: "GET",
+    headers: {
+      Authorization: `Bearer ${token}`,
+      "content-type": "application/json"
+    }
+  })).json();
+  if (resData === "NOT FOUND")
+    throw new Error("You must be admin to access this page");
+  return resData;
+}
+async function addStaff(request2, data) {
+  let token = await requireUserSession(request2);
+  if (!token)
+    return (0, import_node5.redirect)("/login");
+  let resData = await (await fetch(
+    "https://registrytotal.herokuapp.com/api/staff/addStaff",
+    {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Authorization: `Bearer ${token}`
+      },
+      body: JSON.stringify(data)
+    }
+  )).json();
+  return resData !== "SUCCEEDED" ? (0, import_node5.json)({ message: resData }) : (0, import_node5.redirect)("/main");
+}
+async function getInspections(params, request2) {
+  let token = await requireUserSession(request2);
+  if (!token)
+    return (0, import_node5.redirect)("/login");
+  let url = "https://registrytotal.herokuapp.com/api/inspection/" + params.id;
+  return await (await fetch(url, {
+    method: "GET",
+    headers: {
+      "content-type": "application/json",
+      Authorization: `Bearer ${token}`
+    }
+  })).json();
+}
+async function findInspectionsById(request2, id) {
+  let token = await requireUserSession(request2);
+  if (!token)
+    return (0, import_node5.redirect)("/login");
+  let url = "https://registrytotal.herokuapp.com/api/inspection/" + id, resData = await (await fetch(url, {
+    method: "GET",
+    headers: {
+      "content-type": "application/json",
+      Authorization: `Bearer ${token}`
+    }
+  })).json();
+  if (console.log(resData), resData === null)
+    throw new Error("Cannot find this Registration Number");
+  return (0, import_node5.redirect)(`/Inspections/${id}`);
+}
+async function getOwnInfo(request2) {
+  let response = await requireUserSession(request2);
+  return response ? await (await fetch(
+    "https://registrytotal.herokuapp.com/api/staff/own",
+    {
+      method: "GET",
+      headers: {
+        Authorization: `Bearer ${response}`,
+        "content-type": "application/json"
+      }
+    }
+  )).json() : (0, import_node5.redirect)("/login");
+}
+async function EditInfo(request2, data) {
+  let token = await requireUserSession(request2);
+  return token ? await (await fetch(
+    "https://registrytotal.herokuapp.com/api/staff/change",
+    {
+      method: "PUT",
+      headers: {
+        "content-type": "application/json",
+        Authorization: `Bearer ${token}`
+      },
+      body: JSON.stringify(data)
+    }
+  )).json() : (0, import_node5.redirect)("/login");
+}
+async function getStaffbyId(request2, staffID) {
+  let token = await requireUserSession(request2);
+  if (!token)
+    return (0, import_node5.redirect)("/login");
+  let resData = await (await fetch(
+    "https://registrytotal.herokuapp.com/api/staff/" + staffID,
+    {
+      method: "GET",
+      headers: {
+        "content-type": "application/json",
+        Authorization: `Bearer ${token}`
+      }
+    }
+  )).json();
+  if (resData === "NOT FOUND")
+    throw new Error("You must be admin to access this page");
+  return resData;
+}
+async function addOffice(request2, data) {
+  let token = await requireUserSession(request2);
+  if (!token)
+    return (0, import_node5.redirect)("/login");
+  let resData = await (await fetch(
+    "https://registrytotal.herokuapp.com/api/office/add",
+    {
+      method: "POST",
+      headers: {
+        "content-type": "application/json",
+        Authorization: `Bearer ${token}`
+      },
+      body: JSON.stringify(data)
+    }
+  )).json();
+  if (resData === "NOT FOUND")
+    throw new Error("You must be admin to access this");
+  if (resData === "SERVER UNAVAILABLE")
+    throw new Error("Something went wrong with the server, please try again");
+  return (0, import_node5.redirect)("/office");
+}
+async function adminCheck(request2) {
+  if ((await getOwnInfo(request2)).isAdmin === 0)
+    throw new Error("You must be ad administrator to access this");
+  return null;
+}
+async function findCarbyNumberPlate(request2, numberPlate) {
+  let token = await requireUserSession(request2);
+  if (!token)
+    return (0, import_node5.redirect)("/login");
+  let fetchData = {
+    plate: numberPlate
+  }, resData = await (await fetch(
+    "https://registrytotal.herokuapp.com/api/inspection/car/plate",
+    {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Authorization: `Bearer ${token}`
+      },
+      body: JSON.stringify(fetchData)
+    }
+  )).json();
+  if (console.log(resData), resData === null)
+    throw new Error("Cannot find this Numberplate");
+  return (0, import_node5.redirect)(`/car/${numberPlate}`);
+}
+
+// app/routes/_home.Inspections._index.jsx
+var import_node6 = require("@remix-run/node"), import_jsx_dev_runtime8 = require("react/jsx-dev-runtime");
 function InspectionSearchPage() {
   return /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(import_searchInspectionsModal.default, {}, void 0, !1, {
     fileName: "app/routes/_home.Inspections._index.jsx",
-    lineNumber: 4,
+    lineNumber: 5,
     columnNumber: 10
   }, this);
+}
+async function action2({ request: request2 }) {
+  let id = (await request2.formData()).get("InspectId");
+  try {
+    return await findInspectionsById(request2, id);
+  } catch (error) {
+    return (0, import_node6.json)({ message: error.message });
+  }
 }
 
 // app/routes/_home.office.$id.$userID.jsx
@@ -3297,163 +3481,6 @@ function StaffInfo() {
   }, this);
 }
 
-// app/services/APIAction.server.js
-var import_node5 = require("@remix-run/node");
-async function login(email, password) {
-  let response = await fetch(
-    "https://registrytotal.herokuapp.com/api/staff/login",
-    {
-      method: "POST",
-      credentials: "include",
-      headers: { "content-type": "application/json" },
-      body: JSON.stringify({ email, password })
-    }
-  );
-  if (response.ok === !1)
-    throw new Error("Invalid Credentials, please try again");
-  {
-    let user = await response.json();
-    return createUserSession(user.session, "/");
-  }
-}
-async function getAllOffice(request2) {
-  let token = await requireUserSession(request2);
-  if (!token)
-    return (0, import_node5.redirect)("/login");
-  let resData = await (await fetch("https://registrytotal.herokuapp.com/api/office", {
-    method: "GET",
-    headers: {
-      Authorization: `Bearer ${token}`,
-      "content-type": "application/json"
-    }
-  })).json();
-  if (resData === "NOT FOUND")
-    throw new Error("You must be admin to access this page");
-  return resData;
-}
-async function addStaff(request2, data) {
-  let token = await requireUserSession(request2);
-  if (!token)
-    return (0, import_node5.redirect)("/login");
-  let resData = await (await fetch(
-    "https://registrytotal.herokuapp.com/api/staff/addStaff",
-    {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        Authorization: `Bearer ${token}`
-      },
-      body: JSON.stringify(data)
-    }
-  )).json();
-  return resData !== "SUCCEEDED" ? (0, import_node5.json)({ message: resData }) : (0, import_node5.redirect)("/main");
-}
-async function getInspections(params, request2) {
-  let token = await requireUserSession(request2);
-  if (!token)
-    return (0, import_node5.redirect)("/login");
-  let url = "https://registrytotal.herokuapp.com/api/inspection/" + params.id, resData = await (await fetch(url, {
-    method: "GET",
-    headers: {
-      "content-type": "application/json",
-      Authorization: `Bearer ${token}`
-    }
-  })).json();
-  return console.log(resData), resData;
-}
-async function getOwnInfo(request2) {
-  let response = await requireUserSession(request2);
-  return response ? await (await fetch(
-    "https://registrytotal.herokuapp.com/api/staff/own",
-    {
-      method: "GET",
-      headers: {
-        Authorization: `Bearer ${response}`,
-        "content-type": "application/json"
-      }
-    }
-  )).json() : (0, import_node5.redirect)("/login");
-}
-async function EditInfo(request2, data) {
-  let token = await requireUserSession(request2);
-  return token ? await (await fetch(
-    "https://registrytotal.herokuapp.com/api/staff/change",
-    {
-      method: "PUT",
-      headers: {
-        "content-type": "application/json",
-        Authorization: `Bearer ${token}`
-      },
-      body: JSON.stringify(data)
-    }
-  )).json() : (0, import_node5.redirect)("/login");
-}
-async function getStaffbyId(request2, staffID) {
-  let token = await requireUserSession(request2);
-  if (!token)
-    return (0, import_node5.redirect)("/login");
-  let resData = await (await fetch(
-    "https://registrytotal.herokuapp.com/api/staff/" + staffID,
-    {
-      method: "GET",
-      headers: {
-        "content-type": "application/json",
-        Authorization: `Bearer ${token}`
-      }
-    }
-  )).json();
-  if (resData === "NOT FOUND")
-    throw new Error("You must be admin to access this page");
-  return resData;
-}
-async function addOffice(request2, data) {
-  let token = await requireUserSession(request2);
-  if (!token)
-    return (0, import_node5.redirect)("/login");
-  let resData = await (await fetch(
-    "https://registrytotal.herokuapp.com/api/office/add",
-    {
-      method: "POST",
-      headers: {
-        "content-type": "application/json",
-        Authorization: `Bearer ${token}`
-      },
-      body: JSON.stringify(data)
-    }
-  )).json();
-  if (resData === "NOT FOUND")
-    throw new Error("You must be admin to access this");
-  if (resData === "SERVER UNAVAILABLE")
-    throw new Error("Something went wrong with the server, please try again");
-  return (0, import_node5.redirect)("/office");
-}
-async function adminCheck(request2) {
-  if ((await getOwnInfo(request2)).isAdmin === 0)
-    throw new Error("You must be ad administrator to access this");
-  return null;
-}
-async function findCarbyNumberPlate(request2, numberPlate) {
-  let token = await requireUserSession(request2);
-  if (!token)
-    return (0, import_node5.redirect)("/login");
-  let fetchData = {
-    plate: numberPlate
-  }, resData = await (await fetch(
-    "https://registrytotal.herokuapp.com/api/inspection/car/plate",
-    {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        Authorization: `Bearer ${token}`
-      },
-      body: JSON.stringify(fetchData)
-    }
-  )).json();
-  if (console.log(resData), resData === null)
-    throw new Error("Cannot find this Numberplate");
-  return (0, import_node5.redirect)(`/car/${numberPlate}`);
-}
-
 // app/routes/_home.office.$id.$userID.jsx
 var import_jsx_dev_runtime10 = require("react/jsx-dev-runtime");
 function StaffInfoPage() {
@@ -3513,66 +3540,68 @@ function PageModal({ children, title }) {
 // app/components/Dashboard/ExpiredSoon.jsx
 var import_jsx_dev_runtime12 = require("react/jsx-dev-runtime");
 function ExpiredSoonTable() {
-  let data = (0, import_react11.useLoaderData)().data;
+  let inspection = (0, import_react11.useLoaderData)().data.sort(function(a, b) {
+    return new Date(a.registDate) - new Date(b.registDate);
+  });
   return /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)(PageModal, { title: "This is the list of car will be expired soon", children: /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)(import_flowbite_react3.Table, { hoverable: !0, className: "overflow-y-auto", children: [
     /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)(import_flowbite_react3.Table.Head, { children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)(import_flowbite_react3.Table.HeadCell, { children: "NumberPlate" }, void 0, !1, {
         fileName: "app/components/Dashboard/ExpiredSoon.jsx",
-        lineNumber: 12,
+        lineNumber: 15,
         columnNumber: 11
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)(import_flowbite_react3.Table.HeadCell, { children: "RegistDate" }, void 0, !1, {
         fileName: "app/components/Dashboard/ExpiredSoon.jsx",
-        lineNumber: 13,
+        lineNumber: 16,
         columnNumber: 11
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)(import_flowbite_react3.Table.HeadCell, { children: "ExpiredDate" }, void 0, !1, {
         fileName: "app/components/Dashboard/ExpiredSoon.jsx",
-        lineNumber: 14,
+        lineNumber: 17,
         columnNumber: 11
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)(import_flowbite_react3.Table.HeadCell, { children: "City" }, void 0, !1, {
         fileName: "app/components/Dashboard/ExpiredSoon.jsx",
-        lineNumber: 15,
+        lineNumber: 18,
         columnNumber: 11
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)(import_flowbite_react3.Table.HeadCell, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("span", { className: "sr-only", children: "View" }, void 0, !1, {
         fileName: "app/components/Dashboard/ExpiredSoon.jsx",
-        lineNumber: 17,
+        lineNumber: 20,
         columnNumber: 13
       }, this) }, void 0, !1, {
         fileName: "app/components/Dashboard/ExpiredSoon.jsx",
-        lineNumber: 16,
+        lineNumber: 19,
         columnNumber: 11
       }, this)
     ] }, void 0, !0, {
       fileName: "app/components/Dashboard/ExpiredSoon.jsx",
-      lineNumber: 11,
+      lineNumber: 14,
       columnNumber: 9
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)(import_flowbite_react3.Table.Body, { className: "divide-y", children: data.map((dt) => /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)(
+    /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)(import_flowbite_react3.Table.Body, { className: "divide-y", children: inspection.map((dt) => /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)(
       import_flowbite_react3.Table.Row,
       {
         className: "bg-white dark:border-gray-700 dark:bg-gray-800",
         children: [
           /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)(import_flowbite_react3.Table.Cell, { className: "whitespace-nowrap font-medium text-gray-900 dark:text-white", children: dt.numberPlate }, void 0, !1, {
             fileName: "app/components/Dashboard/ExpiredSoon.jsx",
-            lineNumber: 26,
+            lineNumber: 29,
             columnNumber: 15
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)(import_flowbite_react3.Table.Cell, { children: formatDate(dt.registDate) }, void 0, !1, {
             fileName: "app/components/Dashboard/ExpiredSoon.jsx",
-            lineNumber: 29,
+            lineNumber: 32,
             columnNumber: 15
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)(import_flowbite_react3.Table.Cell, { children: formatDate(dt.expiredDate) }, void 0, !1, {
             fileName: "app/components/Dashboard/ExpiredSoon.jsx",
-            lineNumber: 30,
+            lineNumber: 33,
             columnNumber: 15
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)(import_flowbite_react3.Table.Cell, { children: dt.city }, void 0, !1, {
             fileName: "app/components/Dashboard/ExpiredSoon.jsx",
-            lineNumber: 31,
+            lineNumber: 34,
             columnNumber: 15
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)(import_flowbite_react3.Table.Cell, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)(
@@ -3582,7 +3611,7 @@ function ExpiredSoonTable() {
               to: `/car/${dt.numberPlate}`,
               children: /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("p", { children: "View" }, void 0, !1, {
                 fileName: "app/components/Dashboard/ExpiredSoon.jsx",
-                lineNumber: 37,
+                lineNumber: 40,
                 columnNumber: 19
               }, this)
             },
@@ -3590,13 +3619,13 @@ function ExpiredSoonTable() {
             !1,
             {
               fileName: "app/components/Dashboard/ExpiredSoon.jsx",
-              lineNumber: 33,
+              lineNumber: 36,
               columnNumber: 17
             },
             this
           ) }, void 0, !1, {
             fileName: "app/components/Dashboard/ExpiredSoon.jsx",
-            lineNumber: 32,
+            lineNumber: 35,
             columnNumber: 15
           }, this)
         ]
@@ -3605,22 +3634,22 @@ function ExpiredSoonTable() {
       !0,
       {
         fileName: "app/components/Dashboard/ExpiredSoon.jsx",
-        lineNumber: 22,
+        lineNumber: 25,
         columnNumber: 13
       },
       this
     )) }, void 0, !1, {
       fileName: "app/components/Dashboard/ExpiredSoon.jsx",
-      lineNumber: 20,
+      lineNumber: 23,
       columnNumber: 9
     }, this)
   ] }, void 0, !0, {
     fileName: "app/components/Dashboard/ExpiredSoon.jsx",
-    lineNumber: 10,
+    lineNumber: 13,
     columnNumber: 7
   }, this) }, void 0, !1, {
     fileName: "app/components/Dashboard/ExpiredSoon.jsx",
-    lineNumber: 9,
+    lineNumber: 12,
     columnNumber: 5
   }, this);
 }
@@ -3630,7 +3659,7 @@ var import_jsx_dev_runtime13 = require("react/jsx-dev-runtime");
 function ExpiredSoon() {
   return /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(ExpiredSoonTable, {}, void 0, !1, {
     fileName: "app/routes/_home._main.expiredsoon.jsx",
-    lineNumber: 5,
+    lineNumber: 4,
     columnNumber: 10
   }, this);
 }
@@ -3642,7 +3671,8 @@ async function loader4({ request: request2 }) {
     status: "soon",
     city: "",
     info: "1"
-  }, resData = await (await fetch(url, {
+  };
+  return await (await fetch(url, {
     method: "POST",
     headers: {
       "content-type": "application/json",
@@ -3650,7 +3680,6 @@ async function loader4({ request: request2 }) {
     },
     body: JSON.stringify(dataPass_1)
   })).json();
-  return console.log(resData), resData;
 }
 
 // app/routes/_home.office.$id._index.jsx
@@ -3659,7 +3688,7 @@ __export(home_office_id_index_exports, {
   default: () => OfficeDetailPage,
   loader: () => loader5
 });
-var import_node6 = require("@remix-run/node");
+var import_node7 = require("@remix-run/node");
 var import_react13 = require("@remix-run/react");
 
 // app/components/Office/UserTable.jsx
@@ -3886,7 +3915,7 @@ function OfficeDetailPage() {
 async function loader5({ request: request2, params }) {
   let token = await requireUserSession(request2);
   if (!token)
-    return (0, import_node6.redirect)("/login");
+    return (0, import_node7.redirect)("/login");
   let response = await fetch(
     "https://registrytotal.herokuapp.com/api/office/" + params.id,
     {
@@ -3906,7 +3935,7 @@ async function loader5({ request: request2, params }) {
     },
     body: JSON.stringify(dataPass)
   }), data = await response.json(), data2 = await response_2.json();
-  return console.log(data2), (0, import_node6.json)({ staff: data[0] }, { car: data2 });
+  return console.log(data2), (0, import_node7.json)({ staff: data[0] }, { car: data2 });
 }
 
 // app/routes/_home.Inspections.$id.jsx
@@ -3988,7 +4017,7 @@ function InspectionsForm({ data }) {
             columnNumber: 26
           }, this),
           " ",
-          data.car.brand
+          data.car.mark
         ] }, void 0, !0, {
           fileName: "app/components/Inspections/InspectionsForm.jsx",
           lineNumber: 27,
@@ -4586,116 +4615,192 @@ __export(home_main_expired_exports, {
 // app/components/Dashboard/Expired.jsx
 var import_flowbite_react4 = require("flowbite-react");
 var import_react16 = require("@remix-run/react");
-var import_jsx_dev_runtime18 = require("react/jsx-dev-runtime");
+var import_react17 = require("react"), import_jsx_dev_runtime18 = require("react/jsx-dev-runtime");
 function ExpiredTable() {
-  let data = (0, import_react16.useLoaderData)().data;
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)(PageModal, { title: "This is the list of car have already expired", children: /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)(import_flowbite_react4.Table, { hoverable: !0, className: "overflow-y-auto", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)(import_flowbite_react4.Table.Head, { children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)(import_flowbite_react4.Table.HeadCell, { children: "NumberPlate" }, void 0, !1, {
+  let inspection = (0, import_react16.useLoaderData)().data.sort(function(a, b) {
+    return new Date(a.registDate) - new Date(b.registDate);
+  }), [statte, setStatte] = (0, import_react17.useState)("0"), location = (0, import_react16.useLocation)();
+  return console.log(location), /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)(PageModal, { title: "This is the list of car have already expired", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("div", { className: "pb-4 bg-white dark:bg-gray-700", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("label", { for: "table-search", className: "sr-only", children: "Search" }, void 0, !1, {
         fileName: "app/components/Dashboard/Expired.jsx",
-        lineNumber: 12,
-        columnNumber: 11
+        lineNumber: 18,
+        columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)(import_flowbite_react4.Table.HeadCell, { children: "RegistDate" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("div", { className: "relative mt-1", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("div", { className: "absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none", children: /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)(
+          "svg",
+          {
+            class: "w-5 h-5 text-gray-500 dark:text-gray-400",
+            "aria-hidden": "true",
+            fill: "currentColor",
+            viewBox: "0 0 20 20",
+            xmlns: "http://www.w3.org/2000/svg",
+            children: /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)(
+              "path",
+              {
+                fillRule: "evenodd",
+                d: "M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z",
+                clipRule: "evenodd"
+              },
+              void 0,
+              !1,
+              {
+                fileName: "app/components/Dashboard/Expired.jsx",
+                lineNumber: 30,
+                columnNumber: 15
+              },
+              this
+            )
+          },
+          void 0,
+          !1,
+          {
+            fileName: "app/components/Dashboard/Expired.jsx",
+            lineNumber: 23,
+            columnNumber: 13
+          },
+          this
+        ) }, void 0, !1, {
+          fileName: "app/components/Dashboard/Expired.jsx",
+          lineNumber: 22,
+          columnNumber: 11
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)(
+          "input",
+          {
+            type: "text",
+            id: "table-search",
+            className: "block p-2 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg w-80 bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500",
+            placeholder: "Search for NumberPlate"
+          },
+          void 0,
+          !1,
+          {
+            fileName: "app/components/Dashboard/Expired.jsx",
+            lineNumber: 37,
+            columnNumber: 11
+          },
+          this
+        )
+      ] }, void 0, !0, {
         fileName: "app/components/Dashboard/Expired.jsx",
-        lineNumber: 13,
-        columnNumber: 11
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)(import_flowbite_react4.Table.HeadCell, { children: "ExpiredDate" }, void 0, !1, {
-        fileName: "app/components/Dashboard/Expired.jsx",
-        lineNumber: 14,
-        columnNumber: 11
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)(import_flowbite_react4.Table.HeadCell, { children: "City" }, void 0, !1, {
-        fileName: "app/components/Dashboard/Expired.jsx",
-        lineNumber: 15,
-        columnNumber: 11
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)(import_flowbite_react4.Table.HeadCell, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("span", { className: "sr-only", children: "View" }, void 0, !1, {
-        fileName: "app/components/Dashboard/Expired.jsx",
-        lineNumber: 17,
-        columnNumber: 13
-      }, this) }, void 0, !1, {
-        fileName: "app/components/Dashboard/Expired.jsx",
-        lineNumber: 16,
-        columnNumber: 11
+        lineNumber: 21,
+        columnNumber: 9
       }, this)
     ] }, void 0, !0, {
       fileName: "app/components/Dashboard/Expired.jsx",
-      lineNumber: 11,
-      columnNumber: 9
+      lineNumber: 17,
+      columnNumber: 7
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)(import_flowbite_react4.Table.Body, { className: "divide-y", children: data.map((dt) => /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)(
-      import_flowbite_react4.Table.Row,
-      {
-        className: "bg-white dark:border-gray-700 dark:bg-gray-800",
-        children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)(import_flowbite_react4.Table.Cell, { className: "whitespace-nowrap font-medium text-gray-900 dark:text-white", children: dt.numberPlate }, void 0, !1, {
-            fileName: "app/components/Dashboard/Expired.jsx",
-            lineNumber: 26,
-            columnNumber: 15
-          }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)(import_flowbite_react4.Table.Cell, { children: formatDate(dt.registDate) }, void 0, !1, {
-            fileName: "app/components/Dashboard/Expired.jsx",
-            lineNumber: 29,
-            columnNumber: 15
-          }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)(import_flowbite_react4.Table.Cell, { children: formatDate(dt.expiredDate) }, void 0, !1, {
-            fileName: "app/components/Dashboard/Expired.jsx",
-            lineNumber: 30,
-            columnNumber: 15
-          }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)(import_flowbite_react4.Table.Cell, { children: dt.city }, void 0, !1, {
-            fileName: "app/components/Dashboard/Expired.jsx",
-            lineNumber: 31,
-            columnNumber: 15
-          }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)(import_flowbite_react4.Table.Cell, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)(
-            import_react16.Link,
-            {
-              className: "font-medium text-cyan-600 hover:underline dark:text-cyan-500",
-              to: `/car/${dt.numberPlate}`,
-              children: /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("p", { children: "View" }, void 0, !1, {
-                fileName: "app/components/Dashboard/Expired.jsx",
-                lineNumber: 37,
-                columnNumber: 19
-              }, this)
-            },
-            void 0,
-            !1,
-            {
-              fileName: "app/components/Dashboard/Expired.jsx",
-              lineNumber: 33,
-              columnNumber: 17
-            },
-            this
-          ) }, void 0, !1, {
-            fileName: "app/components/Dashboard/Expired.jsx",
-            lineNumber: 32,
-            columnNumber: 15
-          }, this)
-        ]
-      },
-      dt.numberPlate,
-      !0,
-      {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)(import_flowbite_react4.Table, { hoverable: !0, className: "overflow-y-auto", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)(import_flowbite_react4.Table.Head, { children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)(import_flowbite_react4.Table.HeadCell, { children: "NumberPlate" }, void 0, !1, {
+          fileName: "app/components/Dashboard/Expired.jsx",
+          lineNumber: 47,
+          columnNumber: 11
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)(import_flowbite_react4.Table.HeadCell, { children: "RegistDate" }, void 0, !1, {
+          fileName: "app/components/Dashboard/Expired.jsx",
+          lineNumber: 48,
+          columnNumber: 11
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)(import_flowbite_react4.Table.HeadCell, { children: "ExpiredDate" }, void 0, !1, {
+          fileName: "app/components/Dashboard/Expired.jsx",
+          lineNumber: 49,
+          columnNumber: 11
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)(import_flowbite_react4.Table.HeadCell, { children: "City" }, void 0, !1, {
+          fileName: "app/components/Dashboard/Expired.jsx",
+          lineNumber: 50,
+          columnNumber: 11
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)(import_flowbite_react4.Table.HeadCell, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("span", { className: "sr-only", children: "View" }, void 0, !1, {
+          fileName: "app/components/Dashboard/Expired.jsx",
+          lineNumber: 52,
+          columnNumber: 13
+        }, this) }, void 0, !1, {
+          fileName: "app/components/Dashboard/Expired.jsx",
+          lineNumber: 51,
+          columnNumber: 11
+        }, this)
+      ] }, void 0, !0, {
         fileName: "app/components/Dashboard/Expired.jsx",
-        lineNumber: 22,
-        columnNumber: 13
-      },
-      this
-    )) }, void 0, !1, {
+        lineNumber: 46,
+        columnNumber: 9
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)(import_flowbite_react4.Table.Body, { className: "divide-y", children: inspection.map((dt) => /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)(
+        import_flowbite_react4.Table.Row,
+        {
+          className: "bg-white dark:border-gray-700 dark:bg-gray-800",
+          children: [
+            /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)(import_flowbite_react4.Table.Cell, { className: "whitespace-nowrap font-medium text-gray-900 dark:text-white", children: dt.numberPlate }, void 0, !1, {
+              fileName: "app/components/Dashboard/Expired.jsx",
+              lineNumber: 61,
+              columnNumber: 15
+            }, this),
+            /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)(import_flowbite_react4.Table.Cell, { children: formatDate(dt.registDate) }, void 0, !1, {
+              fileName: "app/components/Dashboard/Expired.jsx",
+              lineNumber: 64,
+              columnNumber: 15
+            }, this),
+            /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)(import_flowbite_react4.Table.Cell, { children: formatDate(dt.expiredDate) }, void 0, !1, {
+              fileName: "app/components/Dashboard/Expired.jsx",
+              lineNumber: 65,
+              columnNumber: 15
+            }, this),
+            /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)(import_flowbite_react4.Table.Cell, { children: dt.city }, void 0, !1, {
+              fileName: "app/components/Dashboard/Expired.jsx",
+              lineNumber: 66,
+              columnNumber: 15
+            }, this),
+            /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)(import_flowbite_react4.Table.Cell, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)(
+              import_react16.Link,
+              {
+                className: "font-medium text-cyan-600 hover:underline dark:text-cyan-500",
+                to: `/car/${dt.numberPlate}`,
+                children: /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("p", { children: "View" }, void 0, !1, {
+                  fileName: "app/components/Dashboard/Expired.jsx",
+                  lineNumber: 72,
+                  columnNumber: 19
+                }, this)
+              },
+              void 0,
+              !1,
+              {
+                fileName: "app/components/Dashboard/Expired.jsx",
+                lineNumber: 68,
+                columnNumber: 17
+              },
+              this
+            ) }, void 0, !1, {
+              fileName: "app/components/Dashboard/Expired.jsx",
+              lineNumber: 67,
+              columnNumber: 15
+            }, this)
+          ]
+        },
+        dt.numberPlate,
+        !0,
+        {
+          fileName: "app/components/Dashboard/Expired.jsx",
+          lineNumber: 57,
+          columnNumber: 13
+        },
+        this
+      )) }, void 0, !1, {
+        fileName: "app/components/Dashboard/Expired.jsx",
+        lineNumber: 55,
+        columnNumber: 9
+      }, this)
+    ] }, void 0, !0, {
       fileName: "app/components/Dashboard/Expired.jsx",
-      lineNumber: 20,
-      columnNumber: 9
+      lineNumber: 45,
+      columnNumber: 7
     }, this)
   ] }, void 0, !0, {
     fileName: "app/components/Dashboard/Expired.jsx",
-    lineNumber: 10,
-    columnNumber: 7
-  }, this) }, void 0, !1, {
-    fileName: "app/components/Dashboard/Expired.jsx",
-    lineNumber: 9,
+    lineNumber: 16,
     columnNumber: 5
   }, this);
 }
@@ -4705,7 +4810,7 @@ var import_jsx_dev_runtime19 = require("react/jsx-dev-runtime");
 function ExpiredSoon2() {
   return /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)(ExpiredTable, {}, void 0, !1, {
     fileName: "app/routes/_home._main.expired.jsx",
-    lineNumber: 5,
+    lineNumber: 4,
     columnNumber: 10
   }, this);
 }
@@ -4717,7 +4822,8 @@ async function loader7({ request: request2 }) {
     status: "expired",
     city: "",
     info: "1"
-  }, resData = await (await fetch(url, {
+  };
+  return await (await fetch(url, {
     method: "POST",
     headers: {
       "content-type": "application/json",
@@ -4725,7 +4831,6 @@ async function loader7({ request: request2 }) {
     },
     body: JSON.stringify(dataPass_1)
   })).json();
-  return console.log(resData), resData;
 }
 
 // app/routes/_home.office._index.jsx
@@ -4736,9 +4841,9 @@ __export(home_office_index_exports, {
 });
 
 // app/components/Office/OfficeList.jsx
-var import_react17 = require("@remix-run/react"), import_jsx_dev_runtime20 = require("react/jsx-dev-runtime");
+var import_react18 = require("@remix-run/react"), import_jsx_dev_runtime20 = require("react/jsx-dev-runtime");
 function OfficeList() {
-  let content = (0, import_react17.useLoaderData)().data.map((dt) => /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(
+  let content = (0, import_react18.useLoaderData)().data.map((dt) => /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(
     "tr",
     {
       className: "bg-white border-b dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-600",
@@ -4747,7 +4852,7 @@ function OfficeList() {
         {
           scope: "row",
           className: "px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white",
-          children: /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(import_react17.Link, { to: dt._id, children: [
+          children: /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(import_react18.Link, { to: dt._id, children: [
             dt.name,
             " "
           ] }, void 0, !0, {
@@ -4850,14 +4955,14 @@ __export(home_info_index_exports, {
   default: () => Infopage,
   meta: () => meta2
 });
-var import_react19 = require("@remix-run/react");
+var import_react20 = require("@remix-run/react");
 
 // app/components/About/OwnInfo.jsx
-var import_react18 = require("@remix-run/react");
+var import_react19 = require("@remix-run/react");
 var import_react_fontawesome2 = require("@fortawesome/react-fontawesome"), import_free_solid_svg_icons2 = require("@fortawesome/free-solid-svg-icons");
 var import_jsx_dev_runtime23 = require("react/jsx-dev-runtime");
 function OwnInfo() {
-  let info = (0, import_react18.useMatches)().find((match) => match.id === "routes/_home"), { name, SSN, dateOfBirth, phone } = info.data.data, formattedDate = formatDate(dateOfBirth), inspection = info.data.registed.sort(function(a, b) {
+  let info = (0, import_react19.useMatches)().find((match) => match.id === "routes/_home"), { name, SSN, dateOfBirth, phone } = info.data.data, formattedDate = formatDate(dateOfBirth), inspection = info.data.registed.sort(function(a, b) {
     return new Date(b.regisDate) - new Date(a.regisDate);
   });
   return /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)("div", { className: " m-auto p-4", children: [
@@ -4933,7 +5038,7 @@ function OwnInfo() {
         columnNumber: 15
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)("div", { className: "mt-24 text-md font-light dark:text-green-300", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)(import_react18.Link, { to: "edit", className: "flex flex-wrap", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)(import_react19.Link, { to: "edit", className: "flex flex-wrap", children: [
           /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)("span", { className: "mb-5 text-lg font-bold ", children: "Th\xF4ng tin c\xE1 nh\xE2n" }, void 0, !1, {
             fileName: "app/components/About/OwnInfo.jsx",
             lineNumber: 45,
@@ -5051,7 +5156,7 @@ function OwnInfo() {
         lineNumber: 85,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)("ol", { className: "relative border-l border-gray-200 dark:border-gray-700", children: inspection.map((inspec) => /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)("li", { className: "mb-10 ml-4", children: /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)(import_react18.Link, { to: `/Inspections/${inspec.regisNum}`, children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)("ol", { className: "relative border-l border-gray-200 dark:border-gray-700", children: inspection.map((inspec) => /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)("li", { className: "mb-10 ml-4", children: /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)(import_react19.Link, { to: `/Inspections/${inspec.regisNum}`, children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)("div", { className: "absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700" }, void 0, !1, {
           fileName: "app/components/About/OwnInfo.jsx",
           lineNumber: 93,
@@ -5127,16 +5232,16 @@ function meta2({ matches }) {
 // app/routes/_home.car._index.jsx
 var home_car_index_exports = {};
 __export(home_car_index_exports, {
-  action: () => action2,
+  action: () => action3,
   default: () => CarIndex,
   loader: () => loader9
 });
-var import_node7 = require("@remix-run/node"), import_searchCarModal = __toESM(require_searchCarModal());
+var import_node8 = require("@remix-run/node"), import_searchCarModal = __toESM(require_searchCarModal());
 
 // app/components/CarPage/CarPageDefault.jsx
-var import_react20 = require("@remix-run/react"), import_jsx_dev_runtime25 = require("react/jsx-dev-runtime");
+var import_react21 = require("@remix-run/react"), import_jsx_dev_runtime25 = require("react/jsx-dev-runtime");
 function CarPageDefault() {
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime25.jsxDEV)(import_react20.Form, { children: [
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime25.jsxDEV)(import_react21.Form, { children: [
     /* @__PURE__ */ (0, import_jsx_dev_runtime25.jsxDEV)("div", { children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime25.jsxDEV)("ol", { className: "flex items-center justify-self-center w-full p-3 space-x-2 text-sm font-medium text-center text-gray-500 bg-white border border-gray-200 rounded-lg shadow-sm dark:text-green-300 sm:text-base dark:bg-gray-800 dark:border-gray-700 sm:p-4 sm:space-x-4 mb-6", children: /* @__PURE__ */ (0, import_jsx_dev_runtime25.jsxDEV)("li", { className: "flex items-center text-primary-700 dark:text-green-300", children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime25.jsxDEV)("span", { className: "flex items-center justify-center w-5 h-5 mr-2 text-xs border border-primary-700 rounded-full shrink-0 dark:border-green-400", children: "1" }, void 0, !1, {
@@ -5858,11 +5963,11 @@ function CarPageDefault() {
 }
 
 // app/routes/_home.car._index.jsx
-var import_remix_utils3 = require("remix-utils");
+var import_remix_utils2 = require("remix-utils");
 var import_jsx_dev_runtime26 = require("react/jsx-dev-runtime");
 function CarIndex() {
   return /* @__PURE__ */ (0, import_jsx_dev_runtime26.jsxDEV)(import_jsx_dev_runtime26.Fragment, { children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime26.jsxDEV)(import_remix_utils3.ClientOnly, { fallback: /* @__PURE__ */ (0, import_jsx_dev_runtime26.jsxDEV)(Spinner, {}, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime26.jsxDEV)(import_remix_utils2.ClientOnly, { fallback: /* @__PURE__ */ (0, import_jsx_dev_runtime26.jsxDEV)(Spinner, {}, void 0, !1, {
       fileName: "app/routes/_home.car._index.jsx",
       lineNumber: 11,
       columnNumber: 29
@@ -5887,29 +5992,29 @@ function CarIndex() {
   }, this);
 }
 async function loader9({ request: request2 }) {
-  return requireUserSession(request2) ? null : (0, import_node7.redirect)("/login");
+  return requireUserSession(request2) ? null : (0, import_node8.redirect)("/login");
 }
-async function action2({ request: request2 }) {
+async function action3({ request: request2 }) {
   let numberPlate = (await request2.formData()).get("NumberPlate");
   try {
     return await findCarbyNumberPlate(request2, numberPlate);
   } catch (error) {
-    return (0, import_node7.json)({ message: error.message });
+    return (0, import_node8.json)({ message: error.message });
   }
 }
 
 // app/routes/_home.office.add.jsx
 var home_office_add_exports = {};
 __export(home_office_add_exports, {
-  action: () => action3,
+  action: () => action4,
   default: () => AddOfficePage,
   loader: () => loader10
 });
 
 // app/components/AddOfficeForm.jsx
-var import_react21 = require("@remix-run/react"), import_jsx_dev_runtime27 = require("react/jsx-dev-runtime");
+var import_react22 = require("@remix-run/react"), import_jsx_dev_runtime27 = require("react/jsx-dev-runtime");
 function AddOfficeForm() {
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime27.jsxDEV)(import_react21.Form, { method: "post", children: [
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime27.jsxDEV)(import_react22.Form, { method: "post", children: [
     /* @__PURE__ */ (0, import_jsx_dev_runtime27.jsxDEV)("div", { className: "relative z-0 w-3/4 mb-6 group", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime27.jsxDEV)(
         "input",
@@ -6112,7 +6217,7 @@ async function loader10({ request: request2 }) {
     throw new Error(`${error.message}`);
   }
 }
-async function action3({ request: request2 }) {
+async function action4({ request: request2 }) {
   let formData = await request2.formData(), fetchData = {
     name: formData.get("OfficeName"),
     address: formData.get("Address"),
@@ -6129,16 +6234,16 @@ async function action3({ request: request2 }) {
 // app/routes/_home.info.edit.jsx
 var home_info_edit_exports = {};
 __export(home_info_edit_exports, {
-  action: () => action4,
+  action: () => action5,
   default: () => InfoEditpage
 });
-var import_react22 = require("@remix-run/react");
+var import_react23 = require("@remix-run/react");
 var import_jsx_dev_runtime29 = require("react/jsx-dev-runtime");
 function InfoEditpage() {
-  let info = (0, import_react22.useMatches)().find((match) => match.id === "routes/_home").data, { name, SSN, dateOfBirth, phone } = info.data;
+  let info = (0, import_react23.useMatches)().find((match) => match.id === "routes/_home").data, { name, SSN, dateOfBirth, phone } = info.data;
   var date = new Date(dateOfBirth);
   let year = date.getFullYear(), month = ("0" + (date.getMonth() + 1)).slice(-2), day = ("0" + date.getDate()).slice(-2), formattedDate = `${year}-${month}-${day}`;
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime29.jsxDEV)(import_react22.Form, { className: "dark", children: [
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime29.jsxDEV)(import_react23.Form, { className: "dark", children: [
     /* @__PURE__ */ (0, import_jsx_dev_runtime29.jsxDEV)("div", { className: "grid gap-6 mb-6 md:grid-cols-2", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime29.jsxDEV)("div", { children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime29.jsxDEV)(
@@ -6404,7 +6509,7 @@ function InfoEditpage() {
       lineNumber: 125,
       columnNumber: 7
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime29.jsxDEV)(import_react22.Link, { to: "/changepass", children: /* @__PURE__ */ (0, import_jsx_dev_runtime29.jsxDEV)("button", { className: "text-white bg-pink-400 hover:bg-pink-700 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800", children: "Change Password" }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime29.jsxDEV)(import_react23.Link, { to: "/changepass", children: /* @__PURE__ */ (0, import_jsx_dev_runtime29.jsxDEV)("button", { className: "text-white bg-pink-400 hover:bg-pink-700 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800", children: "Change Password" }, void 0, !1, {
       fileName: "app/routes/_home.info.edit.jsx",
       lineNumber: 129,
       columnNumber: 9
@@ -6419,7 +6524,7 @@ function InfoEditpage() {
     columnNumber: 5
   }, this);
 }
-async function action4({ request: request2 }) {
+async function action5({ request: request2 }) {
   let formData = await request2.formData(), data = {
     email: formData.get("email"),
     name: formData.get("name"),
@@ -6436,21 +6541,21 @@ async function action4({ request: request2 }) {
 // app/routes/_home.addStaff.jsx
 var home_addStaff_exports = {};
 __export(home_addStaff_exports, {
-  action: () => action5,
+  action: () => action6,
   default: () => addStaffPage,
   loader: () => loader11,
   meta: () => meta3
 });
-var import_react24 = require("@remix-run/react");
+var import_react25 = require("@remix-run/react");
 
 // app/components/AddStaffForm.jsx
-var import_react23 = require("@remix-run/react"), import_jsx_dev_runtime30 = require("react/jsx-dev-runtime");
+var import_react24 = require("@remix-run/react"), import_jsx_dev_runtime30 = require("react/jsx-dev-runtime");
 function AddForm(props) {
   let option = props.data.data.map((dt) => /* @__PURE__ */ (0, import_jsx_dev_runtime30.jsxDEV)("option", { children: dt.name }, dt._id, !1, {
     fileName: "app/components/AddStaffForm.jsx",
     lineNumber: 4,
     columnNumber: 5
-  }, this)), error = (0, import_react23.useActionData)();
+  }, this)), error = (0, import_react24.useActionData)();
   return /* @__PURE__ */ (0, import_jsx_dev_runtime30.jsxDEV)(import_jsx_dev_runtime30.Fragment, { children: [
     error && /* @__PURE__ */ (0, import_jsx_dev_runtime30.jsxDEV)("h3", { className: "text-red-500 text-md bold text-center mb-5", children: [
       error.message,
@@ -6460,7 +6565,7 @@ function AddForm(props) {
       lineNumber: 10,
       columnNumber: 9
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime30.jsxDEV)(import_react23.Form, { method: "post", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime30.jsxDEV)(import_react24.Form, { method: "post", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime30.jsxDEV)("div", { className: "grid gap-6 mb-6 md:grid-cols-2", children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime30.jsxDEV)("div", { children: [
           /* @__PURE__ */ (0, import_jsx_dev_runtime30.jsxDEV)(
@@ -6744,7 +6849,7 @@ function meta3() {
   return [{ title: "Add Staff" }];
 }
 function addStaffPage() {
-  let data = (0, import_react24.useLoaderData)();
+  let data = (0, import_react25.useLoaderData)();
   return /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)(AddForm, { data }, void 0, !1, {
     fileName: "app/routes/_home.addStaff.jsx",
     lineNumber: 13,
@@ -6758,7 +6863,7 @@ async function loader11({ request: request2 }) {
     throw console.log(error), new Error(`${error.message}`);
   }
 }
-async function action5({ request: request2 }) {
+async function action6({ request: request2 }) {
   let formData = await request2.formData(), data = {
     email: formData.get("email"),
     name: formData.get("name"),
@@ -6796,13 +6901,13 @@ __export(home_main_exports, {
   loader: () => loader12,
   meta: () => meta4
 });
-var import_node8 = require("@remix-run/node");
+var import_node9 = require("@remix-run/node");
 
 // app/components/Dashboard/ChartSection.jsx
-var import_remix_utils4 = require("remix-utils");
-var import_Chart = __toESM(require_Chart()), import_react25 = require("@remix-run/react"), import_jsx_dev_runtime33 = require("react/jsx-dev-runtime");
+var import_remix_utils3 = require("remix-utils");
+var import_Chart = __toESM(require_Chart()), import_react26 = require("@remix-run/react"), import_jsx_dev_runtime33 = require("react/jsx-dev-runtime");
 function ChartPanel() {
-  let loaderdata = (0, import_react25.useLoaderData)().NewData, data = {
+  let loaderdata = (0, import_react26.useLoaderData)().NewData, data = {
     options: {
       chart: {
         id: "Analysis For Registrations in 2023",
@@ -6891,7 +6996,7 @@ function ChartPanel() {
           lineNumber: 76,
           columnNumber: 7
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)("div", { className: "main-chart", children: /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)(import_remix_utils4.ClientOnly, { fallback: /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)(Spinner, {}, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)("div", { className: "main-chart", children: /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)(import_remix_utils3.ClientOnly, { fallback: /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)(Spinner, {}, void 0, !1, {
           fileName: "app/components/Dashboard/ChartSection.jsx",
           lineNumber: 86,
           columnNumber: 31
@@ -6914,7 +7019,7 @@ function ChartPanel() {
             lineNumber: 91,
             columnNumber: 9
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)("div", { className: "flex-shrink-0 ", children: /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)(import_react25.Link, { className: "inline-flex items-center p-2 text-lg font-medium uppercase rounded-lg text-primary-700 sm:text-sm hover:bg-gray-100 dark:text-primary-500 dark:hover:bg-gray-700", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)("div", { className: "flex-shrink-0 ", children: /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)(import_react26.Link, { className: "inline-flex items-center p-2 text-lg font-medium uppercase rounded-lg text-primary-700 sm:text-sm hover:bg-gray-100 dark:text-primary-500 dark:hover:bg-gray-700", children: [
             "Full Report",
             /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)(
               "svg",
@@ -6979,10 +7084,10 @@ function ChartPanel() {
 }
 
 // app/components/Dashboard/RecentRegisPanel.jsx
-var import_react26 = require("@remix-run/react");
+var import_react27 = require("@remix-run/react");
 var import_jsx_dev_runtime34 = require("react/jsx-dev-runtime");
 function RecentRegistrations() {
-  let lists = (0, import_react26.useLoaderData)().recentList;
+  let lists = (0, import_react27.useLoaderData)().recentList;
   return /* @__PURE__ */ (0, import_jsx_dev_runtime34.jsxDEV)(
     "div",
     {
@@ -7024,7 +7129,7 @@ function RecentRegistrations() {
           "ul",
           {
             className: "divine-y divide-gray-200 dark:divide-gray-700 ",
-            children: lists.map((item) => /* @__PURE__ */ (0, import_jsx_dev_runtime34.jsxDEV)("li", { className: "py-3 sm:py-4", children: /* @__PURE__ */ (0, import_jsx_dev_runtime34.jsxDEV)(import_react26.Link, { to: `/Inspections/${item.regisNum}`, children: /* @__PURE__ */ (0, import_jsx_dev_runtime34.jsxDEV)("div", { className: "flex items-center justify-between", children: [
+            children: lists.map((item) => /* @__PURE__ */ (0, import_jsx_dev_runtime34.jsxDEV)("li", { className: "py-3 sm:py-4", children: /* @__PURE__ */ (0, import_jsx_dev_runtime34.jsxDEV)(import_react27.Link, { to: `/Inspections/${item.regisNum}`, children: /* @__PURE__ */ (0, import_jsx_dev_runtime34.jsxDEV)("div", { className: "flex items-center justify-between", children: [
               /* @__PURE__ */ (0, import_jsx_dev_runtime34.jsxDEV)("div", { className: "flex items-center min-w-0", children: /* @__PURE__ */ (0, import_jsx_dev_runtime34.jsxDEV)("div", { className: "ml-3", children: [
                 /* @__PURE__ */ (0, import_jsx_dev_runtime34.jsxDEV)("div", { className: "font-medium text-grey-900 truncate dark: text-white", children: item.car.numberPlate }, void 0, !1, {
                   fileName: "app/components/Dashboard/RecentRegisPanel.jsx",
@@ -7083,7 +7188,7 @@ function RecentRegistrations() {
             lineNumber: 53,
             columnNumber: 9
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime34.jsxDEV)("div", { className: "flex-shrink-0 ", children: /* @__PURE__ */ (0, import_jsx_dev_runtime34.jsxDEV)(import_react26.Link, { className: "inline-flex items-center p-2 text-lg font-medium uppercase rounded-lg text-primary-700 sm:text-sm hover:bg-gray-100 dark:text-primary-500 dark:hover:bg-gray-700", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime34.jsxDEV)("div", { className: "flex-shrink-0 ", children: /* @__PURE__ */ (0, import_jsx_dev_runtime34.jsxDEV)(import_react27.Link, { className: "inline-flex items-center p-2 text-lg font-medium uppercase rounded-lg text-primary-700 sm:text-sm hover:bg-gray-100 dark:text-primary-500 dark:hover:bg-gray-700", children: [
             "Full Report",
             /* @__PURE__ */ (0, import_jsx_dev_runtime34.jsxDEV)(
               "svg",
@@ -7148,9 +7253,9 @@ function RecentRegistrations() {
 }
 
 // app/components/Dashboard/DashBoardFooter.jsx
-var import_react27 = require("@remix-run/react"), import_flowbite_react5 = require("flowbite-react"), import_jsx_dev_runtime35 = require("react/jsx-dev-runtime");
+var import_react28 = require("@remix-run/react"), import_flowbite_react5 = require("flowbite-react"), import_jsx_dev_runtime35 = require("react/jsx-dev-runtime");
 function DashBoardFooter() {
-  let expired = (0, import_react27.useLoaderData)().ExpiredData;
+  let expired = (0, import_react28.useLoaderData)().ExpiredData;
   return /* @__PURE__ */ (0, import_jsx_dev_runtime35.jsxDEV)(import_jsx_dev_runtime35.Fragment, { children: [
     /* @__PURE__ */ (0, import_jsx_dev_runtime35.jsxDEV)("div", { className: "items-center justify-between p-4 bg-white border border-gray-200 rounded-lg shadow-sm sm:flex dark:border-gray-700 sm:p-6 dark:bg-gray-800", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime35.jsxDEV)("div", { className: "w-full", children: [
@@ -7187,7 +7292,7 @@ function DashBoardFooter() {
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime35.jsxDEV)("div", { className: "w-full dark:text-right", children: /* @__PURE__ */ (0, import_jsx_dev_runtime35.jsxDEV)(
-        import_react27.Link,
+        import_react28.Link,
         {
           prefetch: "render",
           to: "expiredsoon",
@@ -7283,8 +7388,8 @@ function DashBoardFooter() {
         lineNumber: 49,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime35.jsxDEV)("div", { className: "w-full", children: /* @__PURE__ */ (0, import_jsx_dev_runtime35.jsxDEV)(
-        import_react27.Link,
+      /* @__PURE__ */ (0, import_jsx_dev_runtime35.jsxDEV)("div", { className: "w-full dark: text-right", children: /* @__PURE__ */ (0, import_jsx_dev_runtime35.jsxDEV)(
+        import_react28.Link,
         {
           prefetch: "render",
           to: "expired",
@@ -7381,49 +7486,49 @@ function DashBoardFooter() {
 }
 
 // app/routes/_home._main.jsx
-var import_react28 = require("@remix-run/react"), import_jsx_dev_runtime36 = require("react/jsx-dev-runtime"), meta4 = () => [{ title: "VietNam Registry" }];
+var import_react29 = require("@remix-run/react"), import_jsx_dev_runtime36 = require("react/jsx-dev-runtime"), meta4 = () => [{ title: "VietNam Registry" }];
 function MainPage() {
   return /* @__PURE__ */ (0, import_jsx_dev_runtime36.jsxDEV)("div", { className: "px-4 pt-6 overflow-y-auto", children: [
     /* @__PURE__ */ (0, import_jsx_dev_runtime36.jsxDEV)("div", { className: "grid gap-4 xl:grid-cols-2 2xl:grid-cols-3", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime36.jsxDEV)(ChartPanel, {}, void 0, !1, {
         fileName: "app/routes/_home._main.jsx",
-        lineNumber: 16,
+        lineNumber: 15,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime36.jsxDEV)(RecentRegistrations, {}, void 0, !1, {
         fileName: "app/routes/_home._main.jsx",
-        lineNumber: 17,
+        lineNumber: 16,
         columnNumber: 9
       }, this)
     ] }, void 0, !0, {
       fileName: "app/routes/_home._main.jsx",
-      lineNumber: 15,
+      lineNumber: 14,
       columnNumber: 7
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime36.jsxDEV)("div", { className: "grid w-full grid-cols-1 gap-4 mt-4 xl:grid-cols-2 2xl:grid-cols-3", children: /* @__PURE__ */ (0, import_jsx_dev_runtime36.jsxDEV)(DashBoardFooter, {}, void 0, !1, {
       fileName: "app/routes/_home._main.jsx",
-      lineNumber: 20,
+      lineNumber: 19,
       columnNumber: 9
     }, this) }, void 0, !1, {
       fileName: "app/routes/_home._main.jsx",
-      lineNumber: 19,
+      lineNumber: 18,
       columnNumber: 7
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime36.jsxDEV)(import_react28.Outlet, {}, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime36.jsxDEV)(import_react29.Outlet, {}, void 0, !1, {
       fileName: "app/routes/_home._main.jsx",
-      lineNumber: 22,
+      lineNumber: 21,
       columnNumber: 7
     }, this)
   ] }, void 0, !0, {
     fileName: "app/routes/_home._main.jsx",
-    lineNumber: 14,
+    lineNumber: 13,
     columnNumber: 5
   }, this);
 }
 async function loader12({ request: request2 }) {
   let token = await requireUserSession(request2);
   if (!token)
-    return (0, import_node8.redirect)("/login");
+    return (0, import_node9.redirect)("/login");
   let url = "https://registrytotal.herokuapp.com/api/office/own/car", dataPass = {
     time: "2023",
     city: ""
@@ -7455,7 +7560,7 @@ async function loader12({ request: request2 }) {
     },
     body: JSON.stringify(dataPass_1)
   }), resData = await response.json(), resData2 = await response_2.json(), resData3 = await response_3.json();
-  return (0, import_node8.json)({
+  return (0, import_node9.json)({
     NewData: resData,
     recentList: resData2,
     ExpiredData: resData3
@@ -7469,39 +7574,31 @@ __export(forgot_pass_exports, {
 });
 
 // app/components/UI/ForgotPassword.jsx
-var import_react29 = require("@remix-run/react"), import_jsx_dev_runtime37 = require("react/jsx-dev-runtime");
+var import_react30 = require("@remix-run/react");
+
+// app/images/logo.png
+var logo_default = "/build/_assets/logo-D52X7V2X.png";
+
+// app/components/UI/ForgotPassword.jsx
+var import_jsx_dev_runtime37 = require("react/jsx-dev-runtime");
 function ForgotPass() {
   return /* @__PURE__ */ (0, import_jsx_dev_runtime37.jsxDEV)("div", { className: "flex flex-col items-center justify-center px-6 pt-8 mx-auto md:h-screen pt:mt-0 dark:bg-gray-900", children: [
     /* @__PURE__ */ (0, import_jsx_dev_runtime37.jsxDEV)(
-      import_react29.Link,
+      import_react30.Link,
       {
         to: "/login",
-        className: "flex items-center mb-6 text-2xl font-semibold text-gray-900 dark:text-white",
-        children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime37.jsxDEV)(
-            "img",
-            {
-              className: "w-8 h-8 mr-2",
-              src: "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/logo.svg",
-              alt: "logo"
-            },
-            void 0,
-            !1,
-            {
-              fileName: "app/components/UI/ForgotPassword.jsx",
-              lineNumber: 10,
-              columnNumber: 9
-            },
-            this
-          ),
-          "Flowbite"
-        ]
+        className: "flex items-center text-2xl font-semibold text-gray-900 dark:text-white justify-center mb-6",
+        children: /* @__PURE__ */ (0, import_jsx_dev_runtime37.jsxDEV)("img", { className: "w-1/3", src: logo_default, alt: "logo" }, void 0, !1, {
+          fileName: "app/components/UI/ForgotPassword.jsx",
+          lineNumber: 11,
+          columnNumber: 9
+        }, this)
       },
       void 0,
-      !0,
+      !1,
       {
         fileName: "app/components/UI/ForgotPassword.jsx",
-        lineNumber: 6,
+        lineNumber: 7,
         columnNumber: 7
       },
       this
@@ -7509,15 +7606,15 @@ function ForgotPass() {
     /* @__PURE__ */ (0, import_jsx_dev_runtime37.jsxDEV)("div", { className: "w-full bg-white rounded-lg shadow md:mt-0 sm:max-w-md xl:p-0 dark:bg-gray-800", children: /* @__PURE__ */ (0, import_jsx_dev_runtime37.jsxDEV)("div", { className: "w-full p-6 sm:p-8", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime37.jsxDEV)("h2", { className: "mb-3 text-2xl font-bold text-gray-900 dark:text-white", children: "Forgot your password?" }, void 0, !1, {
         fileName: "app/components/UI/ForgotPassword.jsx",
-        lineNumber: 19,
+        lineNumber: 15,
         columnNumber: 11
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime37.jsxDEV)("p", { className: "text-base font-normal text-gray-500 dark:text-gray-400", children: "Don't afraid! Just type in your email and we will send you a code to reset your password!" }, void 0, !1, {
         fileName: "app/components/UI/ForgotPassword.jsx",
-        lineNumber: 22,
+        lineNumber: 18,
         columnNumber: 11
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime37.jsxDEV)(import_react29.Form, { className: "mt-8 space-y-6", method: "post", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime37.jsxDEV)(import_react30.Form, { className: "mt-8 space-y-6", method: "post", children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime37.jsxDEV)("div", { children: [
           /* @__PURE__ */ (0, import_jsx_dev_runtime37.jsxDEV)(
             "label",
@@ -7530,7 +7627,7 @@ function ForgotPass() {
             !1,
             {
               fileName: "app/components/UI/ForgotPassword.jsx",
-              lineNumber: 28,
+              lineNumber: 24,
               columnNumber: 15
             },
             this
@@ -7549,48 +7646,38 @@ function ForgotPass() {
             !1,
             {
               fileName: "app/components/UI/ForgotPassword.jsx",
-              lineNumber: 34,
+              lineNumber: 30,
               columnNumber: 15
             },
             this
           )
         ] }, void 0, !0, {
           fileName: "app/components/UI/ForgotPassword.jsx",
-          lineNumber: 27,
+          lineNumber: 23,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime37.jsxDEV)(
-          "button",
-          {
-            className: "w-full px-5 py-3 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 sm:w-auto dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800",
-            children: "Reset password"
-          },
-          void 0,
-          !1,
-          {
-            fileName: "app/components/UI/ForgotPassword.jsx",
-            lineNumber: 43,
-            columnNumber: 13
-          },
-          this
-        )
+        /* @__PURE__ */ (0, import_jsx_dev_runtime37.jsxDEV)("button", { className: "w-full px-5 py-3 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 sm:w-auto dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800", children: "Reset password" }, void 0, !1, {
+          fileName: "app/components/UI/ForgotPassword.jsx",
+          lineNumber: 39,
+          columnNumber: 13
+        }, this)
       ] }, void 0, !0, {
         fileName: "app/components/UI/ForgotPassword.jsx",
-        lineNumber: 26,
+        lineNumber: 22,
         columnNumber: 11
       }, this)
     ] }, void 0, !0, {
       fileName: "app/components/UI/ForgotPassword.jsx",
-      lineNumber: 18,
+      lineNumber: 14,
       columnNumber: 9
     }, this) }, void 0, !1, {
       fileName: "app/components/UI/ForgotPassword.jsx",
-      lineNumber: 17,
+      lineNumber: 13,
       columnNumber: 7
     }, this)
   ] }, void 0, !0, {
     fileName: "app/components/UI/ForgotPassword.jsx",
-    lineNumber: 5,
+    lineNumber: 6,
     columnNumber: 5
   }, this);
 }
@@ -7608,12 +7695,12 @@ function forgotPassWordPage() {
 // app/routes/changepass.jsx
 var changepass_exports = {};
 __export(changepass_exports, {
-  action: () => action6,
+  action: () => action7,
   default: () => changepassword,
   loader: () => loader13,
   meta: () => meta5
 });
-var import_react30 = require("@remix-run/react"), import_node9 = require("@remix-run/node");
+var import_react31 = require("@remix-run/react"), import_node10 = require("@remix-run/node");
 var import_jsx_dev_runtime39 = require("react/jsx-dev-runtime");
 function meta5() {
   return [{ title: "Change Password" }];
@@ -7625,7 +7712,7 @@ function changepassword() {
       lineNumber: 12,
       columnNumber: 11
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime39.jsxDEV)(import_react30.Form, { class: "mt-1 space-y-4 lg:mt-5 md:space-y-5", method: "patch", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime39.jsxDEV)(import_react31.Form, { class: "mt-1 space-y-4 lg:mt-5 md:space-y-5", method: "patch", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime39.jsxDEV)("div", { children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime39.jsxDEV)("label", { for: "old-password", class: "block mb-2 text-sm font-medium text-gray-900 dark:text-white", children: "Old Password" }, void 0, !1, {
           fileName: "app/routes/changepass.jsx",
@@ -7700,12 +7787,12 @@ function changepassword() {
 }
 async function loader13({ request: request2 }) {
   let token = await requireUserSession(request2);
-  return token || (0, import_node9.redirect)("/login");
+  return token || (0, import_node10.redirect)("/login");
 }
-async function action6({ request: request2 }) {
+async function action7({ request: request2 }) {
   let token = await requireUserSession(request2);
   if (!token)
-    return (0, import_node9.redirect)("/login");
+    return (0, import_node10.redirect)("/login");
   let formData = await request2.formData(), data = {
     passwordCurrent: formData.get("old-password"),
     password: formData.get("password"),
@@ -7724,7 +7811,7 @@ async function action6({ request: request2 }) {
         body: JSON.stringify(data)
       }
     )).json();
-    return console.log(resData), resData.status !== "success" ? (console.log("deo thanh cong"), new Error("Invalid change")) : (0, import_node9.redirect)("/main");
+    return console.log(resData), resData.status !== "success" ? (console.log("deo thanh cong"), new Error("Invalid change")) : (0, import_node10.redirect)("/main");
   } catch (error) {
     if (error.status === 401)
       return error;
@@ -7736,7 +7823,7 @@ var logout_exports = {};
 __export(logout_exports, {
   loader: () => loader14
 });
-var import_node10 = require("@remix-run/node");
+var import_node11 = require("@remix-run/node");
 async function loader14({ request: request2 }) {
   return console.log(request2), await destroyUserSession(request2);
 }
@@ -7747,12 +7834,13 @@ __export(home_exports, {
   default: () => HomeLayout,
   loader: () => loader15
 });
-var import_react33 = require("@remix-run/react");
+var import_react34 = require("@remix-run/react");
 
 // app/components/UI/MainNavigation.jsx
-var import_react31 = require("@remix-run/react"), import_react32 = require("react"), import_react_fontawesome3 = require("@fortawesome/react-fontawesome"), import_free_solid_svg_icons3 = require("@fortawesome/free-solid-svg-icons"), import_jsx_dev_runtime40 = require("react/jsx-dev-runtime");
+var import_react32 = require("@remix-run/react"), import_react33 = require("react"), import_react_fontawesome3 = require("@fortawesome/react-fontawesome"), import_free_solid_svg_icons3 = require("@fortawesome/free-solid-svg-icons");
+var import_jsx_dev_runtime40 = require("react/jsx-dev-runtime");
 function MainNavigation() {
-  let data = (0, import_react31.useLoaderData)(), { isAdmin } = data, [toggle, setIsToggle] = (0, import_react32.useState)(!1);
+  let data = (0, import_react32.useLoaderData)(), { isAdmin } = data, [toggle, setIsToggle] = (0, import_react33.useState)(!1);
   return /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)(import_jsx_dev_runtime40.Fragment, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)(
     "aside",
     {
@@ -7761,7 +7849,7 @@ function MainNavigation() {
       "aria-label": "Sidebar",
       children: /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)("div", { className: "h-full px-3 py-4 overflow-y-auto bg-gray-50 dark:bg-gray-800", children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)(
-          import_react31.Link,
+          import_react32.Link,
           {
             prefetch: "intent",
             to: "/",
@@ -7770,8 +7858,7 @@ function MainNavigation() {
               /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)(
                 "img",
                 {
-                  src: "https://flowbite.com/docs/images/logo.svg",
-                  className: "h-6 mr-3 sm:h-7",
+                  src: logo_default,
                   alt: "Flowbite Logo"
                 },
                 void 0,
@@ -7783,7 +7870,7 @@ function MainNavigation() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)("span", { className: "self-center text-xl font-semibold whitespace-nowrap dark:text-white", children: "Flowbite" }, void 0, !1, {
+              /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)("span", { className: "self-center text-xl font-semibold whitespace-nowrap dark:text-white" }, void 0, !1, {
                 fileName: "app/components/UI/MainNavigation.jsx",
                 lineNumber: 41,
                 columnNumber: 13
@@ -7801,20 +7888,19 @@ function MainNavigation() {
         ),
         /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)("ul", { className: "space-y-2 font-medium", children: [
           /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)(
-            import_react31.Link,
+            import_react32.Link,
             {
-              prefetch: "render",
               to: "/",
               className: "flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 active:bg-gray-700",
               children: [
                 /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)(import_react_fontawesome3.FontAwesomeIcon, { icon: import_free_solid_svg_icons3.faGauge, size: "lg" }, void 0, !1, {
                   fileName: "app/components/UI/MainNavigation.jsx",
-                  lineNumber: 53,
+                  lineNumber: 51,
                   columnNumber: 17
                 }, this),
                 /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)("span", { className: "ml-3", children: "Dashboard" }, void 0, !1, {
                   fileName: "app/components/UI/MainNavigation.jsx",
-                  lineNumber: 54,
+                  lineNumber: 52,
                   columnNumber: 17
                 }, this)
               ]
@@ -7823,29 +7909,29 @@ function MainNavigation() {
             !0,
             {
               fileName: "app/components/UI/MainNavigation.jsx",
-              lineNumber: 48,
+              lineNumber: 46,
               columnNumber: 15
             },
             this
           ) }, void 0, !1, {
             fileName: "app/components/UI/MainNavigation.jsx",
-            lineNumber: 47,
+            lineNumber: 45,
             columnNumber: 13
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)(
-            import_react31.Link,
+            import_react32.Link,
             {
               to: "/car",
               className: "flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700",
               children: [
                 /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)(import_react_fontawesome3.FontAwesomeIcon, { icon: import_free_solid_svg_icons3.faCar, size: "lg" }, void 0, !1, {
                   fileName: "app/components/UI/MainNavigation.jsx",
-                  lineNumber: 76,
+                  lineNumber: 74,
                   columnNumber: 17
                 }, this),
                 /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)("span", { className: "flex-1 ml-3 whitespace-nowrap", children: "Cars" }, void 0, !1, {
                   fileName: "app/components/UI/MainNavigation.jsx",
-                  lineNumber: 77,
+                  lineNumber: 75,
                   columnNumber: 17
                 }, this)
               ]
@@ -7854,13 +7940,13 @@ function MainNavigation() {
             !0,
             {
               fileName: "app/components/UI/MainNavigation.jsx",
-              lineNumber: 72,
+              lineNumber: 70,
               columnNumber: 15
             },
             this
           ) }, void 0, !1, {
             fileName: "app/components/UI/MainNavigation.jsx",
-            lineNumber: 71,
+            lineNumber: 69,
             columnNumber: 13
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)("li", { children: [
@@ -7877,7 +7963,7 @@ function MainNavigation() {
                 children: [
                   /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)(import_react_fontawesome3.FontAwesomeIcon, { icon: import_free_solid_svg_icons3.faMagnifyingGlass, size: "lg" }, void 0, !1, {
                     fileName: "app/components/UI/MainNavigation.jsx",
-                    lineNumber: 88,
+                    lineNumber: 86,
                     columnNumber: 17
                   }, this),
                   /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)(
@@ -7891,7 +7977,7 @@ function MainNavigation() {
                     !1,
                     {
                       fileName: "app/components/UI/MainNavigation.jsx",
-                      lineNumber: 89,
+                      lineNumber: 87,
                       columnNumber: 17
                     },
                     this
@@ -7915,7 +8001,7 @@ function MainNavigation() {
                         !1,
                         {
                           fileName: "app/components/UI/MainNavigation.jsx",
-                          lineNumber: 102,
+                          lineNumber: 100,
                           columnNumber: 19
                         },
                         this
@@ -7925,7 +8011,7 @@ function MainNavigation() {
                     !1,
                     {
                       fileName: "app/components/UI/MainNavigation.jsx",
-                      lineNumber: 95,
+                      lineNumber: 93,
                       columnNumber: 17
                     },
                     this
@@ -7936,7 +8022,7 @@ function MainNavigation() {
               !0,
               {
                 fileName: "app/components/UI/MainNavigation.jsx",
-                lineNumber: 81,
+                lineNumber: 79,
                 columnNumber: 15
               },
               this
@@ -7948,19 +8034,20 @@ function MainNavigation() {
                 className: `py-2 space-y-2 ${toggle ? "" : "hidden"}`,
                 children: [
                   isAdmin === 1 && /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)(
-                    import_react31.Link,
+                    import_react32.Link,
                     {
                       to: "/office",
+                      prefetch: "render",
                       className: "flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700",
                       children: [
                         /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)(import_react_fontawesome3.FontAwesomeIcon, { icon: import_free_solid_svg_icons3.faBuilding, size: "lg" }, void 0, !1, {
                           fileName: "app/components/UI/MainNavigation.jsx",
-                          lineNumber: 119,
+                          lineNumber: 118,
                           columnNumber: 23
                         }, this),
                         /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)("span", { className: "flex-1 ml-3 whitespace-nowrap", children: "Centre" }, void 0, !1, {
                           fileName: "app/components/UI/MainNavigation.jsx",
-                          lineNumber: 120,
+                          lineNumber: 119,
                           columnNumber: 23
                         }, this)
                       ]
@@ -7969,29 +8056,29 @@ function MainNavigation() {
                     !0,
                     {
                       fileName: "app/components/UI/MainNavigation.jsx",
-                      lineNumber: 115,
+                      lineNumber: 113,
                       columnNumber: 21
                     },
                     this
                   ) }, void 0, !1, {
                     fileName: "app/components/UI/MainNavigation.jsx",
-                    lineNumber: 114,
+                    lineNumber: 112,
                     columnNumber: 19
                   }, this),
                   /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)(
-                    import_react31.Link,
+                    import_react32.Link,
                     {
                       to: "/Inspections",
                       className: "flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700",
                       children: [
                         /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)(import_react_fontawesome3.FontAwesomeIcon, { icon: import_free_solid_svg_icons3.faCertificate, size: "lg" }, void 0, !1, {
                           fileName: "app/components/UI/MainNavigation.jsx",
-                          lineNumber: 131,
+                          lineNumber: 130,
                           columnNumber: 21
                         }, this),
                         /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)("span", { className: "flex-1 ml-3 whitespace-nowrap", children: "Inspections" }, void 0, !1, {
                           fileName: "app/components/UI/MainNavigation.jsx",
-                          lineNumber: 132,
+                          lineNumber: 131,
                           columnNumber: 21
                         }, this)
                       ]
@@ -8000,13 +8087,13 @@ function MainNavigation() {
                     !0,
                     {
                       fileName: "app/components/UI/MainNavigation.jsx",
-                      lineNumber: 127,
+                      lineNumber: 126,
                       columnNumber: 19
                     },
                     this
                   ) }, void 0, !1, {
                     fileName: "app/components/UI/MainNavigation.jsx",
-                    lineNumber: 126,
+                    lineNumber: 125,
                     columnNumber: 17
                   }, this)
                 ]
@@ -8015,30 +8102,30 @@ function MainNavigation() {
               !0,
               {
                 fileName: "app/components/UI/MainNavigation.jsx",
-                lineNumber: 109,
+                lineNumber: 107,
                 columnNumber: 15
               },
               this
             )
           ] }, void 0, !0, {
             fileName: "app/components/UI/MainNavigation.jsx",
-            lineNumber: 80,
+            lineNumber: 78,
             columnNumber: 13
           }, this),
           isAdmin === 1 && /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)(
-            import_react31.Link,
+            import_react32.Link,
             {
               to: "/addStaff",
               className: "flex items-center self-end p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700",
               children: [
                 /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)(import_react_fontawesome3.FontAwesomeIcon, { icon: import_free_solid_svg_icons3.faUserPlus, size: "lg" }, void 0, !1, {
                   fileName: "app/components/UI/MainNavigation.jsx",
-                  lineNumber: 145,
+                  lineNumber: 144,
                   columnNumber: 19
                 }, this),
                 /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)("span", { className: "flex-1 ml-3 whitespace-nowrap", children: "Add Staff" }, void 0, !1, {
                   fileName: "app/components/UI/MainNavigation.jsx",
-                  lineNumber: 146,
+                  lineNumber: 145,
                   columnNumber: 19
                 }, this)
               ]
@@ -8047,29 +8134,29 @@ function MainNavigation() {
             !0,
             {
               fileName: "app/components/UI/MainNavigation.jsx",
-              lineNumber: 141,
+              lineNumber: 140,
               columnNumber: 17
             },
             this
           ) }, void 0, !1, {
             fileName: "app/components/UI/MainNavigation.jsx",
-            lineNumber: 140,
+            lineNumber: 139,
             columnNumber: 15
           }, this),
           isAdmin === 1 && /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)(
-            import_react31.Link,
+            import_react32.Link,
             {
               to: "/office/add",
               className: "flex items-center self-end p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700",
               children: [
                 /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)(import_react_fontawesome3.FontAwesomeIcon, { icon: import_free_solid_svg_icons3.faBuilding, size: "lg" }, void 0, !1, {
                   fileName: "app/components/UI/MainNavigation.jsx",
-                  lineNumber: 158,
+                  lineNumber: 157,
                   columnNumber: 19
                 }, this),
                 /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)("span", { className: "flex-1 ml-3 whitespace-nowrap", children: "Add Centre" }, void 0, !1, {
                   fileName: "app/components/UI/MainNavigation.jsx",
-                  lineNumber: 159,
+                  lineNumber: 158,
                   columnNumber: 19
                 }, this)
               ]
@@ -8078,17 +8165,17 @@ function MainNavigation() {
             !0,
             {
               fileName: "app/components/UI/MainNavigation.jsx",
-              lineNumber: 154,
+              lineNumber: 153,
               columnNumber: 17
             },
             this
           ) }, void 0, !1, {
             fileName: "app/components/UI/MainNavigation.jsx",
-            lineNumber: 153,
+            lineNumber: 152,
             columnNumber: 15
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)(
-            import_react31.Link,
+            import_react32.Link,
             {
               prefetch: "render",
               to: "/info",
@@ -8096,12 +8183,12 @@ function MainNavigation() {
               children: [
                 /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)(import_react_fontawesome3.FontAwesomeIcon, { icon: import_free_solid_svg_icons3.faAddressCard, size: "lg" }, void 0, !1, {
                   fileName: "app/components/UI/MainNavigation.jsx",
-                  lineNumber: 171,
+                  lineNumber: 170,
                   columnNumber: 17
                 }, this),
                 /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)("span", { className: "ml-3", children: "About" }, void 0, !1, {
                   fileName: "app/components/UI/MainNavigation.jsx",
-                  lineNumber: 172,
+                  lineNumber: 171,
                   columnNumber: 17
                 }, this)
               ]
@@ -8110,29 +8197,29 @@ function MainNavigation() {
             !0,
             {
               fileName: "app/components/UI/MainNavigation.jsx",
-              lineNumber: 166,
+              lineNumber: 165,
               columnNumber: 15
             },
             this
           ) }, void 0, !1, {
             fileName: "app/components/UI/MainNavigation.jsx",
-            lineNumber: 165,
+            lineNumber: 164,
             columnNumber: 13
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)(
-            import_react31.Link,
+            import_react32.Link,
             {
               to: "/logout",
               className: "flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 self-end",
               children: [
                 /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)(import_react_fontawesome3.FontAwesomeIcon, { icon: import_free_solid_svg_icons3.faRightFromBracket, size: "lg" }, void 0, !1, {
                   fileName: "app/components/UI/MainNavigation.jsx",
-                  lineNumber: 180,
+                  lineNumber: 179,
                   columnNumber: 17
                 }, this),
                 /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)("span", { className: "flex-1 ml-3 whitespace-nowrap", children: "Sign Out" }, void 0, !1, {
                   fileName: "app/components/UI/MainNavigation.jsx",
-                  lineNumber: 181,
+                  lineNumber: 180,
                   columnNumber: 17
                 }, this)
               ]
@@ -8141,18 +8228,18 @@ function MainNavigation() {
             !0,
             {
               fileName: "app/components/UI/MainNavigation.jsx",
-              lineNumber: 176,
+              lineNumber: 175,
               columnNumber: 15
             },
             this
           ) }, void 0, !1, {
             fileName: "app/components/UI/MainNavigation.jsx",
-            lineNumber: 175,
+            lineNumber: 174,
             columnNumber: 13
           }, this)
         ] }, void 0, !0, {
           fileName: "app/components/UI/MainNavigation.jsx",
-          lineNumber: 46,
+          lineNumber: 44,
           columnNumber: 11
         }, this)
       ] }, void 0, !0, {
@@ -8177,16 +8264,16 @@ function MainNavigation() {
 }
 
 // app/routes/_home.jsx
-var import_react34 = require("@remix-run/react"), import_jsx_dev_runtime41 = require("react/jsx-dev-runtime");
+var import_react35 = require("@remix-run/react"), import_jsx_dev_runtime41 = require("react/jsx-dev-runtime");
 function HomeLayout() {
-  let userData = (0, import_react34.useLoaderData)();
+  let userData = (0, import_react35.useLoaderData)();
   return /* @__PURE__ */ (0, import_jsx_dev_runtime41.jsxDEV)("div", { className: "page", style: { overflow: "auto" }, children: [
     /* @__PURE__ */ (0, import_jsx_dev_runtime41.jsxDEV)(MainNavigation, {}, void 0, !1, {
       fileName: "app/routes/_home.jsx",
       lineNumber: 9,
       columnNumber: 7
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime41.jsxDEV)("section", { className: "p-4 sm:ml-64 min-h-screen dark:bg-gray-900", children: /* @__PURE__ */ (0, import_jsx_dev_runtime41.jsxDEV)(import_react33.Outlet, { context: userData }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime41.jsxDEV)("section", { className: "p-4 sm:ml-64 min-h-screen dark:bg-gray-900", children: /* @__PURE__ */ (0, import_jsx_dev_runtime41.jsxDEV)(import_react34.Outlet, { context: userData }, void 0, !1, {
       fileName: "app/routes/_home.jsx",
       lineNumber: 12,
       columnNumber: 9
@@ -8208,46 +8295,33 @@ async function loader15({ request: request2 }) {
 // app/routes/login.jsx
 var login_exports = {};
 __export(login_exports, {
-  action: () => action7,
+  action: () => action8,
   default: () => LoginPage,
   loader: () => loader16
 });
 
 // app/components/UI/Login.jsx
-var import_react35 = require("@remix-run/react"), import_react_fontawesome4 = require("@fortawesome/react-fontawesome"), import_free_solid_svg_icons4 = require("@fortawesome/free-solid-svg-icons"), import_flowbite_react6 = require("flowbite-react"), import_jsx_dev_runtime42 = require("react/jsx-dev-runtime");
+var import_react36 = require("@remix-run/react");
+var import_react_fontawesome4 = require("@fortawesome/react-fontawesome"), import_free_solid_svg_icons4 = require("@fortawesome/free-solid-svg-icons"), import_flowbite_react6 = require("flowbite-react"), import_jsx_dev_runtime42 = require("react/jsx-dev-runtime");
 function Login() {
-  let data = (0, import_react35.useActionData)();
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime42.jsxDEV)("section", { className: "bg-gray-50 dark:bg-gray-900", children: /* @__PURE__ */ (0, import_jsx_dev_runtime42.jsxDEV)("div", { className: "flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0", children: [
+  let data = (0, import_react36.useActionData)();
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime42.jsxDEV)("section", { className: "bg-gray-50 dark:bg-gray-900", children: /* @__PURE__ */ (0, import_jsx_dev_runtime42.jsxDEV)("div", { className: "flex flex-col items-center justify-center px-6 mx-auto md:h-screen lg:py-0", children: [
     /* @__PURE__ */ (0, import_jsx_dev_runtime42.jsxDEV)(
-      "a",
+      import_react36.Link,
       {
-        href: "#",
-        className: "flex items-center mb-6 text-2xl font-semibold text-gray-900 dark:text-white",
-        children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime42.jsxDEV)(
-            "img",
-            {
-              className: "w-8 h-8 mr-2",
-              src: "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/logo.svg",
-              alt: "logo"
-            },
-            void 0,
-            !1,
-            {
-              fileName: "app/components/UI/Login.jsx",
-              lineNumber: 14,
-              columnNumber: 11
-            },
-            this
-          ),
-          "Flowbite"
-        ]
+        to: "#",
+        className: "flex items-center text-2xl font-semibold text-gray-900 dark:text-white justify-center mb-6",
+        children: /* @__PURE__ */ (0, import_jsx_dev_runtime42.jsxDEV)("img", { className: "w-1/3", src: logo_default, alt: "logo" }, void 0, !1, {
+          fileName: "app/components/UI/Login.jsx",
+          lineNumber: 15,
+          columnNumber: 11
+        }, this)
       },
       void 0,
-      !0,
+      !1,
       {
         fileName: "app/components/UI/Login.jsx",
-        lineNumber: 10,
+        lineNumber: 11,
         columnNumber: 9
       },
       this
@@ -8255,12 +8329,12 @@ function Login() {
     /* @__PURE__ */ (0, import_jsx_dev_runtime42.jsxDEV)("div", { className: "w-full bg-white rounded-lg shadow dark:border md:mt-0 sm:max-w-md xl:p-0 dark:bg-gray-800 dark:border-gray-700", children: /* @__PURE__ */ (0, import_jsx_dev_runtime42.jsxDEV)("div", { className: "p-6 space-y-4 md:space-y-6 sm:p-8", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime42.jsxDEV)("h1", { className: "text-xl font-bold leading-tight text-center tracking-tight text-gray-900 md:text-2xl dark:text-white", children: "Welcome to VietNam Registry" }, void 0, !1, {
         fileName: "app/components/UI/Login.jsx",
-        lineNumber: 23,
+        lineNumber: 19,
         columnNumber: 13
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime42.jsxDEV)("h6", { className: "italic text-center text-md mt-1 dark:text-white", children: "Enter your credentials to access your account" }, void 0, !1, {
         fileName: "app/components/UI/Login.jsx",
-        lineNumber: 26,
+        lineNumber: 22,
         columnNumber: 13
       }, this),
       data ? /* @__PURE__ */ (0, import_jsx_dev_runtime42.jsxDEV)(import_flowbite_react6.Alert, { color: "failure", children: [
@@ -8277,26 +8351,26 @@ function Login() {
           !1,
           {
             fileName: "app/components/UI/Login.jsx",
-            lineNumber: 31,
+            lineNumber: 27,
             columnNumber: 17
           },
           this
         ),
         /* @__PURE__ */ (0, import_jsx_dev_runtime42.jsxDEV)("span", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime42.jsxDEV)("span", { className: "font-medium", children: data.message }, void 0, !1, {
           fileName: "app/components/UI/Login.jsx",
-          lineNumber: 39,
+          lineNumber: 35,
           columnNumber: 19
         }, this) }, void 0, !1, {
           fileName: "app/components/UI/Login.jsx",
-          lineNumber: 38,
+          lineNumber: 34,
           columnNumber: 17
         }, this)
       ] }, void 0, !0, {
         fileName: "app/components/UI/Login.jsx",
-        lineNumber: 30,
+        lineNumber: 26,
         columnNumber: 15
       }, this) : "",
-      /* @__PURE__ */ (0, import_jsx_dev_runtime42.jsxDEV)(import_react35.Form, { className: "space-y-4 md:space-y-6", method: "post", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime42.jsxDEV)(import_react36.Form, { className: "space-y-4 md:space-y-6", method: "post", children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime42.jsxDEV)("div", { children: [
           /* @__PURE__ */ (0, import_jsx_dev_runtime42.jsxDEV)(
             "label",
@@ -8309,7 +8383,7 @@ function Login() {
             !1,
             {
               fileName: "app/components/UI/Login.jsx",
-              lineNumber: 47,
+              lineNumber: 43,
               columnNumber: 17
             },
             this
@@ -8327,14 +8401,14 @@ function Login() {
             !1,
             {
               fileName: "app/components/UI/Login.jsx",
-              lineNumber: 53,
+              lineNumber: 49,
               columnNumber: 17
             },
             this
           )
         ] }, void 0, !0, {
           fileName: "app/components/UI/Login.jsx",
-          lineNumber: 46,
+          lineNumber: 42,
           columnNumber: 15
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime42.jsxDEV)("div", { children: [
@@ -8349,7 +8423,7 @@ function Login() {
             !1,
             {
               fileName: "app/components/UI/Login.jsx",
-              lineNumber: 62,
+              lineNumber: 58,
               columnNumber: 17
             },
             this
@@ -8367,23 +8441,23 @@ function Login() {
             !1,
             {
               fileName: "app/components/UI/Login.jsx",
-              lineNumber: 68,
+              lineNumber: 64,
               columnNumber: 17
             },
             this
           )
         ] }, void 0, !0, {
           fileName: "app/components/UI/Login.jsx",
-          lineNumber: 61,
+          lineNumber: 57,
           columnNumber: 15
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime42.jsxDEV)("button", { className: "w-full text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800", children: "Sign in" }, void 0, !1, {
           fileName: "app/components/UI/Login.jsx",
-          lineNumber: 76,
+          lineNumber: 72,
           columnNumber: 15
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime42.jsxDEV)("p", { className: "text-sm font-light text-gray-500 dark:text-gray-400", children: /* @__PURE__ */ (0, import_jsx_dev_runtime42.jsxDEV)(
-          import_react35.Link,
+          import_react36.Link,
           {
             to: "/forgot-pass",
             className: "font-medium text-primary-600 hover:underline dark:text-primary-500",
@@ -8393,53 +8467,53 @@ function Login() {
           !1,
           {
             fileName: "app/components/UI/Login.jsx",
-            lineNumber: 80,
+            lineNumber: 76,
             columnNumber: 17
           },
           this
         ) }, void 0, !1, {
           fileName: "app/components/UI/Login.jsx",
-          lineNumber: 79,
+          lineNumber: 75,
           columnNumber: 15
         }, this)
       ] }, void 0, !0, {
         fileName: "app/components/UI/Login.jsx",
-        lineNumber: 45,
+        lineNumber: 41,
         columnNumber: 13
       }, this)
     ] }, void 0, !0, {
       fileName: "app/components/UI/Login.jsx",
-      lineNumber: 22,
+      lineNumber: 18,
       columnNumber: 11
     }, this) }, void 0, !1, {
       fileName: "app/components/UI/Login.jsx",
-      lineNumber: 21,
+      lineNumber: 17,
       columnNumber: 9
     }, this)
   ] }, void 0, !0, {
     fileName: "app/components/UI/Login.jsx",
-    lineNumber: 9,
+    lineNumber: 10,
     columnNumber: 7
   }, this) }, void 0, !1, {
     fileName: "app/components/UI/Login.jsx",
-    lineNumber: 8,
+    lineNumber: 9,
     columnNumber: 5
   }, this);
 }
 
 // app/routes/login.jsx
-var import_node11 = require("@remix-run/node"), import_jsx_dev_runtime43 = require("react/jsx-dev-runtime");
+var import_node12 = require("@remix-run/node"), import_jsx_dev_runtime43 = require("react/jsx-dev-runtime");
 function LoginPage() {
   return /* @__PURE__ */ (0, import_jsx_dev_runtime43.jsxDEV)(Login, {}, void 0, !1, {
     fileName: "app/routes/login.jsx",
-    lineNumber: 9,
+    lineNumber: 6,
     columnNumber: 10
   }, this);
 }
 async function loader16({ request: request2 }) {
-  return await getUserFromSession(request2) ? (0, import_node11.redirect)("/") : null;
+  return await getUserFromSession(request2) ? (0, import_node12.redirect)("/") : null;
 }
-async function action7({ request: request2 }) {
+async function action8({ request: request2 }) {
   let formData = await request2.formData(), data = {
     email: formData.get("email"),
     password: formData.get("password")
@@ -8447,7 +8521,7 @@ async function action7({ request: request2 }) {
   try {
     return await login(data.email, data.password);
   } catch (error) {
-    return (0, import_node11.json)({ message: error.message });
+    return (0, import_node12.json)({ message: error.message });
   }
 }
 

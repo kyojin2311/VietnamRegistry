@@ -1,18 +1,14 @@
 import { Link, Form } from "@remix-run/react";
+import logo from "../../images/logo.png";
 
 export default function ForgotPass() {
   return (
     <div className="flex flex-col items-center justify-center px-6 pt-8 mx-auto md:h-screen pt:mt-0 dark:bg-gray-900">
       <Link
-        to='/login'
-        className="flex items-center mb-6 text-2xl font-semibold text-gray-900 dark:text-white"
+        to="/login"
+        className="flex items-center text-2xl font-semibold text-gray-900 dark:text-white justify-center mb-6"
       >
-        <img
-          className="w-8 h-8 mr-2"
-          src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/logo.svg"
-          alt="logo"
-        />
-        Flowbite
+        <img className="w-1/3" src={logo} alt="logo" />
       </Link>
       <div className="w-full bg-white rounded-lg shadow md:mt-0 sm:max-w-md xl:p-0 dark:bg-gray-800">
         <div className="w-full p-6 sm:p-8">
@@ -40,9 +36,7 @@ export default function ForgotPass() {
                 required
               />
             </div>
-            <button
-              className="w-full px-5 py-3 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 sm:w-auto dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
-            >
+            <button className="w-full px-5 py-3 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 sm:w-auto dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">
               Reset password
             </button>
           </Form>

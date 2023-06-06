@@ -26,7 +26,7 @@ export default function InspectionsForm({ data }) {
             </div>
             <div className="text-left  w-full mt-1">
               Nhãn Hiệu: <span className="italic text-sm">(Mark)</span>{" "}
-              {data.car.brand}
+              {data.car.mark}
             </div>
             <div className="text-left  w-full mt-1">
               Số Loại: <span className="italic text-sm">(Model Code)</span>{" "}

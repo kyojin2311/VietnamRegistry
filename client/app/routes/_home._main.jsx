@@ -1,4 +1,3 @@
-import { getOwnInfo } from "../services/APIAction.server";
 import { requireUserSession } from "../services/auth.server";
 import { json, redirect } from "@remix-run/node";
 import ChartPanel from "../components/Dashboard/ChartSection";
@@ -27,7 +26,6 @@ export async function loader({ request }) {
   const token = await requireUserSession(request);
   if (!token) return redirect("/login");
   const url = "https://registrytotal.herokuapp.com/api/office/own/car";
-
   const dataPass = {
     time: "2023",
     city: "",

@@ -10,3 +10,5 @@ export default function InpectionsPage() {
 export async function loader({ request, params }) {
   return await getInspections(params, request);
 }
+
+

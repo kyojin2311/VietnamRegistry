@@ -62,7 +62,7 @@ export default function DashBoardFooter() {
             {expired.data.expired}
           </span>
         </div>
-        <div className="w-full">
+        <div className="w-full dark: text-right">
           <Link
             prefetch="render"
             to="expired"

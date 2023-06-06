@@ -1,9 +1,6 @@
 import Login from "../components/UI/Login";
 import { login } from "../services/APIAction.server";
-import {
-  getUserFromSession,
-  requireUserSession,
-} from "../services/auth.server";
+import { getUserFromSession } from "../services/auth.server";
 import { redirect, json } from "@remix-run/node";
 export default function LoginPage() {
   return <Login />;

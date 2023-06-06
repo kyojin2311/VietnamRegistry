@@ -5,6 +5,9 @@ import PageModal from "../../util/PageModal";
 
 export default function ExpiredSoonTable() {
   const data = useLoaderData().data;
+  const inspection = data.sort(function (a, b) {
+    return new Date(a.registDate) - new Date(b.registDate);
+  });
   return (
     <PageModal title="This is the list of car will be expired soon">
       <Table hoverable className="overflow-y-auto">
@@ -18,7 +21,7 @@ export default function ExpiredSoonTable() {
           </Table.HeadCell>
         </Table.Head>
         <Table.Body className="divide-y">
-          {data.map((dt) => (
+          {inspection.map((dt) => (
             <Table.Row
               key={dt.numberPlate}
               className="bg-white dark:border-gray-700 dark:bg-gray-800"
