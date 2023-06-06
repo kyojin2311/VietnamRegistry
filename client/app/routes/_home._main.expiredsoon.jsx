@@ -1,5 +1,4 @@
 import { requireUserSession } from "../services/auth.server";
-import { getOwnInfo } from "../services/APIAction.server";
 import ExpiredSoonTable from "../components/Dashboard/ExpiredSoon";
 export default function ExpiredSoon() {
   return <ExpiredSoonTable />;
@@ -7,7 +6,6 @@ export default function ExpiredSoon() {
 export async function loader({ request }) {
   const token = await requireUserSession(request);
   if (!token) return redirect("/login");
-  // const info = await getOwnInfo(request);
   const url = "https://registrytotal.herokuapp.com/api/office/own/outdatecar";
   const dataPass_1 = {
     status: "soon",
@@ -23,6 +21,5 @@ export async function loader({ request }) {
     body: JSON.stringify(dataPass_1),
   });
   const resData = await response.json();
-  console.log(resData);
   return resData;
 }

@@ -10,7 +10,6 @@ import { Response } from "@remix-run/node";
 import { RemixServer } from "@remix-run/react";
 import isbot from "isbot";
 import { renderToPipeableStream } from "react-dom/server";
-import { preloadRouteAssets } from "remix-utils";
 
 const ABORT_DELAY = 5_000;
 
@@ -54,7 +53,6 @@ function handleBotRequest(
           const body = new PassThrough();
 
           responseHeaders.set("Content-Type", "text/html");
-          // preloadRouteAssets(remixContext, responseHeaders);
 
           resolve(
             new Response(body, {
@@ -98,7 +96,6 @@ function handleBrowserRequest(
           const body = new PassThrough();
 
           responseHeaders.set("Content-Type", "text/html");
-          // preloadRouteAssets(remixContext, responseHeaders);
 
           resolve(
             new Response(body, {

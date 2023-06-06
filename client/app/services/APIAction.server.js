@@ -78,8 +78,24 @@ export async function getInspections(params, request) {
     },
   });
   const resData = await response.json();
-  console.log(resData);
   return resData;
+}
+export async function findInspectionsById(request, id) {
+  const token = await requireUserSession(request);
+  if (!token) return redirect("/login");
+  const url = "https://registrytotal.herokuapp.com/api/inspection/" + id;
+  const response = await fetch(url, {
+    method: "GET",
+    headers: {
+      "content-type": "application/json",
+      Authorization: `Bearer ${token}`,
+    },
+  });
+  const resData = await response.json();
+  console.log(resData);
+  if (resData === null) {
+    throw new Error("Cannot find this Registration Number");
+  } else return redirect(`/Inspections/${id}`);
 }
 //Get own user Info
 export async function getOwnInfo(request) {

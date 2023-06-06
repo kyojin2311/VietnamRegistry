@@ -4,7 +4,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faMagnifyingGlass,
   faGauge,
-  faChartLine,
   faUserPlus,
   faRightFromBracket,
   faBuilding,
@@ -12,6 +11,7 @@ import {
   faCertificate,
   faAddressCard,
 } from "@fortawesome/free-solid-svg-icons";
+import logo from "../../images/logo.png";
 export default function MainNavigation() {
   //Take Loader data from the _home.jsx loader for fixing what admin and nonadmin can do in the NavBar
   const data = useLoaderData();
@@ -34,19 +34,17 @@ export default function MainNavigation() {
             className="flex items-center pl-2.5 mb-5"
           >
             <img
-              src="https://flowbite.com/docs/images/logo.svg"
-              className="h-6 mr-3 sm:h-7"
+              src={logo}
+              // className="h-6 mr-3 sm:h-7"
               alt="Flowbite Logo"
             />
-            <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">
-              Flowbite
-            </span>
+            <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white"></span>
           </Link>
 
           <ul className="space-y-2 font-medium">
             <li>
               <Link
-                prefetch="render"
+                // prefetch="render"
                 to="/"
                 className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 active:bg-gray-700"
               >
@@ -114,6 +112,7 @@ export default function MainNavigation() {
                   <li>
                     <Link
                       to="/office"
+                      prefetch="render"
                       className="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
                     >
                       <FontAwesomeIcon icon={faBuilding} size="lg" />
