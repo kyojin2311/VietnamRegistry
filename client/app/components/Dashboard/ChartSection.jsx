@@ -22,7 +22,6 @@ export default function ChartPanel() {
             speed: 350,
           },
         },
-        height: "400px",
       },
 
       xaxis: {
@@ -70,8 +69,7 @@ export default function ChartPanel() {
 
   return (
     <div
-      className="p-4 bg-white border dark:bg-gray-800 sm:p-6 dark:border-gray-700 2xl:col-span-2 shadow-sm rounded-lg border-gray-200"
-      style={{ height: "850px" }}
+      className="p-4 bg-white border dark:bg-gray-800 sm:p-6 dark:border-gray-700 shadow-sm rounded-lg border-gray-200 mb-4"
     >
       <div className="flex items-center justify-between mb-2">
         <div className="flex-shrink-0 dark:text-white text-xl font-bold leading-none">
@@ -81,7 +79,6 @@ export default function ChartPanel() {
           Tổng: {loaderdata.total}
         </div>
       </div>
-      {/* style={{ minHeight: "435px" }} */}
       <div className="main-chart">
         <ClientOnly fallback={<Spinner />}>
           {() => <ChartCom data={data} />}

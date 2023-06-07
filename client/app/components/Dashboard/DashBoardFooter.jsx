@@ -4,7 +4,7 @@ export default function DashBoardFooter() {
   const expired = useLoaderData().ExpiredData;
   return (
     <>
-      <div className="items-center justify-between p-4 bg-white border border-gray-200 rounded-lg shadow-sm sm:flex dark:border-gray-700 sm:p-6 dark:bg-gray-800">
+      <div className="items-center justify-between p-4 bg-white border border-gray-200 rounded-lg shadow-sm sm:flex dark:border-gray-700 sm:p-6 dark:bg-gray-800 mb-4">
         <div className="w-full">
           <Tooltip
             style="light"
@@ -45,7 +45,7 @@ export default function DashBoardFooter() {
           </Link>
         </div>
       </div>
-      <div className="items-center justify-between p-4 bg-white border border-gray-200 rounded-lg shadow-sm sm:flex dark:border-gray-700 sm:p-6 dark:bg-gray-800">
+      <div className="items-center justify-between p-4 bg-white border border-gray-200 rounded-lg shadow-sm sm:flex dark:border-gray-700 sm:p-6 dark:bg-gray-800 mb-4">
         <div className="w-full">
           <Tooltip
             style="light"
@@ -62,7 +62,7 @@ export default function DashBoardFooter() {
             {expired.data.expired}
           </span>
         </div>
-        <div className="w-full dark: text-right">
+        <div className="w-full dark:text-right">
           <Link
             prefetch="render"
             to="expired"
@@ -85,17 +85,6 @@ export default function DashBoardFooter() {
             </svg>
           </Link>
         </div>
-      </div>
-      <div className="p-4 bg-white border border-gray-200 rounded-lg shadow-sm sm:flex dark:border-gray-700 sm:p-6 dark:bg-gray-800">
-        <div className="w-full">
-          <h3 className="text-base font-normal text-gray-500 dark:text-gray-400">
-            Expired Registration:
-          </h3>
-          <span className="text-2xl font-bold leading-none text-gray-900 sm:text-3xl dark: text-white">
-            {expired.data.expired}
-          </span>
-        </div>
-        <div className="w-full" style={{ minHeight: "155px" }}></div>
       </div>
     </>
   );
