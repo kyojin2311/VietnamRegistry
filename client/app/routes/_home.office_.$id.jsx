@@ -1,6 +1,6 @@
 import { json, redirect } from "@remix-run/node";
 import { requireUserSession } from "../services/auth.server";
-import { useLoaderData } from "@remix-run/react";
+import { Outlet, useLoaderData } from "@remix-run/react";
 import ListOfStaff from "../components/Office/UserTable";
 export default function OfficeDetailPage() {
   const data = useLoaderData();
@@ -8,6 +8,7 @@ export default function OfficeDetailPage() {
   return (
     <>
       <ListOfStaff />
+      <Outlet context={data} />
     </>
   );
 }
@@ -41,12 +42,6 @@ export async function loader({ request, params }) {
 
   const data = await response.json();
   const data2 = await response_2.json();
-  console.log(data2);
-  // console.log(data);
-  // // console.log(data[0].staff);
-
-  // console.log(await response_2.json());
-  // const resData2 = await response_2.json();
   const returnData = json({ staff: data[0] }, { car: data2 });
   return returnData;
 }

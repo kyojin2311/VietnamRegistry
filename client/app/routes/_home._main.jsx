@@ -11,12 +11,21 @@ export const meta = () => {
 export default function MainPage() {
   return (
     <div className="px-4 pt-6 overflow-y-auto">
-      <div className="grid gap-4 xl:grid-cols-2 2xl:grid-cols-3">
+      {/* <div className="grid gap-4 xl:grid-cols-2 2xl:grid-cols-3 xl:h-1/2">
         <ChartPanel />
         <RecentRegistrations />
       </div>
       <div className="grid w-full grid-cols-1 gap-4 mt-4 xl:grid-cols-2 2xl:grid-cols-3">
         <DashBoardFooter />
+      </div> */}
+      <div className="grid grid-cols-2 xl:grid-cols-3 gap-4">
+        <div className="col-span-2">
+          <ChartPanel />
+          <DashBoardFooter />
+        </div>
+        <div className="w-full col-span-2 xl:col-span-1">
+          <RecentRegistrations />
+        </div>
       </div>
       <Outlet />
     </div>

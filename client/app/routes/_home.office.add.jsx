@@ -1,8 +1,12 @@
 import AddOfficeForm from "../components/AddOfficeForm";
 import { addOffice, adminCheck } from "../services/APIAction.server";
-
+import PageModal from "../util/PageModal";
 export default function AddOfficePage() {
-  return <AddOfficeForm />;
+  return (
+    <PageModal title="Enter new office information">
+      <AddOfficeForm />
+    </PageModal>
+  );
 }
 
 export async function loader({ request }) {

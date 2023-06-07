@@ -4,8 +4,7 @@ export default function RecentRegistrations() {
   const lists = useLoaderData().recentList;
   return (
     <div
-      className="p-4 bg-white border dark:bg-gray-800 sm:p-6 dark:border-gray-700  shadow-sm rounded-lg border-gray-200 overflow-y-auto"
-      style={{ height: "850px" }}
+      className="p-4 bg-white border dark:bg-gray-800 xl:p-6 dark:border-gray-700  shadow-sm rounded-lg border-gray-200 overflow-y-auto"
     >
       <h3 className="flex items-center mb-4 text-lg font-bold text-gray-900 dark:text-white">
         Recent Registrations
