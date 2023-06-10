@@ -1,6 +1,6 @@
 import { Table } from "flowbite-react";
 import { formatDate } from "../../util/formatDate";
-import { useLoaderData, Link, useLocation } from "@remix-run/react";
+import { useLoaderData, Link } from "@remix-run/react";
 import PageModal from "../../util/PageModal";
 import Spinner from "../../util/Loading";
 
