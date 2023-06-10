@@ -11,13 +11,6 @@ export const meta = () => {
 export default function MainPage() {
   return (
     <div className="px-4 pt-6 overflow-y-auto">
-      {/* <div className="grid gap-4 xl:grid-cols-2 2xl:grid-cols-3 xl:h-1/2">
-        <ChartPanel />
-        <RecentRegistrations />
-      </div>
-      <div className="grid w-full grid-cols-1 gap-4 mt-4 xl:grid-cols-2 2xl:grid-cols-3">
-        <DashBoardFooter />
-      </div> */}
       <div className="grid grid-cols-2 xl:grid-cols-3 gap-4">
         <div className="col-span-2">
           <ChartPanel />
@@ -39,19 +32,43 @@ export async function loader({ request }) {
     time: "2023",
     city: "",
   };
+  const data2022 = {
+    time: "2022",
+    city: "",
+  };
+  const data2021 = {
+    time: "2021",
+    city: "",
+  }
   const url_2 = "https://registrytotal.herokuapp.com/api/office/own/outdatecar";
   const dataPass_1 = {
     status: "soon",
     city: "",
     info: "0",
   };
-  const response = await fetch(url, {
+  const response2023 = await fetch(url, {
     method: "POST",
     headers: {
       "content-type": "application/json",
       Authorization: `Bearer ${token}`,
     },
     body: JSON.stringify(dataPass),
+  });
+  const response2022 = await fetch(url, {
+    method: "POST",
+    headers: {
+      "content-type": "application/json",
+      Authorization: `Bearer ${token}`,
+    },
+    body: JSON.stringify(data2022),
+  });
+  const response2021 = await fetch(url, {
+    method: "POST",
+    headers: {
+      "content-type": "application/json",
+      Authorization: `Bearer ${token}`,
+    },
+    body: JSON.stringify(data2021),
   });
   const response_2 = await fetch(
     "https://registrytotal.herokuapp.com/api/office/recentregis",
@@ -71,11 +88,15 @@ export async function loader({ request }) {
     },
     body: JSON.stringify(dataPass_1),
   });
-  const resData = await response.json();
+  const resData = await response2023.json();
+  const resData2022 = await response2022.json();
+  const resData2021 = await response2021.json();
   const resData2 = await response_2.json();
   const resData3 = await response_3.json();
   return json({
-    NewData: resData,
+    Datain2023: resData,
+    Datain2022: resData2022,
+    Datain2021: resData2021,
     recentList: resData2,
     ExpiredData: resData3,
   });
