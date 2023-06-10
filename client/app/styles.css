@@ -1842,10 +1842,6 @@ input:checked + .toggle-bg {
           appearance: none;
 }
 
-.grid-cols-1 {
-  grid-template-columns: repeat(1, minmax(0, 1fr));
-}
-
 .grid-cols-2 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
@@ -2519,11 +2515,6 @@ input:checked + .toggle-bg {
   background-color: rgb(252 232 243 / var(--tw-bg-opacity));
 }
 
-.bg-pink-400 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(241 126 184 / var(--tw-bg-opacity));
-}
-
 .bg-pink-600 {
   --tw-bg-opacity: 1;
   background-color: rgb(214 31 105 / var(--tw-bg-opacity));
@@ -3078,6 +3069,10 @@ input:checked + .toggle-bg {
 
 .text-center {
   text-align: center;
+}
+
+.text-right {
+  text-align: right;
 }
 
 .text-2xl {
@@ -3751,6 +3746,10 @@ input:checked + .toggle-bg {
   cursor: not-allowed;
 }
 
+.hover\:cursor-pointer:hover {
+  cursor: pointer;
+}
+
 .hover\:border-gray-300:hover {
   --tw-border-opacity: 1;
   border-color: rgb(209 213 219 / var(--tw-border-opacity));
@@ -3849,11 +3848,6 @@ input:checked + .toggle-bg {
 .hover\:bg-pink-200:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(250 209 232 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-pink-700:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(191 18 93 / var(--tw-bg-opacity));
 }
 
 .hover\:bg-primary-700:hover {
@@ -5690,6 +5684,10 @@ input:checked + .toggle-bg {
     margin-bottom: 0px;
   }
 
+  .sm\:ml-10 {
+    margin-left: 2.5rem;
+  }
+
   .sm\:ml-2 {
     margin-left: 0.5rem;
   }
@@ -6083,10 +6081,6 @@ input:checked + .toggle-bg {
     margin-left: 16rem;
   }
 
-  .xl\:h-1\/2 {
-    height: 50%;
-  }
-
   .xl\:w-96 {
     width: 24rem;
   }
@@ -6098,10 +6092,6 @@ input:checked + .toggle-bg {
   .xl\:translate-x-0 {
     --tw-translate-x: 0px;
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-  }
-
-  .xl\:grid-cols-2 {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .xl\:grid-cols-3 {
@@ -6119,12 +6109,6 @@ input:checked + .toggle-bg {
   .xl\:px-0 {
     padding-left: 0px;
     padding-right: 0px;
-  }
-}
-
-@media (min-width: 1536px) {
-  .\32xl\:grid-cols-3 {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
 

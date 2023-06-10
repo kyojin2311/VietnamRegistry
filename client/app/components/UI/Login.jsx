@@ -24,13 +24,6 @@ export default function Login() {
             </h6>
             {data ? (
               <Alert color="failure">
-                <FontAwesomeIcon
-                  icon={faCircleInfo}
-                  style={{
-                    "--fa-primary-color": "#ff2600",
-                    "--fa-secondary-color": "#ff2600",
-                  }}
-                />
                 <span>
                   <span className="font-medium">{data.message}</span>
                 </span>
