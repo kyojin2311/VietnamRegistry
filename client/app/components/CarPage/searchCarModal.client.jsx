@@ -1,8 +1,6 @@
 import { Modal } from "flowbite-react";
 import { Form, useActionData, useNavigate } from "@remix-run/react";
 import { Alert } from "flowbite-react";
-import { faCircleInfo } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 export default function SearchModal(props) {
   const navigate = useNavigate();
   const clickHandler = () => {
@@ -16,13 +14,6 @@ export default function SearchModal(props) {
           <div>Searching for Car</div>
           {data ? (
             <Alert color="failure">
-              <FontAwesomeIcon
-                icon={faCircleInfo}
-                style={{
-                  "--fa-primary-color": "#ff2600",
-                  "--fa-secondary-color": "#ff2600",
-                }}
-              />
               <span>
                 <span className="font-medium"></span> {data.message}
               </span>
