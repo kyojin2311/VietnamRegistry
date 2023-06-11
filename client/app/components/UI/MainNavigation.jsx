@@ -70,7 +70,7 @@ export default function MainNavigation() {
                 <span className="ml-3">Dashboard</span>
               </Link>
             </li>
-            {isAdmin && (
+            {isAdmin === 1 && (
               <li>
                 <Link
                   to="/analystics"
