@@ -15,13 +15,6 @@ export default function SearchModal(props) {
         <div>Searching Inspections by RegisNum</div>
         {data ? (
           <Alert color="failure">
-            <FontAwesomeIcon
-              icon={faCircleInfo}
-              style={{
-                "--fa-primary-color": "#ff2600",
-                "--fa-secondary-color": "#ff2600",
-              }}
-            />
             <span>
               <span className="font-medium"></span> {data.message}
             </span>

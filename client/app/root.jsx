@@ -69,11 +69,6 @@ export function ErrorBoundary() {
     );
   } else if (error instanceof Error) {
     return (
-      // <div className="dark m-auto">
-      //   <h1 className="font-bold dark:text-red-600">Error</h1>
-      //   <p>{error.message}</p>
-      //   <p onClick={backHandler}>Please back to the previous page</p>
-      // </div>
       <html lang="en" style={{ overflow: "auto" }}>
         <head>
           <meta charSet="utf-8" />
