@@ -48,6 +48,9 @@ export default function ChartPanel() {
             speed: 350,
           },
         },
+        toolbar: {
+          show: false,
+        },
       },
 
       xaxis: {

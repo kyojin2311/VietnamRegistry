@@ -12,7 +12,7 @@ export default function ProvinceBox() {
         <div>Choose a province</div>
       </Modal.Header>
       <Modal.Body>
-        <Form method="post">
+        <Form method="post" className = "bg-transparent dark:text-white">
           <Autocomplete
             disablePortal
             

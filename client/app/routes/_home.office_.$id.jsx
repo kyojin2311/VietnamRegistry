@@ -4,7 +4,7 @@ import { Outlet, useLoaderData } from "@remix-run/react";
 import ListOfStaff from "../components/Office/UserTable";
 export default function OfficeDetailPage() {
   const data = useLoaderData();
-
+  console.log(data);
   return (
     <>
       <ListOfStaff />

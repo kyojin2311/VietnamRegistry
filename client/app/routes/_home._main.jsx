@@ -10,7 +10,7 @@ export const meta = () => {
 
 export default function MainPage() {
   return (
-    <div className="px-4 pt-6 overflow-y-auto">
+    <div className="px-4 pt-6 overflow-y-auto mt-4">
       <div className="grid grid-cols-2 xl:grid-cols-3 gap-4">
         <div className="col-span-2">
           <ChartPanel />
@@ -39,7 +39,7 @@ export async function loader({ request }) {
   const data2021 = {
     time: "2021",
     city: "",
-  }
+  };
   const url_2 = "https://registrytotal.herokuapp.com/api/office/own/outdatecar";
   const dataPass_1 = {
     status: "soon",

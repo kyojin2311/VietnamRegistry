@@ -12,18 +12,41 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import logo from "../../images/logo.png";
 export default function MainNavigation() {
-  //Take Loader data from the _home.jsx loader for fixing what admin and nonadmin can do in the NavBar
   const data = useLoaderData();
   const { isAdmin } = data;
-  const [toggle, setIsToggle] = useState(false);
-  const toggleHandler = () => {
-    setIsToggle(!toggle);
+  const [hide, setHide] = useState(false);
+  const hideMedia = () => {
+    setHide(!hide);
+  };
+  const clickOut = () => {
+    setHide(!hide);
   };
   return (
     <>
+      <button
+        onClick={hideMedia}
+        aria-controls="sidebar"
+        className="fixed top-5 left-5 text-gray-600 dark:bg-gray-800 rounded cursor-pointer xl:hidden hover:text-gray-900 hover:bg-gray-100 focus:bg-gray-100 dark:focus:bg-gray-700 focus:ring-2 focus:ring-gray-100 dark:focus:ring-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
+      >
+        <svg
+          id="toggleSidebarMobileHamburger"
+          className="w-8 h-8"
+          fill="currentColor"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            fillRule="evenodd"
+            d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h6a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+            clipRule="evenodd"
+          ></path>
+        </svg>
+      </button>
       <aside
         id="default-sidebar"
-        className="fixed top-0 left-0 z-40 w-64 h-screen transition-transform duration-300 -translate-x-64 xl:translate-x-0"
+        className={`fixed top-0 left-0 z-40 w-64 h-screen transition-transform duration-300 xl:translate-x-0  ${
+          hide ? "" : "-translate-x-64"
+        }`}
         aria-label="Sidebar"
       >
         <div className="h-full px-3 py-4 overflow-y-auto bg-gray-50 dark:bg-gray-800">
@@ -39,7 +62,7 @@ export default function MainNavigation() {
           <ul className="space-y-2 font-medium">
             <li>
               <Link
-                // prefetch="render"
+                prefetch="render"
                 to="/"
                 className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 active:bg-gray-700"
               >
@@ -49,7 +72,7 @@ export default function MainNavigation() {
             </li>
             <li>
               <Link
-                to="/"
+                to="/analystics"
                 className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700"
               >
                 <FontAwesomeIcon icon={faChartLine} size="lg" />
@@ -110,6 +133,13 @@ export default function MainNavigation() {
           </ul>
         </div>
       </aside>
+      <div
+        className={`fixed inset-0 z-10 bg-gray-900/50 dark:bg-gray-900/90 ${
+          hide ? "" : "hidden"
+        }`}
+        onClick={clickOut}
+        id="sidebarBackdrop"
+      ></div>
     </>
   );
 }
