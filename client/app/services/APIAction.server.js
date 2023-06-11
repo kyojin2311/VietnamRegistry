@@ -61,7 +61,7 @@ export async function addStaff(request, data) {
     return json({ message: resData });
   }
 
-  return redirect("/main");
+  return redirect("/office");
 }
 
 //Get Inspections by ID
@@ -179,7 +179,6 @@ export async function addOffice(request, data) {
 
 export async function adminCheck(request) {
   const data = await getOwnInfo(request);
-  // console.log(data);
   if (data.isAdmin === 0) {
     throw new Error("You must be ad administrator to access this");
   } else {
