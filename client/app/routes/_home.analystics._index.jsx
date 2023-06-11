@@ -13,6 +13,6 @@ export async function action ({request}) {
     const formData = await request.formData();
     const p = formData.get('province');
     const data = province.filter((a) => a.name === p)[0];
-    console.log(data);
+    if(data === null) throw new Error('Cannot find this province');
     return redirect(`/analystics/${data.codename}`);
 }
