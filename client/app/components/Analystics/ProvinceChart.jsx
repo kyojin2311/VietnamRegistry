@@ -1,25 +1,26 @@
+import { useLoaderData } from "@remix-run/react";
 import { ClientOnly } from "remix-utils";
+import { Dropdown } from "flowbite-react";
+import { useState, useEffect } from "react";
 import Spinner from "../../util/Loading";
 import ChartCom from "../../util/Chart.client";
-import { useLoaderData, Link } from "@remix-run/react";
-import { Dropdown } from "flowbite-react";
-import { useEffect, useState } from "react";
-export default function ChartPanel() {
-  const { Datain2023, Datain2022, Datain2021 } = useLoaderData();
+import { Link } from "@remix-run/react";
+export default function ProvinceChart() {
+  const province = useLoaderData().province;
+  const { Data2021, Data2022, Data2023 } = useLoaderData();
   const [year, setYear] = useState(2023);
-  const [chartdata, setChartData] = useState(Datain2023);
+  const [chartdata, setChartData] = useState(Data2023);
   useEffect(() => {
     if (year === 2022) {
-      setChartData(Datain2022);
+      setChartData(Data2022);
     }
     if (year === 2021) {
-      setChartData(Datain2021);
+      setChartData(Data2021);
     }
     if (year === 2023) {
-      setChartData(Datain2023);
+      setChartData(Data2023);
     }
   }, [year]);
-  console.log(Datain2022);
   const handleClick2023 = () => {
     setYear(2023);
   };
@@ -29,8 +30,7 @@ export default function ChartPanel() {
   const handleClick2021 = () => {
     setYear(2021);
   };
-
-  const data = {
+  const chartData = {
     options: {
       chart: {
         id: `Analysis For Registrations in ${year}`,
@@ -95,23 +95,30 @@ export default function ChartPanel() {
       },
     ],
   };
-
   return (
-    <div className="p-4 bg-white border dark:bg-gray-800 sm:p-6 dark:border-gray-700 shadow-sm rounded-lg border-gray-200 mb-4">
-      <div className="flex items-center justify-between mb-2">
-        <div className="flex-shrink-0 dark:text-white text-xl font-bold leading-none">
-          Tổng số đăng kiểm năm : {year}
+    <>
+      <div className="items-center justify-between pb-4 border-b border-gray-200 sm:flex dark:border-gray-700">
+        <div className="w-full mb-4 sm:mb-0">
+          <h3 className="text-base font-normal text-gray-500 dark:text-gray-400">
+            Total Registrations at:
+          </h3>
+          <span className="text-2xl font-bold leading-none text-gray-900 sm:text-3xl dark:text-white">
+            {province}
+          </span>
+          <p className="flex items-center text-base font-normal text-gray-500 dark:text-gray-400">
+            In: {year}
+          </p>
         </div>
-        <div className="flex items-center justify-end flex-1 text-base font-medium text-green-500 dark:text-green-400">
+        <div className="w-full max-w-lg text-right dark:text-green-400 font-lg">
           Tổng: {chartdata.total}
         </div>
       </div>
-      <div className="main-chart">
+      <div className="w-full">
         <ClientOnly fallback={<Spinner />}>
-          {() => <ChartCom data={data} />}
+          {() => <ChartCom data={chartData} />}
         </ClientOnly>
       </div>
-      <div className="flex items-center justify-between pt-3 mt-2 border-t border-gray-200 dark:border-gray-700 sm:pt-6">
+      <div className="flex items-center justify-between pt-3 mt-4 border-t border-gray-200 sm:pt-6 dark:border-gray-700">
         <div className="inline-flex items-center p-2 text-sm font-medium text-center text-gray-500 rounded-lg hover:text-gray-900 dark:text-gray-400 dark:hover:text-white">
           <Dropdown inline label={`${year}`}>
             <Dropdown.Item onClick={handleClick2023}>Năm 2023</Dropdown.Item>
@@ -141,6 +148,6 @@ export default function ChartPanel() {
           </div>
         )}
       </div>
-    </div>
+    </>
   );
 }
