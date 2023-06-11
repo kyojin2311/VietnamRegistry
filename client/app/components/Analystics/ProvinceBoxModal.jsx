@@ -1,26 +1,33 @@
 import province from "../../util/province.json";
 import TextField from "@mui/material/TextField";
 import Autocomplete from "@mui/material/Autocomplete";
-import { Modal } from "flowbite-react";
-import { Form } from "@remix-run/react";
+import PageModal from "../../util/PageModal";
+import { Form, useActionData } from "@remix-run/react";
+import { Alert } from "flowbite-react";
 
 export default function ProvinceBox() {
   const name = province.map((a) => a.name);
+  const action = useActionData();
   return (
-    <Modal show={true}>
-      <Modal.Header>
-        <div>Choose a province</div>
-      </Modal.Header>
-      <Modal.Body>
-        <Form method="post" className = "bg-transparent dark:text-white">
-          <Autocomplete
-            disablePortal
-            
-            options={name}
-            renderInput={(params) => <TextField {...params} label="Province" name="province"/>}
-          />
-        </Form>
-      </Modal.Body>
-    </Modal>
+    <PageModal title="Choose a Province">
+      {action ? (
+        <Alert color="failure" className="mb-5">
+          <span>
+            <span className="font-medium mb-5"></span> {action.message}
+          </span>
+        </Alert>
+      ) : (
+        ""
+      )}{" "}
+      <Form method="post" className="bg-transparent dark:text-white mb-10" >
+        <Autocomplete
+          disablePortal
+          options={name}
+          renderInput={(params) => (
+            <TextField {...params} label="Province" name="province" />
+          )}
+        />
+      </Form>
+    </PageModal>
   );
 }
