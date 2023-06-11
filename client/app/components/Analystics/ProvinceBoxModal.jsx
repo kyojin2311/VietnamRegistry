@@ -11,15 +11,15 @@ export default function ProvinceBox() {
   return (
     <PageModal title="Choose a Province">
       {action ? (
-        <Alert color="failure">
+        <Alert color="failure" className="mb-5">
           <span>
-            <span className="font-medium"></span> {data.message}
+            <span className="font-medium mb-5"></span> {action.message}
           </span>
         </Alert>
       ) : (
         ""
       )}{" "}
-      <Form method="post" className="bg-transparent dark:text-white">
+      <Form method="post" className="bg-transparent dark:text-white mb-10" >
         <Autocomplete
           disablePortal
           options={name}
