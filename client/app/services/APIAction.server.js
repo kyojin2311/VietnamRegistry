@@ -46,7 +46,7 @@ export async function addStaff(request, data) {
   const token = await requireUserSession(request);
   if (!token) return redirect("/login");
   const response = await fetch(
-    "https://registrytotal.herokuapp.com/api/staff/addStaff",
+    "https://registrytotal.herokuapp.com/api/staff/add",
     {
       method: "POST",
       headers: {
@@ -112,7 +112,6 @@ export async function getOwnInfo(request) {
     }
   );
   const resData = await data.json();
-  // console.log(resData.registed);
   return resData;
 }
 
