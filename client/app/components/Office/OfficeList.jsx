@@ -28,7 +28,9 @@ export default function OfficeList() {
         scope="row"
         className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
       >
-        <Link to={dt._id}>{dt.name} </Link>
+        <Link prefetch="intent" to={dt._id}>
+          {dt.name}
+        </Link>
       </th>
     </tr>
   ));

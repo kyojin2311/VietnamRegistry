@@ -60,9 +60,9 @@ export async function addStaff(request, data, params) {
   const resData = await response.json();
   if (resData !== "SUCCEEDED") {
     return json({ message: resData });
+  } else {
+    return redirect(`/office/${officeID}`);
   }
-
-  return redirect(`/office/${officeID}`);
 }
 
 //Get Inspections by ID

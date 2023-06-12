@@ -1,7 +1,5 @@
 import { Link, useLoaderData, useMatches } from "@remix-run/react";
 import link from "../../images/ava.png";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPencil } from "@fortawesome/free-solid-svg-icons";
 import { formatDate } from "../../util/formatDate";
 export default function StaffInfo() {
   const info = useLoaderData();
@@ -41,9 +39,6 @@ export default function StaffInfo() {
                 <Link to="#" className="flex flex-wrap">
                   <span className="mb-5 text-lg font-bold ">
                     Thông tin cá nhân
-                  </span>
-                  <span className="ms-3">
-                    <FontAwesomeIcon icon={faPencil} />
                   </span>
                 </Link>
                 <dl className="max-w-md text-gray-900 divide-y divide-gray-200 dark:text-white dark:divide-gray-700">
