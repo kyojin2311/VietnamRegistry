@@ -16,7 +16,7 @@ export default function addStaffPage() {
     </PageModal>
   );
 }
-export async function action({ request }) {
+export async function action({ request, params }) {
   const formData = await request.formData();
   const data = {
     email: formData.get("email"),
@@ -28,5 +28,5 @@ export async function action({ request }) {
     password: "12345678",
     isAdmin: 0,
   };
-  return await addStaff(request, data);
+  return await addStaff(request, data, params);
 }

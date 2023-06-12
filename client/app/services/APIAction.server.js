@@ -42,9 +42,10 @@ export async function getAllOffice(request) {
   }
 }
 //Admin addStaff Function
-export async function addStaff(request, data) {
+export async function addStaff(request, data, params) {
   const token = await requireUserSession(request);
   if (!token) return redirect("/login");
+  const officeID = params.id;
   const response = await fetch(
     "https://registrytotal.herokuapp.com/api/staff/add",
     {
@@ -61,7 +62,7 @@ export async function addStaff(request, data) {
     return json({ message: resData });
   }
 
-  return redirect("/office");
+  return redirect(`/office/${officeID}`);
 }
 
 //Get Inspections by ID
