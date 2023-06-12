@@ -34,7 +34,7 @@ __export(assets_manifest_exports, {
 });
 var assets_manifest_default, init_assets_manifest = __esm({
   "server-assets-manifest:@remix-run/dev/assets-manifest"() {
-    assets_manifest_default = { version: "a32135ff", entry: { module: "/build/entry.client-KXM3BNQY.js", imports: ["/build/_shared/chunk-QE77VWK2.js", "/build/_shared/chunk-ZIEWKVBB.js", "/build/_shared/chunk-RBEN53O4.js", "/build/_shared/chunk-532K2VPY.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-VSJAXR5P.js", imports: ["/build/_shared/chunk-PUJZWP2U.js", "/build/_shared/chunk-YRLBT3MG.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !0 }, "routes/_home": { id: "routes/_home", parentId: "root", path: void 0, index: void 0, caseSensitive: void 0, module: "/build/routes/_home-27D5UGR6.js", imports: ["/build/_shared/chunk-KPKQHPMA.js", "/build/_shared/chunk-2IC54PV3.js", "/build/_shared/chunk-PDCAP7X3.js", "/build/_shared/chunk-MEXKDBJ7.js", "/build/_shared/chunk-4CBZHLJK.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.Inspections.$id": { id: "routes/_home.Inspections.$id", parentId: "routes/_home", path: "Inspections/:id", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.Inspections.$id-CCEZCGMZ.js", imports: ["/build/_shared/chunk-O7R2KCUK.js", "/build/_shared/chunk-YRLBT3MG.js", "/build/_shared/chunk-RI7KFSFX.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.Inspections._index": { id: "routes/_home.Inspections._index", parentId: "routes/_home", path: "Inspections", index: !0, caseSensitive: void 0, module: "/build/routes/_home.Inspections._index-HA4E34GU.js", imports: ["/build/_shared/chunk-YRLBT3MG.js"], hasAction: !0, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home._main": { id: "routes/_home._main", parentId: "routes/_home", path: void 0, index: void 0, caseSensitive: void 0, module: "/build/routes/_home._main-X5OBHKWK.js", imports: ["/build/_shared/chunk-OFQHC6HE.js", "/build/_shared/chunk-PUJZWP2U.js", "/build/_shared/chunk-YRLBT3MG.js", "/build/_shared/chunk-4KF4RRT6.js", "/build/_shared/chunk-RI7KFSFX.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home._main._index": { id: "routes/_home._main._index", parentId: "routes/_home._main", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_home._main._index-RBNPIMHO.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home._main.expired": { id: "routes/_home._main.expired", parentId: "routes/_home._main", path: "expired", index: void 0, caseSensitive: void 0, module: "/build/routes/_home._main.expired-JOTX6GSI.js", imports: ["/build/_shared/chunk-4CBZHLJK.js", "/build/_shared/chunk-OKC3RWCP.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home._main.expiredsoon": { id: "routes/_home._main.expiredsoon", parentId: "routes/_home._main", path: "expiredsoon", index: void 0, caseSensitive: void 0, module: "/build/routes/_home._main.expiredsoon-UL4DVMHX.js", imports: ["/build/_shared/chunk-4CBZHLJK.js", "/build/_shared/chunk-OKC3RWCP.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.analystics.$codename": { id: "routes/_home.analystics.$codename", parentId: "routes/_home", path: "analystics/:codename", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.analystics.$codename-GXZDYFTU.js", imports: ["/build/_shared/chunk-OFQHC6HE.js", "/build/_shared/chunk-JPMRNOFY.js", "/build/_shared/chunk-PUJZWP2U.js", "/build/_shared/chunk-YRLBT3MG.js", "/build/_shared/chunk-4KF4RRT6.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.analystics.$codename._index": { id: "routes/_home.analystics.$codename._index", parentId: "routes/_home.analystics.$codename", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_home.analystics.$codename._index-AM23EO7P.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.analystics.$codename.expired": { id: "routes/_home.analystics.$codename.expired", parentId: "routes/_home.analystics.$codename", path: "expired", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.analystics.$codename.expired-QAZOIKRK.js", imports: ["/build/_shared/chunk-4CBZHLJK.js", "/build/_shared/chunk-OKC3RWCP.js", "/build/_shared/chunk-RI7KFSFX.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.analystics.$codename.expiredsoon": { id: "routes/_home.analystics.$codename.expiredsoon", parentId: "routes/_home.analystics.$codename", path: "expiredsoon", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.analystics.$codename.expiredsoon-4QZJJOAI.js", imports: ["/build/_shared/chunk-4CBZHLJK.js", "/build/_shared/chunk-OKC3RWCP.js", "/build/_shared/chunk-RI7KFSFX.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.analystics._index": { id: "routes/_home.analystics._index", parentId: "routes/_home", path: "analystics", index: !0, caseSensitive: void 0, module: "/build/routes/_home.analystics._index-L3CEEX2K.js", imports: ["/build/_shared/chunk-JPMRNOFY.js", "/build/_shared/chunk-OKC3RWCP.js", "/build/_shared/chunk-YRLBT3MG.js"], hasAction: !0, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.car.$numberPlate._index": { id: "routes/_home.car.$numberPlate._index", parentId: "routes/_home", path: "car/:numberPlate", index: !0, caseSensitive: void 0, module: "/build/routes/_home.car.$numberPlate._index-PRUI6VS2.js", imports: ["/build/_shared/chunk-4KF4RRT6.js", "/build/_shared/chunk-RI7KFSFX.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.car.$numberPlate.addinspection": { id: "routes/_home.car.$numberPlate.addinspection", parentId: "routes/_home", path: "car/:numberPlate/addinspection", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.car.$numberPlate.addinspection-NIBKKJFY.js", imports: ["/build/_shared/chunk-4KF4RRT6.js", "/build/_shared/chunk-RI7KFSFX.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.car._index": { id: "routes/_home.car._index", parentId: "routes/_home", path: "car", index: !0, caseSensitive: void 0, module: "/build/routes/_home.car._index-X4Q6J36P.js", imports: ["/build/_shared/chunk-PUJZWP2U.js", "/build/_shared/chunk-YRLBT3MG.js", "/build/_shared/chunk-4KF4RRT6.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.info._index": { id: "routes/_home.info._index", parentId: "routes/_home", path: "info", index: !0, caseSensitive: void 0, module: "/build/routes/_home.info._index-GSRB6UJ2.js", imports: ["/build/_shared/chunk-QGRJQUMK.js", "/build/_shared/chunk-RI7KFSFX.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.info.edit": { id: "routes/_home.info.edit", parentId: "routes/_home", path: "info/edit", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.info.edit-OR35R3XT.js", imports: ["/build/_shared/chunk-RI7KFSFX.js"], hasAction: !0, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office": { id: "routes/_home.office", parentId: "routes/_home", path: "office", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.office-VICDH5CF.js", imports: void 0, hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office._index": { id: "routes/_home.office._index", parentId: "routes/_home.office", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_home.office._index-EXID3AT3.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office.add": { id: "routes/_home.office.add", parentId: "routes/_home.office", path: "add", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.office.add-5F2G7MJS.js", imports: ["/build/_shared/chunk-PDCAP7X3.js", "/build/_shared/chunk-JPMRNOFY.js", "/build/_shared/chunk-OKC3RWCP.js", "/build/_shared/chunk-YRLBT3MG.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office_.$id": { id: "routes/_home.office_.$id", parentId: "routes/_home", path: "office/:id", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.office_.$id-DWH32SX5.js", imports: ["/build/_shared/chunk-O7R2KCUK.js", "/build/_shared/chunk-OFQHC6HE.js", "/build/_shared/chunk-PUJZWP2U.js", "/build/_shared/chunk-YRLBT3MG.js", "/build/_shared/chunk-4KF4RRT6.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office_.$id._index": { id: "routes/_home.office_.$id._index", parentId: "routes/_home.office_.$id", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_home.office_.$id._index-DM6PWPS2.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office_.$id.addStaff": { id: "routes/_home.office_.$id.addStaff", parentId: "routes/_home.office_.$id", path: "addStaff", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.office_.$id.addStaff-SABQCVG3.js", imports: ["/build/_shared/chunk-PDCAP7X3.js", "/build/_shared/chunk-OKC3RWCP.js", "/build/_shared/chunk-RI7KFSFX.js"], hasAction: !0, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office_.$id.expired": { id: "routes/_home.office_.$id.expired", parentId: "routes/_home.office_.$id", path: "expired", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.office_.$id.expired-NLYZ2Q3I.js", imports: ["/build/_shared/chunk-4CBZHLJK.js", "/build/_shared/chunk-OKC3RWCP.js", "/build/_shared/chunk-RI7KFSFX.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office_.$id.expiredsoon": { id: "routes/_home.office_.$id.expiredsoon", parentId: "routes/_home.office_.$id", path: "expiredsoon", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.office_.$id.expiredsoon-A6TXIBMR.js", imports: ["/build/_shared/chunk-4CBZHLJK.js", "/build/_shared/chunk-OKC3RWCP.js", "/build/_shared/chunk-RI7KFSFX.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office_.$id_.$userID": { id: "routes/_home.office_.$id_.$userID", parentId: "routes/_home", path: "office/:id/:userID", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.office_.$id_.$userID-NE5UDTOH.js", imports: ["/build/_shared/chunk-QGRJQUMK.js", "/build/_shared/chunk-RI7KFSFX.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.search": { id: "routes/_home.search", parentId: "routes/_home", path: "search", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.search-TA6AGPKO.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/changepass": { id: "routes/changepass", parentId: "root", path: "changepass", index: void 0, caseSensitive: void 0, module: "/build/routes/changepass-YVD26BJF.js", imports: ["/build/_shared/chunk-4KF4RRT6.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/forgot-pass": { id: "routes/forgot-pass", parentId: "root", path: "forgot-pass", index: void 0, caseSensitive: void 0, module: "/build/routes/forgot-pass-BZDC4ZY3.js", imports: ["/build/_shared/chunk-KPKQHPMA.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/forgotpassword": { id: "routes/forgotpassword", parentId: "root", path: "forgotpassword", index: void 0, caseSensitive: void 0, module: "/build/routes/forgotpassword-QLV6EJ7S.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/login": { id: "routes/login", parentId: "root", path: "login", index: void 0, caseSensitive: void 0, module: "/build/routes/login-WK2GTSYK.js", imports: ["/build/_shared/chunk-KPKQHPMA.js", "/build/_shared/chunk-2IC54PV3.js", "/build/_shared/chunk-PDCAP7X3.js", "/build/_shared/chunk-MEXKDBJ7.js", "/build/_shared/chunk-4KF4RRT6.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/logout": { id: "routes/logout", parentId: "root", path: "logout", index: void 0, caseSensitive: void 0, module: "/build/routes/logout-5KEBAQVD.js", imports: void 0, hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, cssBundleHref: void 0, hmr: void 0, url: "/build/manifest-A32135FF.js" };
+    assets_manifest_default = { version: "4dc0504a", entry: { module: "/build/entry.client-KXM3BNQY.js", imports: ["/build/_shared/chunk-QE77VWK2.js", "/build/_shared/chunk-ZIEWKVBB.js", "/build/_shared/chunk-RBEN53O4.js", "/build/_shared/chunk-532K2VPY.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-VSJAXR5P.js", imports: ["/build/_shared/chunk-PUJZWP2U.js", "/build/_shared/chunk-YRLBT3MG.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !0 }, "routes/_home": { id: "routes/_home", parentId: "root", path: void 0, index: void 0, caseSensitive: void 0, module: "/build/routes/_home-AV2G6VUO.js", imports: ["/build/_shared/chunk-KPKQHPMA.js", "/build/_shared/chunk-2IC54PV3.js", "/build/_shared/chunk-PDCAP7X3.js", "/build/_shared/chunk-MEXKDBJ7.js", "/build/_shared/chunk-4CBZHLJK.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.Inspections.$id": { id: "routes/_home.Inspections.$id", parentId: "routes/_home", path: "Inspections/:id", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.Inspections.$id-CCEZCGMZ.js", imports: ["/build/_shared/chunk-O7R2KCUK.js", "/build/_shared/chunk-YRLBT3MG.js", "/build/_shared/chunk-RI7KFSFX.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.Inspections._index": { id: "routes/_home.Inspections._index", parentId: "routes/_home", path: "Inspections", index: !0, caseSensitive: void 0, module: "/build/routes/_home.Inspections._index-HA4E34GU.js", imports: ["/build/_shared/chunk-YRLBT3MG.js"], hasAction: !0, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home._main": { id: "routes/_home._main", parentId: "routes/_home", path: void 0, index: void 0, caseSensitive: void 0, module: "/build/routes/_home._main-X5OBHKWK.js", imports: ["/build/_shared/chunk-OFQHC6HE.js", "/build/_shared/chunk-PUJZWP2U.js", "/build/_shared/chunk-YRLBT3MG.js", "/build/_shared/chunk-4KF4RRT6.js", "/build/_shared/chunk-RI7KFSFX.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home._main._index": { id: "routes/_home._main._index", parentId: "routes/_home._main", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_home._main._index-RBNPIMHO.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home._main.expired": { id: "routes/_home._main.expired", parentId: "routes/_home._main", path: "expired", index: void 0, caseSensitive: void 0, module: "/build/routes/_home._main.expired-JOTX6GSI.js", imports: ["/build/_shared/chunk-4CBZHLJK.js", "/build/_shared/chunk-OKC3RWCP.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home._main.expiredsoon": { id: "routes/_home._main.expiredsoon", parentId: "routes/_home._main", path: "expiredsoon", index: void 0, caseSensitive: void 0, module: "/build/routes/_home._main.expiredsoon-UL4DVMHX.js", imports: ["/build/_shared/chunk-4CBZHLJK.js", "/build/_shared/chunk-OKC3RWCP.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.analystics.$codename": { id: "routes/_home.analystics.$codename", parentId: "routes/_home", path: "analystics/:codename", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.analystics.$codename-GXZDYFTU.js", imports: ["/build/_shared/chunk-OFQHC6HE.js", "/build/_shared/chunk-JPMRNOFY.js", "/build/_shared/chunk-PUJZWP2U.js", "/build/_shared/chunk-YRLBT3MG.js", "/build/_shared/chunk-4KF4RRT6.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.analystics.$codename._index": { id: "routes/_home.analystics.$codename._index", parentId: "routes/_home.analystics.$codename", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_home.analystics.$codename._index-AM23EO7P.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.analystics.$codename.expired": { id: "routes/_home.analystics.$codename.expired", parentId: "routes/_home.analystics.$codename", path: "expired", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.analystics.$codename.expired-QAZOIKRK.js", imports: ["/build/_shared/chunk-4CBZHLJK.js", "/build/_shared/chunk-OKC3RWCP.js", "/build/_shared/chunk-RI7KFSFX.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.analystics.$codename.expiredsoon": { id: "routes/_home.analystics.$codename.expiredsoon", parentId: "routes/_home.analystics.$codename", path: "expiredsoon", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.analystics.$codename.expiredsoon-4QZJJOAI.js", imports: ["/build/_shared/chunk-4CBZHLJK.js", "/build/_shared/chunk-OKC3RWCP.js", "/build/_shared/chunk-RI7KFSFX.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.analystics._index": { id: "routes/_home.analystics._index", parentId: "routes/_home", path: "analystics", index: !0, caseSensitive: void 0, module: "/build/routes/_home.analystics._index-L3CEEX2K.js", imports: ["/build/_shared/chunk-JPMRNOFY.js", "/build/_shared/chunk-OKC3RWCP.js", "/build/_shared/chunk-YRLBT3MG.js"], hasAction: !0, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.car.$numberPlate._index": { id: "routes/_home.car.$numberPlate._index", parentId: "routes/_home", path: "car/:numberPlate", index: !0, caseSensitive: void 0, module: "/build/routes/_home.car.$numberPlate._index-VA2TLVMN.js", imports: ["/build/_shared/chunk-4KF4RRT6.js", "/build/_shared/chunk-RI7KFSFX.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.car.$numberPlate.addinspection": { id: "routes/_home.car.$numberPlate.addinspection", parentId: "routes/_home", path: "car/:numberPlate/addinspection", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.car.$numberPlate.addinspection-PAFEX7OJ.js", imports: ["/build/_shared/chunk-4KF4RRT6.js", "/build/_shared/chunk-RI7KFSFX.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.car._index": { id: "routes/_home.car._index", parentId: "routes/_home", path: "car", index: !0, caseSensitive: void 0, module: "/build/routes/_home.car._index-X4Q6J36P.js", imports: ["/build/_shared/chunk-PUJZWP2U.js", "/build/_shared/chunk-YRLBT3MG.js", "/build/_shared/chunk-4KF4RRT6.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.info._index": { id: "routes/_home.info._index", parentId: "routes/_home", path: "info", index: !0, caseSensitive: void 0, module: "/build/routes/_home.info._index-GSRB6UJ2.js", imports: ["/build/_shared/chunk-QGRJQUMK.js", "/build/_shared/chunk-RI7KFSFX.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.info.edit": { id: "routes/_home.info.edit", parentId: "routes/_home", path: "info/edit", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.info.edit-OR35R3XT.js", imports: ["/build/_shared/chunk-RI7KFSFX.js"], hasAction: !0, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office": { id: "routes/_home.office", parentId: "routes/_home", path: "office", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.office-VICDH5CF.js", imports: void 0, hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office._index": { id: "routes/_home.office._index", parentId: "routes/_home.office", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_home.office._index-EXID3AT3.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office.add": { id: "routes/_home.office.add", parentId: "routes/_home.office", path: "add", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.office.add-HDE7HMZO.js", imports: ["/build/_shared/chunk-PDCAP7X3.js", "/build/_shared/chunk-JPMRNOFY.js", "/build/_shared/chunk-OKC3RWCP.js", "/build/_shared/chunk-YRLBT3MG.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office_.$id": { id: "routes/_home.office_.$id", parentId: "routes/_home", path: "office/:id", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.office_.$id-DWH32SX5.js", imports: ["/build/_shared/chunk-O7R2KCUK.js", "/build/_shared/chunk-OFQHC6HE.js", "/build/_shared/chunk-PUJZWP2U.js", "/build/_shared/chunk-YRLBT3MG.js", "/build/_shared/chunk-4KF4RRT6.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office_.$id._index": { id: "routes/_home.office_.$id._index", parentId: "routes/_home.office_.$id", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_home.office_.$id._index-DM6PWPS2.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office_.$id.addStaff": { id: "routes/_home.office_.$id.addStaff", parentId: "routes/_home.office_.$id", path: "addStaff", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.office_.$id.addStaff-SABQCVG3.js", imports: ["/build/_shared/chunk-PDCAP7X3.js", "/build/_shared/chunk-OKC3RWCP.js", "/build/_shared/chunk-RI7KFSFX.js"], hasAction: !0, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office_.$id.expired": { id: "routes/_home.office_.$id.expired", parentId: "routes/_home.office_.$id", path: "expired", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.office_.$id.expired-NLYZ2Q3I.js", imports: ["/build/_shared/chunk-4CBZHLJK.js", "/build/_shared/chunk-OKC3RWCP.js", "/build/_shared/chunk-RI7KFSFX.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office_.$id.expiredsoon": { id: "routes/_home.office_.$id.expiredsoon", parentId: "routes/_home.office_.$id", path: "expiredsoon", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.office_.$id.expiredsoon-A6TXIBMR.js", imports: ["/build/_shared/chunk-4CBZHLJK.js", "/build/_shared/chunk-OKC3RWCP.js", "/build/_shared/chunk-RI7KFSFX.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office_.$id_.$userID": { id: "routes/_home.office_.$id_.$userID", parentId: "routes/_home", path: "office/:id/:userID", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.office_.$id_.$userID-NE5UDTOH.js", imports: ["/build/_shared/chunk-QGRJQUMK.js", "/build/_shared/chunk-RI7KFSFX.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.search": { id: "routes/_home.search", parentId: "routes/_home", path: "search", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.search-TA6AGPKO.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/changepass": { id: "routes/changepass", parentId: "root", path: "changepass", index: void 0, caseSensitive: void 0, module: "/build/routes/changepass-YVD26BJF.js", imports: ["/build/_shared/chunk-4KF4RRT6.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/forgot-pass": { id: "routes/forgot-pass", parentId: "root", path: "forgot-pass", index: void 0, caseSensitive: void 0, module: "/build/routes/forgot-pass-BZDC4ZY3.js", imports: ["/build/_shared/chunk-KPKQHPMA.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/forgotpassword": { id: "routes/forgotpassword", parentId: "root", path: "forgotpassword", index: void 0, caseSensitive: void 0, module: "/build/routes/forgotpassword-QLV6EJ7S.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/login": { id: "routes/login", parentId: "root", path: "login", index: void 0, caseSensitive: void 0, module: "/build/routes/login-WK2GTSYK.js", imports: ["/build/_shared/chunk-KPKQHPMA.js", "/build/_shared/chunk-2IC54PV3.js", "/build/_shared/chunk-PDCAP7X3.js", "/build/_shared/chunk-MEXKDBJ7.js", "/build/_shared/chunk-4KF4RRT6.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/logout": { id: "routes/logout", parentId: "root", path: "logout", index: void 0, caseSensitive: void 0, module: "/build/routes/logout-5KEBAQVD.js", imports: void 0, hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, cssBundleHref: void 0, hmr: void 0, url: "/build/manifest-4DC0504A.js" };
   }
 });
 
@@ -731,7 +731,7 @@ function ExpiredSoonProvinceTable() {
 }
 
 // app/services/auth.server.js
-var import_node2 = require("@remix-run/node"), import_node3 = require("@remix-run/node"), SESSION_SECRET = process.env.SESSION_SECRET, sessionStorage = (0, import_node2.createCookieSessionStorage)({
+var import_node2 = require("@remix-run/node"), SESSION_SECRET = process.env.SESSION_SECRET, sessionStorage = (0, import_node2.createCookieSessionStorage)({
   cookie: {
     name: "session",
     path: "/",
@@ -2797,7 +2797,7 @@ function InspectionsAddForm(props) {
 }
 
 // app/routes/_home.car.$numberPlate.addinspection.jsx
-var import_node4 = require("@remix-run/node");
+var import_node3 = require("@remix-run/node");
 var import_jsx_dev_runtime8 = require("react/jsx-dev-runtime");
 function inspectionAdd() {
   let data = (0, import_react9.useLoaderData)();
@@ -2810,7 +2810,7 @@ function inspectionAdd() {
 async function loader2({ request: request2, params }) {
   let token = await requireUserSession(request2);
   if (!token)
-    return (0, import_node4.redirect)("/login");
+    return (0, import_node3.redirect)("/login");
   let fetchData = {
     plate: params.numberPlate
   }, resData = await (await fetch(
@@ -2829,7 +2829,7 @@ async function loader2({ request: request2, params }) {
 async function action({ request: request2 }) {
   let token = await requireUserSession(request2);
   if (!token)
-    return (0, import_node4.redirect)("/login");
+    return (0, import_node3.redirect)("/login");
   let formData = await request2.formData(), data = {
     ownername: formData.get("OwnerName"),
     owneremail: formData.get("Email"),
@@ -2862,9 +2862,7 @@ async function action({ request: request2 }) {
     engineDisplacement: formData.get("EngineDisplacement"),
     maxOutputToRpmRatio: formData.get("maxOutputToRpmRatio"),
     numberOfTiresAndTireSize: formData.get("numberOfTiresAndTireSize")
-  };
-  console.log(data);
-  let resData = await (await fetch(
+  }, resData = await (await fetch(
     "https://registrytotal.herokuapp.com/api/inspection/add",
     {
       method: "POST",
@@ -2875,7 +2873,7 @@ async function action({ request: request2 }) {
       body: JSON.stringify(data)
     }
   )).json();
-  return console.log(resData), resData.status === "SUCCEEDED" ? (0, import_node4.redirect)(`/Inspections/${resData.regisNum}`) : (0, import_node4.json)({ message: resData });
+  return console.log(resData), resData.status === "SUCCEEDED" ? (0, import_node3.redirect)(`/Inspections/${resData.regisNum}`) : (0, import_node3.json)({ message: resData });
 }
 
 // app/routes/_home.analystics.$codename.expired.jsx
@@ -3999,7 +3997,7 @@ function CarPage() {
           inspec.regisPlace.name
         ] }, void 0, !0, {
           fileName: "app/components/CarPage/CarPage.jsx",
-          lineNumber: 369,
+          lineNumber: 366,
           columnNumber: 15
         }, this)
       ] }, void 0, !0, {
@@ -4302,7 +4300,7 @@ __export(home_analystics_codename_exports, {
   default: () => ProvinceAna,
   loader: () => loader6
 });
-var import_node5 = require("@remix-run/node");
+var import_node4 = require("@remix-run/node");
 
 // app/components/Analystics/OfficeListbyProvince.jsx
 var import_react16 = require("@remix-run/react"), import_jsx_dev_runtime16 = require("react/jsx-dev-runtime");
@@ -4849,7 +4847,7 @@ function ProvinceAna() {
 async function loader6({ request: request2, params }) {
   let token = await requireUserSession(request2);
   if (!token)
-    return (0, import_node5.redirect)("/login");
+    return (0, import_node4.redirect)("/login");
   let codename = params.codename, province = province_default.filter((a) => a.codename === codename)[0].name, fetch1 = {
     time: "2023",
     city: province
@@ -4904,7 +4902,7 @@ async function loader6({ request: request2, params }) {
     },
     body: JSON.stringify(fetch5)
   }), Data2023 = await response2023.json(), Data2022 = await response2022.json(), Data2021 = await response2021.json(), office = await responseOffice.json(), expired = await expiredResponse.json();
-  return console.log(expired), (0, import_node5.json)({
+  return console.log(expired), (0, import_node4.json)({
     office,
     Data2021,
     Data2022,
@@ -5212,7 +5210,7 @@ function AddForm(props) {
 }
 
 // app/services/APIAction.server.js
-var import_node6 = require("@remix-run/node");
+var import_node5 = require("@remix-run/node");
 async function login(email, password) {
   let response = await fetch(
     "https://registrytotal.herokuapp.com/api/staff/login",
@@ -5233,7 +5231,7 @@ async function login(email, password) {
 async function getAllOffice(request2) {
   let token = await requireUserSession(request2);
   if (!token)
-    return (0, import_node6.redirect)("/login");
+    return (0, import_node5.redirect)("/login");
   let resData = await (await fetch("https://registrytotal.herokuapp.com/api/office", {
     method: "GET",
     headers: {
@@ -5248,7 +5246,7 @@ async function getAllOffice(request2) {
 async function addStaff(request2, data) {
   let token = await requireUserSession(request2);
   if (!token)
-    return (0, import_node6.redirect)("/login");
+    return (0, import_node5.redirect)("/login");
   let resData = await (await fetch(
     "https://registrytotal.herokuapp.com/api/staff/add",
     {
@@ -5260,12 +5258,12 @@ async function addStaff(request2, data) {
       body: JSON.stringify(data)
     }
   )).json();
-  return resData !== "SUCCEEDED" ? (0, import_node6.json)({ message: resData }) : (0, import_node6.redirect)("/office");
+  return resData !== "SUCCEEDED" ? (0, import_node5.json)({ message: resData }) : (0, import_node5.redirect)("/office");
 }
 async function getInspections(params, request2) {
   let token = await requireUserSession(request2);
   if (!token)
-    return (0, import_node6.redirect)("/login");
+    return (0, import_node5.redirect)("/login");
   let url = "https://registrytotal.herokuapp.com/api/inspection/" + params.id;
   return await (await fetch(url, {
     method: "GET",
@@ -5278,7 +5276,7 @@ async function getInspections(params, request2) {
 async function findInspectionsById(request2, id) {
   let token = await requireUserSession(request2);
   if (!token)
-    return (0, import_node6.redirect)("/login");
+    return (0, import_node5.redirect)("/login");
   let url = "https://registrytotal.herokuapp.com/api/inspection/" + id, resData = await (await fetch(url, {
     method: "GET",
     headers: {
@@ -5288,7 +5286,7 @@ async function findInspectionsById(request2, id) {
   })).json();
   if (console.log(resData), resData === null)
     throw new Error("Cannot find this Registration Number");
-  return (0, import_node6.redirect)(`/Inspections/${id}`);
+  return (0, import_node5.redirect)(`/Inspections/${id}`);
 }
 async function getOwnInfo(request2) {
   let response = await requireUserSession(request2);
@@ -5301,7 +5299,7 @@ async function getOwnInfo(request2) {
         "content-type": "application/json"
       }
     }
-  )).json() : (0, import_node6.redirect)("/login");
+  )).json() : (0, import_node5.redirect)("/login");
 }
 async function EditInfo(request2, data) {
   let token = await requireUserSession(request2);
@@ -5315,12 +5313,12 @@ async function EditInfo(request2, data) {
       },
       body: JSON.stringify(data)
     }
-  )).json() : (0, import_node6.redirect)("/login");
+  )).json() : (0, import_node5.redirect)("/login");
 }
 async function getStaffbyId(request2, staffID) {
   let token = await requireUserSession(request2);
   if (!token)
-    return (0, import_node6.redirect)("/login");
+    return (0, import_node5.redirect)("/login");
   let resData = await (await fetch(
     "https://registrytotal.herokuapp.com/api/staff/" + staffID,
     {
@@ -5338,7 +5336,7 @@ async function getStaffbyId(request2, staffID) {
 async function addOffice(request2, data) {
   let token = await requireUserSession(request2);
   if (!token)
-    return (0, import_node6.redirect)("/login");
+    return (0, import_node5.redirect)("/login");
   let resData = await (await fetch(
     "https://registrytotal.herokuapp.com/api/office/add",
     {
@@ -5350,11 +5348,9 @@ async function addOffice(request2, data) {
       body: JSON.stringify(data)
     }
   )).json();
-  if (resData === "NOT FOUND")
+  if (resData === "UNAUTHORIZED")
     throw new Error("You must be admin to access this");
-  if (resData === "SERVER UNAVAILABLE")
-    throw new Error("Something went wrong with the server, please try again");
-  return (0, import_node6.redirect)("/office");
+  return resData === "SUCCEEDED" ? (0, import_node5.redirect)("/office") : (0, import_node5.json)({ message: resData });
 }
 async function adminCheck(request2) {
   if ((await getOwnInfo(request2)).isAdmin === 0)
@@ -5364,7 +5360,7 @@ async function adminCheck(request2) {
 async function findCarbyNumberPlate(request2, numberPlate) {
   let token = await requireUserSession(request2);
   if (!token)
-    return (0, import_node6.redirect)("/login");
+    return (0, import_node5.redirect)("/login");
   let fetchData = {
     plate: numberPlate
   }, resData = await (await fetch(
@@ -5380,7 +5376,7 @@ async function findCarbyNumberPlate(request2, numberPlate) {
   )).json();
   if (console.log(resData), resData === null)
     throw new Error("Cannot find this Numberplate");
-  return (0, import_node6.redirect)(`/car/${numberPlate}`);
+  return (0, import_node5.redirect)(`/car/${numberPlate}`);
 }
 
 // app/routes/_home.office_.$id.addStaff.jsx
@@ -5951,7 +5947,7 @@ __export(home_Inspections_index_exports, {
   default: () => InspectionSearchPage
 });
 var import_searchInspectionsModal = __toESM(require_searchInspectionsModal());
-var import_node7 = require("@remix-run/node"), import_jsx_dev_runtime26 = require("react/jsx-dev-runtime");
+var import_node6 = require("@remix-run/node"), import_jsx_dev_runtime26 = require("react/jsx-dev-runtime");
 function InspectionSearchPage() {
   return /* @__PURE__ */ (0, import_jsx_dev_runtime26.jsxDEV)(import_searchInspectionsModal.default, {}, void 0, !1, {
     fileName: "app/routes/_home.Inspections._index.jsx",
@@ -5964,7 +5960,7 @@ async function action3({ request: request2 }) {
   try {
     return await findInspectionsById(request2, id);
   } catch (error) {
-    return (0, import_node7.json)({ message: error.message });
+    return (0, import_node6.json)({ message: error.message });
   }
 }
 
@@ -6233,22 +6229,22 @@ __export(home_analystics_index_exports, {
   action: () => action4,
   default: () => AnalysticsPage
 });
-var import_node8 = require("@remix-run/node");
+var import_node7 = require("@remix-run/node");
 
 // app/components/Analystics/ProvinceBoxModal.jsx
 var import_TextField = __toESM(require("@mui/material/TextField")), import_Autocomplete = __toESM(require("@mui/material/Autocomplete"));
 var import_react30 = require("@remix-run/react"), import_flowbite_react10 = require("flowbite-react"), import_jsx_dev_runtime30 = require("react/jsx-dev-runtime");
 function ProvinceBox() {
-  let name = province_default.map((a) => a.name), action10 = (0, import_react30.useActionData)();
+  let name = province_default.map((a) => a.name), action11 = (0, import_react30.useActionData)();
   return /* @__PURE__ */ (0, import_jsx_dev_runtime30.jsxDEV)(PageModal, { title: "Choose a Province", children: [
-    action10 ? /* @__PURE__ */ (0, import_jsx_dev_runtime30.jsxDEV)(import_flowbite_react10.Alert, { color: "failure", className: "mb-5", children: /* @__PURE__ */ (0, import_jsx_dev_runtime30.jsxDEV)("span", { children: [
+    action11 ? /* @__PURE__ */ (0, import_jsx_dev_runtime30.jsxDEV)(import_flowbite_react10.Alert, { color: "failure", className: "mb-5", children: /* @__PURE__ */ (0, import_jsx_dev_runtime30.jsxDEV)("span", { children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime30.jsxDEV)("span", { className: "font-medium mb-5" }, void 0, !1, {
         fileName: "app/components/Analystics/ProvinceBoxModal.jsx",
         lineNumber: 16,
         columnNumber: 13
       }, this),
       " ",
-      action10.message
+      action11.message
     ] }, void 0, !0, {
       fileName: "app/components/Analystics/ProvinceBoxModal.jsx",
       lineNumber: 15,
@@ -6305,7 +6301,7 @@ function AnalysticsPage() {
 }
 async function action4({ request: request2 }) {
   let p = (await request2.formData()).get("province"), data = province_default.filter((a) => a.name === p)[0];
-  return data === void 0 ? (0, import_node8.json)({ message: "Can't find province" }) : (0, import_node8.redirect)(`/analystics/${data.codename}`);
+  return data === void 0 ? (0, import_node7.json)({ message: "Can't find province" }) : (0, import_node7.redirect)(`/analystics/${data.codename}`);
 }
 
 // app/routes/_home.Inspections.$id.jsx
@@ -7820,7 +7816,7 @@ __export(home_office_id_exports, {
   default: () => OfficeDetailPage,
   loader: () => loader12
 });
-var import_node9 = require("@remix-run/node");
+var import_node8 = require("@remix-run/node");
 var import_react43 = require("@remix-run/react");
 
 // app/components/Office/UserTable.jsx
@@ -8624,7 +8620,7 @@ function OfficeDetailPage() {
 async function loader12({ request: request2, params }) {
   let token = await requireUserSession(request2);
   if (!token)
-    return (0, import_node9.redirect)("/login");
+    return (0, import_node8.redirect)("/login");
   let url = "https://registrytotal.herokuapp.com/api/office/" + params.id + "/car", data2023 = {
     time: "2023",
     city: ""
@@ -8680,7 +8676,7 @@ async function loader12({ request: request2, params }) {
   ), staff = await responseStaff.json();
   console.log(staff);
   let resdata2023 = await response2023.json(), resdata2022 = await response2022.json(), resdata2021 = await response2021.json(), expiredRes = await resExpired.json();
-  return console.log(expiredRes), (0, import_node9.json)({
+  return console.log(expiredRes), (0, import_node8.json)({
     staff: staff[0],
     Data2023: resdata2023,
     Data2022: resdata2022,
@@ -8696,7 +8692,7 @@ __export(home_car_index_exports, {
   default: () => CarIndex,
   loader: () => loader13
 });
-var import_node10 = require("@remix-run/node"), import_searchCarModal = __toESM(require_searchCarModal());
+var import_node9 = require("@remix-run/node"), import_searchCarModal = __toESM(require_searchCarModal());
 
 // app/components/CarPage/CarPageDefault.jsx
 var import_react44 = require("@remix-run/react"), import_jsx_dev_runtime45 = require("react/jsx-dev-runtime");
@@ -9452,14 +9448,14 @@ function CarIndex() {
   }, this);
 }
 async function loader13({ request: request2 }) {
-  return requireUserSession(request2) ? null : (0, import_node10.redirect)("/login");
+  return requireUserSession(request2) ? null : (0, import_node9.redirect)("/login");
 }
 async function action5({ request: request2 }) {
   let numberPlate = (await request2.formData()).get("NumberPlate");
   try {
     return await findCarbyNumberPlate(request2, numberPlate);
   } catch (error) {
-    return (0, import_node10.json)({ message: error.message });
+    return (0, import_node9.json)({ message: error.message });
   }
 }
 
@@ -9479,229 +9475,243 @@ function AddOfficeForm() {
     fileName: "app/components/AddOfficeForm.jsx",
     lineNumber: 6,
     columnNumber: 5
-  }, this));
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime47.jsxDEV)(import_react45.Form, { method: "post", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime47.jsxDEV)("div", { className: "relative z-0 w-3/4 mb-6 group", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime47.jsxDEV)(
-        "input",
-        {
-          type: "text",
-          name: "OfficeName",
-          id: "OfficeName",
-          className: "block py-2.5 px-0 w-3/4 text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer",
-          placeholder: " ",
-          required: !0
-        },
-        void 0,
-        !1,
-        {
-          fileName: "app/components/AddOfficeForm.jsx",
-          lineNumber: 13,
-          columnNumber: 9
-        },
-        this
-      ),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime47.jsxDEV)(
-        "label",
-        {
-          htmlFor: "OfficeName",
-          className: "peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transhtmlForm -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6",
-          children: [
-            "Office Name:",
-            " "
-          ]
-        },
-        void 0,
-        !0,
-        {
-          fileName: "app/components/AddOfficeForm.jsx",
-          lineNumber: 21,
-          columnNumber: 9
-        },
-        this
-      )
+  }, this)), error = (0, import_react45.useActionData)();
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime47.jsxDEV)(import_jsx_dev_runtime47.Fragment, { children: [
+    error && /* @__PURE__ */ (0, import_jsx_dev_runtime47.jsxDEV)("h3", { className: "text-red-500 text-md bold text-center mb-5", children: [
+      error.message,
+      ", please try again"
     ] }, void 0, !0, {
       fileName: "app/components/AddOfficeForm.jsx",
-      lineNumber: 12,
-      columnNumber: 7
+      lineNumber: 14,
+      columnNumber: 9
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime47.jsxDEV)("div", { className: "relative z-0 w-3/4 mb-6 group", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime47.jsxDEV)(
-        "label",
-        {
-          htmlFor: "city",
-          className: "peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transhtmlForm -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6",
-          children: "Province:"
-        },
-        void 0,
-        !1,
-        {
-          fileName: "app/components/AddOfficeForm.jsx",
-          lineNumber: 29,
-          columnNumber: 9
-        },
-        this
-      ),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime47.jsxDEV)(
-        "select",
-        {
-          name: "city",
-          id: "city",
-          className: "block py-2.5 px-0 w-3/4 text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer",
-          children: option
-        },
-        void 0,
-        !1,
-        {
-          fileName: "app/components/AddOfficeForm.jsx",
-          lineNumber: 35,
-          columnNumber: 9
-        },
-        this
-      )
+    /* @__PURE__ */ (0, import_jsx_dev_runtime47.jsxDEV)(import_react45.Form, { method: "post", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime47.jsxDEV)("div", { className: "relative z-0 w-3/4 mb-6 group", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime47.jsxDEV)(
+          "input",
+          {
+            type: "text",
+            name: "OfficeName",
+            id: "OfficeName",
+            className: "block py-2.5 px-0 w-3/4 text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text- dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer",
+            placeholder: " ",
+            required: !0
+          },
+          void 0,
+          !1,
+          {
+            fileName: "app/components/AddOfficeForm.jsx",
+            lineNumber: 20,
+            columnNumber: 11
+          },
+          this
+        ),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime47.jsxDEV)(
+          "label",
+          {
+            htmlFor: "OfficeName",
+            className: "peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transhtmlForm -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6",
+            children: [
+              "Office Name:",
+              " "
+            ]
+          },
+          void 0,
+          !0,
+          {
+            fileName: "app/components/AddOfficeForm.jsx",
+            lineNumber: 28,
+            columnNumber: 11
+          },
+          this
+        )
+      ] }, void 0, !0, {
+        fileName: "app/components/AddOfficeForm.jsx",
+        lineNumber: 19,
+        columnNumber: 9
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime47.jsxDEV)("div", { className: "relative z-0 w-3/4 mb-6 group", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime47.jsxDEV)(
+          "label",
+          {
+            htmlFor: "city",
+            className: "peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transhtmlForm -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6",
+            children: "Province:"
+          },
+          void 0,
+          !1,
+          {
+            fileName: "app/components/AddOfficeForm.jsx",
+            lineNumber: 36,
+            columnNumber: 11
+          },
+          this
+        ),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime47.jsxDEV)(
+          "select",
+          {
+            name: "city",
+            id: "city",
+            className: "block py-2.5 px-0 w-3/4 text-sm text-gray-900 dark:bg-gray-700 border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer ",
+            children: option
+          },
+          void 0,
+          !1,
+          {
+            fileName: "app/components/AddOfficeForm.jsx",
+            lineNumber: 42,
+            columnNumber: 11
+          },
+          this
+        )
+      ] }, void 0, !0, {
+        fileName: "app/components/AddOfficeForm.jsx",
+        lineNumber: 35,
+        columnNumber: 9
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime47.jsxDEV)("div", { className: "relative z-0 w-3/4 mb-6 group", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime47.jsxDEV)(
+          "input",
+          {
+            type: "text",
+            name: "Address",
+            id: "Address",
+            className: "block py-2.5 px-0 w-3/4 text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer",
+            placeholder: " ",
+            required: !0
+          },
+          void 0,
+          !1,
+          {
+            fileName: "app/components/AddOfficeForm.jsx",
+            lineNumber: 51,
+            columnNumber: 11
+          },
+          this
+        ),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime47.jsxDEV)(
+          "label",
+          {
+            htmlFor: "Address",
+            className: "peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transhtmlForm -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6",
+            children: [
+              "Address:",
+              " "
+            ]
+          },
+          void 0,
+          !0,
+          {
+            fileName: "app/components/AddOfficeForm.jsx",
+            lineNumber: 59,
+            columnNumber: 11
+          },
+          this
+        )
+      ] }, void 0, !0, {
+        fileName: "app/components/AddOfficeForm.jsx",
+        lineNumber: 50,
+        columnNumber: 9
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime47.jsxDEV)("div", { className: "relative z-0 w-3/4 mb-6 group", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime47.jsxDEV)(
+          "input",
+          {
+            type: "text",
+            name: "Hotline",
+            id: "Hotline",
+            className: "block py-2.5 px-0 w-3/4 text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer",
+            placeholder: " ",
+            required: !0
+          },
+          void 0,
+          !1,
+          {
+            fileName: "app/components/AddOfficeForm.jsx",
+            lineNumber: 67,
+            columnNumber: 11
+          },
+          this
+        ),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime47.jsxDEV)(
+          "label",
+          {
+            htmlFor: "Hotline",
+            className: "peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transhtmlForm -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6",
+            children: [
+              "Hotline:",
+              " "
+            ]
+          },
+          void 0,
+          !0,
+          {
+            fileName: "app/components/AddOfficeForm.jsx",
+            lineNumber: 75,
+            columnNumber: 11
+          },
+          this
+        )
+      ] }, void 0, !0, {
+        fileName: "app/components/AddOfficeForm.jsx",
+        lineNumber: 66,
+        columnNumber: 9
+      }, this),
+      " ",
+      /* @__PURE__ */ (0, import_jsx_dev_runtime47.jsxDEV)("div", { className: "relative z-0 w-3/4 mb-6 group", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime47.jsxDEV)(
+          "input",
+          {
+            type: "email",
+            name: "Hotmail",
+            id: "Hotmail",
+            className: "block py-2.5 px-0 w-3/4 text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer",
+            placeholder: " ",
+            required: !0
+          },
+          void 0,
+          !1,
+          {
+            fileName: "app/components/AddOfficeForm.jsx",
+            lineNumber: 83,
+            columnNumber: 11
+          },
+          this
+        ),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime47.jsxDEV)(
+          "label",
+          {
+            htmlFor: "Hotmail",
+            className: "peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transhtmlForm -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6",
+            children: "HotMail:"
+          },
+          void 0,
+          !1,
+          {
+            fileName: "app/components/AddOfficeForm.jsx",
+            lineNumber: 91,
+            columnNumber: 11
+          },
+          this
+        )
+      ] }, void 0, !0, {
+        fileName: "app/components/AddOfficeForm.jsx",
+        lineNumber: 82,
+        columnNumber: 9
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime47.jsxDEV)("button", { className: "text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-3/4 sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800", children: "Submit" }, void 0, !1, {
+        fileName: "app/components/AddOfficeForm.jsx",
+        lineNumber: 98,
+        columnNumber: 9
+      }, this)
     ] }, void 0, !0, {
       fileName: "app/components/AddOfficeForm.jsx",
-      lineNumber: 28,
-      columnNumber: 7
-    }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime47.jsxDEV)("div", { className: "relative z-0 w-3/4 mb-6 group", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime47.jsxDEV)(
-        "input",
-        {
-          type: "text",
-          name: "Address",
-          id: "Address",
-          className: "block py-2.5 px-0 w-3/4 text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer",
-          placeholder: " ",
-          required: !0
-        },
-        void 0,
-        !1,
-        {
-          fileName: "app/components/AddOfficeForm.jsx",
-          lineNumber: 44,
-          columnNumber: 9
-        },
-        this
-      ),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime47.jsxDEV)(
-        "label",
-        {
-          htmlFor: "Address",
-          className: "peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transhtmlForm -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6",
-          children: [
-            "Address:",
-            " "
-          ]
-        },
-        void 0,
-        !0,
-        {
-          fileName: "app/components/AddOfficeForm.jsx",
-          lineNumber: 52,
-          columnNumber: 9
-        },
-        this
-      )
-    ] }, void 0, !0, {
-      fileName: "app/components/AddOfficeForm.jsx",
-      lineNumber: 43,
-      columnNumber: 7
-    }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime47.jsxDEV)("div", { className: "relative z-0 w-3/4 mb-6 group", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime47.jsxDEV)(
-        "input",
-        {
-          type: "text",
-          name: "Hotline",
-          id: "Hotline",
-          className: "block py-2.5 px-0 w-3/4 text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer",
-          placeholder: " ",
-          required: !0
-        },
-        void 0,
-        !1,
-        {
-          fileName: "app/components/AddOfficeForm.jsx",
-          lineNumber: 60,
-          columnNumber: 9
-        },
-        this
-      ),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime47.jsxDEV)(
-        "label",
-        {
-          htmlFor: "Hotline",
-          className: "peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transhtmlForm -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6",
-          children: [
-            "Hotline:",
-            " "
-          ]
-        },
-        void 0,
-        !0,
-        {
-          fileName: "app/components/AddOfficeForm.jsx",
-          lineNumber: 68,
-          columnNumber: 9
-        },
-        this
-      )
-    ] }, void 0, !0, {
-      fileName: "app/components/AddOfficeForm.jsx",
-      lineNumber: 59,
-      columnNumber: 7
-    }, this),
-    " ",
-    /* @__PURE__ */ (0, import_jsx_dev_runtime47.jsxDEV)("div", { className: "relative z-0 w-3/4 mb-6 group", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime47.jsxDEV)(
-        "input",
-        {
-          type: "email",
-          name: "Hotmail",
-          id: "Hotmail",
-          className: "block py-2.5 px-0 w-3/4 text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer",
-          placeholder: " ",
-          required: !0
-        },
-        void 0,
-        !1,
-        {
-          fileName: "app/components/AddOfficeForm.jsx",
-          lineNumber: 76,
-          columnNumber: 9
-        },
-        this
-      ),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime47.jsxDEV)(
-        "label",
-        {
-          htmlFor: "Hotmail",
-          className: "peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transhtmlForm -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6",
-          children: "HotMail:"
-        },
-        void 0,
-        !1,
-        {
-          fileName: "app/components/AddOfficeForm.jsx",
-          lineNumber: 84,
-          columnNumber: 9
-        },
-        this
-      )
-    ] }, void 0, !0, {
-      fileName: "app/components/AddOfficeForm.jsx",
-      lineNumber: 75,
-      columnNumber: 7
-    }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime47.jsxDEV)("button", { className: "text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-3/4 sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800", children: "Submit" }, void 0, !1, {
-      fileName: "app/components/AddOfficeForm.jsx",
-      lineNumber: 91,
+      lineNumber: 18,
       columnNumber: 7
     }, this)
   ] }, void 0, !0, {
     fileName: "app/components/AddOfficeForm.jsx",
-    lineNumber: 11,
+    lineNumber: 12,
     columnNumber: 5
   }, this);
 }
@@ -10297,7 +10307,7 @@ __export(home_main_exports, {
   loader: () => loader16,
   meta: () => meta4
 });
-var import_node11 = require("@remix-run/node");
+var import_node10 = require("@remix-run/node");
 
 // app/components/Dashboard/ChartSection.jsx
 var import_remix_utils11 = require("remix-utils");
@@ -10923,7 +10933,7 @@ function MainPage() {
 async function loader16({ request: request2 }) {
   let token = await requireUserSession(request2);
   if (!token)
-    return (0, import_node11.redirect)("/login");
+    return (0, import_node10.redirect)("/login");
   let url = "https://registrytotal.herokuapp.com/api/office/own/car", dataPass = {
     time: "2023",
     city: ""
@@ -10975,7 +10985,7 @@ async function loader16({ request: request2 }) {
     },
     body: JSON.stringify(dataPass_1)
   }), resData = await response2023.json(), resData2022 = await response2022.json(), resData2021 = await response2021.json(), resData2 = await response_2.json(), resData3 = await response_3.json();
-  return (0, import_node11.json)({
+  return (0, import_node10.json)({
     Datain2023: resData,
     Datain2022: resData2022,
     Datain2021: resData2021,
@@ -11117,7 +11127,7 @@ __export(changepass_exports, {
   loader: () => loader17,
   meta: () => meta5
 });
-var import_react56 = require("@remix-run/react"), import_node12 = require("@remix-run/node");
+var import_react56 = require("@remix-run/react"), import_node11 = require("@remix-run/node");
 var import_jsx_dev_runtime59 = require("react/jsx-dev-runtime");
 function meta5() {
   return [{ title: "Change Password" }];
@@ -11204,12 +11214,12 @@ function changepassword() {
 }
 async function loader17({ request: request2 }) {
   let token = await requireUserSession(request2);
-  return token || (0, import_node12.redirect)("/login");
+  return token || (0, import_node11.redirect)("/login");
 }
 async function action8({ request: request2 }) {
   let token = await requireUserSession(request2);
   if (!token)
-    return (0, import_node12.redirect)("/login");
+    return (0, import_node11.redirect)("/login");
   let formData = await request2.formData(), data = {
     passwordCurrent: formData.get("old-password"),
     password: formData.get("password"),
@@ -11228,7 +11238,7 @@ async function action8({ request: request2 }) {
         body: JSON.stringify(data)
       }
     )).json();
-    return console.log(resData), resData.status !== "success" ? (console.log("deo thanh cong"), new Error("Invalid change")) : (0, import_node12.redirect)("/main");
+    return console.log(resData), resData.status !== "success" ? (console.log("deo thanh cong"), new Error("Invalid change")) : (0, import_node11.redirect)("/main");
   } catch (error) {
     if (error.status === 401)
       return error;
@@ -11238,11 +11248,17 @@ async function action8({ request: request2 }) {
 // app/routes/logout.js
 var logout_exports = {};
 __export(logout_exports, {
+  action: () => action9,
   loader: () => loader18
 });
-var import_node13 = require("@remix-run/node");
-async function loader18({ request: request2 }) {
-  return console.log(request2), await destroyUserSession(request2);
+var import_node12 = require("@remix-run/node");
+async function action9({ request: request2 }) {
+  if (request2.method !== "POST")
+    throw (0, import_node12.json)({ message: "Invalid request method" }, { status: 400 });
+  return await destroyUserSession(request2);
+}
+function loader18() {
+  return redirect("/login");
 }
 
 // app/routes/_home.jsx
@@ -11543,21 +11559,21 @@ function MainNavigation() {
               lineNumber: 132,
               columnNumber: 17
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime60.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime60.jsxDEV)(
-              import_react57.Link,
+            /* @__PURE__ */ (0, import_jsx_dev_runtime60.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime60.jsxDEV)(import_react57.Form, { method: "post", action: "/logout", children: /* @__PURE__ */ (0, import_jsx_dev_runtime60.jsxDEV)(
+              "button",
               {
-                to: "/logout",
+                type: "submit",
                 className: "flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 self-end",
                 children: [
                   /* @__PURE__ */ (0, import_jsx_dev_runtime60.jsxDEV)(import_react_fontawesome4.FontAwesomeIcon, { icon: import_free_solid_svg_icons4.faRightFromBracket, size: "lg" }, void 0, !1, {
                     fileName: "app/components/UI/MainNavigation.jsx",
-                    lineNumber: 147,
-                    columnNumber: 21
+                    lineNumber: 148,
+                    columnNumber: 23
                   }, this),
                   /* @__PURE__ */ (0, import_jsx_dev_runtime60.jsxDEV)("span", { className: "flex-1 ml-3 whitespace-nowrap", children: "Sign Out" }, void 0, !1, {
                     fileName: "app/components/UI/MainNavigation.jsx",
-                    lineNumber: 148,
-                    columnNumber: 21
+                    lineNumber: 149,
+                    columnNumber: 23
                   }, this)
                 ]
               },
@@ -11565,11 +11581,15 @@ function MainNavigation() {
               !0,
               {
                 fileName: "app/components/UI/MainNavigation.jsx",
-                lineNumber: 143,
-                columnNumber: 19
+                lineNumber: 144,
+                columnNumber: 21
               },
               this
             ) }, void 0, !1, {
+              fileName: "app/components/UI/MainNavigation.jsx",
+              lineNumber: 143,
+              columnNumber: 19
+            }, this) }, void 0, !1, {
               fileName: "app/components/UI/MainNavigation.jsx",
               lineNumber: 142,
               columnNumber: 17
@@ -11605,7 +11625,7 @@ function MainNavigation() {
       !1,
       {
         fileName: "app/components/UI/MainNavigation.jsx",
-        lineNumber: 156,
+        lineNumber: 158,
         columnNumber: 11
       },
       this
@@ -11653,7 +11673,7 @@ async function loader19({ request: request2 }) {
 // app/routes/login.jsx
 var login_exports = {};
 __export(login_exports, {
-  action: () => action9,
+  action: () => action10,
   default: () => LoginPage,
   loader: () => loader20
 });
@@ -11840,7 +11860,7 @@ function Login() {
 }
 
 // app/routes/login.jsx
-var import_node14 = require("@remix-run/node"), import_jsx_dev_runtime63 = require("react/jsx-dev-runtime");
+var import_node13 = require("@remix-run/node"), import_jsx_dev_runtime63 = require("react/jsx-dev-runtime");
 function LoginPage() {
   return /* @__PURE__ */ (0, import_jsx_dev_runtime63.jsxDEV)(Login, {}, void 0, !1, {
     fileName: "app/routes/login.jsx",
@@ -11849,9 +11869,9 @@ function LoginPage() {
   }, this);
 }
 async function loader20({ request: request2 }) {
-  return await getUserFromSession(request2) ? (0, import_node14.redirect)("/") : null;
+  return await getUserFromSession(request2) ? (0, import_node13.redirect)("/") : null;
 }
-async function action9({ request: request2 }) {
+async function action10({ request: request2 }) {
   let formData = await request2.formData(), data = {
     email: formData.get("email"),
     password: formData.get("password")
@@ -11859,7 +11879,7 @@ async function action9({ request: request2 }) {
   try {
     return await login(data.email, data.password);
   } catch (error) {
-    return (0, import_node14.json)({ message: error.message });
+    return (0, import_node13.json)({ message: error.message });
   }
 }
 

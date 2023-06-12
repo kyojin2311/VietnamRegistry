@@ -1,4 +1,4 @@
-import { Link, useLoaderData } from "@remix-run/react";
+import { Form, Link, useLoaderData } from "@remix-run/react";
 import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -140,15 +140,17 @@ export default function MainNavigation() {
                   </Link>
                 </li>
                 <li>
-                  <Link
-                    to="/logout"
-                    className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 self-end"
-                  >
-                    <FontAwesomeIcon icon={faRightFromBracket} size="lg" />
-                    <span className="flex-1 ml-3 whitespace-nowrap">
-                      Sign Out
-                    </span>
-                  </Link>
+                  <Form method="post" action="/logout">
+                    <button
+                      type="submit"
+                      className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 self-end"
+                    >
+                      <FontAwesomeIcon icon={faRightFromBracket} size="lg" />
+                      <span className="flex-1 ml-3 whitespace-nowrap">
+                        Sign Out
+                      </span>
+                    </button>
+                  </Form>
                 </li>
               </ul>
             </div>
