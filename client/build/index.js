@@ -34,7 +34,7 @@ __export(assets_manifest_exports, {
 });
 var assets_manifest_default, init_assets_manifest = __esm({
   "server-assets-manifest:@remix-run/dev/assets-manifest"() {
-    assets_manifest_default = { version: "57aca716", entry: { module: "/build/entry.client-KXM3BNQY.js", imports: ["/build/_shared/chunk-QE77VWK2.js", "/build/_shared/chunk-ZIEWKVBB.js", "/build/_shared/chunk-RBEN53O4.js", "/build/_shared/chunk-532K2VPY.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-5QM7M4LJ.js", imports: ["/build/_shared/chunk-PUJZWP2U.js", "/build/_shared/chunk-YRLBT3MG.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !0 }, "routes/_home": { id: "routes/_home", parentId: "root", path: void 0, index: void 0, caseSensitive: void 0, module: "/build/routes/_home-AV2G6VUO.js", imports: ["/build/_shared/chunk-KPKQHPMA.js", "/build/_shared/chunk-2IC54PV3.js", "/build/_shared/chunk-PDCAP7X3.js", "/build/_shared/chunk-MEXKDBJ7.js", "/build/_shared/chunk-4CBZHLJK.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.Inspections.$id": { id: "routes/_home.Inspections.$id", parentId: "routes/_home", path: "Inspections/:id", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.Inspections.$id-VATMP34T.js", imports: ["/build/_shared/chunk-O7R2KCUK.js", "/build/_shared/chunk-YRLBT3MG.js", "/build/_shared/chunk-RI7KFSFX.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.Inspections._index": { id: "routes/_home.Inspections._index", parentId: "routes/_home", path: "Inspections", index: !0, caseSensitive: void 0, module: "/build/routes/_home.Inspections._index-HA4E34GU.js", imports: ["/build/_shared/chunk-YRLBT3MG.js"], hasAction: !0, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home._main": { id: "routes/_home._main", parentId: "routes/_home", path: void 0, index: void 0, caseSensitive: void 0, module: "/build/routes/_home._main-X5OBHKWK.js", imports: ["/build/_shared/chunk-OFQHC6HE.js", "/build/_shared/chunk-PUJZWP2U.js", "/build/_shared/chunk-YRLBT3MG.js", "/build/_shared/chunk-4KF4RRT6.js", "/build/_shared/chunk-RI7KFSFX.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home._main._index": { id: "routes/_home._main._index", parentId: "routes/_home._main", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_home._main._index-RBNPIMHO.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home._main.expired": { id: "routes/_home._main.expired", parentId: "routes/_home._main", path: "expired", index: void 0, caseSensitive: void 0, module: "/build/routes/_home._main.expired-JOTX6GSI.js", imports: ["/build/_shared/chunk-4CBZHLJK.js", "/build/_shared/chunk-OKC3RWCP.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home._main.expiredsoon": { id: "routes/_home._main.expiredsoon", parentId: "routes/_home._main", path: "expiredsoon", index: void 0, caseSensitive: void 0, module: "/build/routes/_home._main.expiredsoon-UL4DVMHX.js", imports: ["/build/_shared/chunk-4CBZHLJK.js", "/build/_shared/chunk-OKC3RWCP.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.analystics.$codename": { id: "routes/_home.analystics.$codename", parentId: "routes/_home", path: "analystics/:codename", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.analystics.$codename-GXZDYFTU.js", imports: ["/build/_shared/chunk-OFQHC6HE.js", "/build/_shared/chunk-JPMRNOFY.js", "/build/_shared/chunk-PUJZWP2U.js", "/build/_shared/chunk-YRLBT3MG.js", "/build/_shared/chunk-4KF4RRT6.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.analystics.$codename._index": { id: "routes/_home.analystics.$codename._index", parentId: "routes/_home.analystics.$codename", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_home.analystics.$codename._index-AM23EO7P.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.analystics.$codename.expired": { id: "routes/_home.analystics.$codename.expired", parentId: "routes/_home.analystics.$codename", path: "expired", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.analystics.$codename.expired-QAZOIKRK.js", imports: ["/build/_shared/chunk-4CBZHLJK.js", "/build/_shared/chunk-OKC3RWCP.js", "/build/_shared/chunk-RI7KFSFX.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.analystics.$codename.expiredsoon": { id: "routes/_home.analystics.$codename.expiredsoon", parentId: "routes/_home.analystics.$codename", path: "expiredsoon", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.analystics.$codename.expiredsoon-4QZJJOAI.js", imports: ["/build/_shared/chunk-4CBZHLJK.js", "/build/_shared/chunk-OKC3RWCP.js", "/build/_shared/chunk-RI7KFSFX.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.analystics._index": { id: "routes/_home.analystics._index", parentId: "routes/_home", path: "analystics", index: !0, caseSensitive: void 0, module: "/build/routes/_home.analystics._index-L3CEEX2K.js", imports: ["/build/_shared/chunk-JPMRNOFY.js", "/build/_shared/chunk-OKC3RWCP.js", "/build/_shared/chunk-YRLBT3MG.js"], hasAction: !0, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.car.$numberPlate._index": { id: "routes/_home.car.$numberPlate._index", parentId: "routes/_home", path: "car/:numberPlate", index: !0, caseSensitive: void 0, module: "/build/routes/_home.car.$numberPlate._index-VA2TLVMN.js", imports: ["/build/_shared/chunk-4KF4RRT6.js", "/build/_shared/chunk-RI7KFSFX.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.car.$numberPlate.addinspection": { id: "routes/_home.car.$numberPlate.addinspection", parentId: "routes/_home", path: "car/:numberPlate/addinspection", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.car.$numberPlate.addinspection-PAFEX7OJ.js", imports: ["/build/_shared/chunk-4KF4RRT6.js", "/build/_shared/chunk-RI7KFSFX.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.car._index": { id: "routes/_home.car._index", parentId: "routes/_home", path: "car", index: !0, caseSensitive: void 0, module: "/build/routes/_home.car._index-X4Q6J36P.js", imports: ["/build/_shared/chunk-PUJZWP2U.js", "/build/_shared/chunk-YRLBT3MG.js", "/build/_shared/chunk-4KF4RRT6.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.info._index": { id: "routes/_home.info._index", parentId: "routes/_home", path: "info", index: !0, caseSensitive: void 0, module: "/build/routes/_home.info._index-GSRB6UJ2.js", imports: ["/build/_shared/chunk-QGRJQUMK.js", "/build/_shared/chunk-RI7KFSFX.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.info.edit": { id: "routes/_home.info.edit", parentId: "routes/_home", path: "info/edit", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.info.edit-3SG35PQG.js", imports: ["/build/_shared/chunk-RI7KFSFX.js"], hasAction: !0, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office": { id: "routes/_home.office", parentId: "routes/_home", path: "office", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.office-VICDH5CF.js", imports: void 0, hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office._index": { id: "routes/_home.office._index", parentId: "routes/_home.office", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_home.office._index-EXID3AT3.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office.add": { id: "routes/_home.office.add", parentId: "routes/_home.office", path: "add", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.office.add-HDE7HMZO.js", imports: ["/build/_shared/chunk-PDCAP7X3.js", "/build/_shared/chunk-JPMRNOFY.js", "/build/_shared/chunk-OKC3RWCP.js", "/build/_shared/chunk-YRLBT3MG.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office_.$id": { id: "routes/_home.office_.$id", parentId: "routes/_home", path: "office/:id", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.office_.$id-DWH32SX5.js", imports: ["/build/_shared/chunk-O7R2KCUK.js", "/build/_shared/chunk-OFQHC6HE.js", "/build/_shared/chunk-PUJZWP2U.js", "/build/_shared/chunk-YRLBT3MG.js", "/build/_shared/chunk-4KF4RRT6.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office_.$id._index": { id: "routes/_home.office_.$id._index", parentId: "routes/_home.office_.$id", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_home.office_.$id._index-DM6PWPS2.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office_.$id.addStaff": { id: "routes/_home.office_.$id.addStaff", parentId: "routes/_home.office_.$id", path: "addStaff", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.office_.$id.addStaff-SABQCVG3.js", imports: ["/build/_shared/chunk-PDCAP7X3.js", "/build/_shared/chunk-OKC3RWCP.js", "/build/_shared/chunk-RI7KFSFX.js"], hasAction: !0, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office_.$id.expired": { id: "routes/_home.office_.$id.expired", parentId: "routes/_home.office_.$id", path: "expired", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.office_.$id.expired-NLYZ2Q3I.js", imports: ["/build/_shared/chunk-4CBZHLJK.js", "/build/_shared/chunk-OKC3RWCP.js", "/build/_shared/chunk-RI7KFSFX.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office_.$id.expiredsoon": { id: "routes/_home.office_.$id.expiredsoon", parentId: "routes/_home.office_.$id", path: "expiredsoon", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.office_.$id.expiredsoon-A6TXIBMR.js", imports: ["/build/_shared/chunk-4CBZHLJK.js", "/build/_shared/chunk-OKC3RWCP.js", "/build/_shared/chunk-RI7KFSFX.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office_.$id_.$userID": { id: "routes/_home.office_.$id_.$userID", parentId: "routes/_home", path: "office/:id/:userID", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.office_.$id_.$userID-NE5UDTOH.js", imports: ["/build/_shared/chunk-QGRJQUMK.js", "/build/_shared/chunk-RI7KFSFX.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.search": { id: "routes/_home.search", parentId: "routes/_home", path: "search", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.search-TA6AGPKO.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/changepass": { id: "routes/changepass", parentId: "root", path: "changepass", index: void 0, caseSensitive: void 0, module: "/build/routes/changepass-YVD26BJF.js", imports: ["/build/_shared/chunk-4KF4RRT6.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/forgot-pass": { id: "routes/forgot-pass", parentId: "root", path: "forgot-pass", index: void 0, caseSensitive: void 0, module: "/build/routes/forgot-pass-BZDC4ZY3.js", imports: ["/build/_shared/chunk-KPKQHPMA.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/forgotpassword": { id: "routes/forgotpassword", parentId: "root", path: "forgotpassword", index: void 0, caseSensitive: void 0, module: "/build/routes/forgotpassword-QLV6EJ7S.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/login": { id: "routes/login", parentId: "root", path: "login", index: void 0, caseSensitive: void 0, module: "/build/routes/login-WK2GTSYK.js", imports: ["/build/_shared/chunk-KPKQHPMA.js", "/build/_shared/chunk-2IC54PV3.js", "/build/_shared/chunk-PDCAP7X3.js", "/build/_shared/chunk-MEXKDBJ7.js", "/build/_shared/chunk-4KF4RRT6.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/logout": { id: "routes/logout", parentId: "root", path: "logout", index: void 0, caseSensitive: void 0, module: "/build/routes/logout-5KEBAQVD.js", imports: void 0, hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, cssBundleHref: void 0, hmr: void 0, url: "/build/manifest-57ACA716.js" };
+    assets_manifest_default = { version: "28052c07", entry: { module: "/build/entry.client-KXM3BNQY.js", imports: ["/build/_shared/chunk-QE77VWK2.js", "/build/_shared/chunk-ZIEWKVBB.js", "/build/_shared/chunk-RBEN53O4.js", "/build/_shared/chunk-532K2VPY.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-5QM7M4LJ.js", imports: ["/build/_shared/chunk-PUJZWP2U.js", "/build/_shared/chunk-YRLBT3MG.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !0 }, "routes/_home": { id: "routes/_home", parentId: "root", path: void 0, index: void 0, caseSensitive: void 0, module: "/build/routes/_home-I6ER7JVA.js", imports: ["/build/_shared/chunk-KPKQHPMA.js", "/build/_shared/chunk-2IC54PV3.js", "/build/_shared/chunk-PDCAP7X3.js", "/build/_shared/chunk-MEXKDBJ7.js", "/build/_shared/chunk-4CBZHLJK.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.Inspections.$id": { id: "routes/_home.Inspections.$id", parentId: "routes/_home", path: "Inspections/:id", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.Inspections.$id-VATMP34T.js", imports: ["/build/_shared/chunk-O7R2KCUK.js", "/build/_shared/chunk-YRLBT3MG.js", "/build/_shared/chunk-RI7KFSFX.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.Inspections._index": { id: "routes/_home.Inspections._index", parentId: "routes/_home", path: "Inspections", index: !0, caseSensitive: void 0, module: "/build/routes/_home.Inspections._index-HA4E34GU.js", imports: ["/build/_shared/chunk-YRLBT3MG.js"], hasAction: !0, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home._main": { id: "routes/_home._main", parentId: "routes/_home", path: void 0, index: void 0, caseSensitive: void 0, module: "/build/routes/_home._main-HPL2QFUJ.js", imports: ["/build/_shared/chunk-OFQHC6HE.js", "/build/_shared/chunk-PUJZWP2U.js", "/build/_shared/chunk-YRLBT3MG.js", "/build/_shared/chunk-4KF4RRT6.js", "/build/_shared/chunk-RI7KFSFX.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home._main._index": { id: "routes/_home._main._index", parentId: "routes/_home._main", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_home._main._index-RBNPIMHO.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home._main.expired": { id: "routes/_home._main.expired", parentId: "routes/_home._main", path: "expired", index: void 0, caseSensitive: void 0, module: "/build/routes/_home._main.expired-JOTX6GSI.js", imports: ["/build/_shared/chunk-4CBZHLJK.js", "/build/_shared/chunk-OKC3RWCP.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home._main.expiredsoon": { id: "routes/_home._main.expiredsoon", parentId: "routes/_home._main", path: "expiredsoon", index: void 0, caseSensitive: void 0, module: "/build/routes/_home._main.expiredsoon-UL4DVMHX.js", imports: ["/build/_shared/chunk-4CBZHLJK.js", "/build/_shared/chunk-OKC3RWCP.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.analystics.$codename": { id: "routes/_home.analystics.$codename", parentId: "routes/_home", path: "analystics/:codename", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.analystics.$codename-WRTGMDRQ.js", imports: ["/build/_shared/chunk-OFQHC6HE.js", "/build/_shared/chunk-JPMRNOFY.js", "/build/_shared/chunk-PUJZWP2U.js", "/build/_shared/chunk-YRLBT3MG.js", "/build/_shared/chunk-4KF4RRT6.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.analystics.$codename._index": { id: "routes/_home.analystics.$codename._index", parentId: "routes/_home.analystics.$codename", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_home.analystics.$codename._index-AM23EO7P.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.analystics.$codename.expired": { id: "routes/_home.analystics.$codename.expired", parentId: "routes/_home.analystics.$codename", path: "expired", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.analystics.$codename.expired-QAZOIKRK.js", imports: ["/build/_shared/chunk-4CBZHLJK.js", "/build/_shared/chunk-OKC3RWCP.js", "/build/_shared/chunk-RI7KFSFX.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.analystics.$codename.expiredsoon": { id: "routes/_home.analystics.$codename.expiredsoon", parentId: "routes/_home.analystics.$codename", path: "expiredsoon", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.analystics.$codename.expiredsoon-4QZJJOAI.js", imports: ["/build/_shared/chunk-4CBZHLJK.js", "/build/_shared/chunk-OKC3RWCP.js", "/build/_shared/chunk-RI7KFSFX.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.analystics._index": { id: "routes/_home.analystics._index", parentId: "routes/_home", path: "analystics", index: !0, caseSensitive: void 0, module: "/build/routes/_home.analystics._index-L3CEEX2K.js", imports: ["/build/_shared/chunk-JPMRNOFY.js", "/build/_shared/chunk-OKC3RWCP.js", "/build/_shared/chunk-YRLBT3MG.js"], hasAction: !0, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.car.$numberPlate._index": { id: "routes/_home.car.$numberPlate._index", parentId: "routes/_home", path: "car/:numberPlate", index: !0, caseSensitive: void 0, module: "/build/routes/_home.car.$numberPlate._index-VA2TLVMN.js", imports: ["/build/_shared/chunk-4KF4RRT6.js", "/build/_shared/chunk-RI7KFSFX.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.car.$numberPlate.addinspection": { id: "routes/_home.car.$numberPlate.addinspection", parentId: "routes/_home", path: "car/:numberPlate/addinspection", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.car.$numberPlate.addinspection-PAFEX7OJ.js", imports: ["/build/_shared/chunk-4KF4RRT6.js", "/build/_shared/chunk-RI7KFSFX.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.car._index": { id: "routes/_home.car._index", parentId: "routes/_home", path: "car", index: !0, caseSensitive: void 0, module: "/build/routes/_home.car._index-X4Q6J36P.js", imports: ["/build/_shared/chunk-PUJZWP2U.js", "/build/_shared/chunk-YRLBT3MG.js", "/build/_shared/chunk-4KF4RRT6.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.info._index": { id: "routes/_home.info._index", parentId: "routes/_home", path: "info", index: !0, caseSensitive: void 0, module: "/build/routes/_home.info._index-GSRB6UJ2.js", imports: ["/build/_shared/chunk-QGRJQUMK.js", "/build/_shared/chunk-RI7KFSFX.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.info.edit": { id: "routes/_home.info.edit", parentId: "routes/_home", path: "info/edit", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.info.edit-3SG35PQG.js", imports: ["/build/_shared/chunk-RI7KFSFX.js"], hasAction: !0, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office": { id: "routes/_home.office", parentId: "routes/_home", path: "office", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.office-VICDH5CF.js", imports: void 0, hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office._index": { id: "routes/_home.office._index", parentId: "routes/_home.office", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_home.office._index-EXID3AT3.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office.add": { id: "routes/_home.office.add", parentId: "routes/_home.office", path: "add", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.office.add-HDE7HMZO.js", imports: ["/build/_shared/chunk-PDCAP7X3.js", "/build/_shared/chunk-JPMRNOFY.js", "/build/_shared/chunk-OKC3RWCP.js", "/build/_shared/chunk-YRLBT3MG.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office_.$id": { id: "routes/_home.office_.$id", parentId: "routes/_home", path: "office/:id", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.office_.$id-4HIAYJ7V.js", imports: ["/build/_shared/chunk-O7R2KCUK.js", "/build/_shared/chunk-OFQHC6HE.js", "/build/_shared/chunk-PUJZWP2U.js", "/build/_shared/chunk-YRLBT3MG.js", "/build/_shared/chunk-4KF4RRT6.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office_.$id._index": { id: "routes/_home.office_.$id._index", parentId: "routes/_home.office_.$id", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_home.office_.$id._index-DM6PWPS2.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office_.$id.addStaff": { id: "routes/_home.office_.$id.addStaff", parentId: "routes/_home.office_.$id", path: "addStaff", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.office_.$id.addStaff-SABQCVG3.js", imports: ["/build/_shared/chunk-PDCAP7X3.js", "/build/_shared/chunk-OKC3RWCP.js", "/build/_shared/chunk-RI7KFSFX.js"], hasAction: !0, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office_.$id.expired": { id: "routes/_home.office_.$id.expired", parentId: "routes/_home.office_.$id", path: "expired", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.office_.$id.expired-NLYZ2Q3I.js", imports: ["/build/_shared/chunk-4CBZHLJK.js", "/build/_shared/chunk-OKC3RWCP.js", "/build/_shared/chunk-RI7KFSFX.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office_.$id.expiredsoon": { id: "routes/_home.office_.$id.expiredsoon", parentId: "routes/_home.office_.$id", path: "expiredsoon", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.office_.$id.expiredsoon-A6TXIBMR.js", imports: ["/build/_shared/chunk-4CBZHLJK.js", "/build/_shared/chunk-OKC3RWCP.js", "/build/_shared/chunk-RI7KFSFX.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office_.$id_.$userID": { id: "routes/_home.office_.$id_.$userID", parentId: "routes/_home", path: "office/:id/:userID", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.office_.$id_.$userID-NE5UDTOH.js", imports: ["/build/_shared/chunk-QGRJQUMK.js", "/build/_shared/chunk-RI7KFSFX.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.search": { id: "routes/_home.search", parentId: "routes/_home", path: "search", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.search-TA6AGPKO.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/changepass": { id: "routes/changepass", parentId: "root", path: "changepass", index: void 0, caseSensitive: void 0, module: "/build/routes/changepass-YVD26BJF.js", imports: ["/build/_shared/chunk-4KF4RRT6.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/forgot-pass": { id: "routes/forgot-pass", parentId: "root", path: "forgot-pass", index: void 0, caseSensitive: void 0, module: "/build/routes/forgot-pass-BZDC4ZY3.js", imports: ["/build/_shared/chunk-KPKQHPMA.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/forgotpassword": { id: "routes/forgotpassword", parentId: "root", path: "forgotpassword", index: void 0, caseSensitive: void 0, module: "/build/routes/forgotpassword-QLV6EJ7S.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/login": { id: "routes/login", parentId: "root", path: "login", index: void 0, caseSensitive: void 0, module: "/build/routes/login-WK2GTSYK.js", imports: ["/build/_shared/chunk-KPKQHPMA.js", "/build/_shared/chunk-2IC54PV3.js", "/build/_shared/chunk-PDCAP7X3.js", "/build/_shared/chunk-MEXKDBJ7.js", "/build/_shared/chunk-4KF4RRT6.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/logout": { id: "routes/logout", parentId: "root", path: "logout", index: void 0, caseSensitive: void 0, module: "/build/routes/logout-5KEBAQVD.js", imports: void 0, hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, cssBundleHref: void 0, hmr: void 0, url: "/build/manifest-28052C07.js" };
   }
 });
 
@@ -4519,79 +4519,31 @@ function ProvinceChart() {
       lineNumber: 116,
       columnNumber: 7
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("div", { className: "flex items-center justify-between pt-3 mt-4 border-t border-gray-200 sm:pt-6 dark:border-gray-700", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("div", { className: "inline-flex items-center p-2 text-sm font-medium text-center text-gray-500 rounded-lg hover:text-gray-900 dark:text-gray-400 dark:hover:text-white", children: /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)(import_flowbite_react6.Dropdown, { inline: !0, label: `${year}`, children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)(import_flowbite_react6.Dropdown.Item, { onClick: handleClick2023, children: "N\u0103m 2023" }, void 0, !1, {
-          fileName: "app/components/Analystics/ProvinceChart.jsx",
-          lineNumber: 124,
-          columnNumber: 13
-        }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)(import_flowbite_react6.Dropdown.Item, { onClick: handleClick2022, children: "N\u0103m 2022" }, void 0, !1, {
-          fileName: "app/components/Analystics/ProvinceChart.jsx",
-          lineNumber: 125,
-          columnNumber: 13
-        }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)(import_flowbite_react6.Dropdown.Item, { onClick: handleClick2021, children: "N\u0103m 2021" }, void 0, !1, {
-          fileName: "app/components/Analystics/ProvinceChart.jsx",
-          lineNumber: 126,
-          columnNumber: 13
-        }, this)
-      ] }, void 0, !0, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("div", { className: "flex items-center justify-between pt-3 mt-4 border-t border-gray-200 sm:pt-6 dark:border-gray-700", children: /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("div", { className: "inline-flex items-center p-2 text-sm font-medium text-center text-gray-500 rounded-lg hover:text-gray-900 dark:text-gray-400 dark:hover:text-white", children: /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)(import_flowbite_react6.Dropdown, { inline: !0, label: `${year}`, children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)(import_flowbite_react6.Dropdown.Item, { onClick: handleClick2023, children: "N\u0103m 2023" }, void 0, !1, {
         fileName: "app/components/Analystics/ProvinceChart.jsx",
-        lineNumber: 123,
-        columnNumber: 11
-      }, this) }, void 0, !1, {
-        fileName: "app/components/Analystics/ProvinceChart.jsx",
-        lineNumber: 122,
-        columnNumber: 9
-      }, this),
-      year === 2023 && /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("div", { className: "flex-shrink-0 ", children: /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)(import_react19.Link, { className: "inline-flex items-center p-2 text-lg font-medium uppercase rounded-lg text-primary-700 sm:text-sm hover:bg-gray-100 dark:text-primary-500 dark:hover:bg-gray-700", children: [
-        "Full Report",
-        /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)(
-          "svg",
-          {
-            className: "w-4 h-4 ml-1",
-            fill: "none",
-            stroke: "currentColor",
-            viewBox: "0 0 24 24",
-            xmlns: "https://www.w3.org/2000/svg",
-            children: /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)(
-              "path",
-              {
-                strokeLinecap: "round",
-                strokeLinejoin: "round",
-                strokeWidth: "2",
-                d: "M9 5l7 7-7 7"
-              },
-              void 0,
-              !1,
-              {
-                fileName: "app/components/Analystics/ProvinceChart.jsx",
-                lineNumber: 140,
-                columnNumber: 17
-              },
-              this
-            )
-          },
-          void 0,
-          !1,
-          {
-            fileName: "app/components/Analystics/ProvinceChart.jsx",
-            lineNumber: 133,
-            columnNumber: 15
-          },
-          this
-        )
-      ] }, void 0, !0, {
-        fileName: "app/components/Analystics/ProvinceChart.jsx",
-        lineNumber: 131,
+        lineNumber: 124,
         columnNumber: 13
-      }, this) }, void 0, !1, {
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)(import_flowbite_react6.Dropdown.Item, { onClick: handleClick2022, children: "N\u0103m 2022" }, void 0, !1, {
         fileName: "app/components/Analystics/ProvinceChart.jsx",
-        lineNumber: 130,
-        columnNumber: 11
+        lineNumber: 125,
+        columnNumber: 13
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)(import_flowbite_react6.Dropdown.Item, { onClick: handleClick2021, children: "N\u0103m 2021" }, void 0, !1, {
+        fileName: "app/components/Analystics/ProvinceChart.jsx",
+        lineNumber: 126,
+        columnNumber: 13
       }, this)
     ] }, void 0, !0, {
+      fileName: "app/components/Analystics/ProvinceChart.jsx",
+      lineNumber: 123,
+      columnNumber: 11
+    }, this) }, void 0, !1, {
+      fileName: "app/components/Analystics/ProvinceChart.jsx",
+      lineNumber: 122,
+      columnNumber: 9
+    }, this) }, void 0, !1, {
       fileName: "app/components/Analystics/ProvinceChart.jsx",
       lineNumber: 121,
       columnNumber: 7
@@ -8295,79 +8247,31 @@ function OfficeChart(props) {
       lineNumber: 114,
       columnNumber: 7
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime42.jsxDEV)("div", { className: "flex items-center justify-between pt-3 mt-4 border-t border-gray-200 sm:pt-6 dark:border-gray-700", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime42.jsxDEV)("div", { className: "inline-flex items-center p-2 text-sm font-medium text-center text-gray-500 rounded-lg hover:text-gray-900 dark:text-gray-400 dark:hover:text-white", children: /* @__PURE__ */ (0, import_jsx_dev_runtime42.jsxDEV)(import_flowbite_react13.Dropdown, { inline: !0, label: `${year}`, children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime42.jsxDEV)(import_flowbite_react13.Dropdown.Item, { onClick: handleClick2023, children: "N\u0103m 2023" }, void 0, !1, {
-          fileName: "app/components/Office/OfficeChart.jsx",
-          lineNumber: 122,
-          columnNumber: 13
-        }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime42.jsxDEV)(import_flowbite_react13.Dropdown.Item, { onClick: handleClick2022, children: "N\u0103m 2022" }, void 0, !1, {
-          fileName: "app/components/Office/OfficeChart.jsx",
-          lineNumber: 123,
-          columnNumber: 13
-        }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime42.jsxDEV)(import_flowbite_react13.Dropdown.Item, { onClick: handleClick2021, children: "N\u0103m 2021" }, void 0, !1, {
-          fileName: "app/components/Office/OfficeChart.jsx",
-          lineNumber: 124,
-          columnNumber: 13
-        }, this)
-      ] }, void 0, !0, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime42.jsxDEV)("div", { className: "flex items-center justify-between pt-3 mt-4 border-t border-gray-200 sm:pt-6 dark:border-gray-700", children: /* @__PURE__ */ (0, import_jsx_dev_runtime42.jsxDEV)("div", { className: "inline-flex items-center p-2 text-sm font-medium text-center text-gray-500 rounded-lg hover:text-gray-900 dark:text-gray-400 dark:hover:text-white", children: /* @__PURE__ */ (0, import_jsx_dev_runtime42.jsxDEV)(import_flowbite_react13.Dropdown, { inline: !0, label: `${year}`, children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime42.jsxDEV)(import_flowbite_react13.Dropdown.Item, { onClick: handleClick2023, children: "N\u0103m 2023" }, void 0, !1, {
         fileName: "app/components/Office/OfficeChart.jsx",
-        lineNumber: 121,
-        columnNumber: 11
-      }, this) }, void 0, !1, {
-        fileName: "app/components/Office/OfficeChart.jsx",
-        lineNumber: 120,
-        columnNumber: 9
-      }, this),
-      year === 2023 && /* @__PURE__ */ (0, import_jsx_dev_runtime42.jsxDEV)("div", { className: "flex-shrink-0 ", children: /* @__PURE__ */ (0, import_jsx_dev_runtime42.jsxDEV)(import_react40.Link, { className: "inline-flex items-center p-2 text-lg font-medium uppercase rounded-lg text-primary-700 sm:text-sm hover:bg-gray-100 dark:text-primary-500 dark:hover:bg-gray-700", children: [
-        "Full Report",
-        /* @__PURE__ */ (0, import_jsx_dev_runtime42.jsxDEV)(
-          "svg",
-          {
-            className: "w-4 h-4 ml-1",
-            fill: "none",
-            stroke: "currentColor",
-            viewBox: "0 0 24 24",
-            xmlns: "https://www.w3.org/2000/svg",
-            children: /* @__PURE__ */ (0, import_jsx_dev_runtime42.jsxDEV)(
-              "path",
-              {
-                strokeLinecap: "round",
-                strokeLinejoin: "round",
-                strokeWidth: "2",
-                d: "M9 5l7 7-7 7"
-              },
-              void 0,
-              !1,
-              {
-                fileName: "app/components/Office/OfficeChart.jsx",
-                lineNumber: 138,
-                columnNumber: 17
-              },
-              this
-            )
-          },
-          void 0,
-          !1,
-          {
-            fileName: "app/components/Office/OfficeChart.jsx",
-            lineNumber: 131,
-            columnNumber: 15
-          },
-          this
-        )
-      ] }, void 0, !0, {
-        fileName: "app/components/Office/OfficeChart.jsx",
-        lineNumber: 129,
+        lineNumber: 122,
         columnNumber: 13
-      }, this) }, void 0, !1, {
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime42.jsxDEV)(import_flowbite_react13.Dropdown.Item, { onClick: handleClick2022, children: "N\u0103m 2022" }, void 0, !1, {
         fileName: "app/components/Office/OfficeChart.jsx",
-        lineNumber: 128,
-        columnNumber: 11
+        lineNumber: 123,
+        columnNumber: 13
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime42.jsxDEV)(import_flowbite_react13.Dropdown.Item, { onClick: handleClick2021, children: "N\u0103m 2021" }, void 0, !1, {
+        fileName: "app/components/Office/OfficeChart.jsx",
+        lineNumber: 124,
+        columnNumber: 13
       }, this)
     ] }, void 0, !0, {
+      fileName: "app/components/Office/OfficeChart.jsx",
+      lineNumber: 121,
+      columnNumber: 11
+    }, this) }, void 0, !1, {
+      fileName: "app/components/Office/OfficeChart.jsx",
+      lineNumber: 120,
+      columnNumber: 9
+    }, this) }, void 0, !1, {
       fileName: "app/components/Office/OfficeChart.jsx",
       lineNumber: 119,
       columnNumber: 7
@@ -10459,79 +10363,31 @@ function ChartPanel() {
       lineNumber: 109,
       columnNumber: 7
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime53.jsxDEV)("div", { className: "flex items-center justify-between pt-3 mt-2 border-t border-gray-200 dark:border-gray-700 sm:pt-6", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime53.jsxDEV)("div", { className: "inline-flex items-center p-2 text-sm font-medium text-center text-gray-500 rounded-lg hover:text-gray-900 dark:text-gray-400 dark:hover:text-white", children: /* @__PURE__ */ (0, import_jsx_dev_runtime53.jsxDEV)(import_flowbite_react15.Dropdown, { inline: !0, label: `${year}`, children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime53.jsxDEV)(import_flowbite_react15.Dropdown.Item, { onClick: handleClick2023, children: "N\u0103m 2023" }, void 0, !1, {
-          fileName: "app/components/Dashboard/ChartSection.jsx",
-          lineNumber: 117,
-          columnNumber: 13
-        }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime53.jsxDEV)(import_flowbite_react15.Dropdown.Item, { onClick: handleClick2022, children: "N\u0103m 2022" }, void 0, !1, {
-          fileName: "app/components/Dashboard/ChartSection.jsx",
-          lineNumber: 118,
-          columnNumber: 13
-        }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime53.jsxDEV)(import_flowbite_react15.Dropdown.Item, { onClick: handleClick2021, children: "N\u0103m 2021" }, void 0, !1, {
-          fileName: "app/components/Dashboard/ChartSection.jsx",
-          lineNumber: 119,
-          columnNumber: 13
-        }, this)
-      ] }, void 0, !0, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime53.jsxDEV)("div", { className: "flex items-center justify-between pt-3 mt-2 border-t border-gray-200 dark:border-gray-700 sm:pt-6", children: /* @__PURE__ */ (0, import_jsx_dev_runtime53.jsxDEV)("div", { className: "inline-flex items-center p-2 text-sm font-medium text-center text-gray-500 rounded-lg hover:text-gray-900 dark:text-gray-400 dark:hover:text-white", children: /* @__PURE__ */ (0, import_jsx_dev_runtime53.jsxDEV)(import_flowbite_react15.Dropdown, { inline: !0, label: `${year}`, children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime53.jsxDEV)(import_flowbite_react15.Dropdown.Item, { onClick: handleClick2023, children: "N\u0103m 2023" }, void 0, !1, {
         fileName: "app/components/Dashboard/ChartSection.jsx",
-        lineNumber: 116,
-        columnNumber: 11
-      }, this) }, void 0, !1, {
-        fileName: "app/components/Dashboard/ChartSection.jsx",
-        lineNumber: 115,
-        columnNumber: 9
-      }, this),
-      year === 2023 && /* @__PURE__ */ (0, import_jsx_dev_runtime53.jsxDEV)("div", { className: "flex-shrink-0 ", children: /* @__PURE__ */ (0, import_jsx_dev_runtime53.jsxDEV)(import_react50.Link, { className: "inline-flex items-center p-2 text-lg font-medium uppercase rounded-lg text-primary-700 sm:text-sm hover:bg-gray-100 dark:text-primary-500 dark:hover:bg-gray-700", children: [
-        "Full Report",
-        /* @__PURE__ */ (0, import_jsx_dev_runtime53.jsxDEV)(
-          "svg",
-          {
-            className: "w-4 h-4 ml-1",
-            fill: "none",
-            stroke: "currentColor",
-            viewBox: "0 0 24 24",
-            xmlns: "https://www.w3.org/2000/svg",
-            children: /* @__PURE__ */ (0, import_jsx_dev_runtime53.jsxDEV)(
-              "path",
-              {
-                strokeLinecap: "round",
-                strokeLinejoin: "round",
-                strokeWidth: "2",
-                d: "M9 5l7 7-7 7"
-              },
-              void 0,
-              !1,
-              {
-                fileName: "app/components/Dashboard/ChartSection.jsx",
-                lineNumber: 133,
-                columnNumber: 17
-              },
-              this
-            )
-          },
-          void 0,
-          !1,
-          {
-            fileName: "app/components/Dashboard/ChartSection.jsx",
-            lineNumber: 126,
-            columnNumber: 15
-          },
-          this
-        )
-      ] }, void 0, !0, {
-        fileName: "app/components/Dashboard/ChartSection.jsx",
-        lineNumber: 124,
+        lineNumber: 117,
         columnNumber: 13
-      }, this) }, void 0, !1, {
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime53.jsxDEV)(import_flowbite_react15.Dropdown.Item, { onClick: handleClick2022, children: "N\u0103m 2022" }, void 0, !1, {
         fileName: "app/components/Dashboard/ChartSection.jsx",
-        lineNumber: 123,
-        columnNumber: 11
+        lineNumber: 118,
+        columnNumber: 13
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime53.jsxDEV)(import_flowbite_react15.Dropdown.Item, { onClick: handleClick2021, children: "N\u0103m 2021" }, void 0, !1, {
+        fileName: "app/components/Dashboard/ChartSection.jsx",
+        lineNumber: 119,
+        columnNumber: 13
       }, this)
     ] }, void 0, !0, {
+      fileName: "app/components/Dashboard/ChartSection.jsx",
+      lineNumber: 116,
+      columnNumber: 11
+    }, this) }, void 0, !1, {
+      fileName: "app/components/Dashboard/ChartSection.jsx",
+      lineNumber: 115,
+      columnNumber: 9
+    }, this) }, void 0, !1, {
       fileName: "app/components/Dashboard/ChartSection.jsx",
       lineNumber: 114,
       columnNumber: 7
@@ -11406,7 +11262,6 @@ function MainNavigation() {
             /* @__PURE__ */ (0, import_jsx_dev_runtime60.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime60.jsxDEV)(
               import_react57.Link,
               {
-                prefetch: "render",
                 to: "/",
                 className: "flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 active:bg-gray-700",
                 children: [
