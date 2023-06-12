@@ -3,9 +3,7 @@ import { formatDate } from "../../util/formatDate";
 export default function RecentRegistrations() {
   const lists = useLoaderData().recentList;
   return (
-    <div
-      className="p-4 bg-white border dark:bg-gray-800 xl:p-6 dark:border-gray-700  shadow-sm rounded-lg border-gray-200 overflow-y-auto"
-    >
+    <div className="p-4 bg-white border dark:bg-gray-800 xl:p-6 dark:border-gray-700  shadow-sm rounded-lg border-gray-200 overflow-y-auto">
       <h3 className="flex items-center mb-4 text-lg font-bold text-gray-900 dark:text-white">
         Recent Registrations
       </h3>
@@ -50,7 +48,7 @@ export default function RecentRegistrations() {
       </div>
       <div className="flex items-center justify-between pt-3 mt-2 border-t border-gray-200 dark:border-gray-700 sm:pt-6">
         <div className="inline-flex p-2"></div>
-        <div className="flex-shrink-0 ">
+        {/* <div className="flex-shrink-0 ">
           <Link className="inline-flex items-center p-2 text-lg font-medium uppercase rounded-lg text-primary-700 sm:text-sm hover:bg-gray-100 dark:text-primary-500 dark:hover:bg-gray-700">
             Full Report
             <svg
@@ -68,7 +66,7 @@ export default function RecentRegistrations() {
               ></path>
             </svg>
           </Link>
-        </div>
+        </div> */}
       </div>
     </div>
   );
