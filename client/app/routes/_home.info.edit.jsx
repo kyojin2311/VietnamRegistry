@@ -54,7 +54,7 @@ export default function InfoEditpage() {
             htmlFor="dob"
             className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
           >
-            Date Of Birth(dd/mm/yyyy)
+            Date Of Birth(dd-mm-yyyy)
           </label>
           <input
             type="text"

@@ -25,6 +25,7 @@ export async function action({ request }) {
     address: formData.get("Address"),
     hotline: formData.get("Hotline"),
     hotmail: formData.get("Hotmail"),
+    city: formData.get("city"),
   };
   try {
     const data = await addOffice(request, fetchData);

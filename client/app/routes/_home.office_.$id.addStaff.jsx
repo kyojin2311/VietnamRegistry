@@ -2,10 +2,7 @@ import { useOutletContext } from "@remix-run/react";
 import AddForm from "../components/AddStaffForm";
 import { addStaff } from "../services/APIAction.server";
 import PageModal from "../util/PageModal";
-function reformatDate(dateStr) {
-  var dArr = dateStr.split("-"); // ex input: "2010-01-18"
-  return dArr[1] + "/" + dArr[2] + "/" + dArr[0]; //ex output: "18/01/10"
-}
+import { reFormatDate } from "../util/formatDate";
 export function meta() {
   return [{ title: "Add Staff" }];
 }
@@ -25,7 +22,7 @@ export async function action({ request }) {
     email: formData.get("email"),
     name: formData.get("name"),
     workFor: formData.get("workFor"),
-    dob: reformatDate(formData.get("dob")),
+    dob: reFormatDate(formData.get("dob")),
     ssn: formData.get("SSN"),
     phone: formData.get("phone"),
     password: "12345678",
