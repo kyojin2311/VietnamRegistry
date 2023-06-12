@@ -167,14 +167,15 @@ export async function addOffice(request, data) {
         Authorization: `Bearer ${token}`,
       },
       body: JSON.stringify(data),
-    }
+    }    
   );
   const resData = await response.json();
-  if (resData === "NOT FOUND") {
+  if (resData === "UNAUTHORIZED") {
     throw new Error("You must be admin to access this");
-  } else if (resData === "SERVER UNAVAILABLE") {
-    throw new Error("Something went wrong with the server, please try again");
-  } else return redirect("/office");
+  } else if (resData === "SUCCEEDED") {
+    // throw new Error("Something went wrong with the server, please try again");
+    return redirect("/office");
+  } else return resData;
 }
 
 export async function adminCheck(request) {
