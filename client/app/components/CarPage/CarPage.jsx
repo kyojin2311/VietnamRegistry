@@ -48,7 +48,7 @@ export default function CarPage() {
                 className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
                 placeholder=" "
                 required
-                defaultValue={formatDate(dob)}
+                defaultValue={dob}
                 readOnly
               />
               <label
@@ -363,9 +363,6 @@ export default function CarPage() {
               <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
                 Mã số Đăng kiểm: {inspec.regisNum}
               </h3>
-              {/* <p className="text-base font-normal text-gray-500 dark:text-gray-400">
-                  Biển số xe: {inspec.car.numberPlate}
-                </p> */}
               <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
                 Tại: {inspec.regisPlace.name}
               </p>

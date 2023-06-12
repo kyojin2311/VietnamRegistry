@@ -6107,10 +6107,6 @@ input:checked + .toggle-bg {
     margin-bottom: 2rem;
   }
 
-  .lg\:ml-64 {
-    margin-left: 16rem;
-  }
-
   .lg\:mt-5 {
     margin-top: 1.25rem;
   }

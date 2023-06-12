@@ -67,7 +67,6 @@ export async function action({ request }) {
     maxOutputToRpmRatio: formData.get("maxOutputToRpmRatio"),
     numberOfTiresAndTireSize: formData.get("numberOfTiresAndTireSize"),
   };
-  console.log(data);
   const response = await fetch(
     "https://registrytotal.herokuapp.com/api/inspection/add",
     {
