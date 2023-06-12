@@ -1,4 +1,4 @@
-import { useLoaderData, useMatches } from "@remix-run/react";
+import { useLoaderData } from "@remix-run/react";
 import InspectionsAddForm from "../components/Inspections/InspectionAdd";
 import { requireUserSession } from "../services/auth.server";
 import { redirect, json } from "@remix-run/node";
@@ -27,7 +27,6 @@ export async function loader({ request, params }) {
     }
   );
   const resData = await response.json();
-  console.log(resData);
   return resData;
 }
 export async function action({ request }) {
