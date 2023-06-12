@@ -6,7 +6,7 @@ export function formatDate(Needdate) {
   return `${day}-${month}-${year}`;
 }
 export function reFormatDate(date) {
-  var datearray = date.split("/");
-  var newdate = datearray[1] + "/" + datearray[0] + "/" + datearray[2];
+  var datearray = date.split("-");
+  var newdate = datearray[1] + "-" + datearray[0] + "-" + datearray[2];
   return newdate;
 }
