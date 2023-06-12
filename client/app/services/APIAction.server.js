@@ -167,7 +167,7 @@ export async function addOffice(request, data) {
         Authorization: `Bearer ${token}`,
       },
       body: JSON.stringify(data),
-    }    
+    }
   );
   const resData = await response.json();
   if (resData === "UNAUTHORIZED") {
@@ -175,7 +175,7 @@ export async function addOffice(request, data) {
   } else if (resData === "SUCCEEDED") {
     // throw new Error("Something went wrong with the server, please try again");
     return redirect("/office");
-  } else return resData;
+  } else return json({ message: resData });
 }
 
 export async function adminCheck(request) {
