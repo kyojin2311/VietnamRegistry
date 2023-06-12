@@ -130,7 +130,10 @@ export async function EditInfo(request, data) {
     }
   );
   const resData = await Fetchdata.json();
-  return resData;
+  if (resData === "SUCCEEDED") {
+    return redirect("/info");
+  }
+  return json({ message: resData });
 }
 
 export async function getStaffbyId(request, staffID) {
