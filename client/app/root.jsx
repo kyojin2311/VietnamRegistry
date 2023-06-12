@@ -40,7 +40,7 @@ export default function App() {
         <meta charSet="utf-8" />
         {/* <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src https://*; child-src 'none';" /> */}
         <meta
-          http-equiv="Cache-Control"
+          httpEquiv="Cache-Control"
           content="max-age: 31536000, no-cache, no-store, must-revalidate"
         ></meta>
         <meta name="viewport" content="width=device-width,initial-scale=1" />

@@ -34,7 +34,7 @@ __export(assets_manifest_exports, {
 });
 var assets_manifest_default, init_assets_manifest = __esm({
   "server-assets-manifest:@remix-run/dev/assets-manifest"() {
-    assets_manifest_default = { version: "77aca8e6", entry: { module: "/build/entry.client-KXM3BNQY.js", imports: ["/build/_shared/chunk-QE77VWK2.js", "/build/_shared/chunk-ZIEWKVBB.js", "/build/_shared/chunk-RBEN53O4.js", "/build/_shared/chunk-532K2VPY.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-ZZ3KRETX.js", imports: ["/build/_shared/chunk-PUJZWP2U.js", "/build/_shared/chunk-YRLBT3MG.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !0 }, "routes/_home": { id: "routes/_home", parentId: "root", path: void 0, index: void 0, caseSensitive: void 0, module: "/build/routes/_home-AV2G6VUO.js", imports: ["/build/_shared/chunk-KPKQHPMA.js", "/build/_shared/chunk-2IC54PV3.js", "/build/_shared/chunk-PDCAP7X3.js", "/build/_shared/chunk-MEXKDBJ7.js", "/build/_shared/chunk-4CBZHLJK.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.Inspections.$id": { id: "routes/_home.Inspections.$id", parentId: "routes/_home", path: "Inspections/:id", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.Inspections.$id-VATMP34T.js", imports: ["/build/_shared/chunk-O7R2KCUK.js", "/build/_shared/chunk-YRLBT3MG.js", "/build/_shared/chunk-RI7KFSFX.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.Inspections._index": { id: "routes/_home.Inspections._index", parentId: "routes/_home", path: "Inspections", index: !0, caseSensitive: void 0, module: "/build/routes/_home.Inspections._index-HA4E34GU.js", imports: ["/build/_shared/chunk-YRLBT3MG.js"], hasAction: !0, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home._main": { id: "routes/_home._main", parentId: "routes/_home", path: void 0, index: void 0, caseSensitive: void 0, module: "/build/routes/_home._main-X5OBHKWK.js", imports: ["/build/_shared/chunk-OFQHC6HE.js", "/build/_shared/chunk-PUJZWP2U.js", "/build/_shared/chunk-YRLBT3MG.js", "/build/_shared/chunk-4KF4RRT6.js", "/build/_shared/chunk-RI7KFSFX.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home._main._index": { id: "routes/_home._main._index", parentId: "routes/_home._main", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_home._main._index-RBNPIMHO.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home._main.expired": { id: "routes/_home._main.expired", parentId: "routes/_home._main", path: "expired", index: void 0, caseSensitive: void 0, module: "/build/routes/_home._main.expired-JOTX6GSI.js", imports: ["/build/_shared/chunk-4CBZHLJK.js", "/build/_shared/chunk-OKC3RWCP.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home._main.expiredsoon": { id: "routes/_home._main.expiredsoon", parentId: "routes/_home._main", path: "expiredsoon", index: void 0, caseSensitive: void 0, module: "/build/routes/_home._main.expiredsoon-UL4DVMHX.js", imports: ["/build/_shared/chunk-4CBZHLJK.js", "/build/_shared/chunk-OKC3RWCP.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.analystics.$codename": { id: "routes/_home.analystics.$codename", parentId: "routes/_home", path: "analystics/:codename", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.analystics.$codename-GXZDYFTU.js", imports: ["/build/_shared/chunk-OFQHC6HE.js", "/build/_shared/chunk-JPMRNOFY.js", "/build/_shared/chunk-PUJZWP2U.js", "/build/_shared/chunk-YRLBT3MG.js", "/build/_shared/chunk-4KF4RRT6.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.analystics.$codename._index": { id: "routes/_home.analystics.$codename._index", parentId: "routes/_home.analystics.$codename", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_home.analystics.$codename._index-AM23EO7P.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.analystics.$codename.expired": { id: "routes/_home.analystics.$codename.expired", parentId: "routes/_home.analystics.$codename", path: "expired", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.analystics.$codename.expired-QAZOIKRK.js", imports: ["/build/_shared/chunk-4CBZHLJK.js", "/build/_shared/chunk-OKC3RWCP.js", "/build/_shared/chunk-RI7KFSFX.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.analystics.$codename.expiredsoon": { id: "routes/_home.analystics.$codename.expiredsoon", parentId: "routes/_home.analystics.$codename", path: "expiredsoon", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.analystics.$codename.expiredsoon-4QZJJOAI.js", imports: ["/build/_shared/chunk-4CBZHLJK.js", "/build/_shared/chunk-OKC3RWCP.js", "/build/_shared/chunk-RI7KFSFX.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.analystics._index": { id: "routes/_home.analystics._index", parentId: "routes/_home", path: "analystics", index: !0, caseSensitive: void 0, module: "/build/routes/_home.analystics._index-L3CEEX2K.js", imports: ["/build/_shared/chunk-JPMRNOFY.js", "/build/_shared/chunk-OKC3RWCP.js", "/build/_shared/chunk-YRLBT3MG.js"], hasAction: !0, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.car.$numberPlate._index": { id: "routes/_home.car.$numberPlate._index", parentId: "routes/_home", path: "car/:numberPlate", index: !0, caseSensitive: void 0, module: "/build/routes/_home.car.$numberPlate._index-VA2TLVMN.js", imports: ["/build/_shared/chunk-4KF4RRT6.js", "/build/_shared/chunk-RI7KFSFX.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.car.$numberPlate.addinspection": { id: "routes/_home.car.$numberPlate.addinspection", parentId: "routes/_home", path: "car/:numberPlate/addinspection", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.car.$numberPlate.addinspection-PAFEX7OJ.js", imports: ["/build/_shared/chunk-4KF4RRT6.js", "/build/_shared/chunk-RI7KFSFX.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.car._index": { id: "routes/_home.car._index", parentId: "routes/_home", path: "car", index: !0, caseSensitive: void 0, module: "/build/routes/_home.car._index-X4Q6J36P.js", imports: ["/build/_shared/chunk-PUJZWP2U.js", "/build/_shared/chunk-YRLBT3MG.js", "/build/_shared/chunk-4KF4RRT6.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.info._index": { id: "routes/_home.info._index", parentId: "routes/_home", path: "info", index: !0, caseSensitive: void 0, module: "/build/routes/_home.info._index-GSRB6UJ2.js", imports: ["/build/_shared/chunk-QGRJQUMK.js", "/build/_shared/chunk-RI7KFSFX.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.info.edit": { id: "routes/_home.info.edit", parentId: "routes/_home", path: "info/edit", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.info.edit-RS3MBQR3.js", imports: ["/build/_shared/chunk-RI7KFSFX.js"], hasAction: !0, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office": { id: "routes/_home.office", parentId: "routes/_home", path: "office", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.office-VICDH5CF.js", imports: void 0, hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office._index": { id: "routes/_home.office._index", parentId: "routes/_home.office", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_home.office._index-EXID3AT3.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office.add": { id: "routes/_home.office.add", parentId: "routes/_home.office", path: "add", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.office.add-HDE7HMZO.js", imports: ["/build/_shared/chunk-PDCAP7X3.js", "/build/_shared/chunk-JPMRNOFY.js", "/build/_shared/chunk-OKC3RWCP.js", "/build/_shared/chunk-YRLBT3MG.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office_.$id": { id: "routes/_home.office_.$id", parentId: "routes/_home", path: "office/:id", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.office_.$id-DWH32SX5.js", imports: ["/build/_shared/chunk-O7R2KCUK.js", "/build/_shared/chunk-OFQHC6HE.js", "/build/_shared/chunk-PUJZWP2U.js", "/build/_shared/chunk-YRLBT3MG.js", "/build/_shared/chunk-4KF4RRT6.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office_.$id._index": { id: "routes/_home.office_.$id._index", parentId: "routes/_home.office_.$id", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_home.office_.$id._index-DM6PWPS2.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office_.$id.addStaff": { id: "routes/_home.office_.$id.addStaff", parentId: "routes/_home.office_.$id", path: "addStaff", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.office_.$id.addStaff-SABQCVG3.js", imports: ["/build/_shared/chunk-PDCAP7X3.js", "/build/_shared/chunk-OKC3RWCP.js", "/build/_shared/chunk-RI7KFSFX.js"], hasAction: !0, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office_.$id.expired": { id: "routes/_home.office_.$id.expired", parentId: "routes/_home.office_.$id", path: "expired", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.office_.$id.expired-NLYZ2Q3I.js", imports: ["/build/_shared/chunk-4CBZHLJK.js", "/build/_shared/chunk-OKC3RWCP.js", "/build/_shared/chunk-RI7KFSFX.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office_.$id.expiredsoon": { id: "routes/_home.office_.$id.expiredsoon", parentId: "routes/_home.office_.$id", path: "expiredsoon", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.office_.$id.expiredsoon-A6TXIBMR.js", imports: ["/build/_shared/chunk-4CBZHLJK.js", "/build/_shared/chunk-OKC3RWCP.js", "/build/_shared/chunk-RI7KFSFX.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office_.$id_.$userID": { id: "routes/_home.office_.$id_.$userID", parentId: "routes/_home", path: "office/:id/:userID", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.office_.$id_.$userID-NE5UDTOH.js", imports: ["/build/_shared/chunk-QGRJQUMK.js", "/build/_shared/chunk-RI7KFSFX.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.search": { id: "routes/_home.search", parentId: "routes/_home", path: "search", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.search-TA6AGPKO.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/changepass": { id: "routes/changepass", parentId: "root", path: "changepass", index: void 0, caseSensitive: void 0, module: "/build/routes/changepass-YVD26BJF.js", imports: ["/build/_shared/chunk-4KF4RRT6.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/forgot-pass": { id: "routes/forgot-pass", parentId: "root", path: "forgot-pass", index: void 0, caseSensitive: void 0, module: "/build/routes/forgot-pass-BZDC4ZY3.js", imports: ["/build/_shared/chunk-KPKQHPMA.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/forgotpassword": { id: "routes/forgotpassword", parentId: "root", path: "forgotpassword", index: void 0, caseSensitive: void 0, module: "/build/routes/forgotpassword-QLV6EJ7S.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/login": { id: "routes/login", parentId: "root", path: "login", index: void 0, caseSensitive: void 0, module: "/build/routes/login-WK2GTSYK.js", imports: ["/build/_shared/chunk-KPKQHPMA.js", "/build/_shared/chunk-2IC54PV3.js", "/build/_shared/chunk-PDCAP7X3.js", "/build/_shared/chunk-MEXKDBJ7.js", "/build/_shared/chunk-4KF4RRT6.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/logout": { id: "routes/logout", parentId: "root", path: "logout", index: void 0, caseSensitive: void 0, module: "/build/routes/logout-5KEBAQVD.js", imports: void 0, hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, cssBundleHref: void 0, hmr: void 0, url: "/build/manifest-77ACA8E6.js" };
+    assets_manifest_default = { version: "57aca716", entry: { module: "/build/entry.client-KXM3BNQY.js", imports: ["/build/_shared/chunk-QE77VWK2.js", "/build/_shared/chunk-ZIEWKVBB.js", "/build/_shared/chunk-RBEN53O4.js", "/build/_shared/chunk-532K2VPY.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-5QM7M4LJ.js", imports: ["/build/_shared/chunk-PUJZWP2U.js", "/build/_shared/chunk-YRLBT3MG.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !0 }, "routes/_home": { id: "routes/_home", parentId: "root", path: void 0, index: void 0, caseSensitive: void 0, module: "/build/routes/_home-AV2G6VUO.js", imports: ["/build/_shared/chunk-KPKQHPMA.js", "/build/_shared/chunk-2IC54PV3.js", "/build/_shared/chunk-PDCAP7X3.js", "/build/_shared/chunk-MEXKDBJ7.js", "/build/_shared/chunk-4CBZHLJK.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.Inspections.$id": { id: "routes/_home.Inspections.$id", parentId: "routes/_home", path: "Inspections/:id", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.Inspections.$id-VATMP34T.js", imports: ["/build/_shared/chunk-O7R2KCUK.js", "/build/_shared/chunk-YRLBT3MG.js", "/build/_shared/chunk-RI7KFSFX.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.Inspections._index": { id: "routes/_home.Inspections._index", parentId: "routes/_home", path: "Inspections", index: !0, caseSensitive: void 0, module: "/build/routes/_home.Inspections._index-HA4E34GU.js", imports: ["/build/_shared/chunk-YRLBT3MG.js"], hasAction: !0, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home._main": { id: "routes/_home._main", parentId: "routes/_home", path: void 0, index: void 0, caseSensitive: void 0, module: "/build/routes/_home._main-X5OBHKWK.js", imports: ["/build/_shared/chunk-OFQHC6HE.js", "/build/_shared/chunk-PUJZWP2U.js", "/build/_shared/chunk-YRLBT3MG.js", "/build/_shared/chunk-4KF4RRT6.js", "/build/_shared/chunk-RI7KFSFX.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home._main._index": { id: "routes/_home._main._index", parentId: "routes/_home._main", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_home._main._index-RBNPIMHO.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home._main.expired": { id: "routes/_home._main.expired", parentId: "routes/_home._main", path: "expired", index: void 0, caseSensitive: void 0, module: "/build/routes/_home._main.expired-JOTX6GSI.js", imports: ["/build/_shared/chunk-4CBZHLJK.js", "/build/_shared/chunk-OKC3RWCP.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home._main.expiredsoon": { id: "routes/_home._main.expiredsoon", parentId: "routes/_home._main", path: "expiredsoon", index: void 0, caseSensitive: void 0, module: "/build/routes/_home._main.expiredsoon-UL4DVMHX.js", imports: ["/build/_shared/chunk-4CBZHLJK.js", "/build/_shared/chunk-OKC3RWCP.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.analystics.$codename": { id: "routes/_home.analystics.$codename", parentId: "routes/_home", path: "analystics/:codename", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.analystics.$codename-GXZDYFTU.js", imports: ["/build/_shared/chunk-OFQHC6HE.js", "/build/_shared/chunk-JPMRNOFY.js", "/build/_shared/chunk-PUJZWP2U.js", "/build/_shared/chunk-YRLBT3MG.js", "/build/_shared/chunk-4KF4RRT6.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.analystics.$codename._index": { id: "routes/_home.analystics.$codename._index", parentId: "routes/_home.analystics.$codename", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_home.analystics.$codename._index-AM23EO7P.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.analystics.$codename.expired": { id: "routes/_home.analystics.$codename.expired", parentId: "routes/_home.analystics.$codename", path: "expired", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.analystics.$codename.expired-QAZOIKRK.js", imports: ["/build/_shared/chunk-4CBZHLJK.js", "/build/_shared/chunk-OKC3RWCP.js", "/build/_shared/chunk-RI7KFSFX.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.analystics.$codename.expiredsoon": { id: "routes/_home.analystics.$codename.expiredsoon", parentId: "routes/_home.analystics.$codename", path: "expiredsoon", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.analystics.$codename.expiredsoon-4QZJJOAI.js", imports: ["/build/_shared/chunk-4CBZHLJK.js", "/build/_shared/chunk-OKC3RWCP.js", "/build/_shared/chunk-RI7KFSFX.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.analystics._index": { id: "routes/_home.analystics._index", parentId: "routes/_home", path: "analystics", index: !0, caseSensitive: void 0, module: "/build/routes/_home.analystics._index-L3CEEX2K.js", imports: ["/build/_shared/chunk-JPMRNOFY.js", "/build/_shared/chunk-OKC3RWCP.js", "/build/_shared/chunk-YRLBT3MG.js"], hasAction: !0, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.car.$numberPlate._index": { id: "routes/_home.car.$numberPlate._index", parentId: "routes/_home", path: "car/:numberPlate", index: !0, caseSensitive: void 0, module: "/build/routes/_home.car.$numberPlate._index-VA2TLVMN.js", imports: ["/build/_shared/chunk-4KF4RRT6.js", "/build/_shared/chunk-RI7KFSFX.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.car.$numberPlate.addinspection": { id: "routes/_home.car.$numberPlate.addinspection", parentId: "routes/_home", path: "car/:numberPlate/addinspection", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.car.$numberPlate.addinspection-PAFEX7OJ.js", imports: ["/build/_shared/chunk-4KF4RRT6.js", "/build/_shared/chunk-RI7KFSFX.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.car._index": { id: "routes/_home.car._index", parentId: "routes/_home", path: "car", index: !0, caseSensitive: void 0, module: "/build/routes/_home.car._index-X4Q6J36P.js", imports: ["/build/_shared/chunk-PUJZWP2U.js", "/build/_shared/chunk-YRLBT3MG.js", "/build/_shared/chunk-4KF4RRT6.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.info._index": { id: "routes/_home.info._index", parentId: "routes/_home", path: "info", index: !0, caseSensitive: void 0, module: "/build/routes/_home.info._index-GSRB6UJ2.js", imports: ["/build/_shared/chunk-QGRJQUMK.js", "/build/_shared/chunk-RI7KFSFX.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.info.edit": { id: "routes/_home.info.edit", parentId: "routes/_home", path: "info/edit", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.info.edit-3SG35PQG.js", imports: ["/build/_shared/chunk-RI7KFSFX.js"], hasAction: !0, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office": { id: "routes/_home.office", parentId: "routes/_home", path: "office", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.office-VICDH5CF.js", imports: void 0, hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office._index": { id: "routes/_home.office._index", parentId: "routes/_home.office", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_home.office._index-EXID3AT3.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office.add": { id: "routes/_home.office.add", parentId: "routes/_home.office", path: "add", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.office.add-HDE7HMZO.js", imports: ["/build/_shared/chunk-PDCAP7X3.js", "/build/_shared/chunk-JPMRNOFY.js", "/build/_shared/chunk-OKC3RWCP.js", "/build/_shared/chunk-YRLBT3MG.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office_.$id": { id: "routes/_home.office_.$id", parentId: "routes/_home", path: "office/:id", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.office_.$id-DWH32SX5.js", imports: ["/build/_shared/chunk-O7R2KCUK.js", "/build/_shared/chunk-OFQHC6HE.js", "/build/_shared/chunk-PUJZWP2U.js", "/build/_shared/chunk-YRLBT3MG.js", "/build/_shared/chunk-4KF4RRT6.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office_.$id._index": { id: "routes/_home.office_.$id._index", parentId: "routes/_home.office_.$id", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_home.office_.$id._index-DM6PWPS2.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office_.$id.addStaff": { id: "routes/_home.office_.$id.addStaff", parentId: "routes/_home.office_.$id", path: "addStaff", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.office_.$id.addStaff-SABQCVG3.js", imports: ["/build/_shared/chunk-PDCAP7X3.js", "/build/_shared/chunk-OKC3RWCP.js", "/build/_shared/chunk-RI7KFSFX.js"], hasAction: !0, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office_.$id.expired": { id: "routes/_home.office_.$id.expired", parentId: "routes/_home.office_.$id", path: "expired", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.office_.$id.expired-NLYZ2Q3I.js", imports: ["/build/_shared/chunk-4CBZHLJK.js", "/build/_shared/chunk-OKC3RWCP.js", "/build/_shared/chunk-RI7KFSFX.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office_.$id.expiredsoon": { id: "routes/_home.office_.$id.expiredsoon", parentId: "routes/_home.office_.$id", path: "expiredsoon", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.office_.$id.expiredsoon-A6TXIBMR.js", imports: ["/build/_shared/chunk-4CBZHLJK.js", "/build/_shared/chunk-OKC3RWCP.js", "/build/_shared/chunk-RI7KFSFX.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office_.$id_.$userID": { id: "routes/_home.office_.$id_.$userID", parentId: "routes/_home", path: "office/:id/:userID", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.office_.$id_.$userID-NE5UDTOH.js", imports: ["/build/_shared/chunk-QGRJQUMK.js", "/build/_shared/chunk-RI7KFSFX.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.search": { id: "routes/_home.search", parentId: "routes/_home", path: "search", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.search-TA6AGPKO.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/changepass": { id: "routes/changepass", parentId: "root", path: "changepass", index: void 0, caseSensitive: void 0, module: "/build/routes/changepass-YVD26BJF.js", imports: ["/build/_shared/chunk-4KF4RRT6.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/forgot-pass": { id: "routes/forgot-pass", parentId: "root", path: "forgot-pass", index: void 0, caseSensitive: void 0, module: "/build/routes/forgot-pass-BZDC4ZY3.js", imports: ["/build/_shared/chunk-KPKQHPMA.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/forgotpassword": { id: "routes/forgotpassword", parentId: "root", path: "forgotpassword", index: void 0, caseSensitive: void 0, module: "/build/routes/forgotpassword-QLV6EJ7S.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/login": { id: "routes/login", parentId: "root", path: "login", index: void 0, caseSensitive: void 0, module: "/build/routes/login-WK2GTSYK.js", imports: ["/build/_shared/chunk-KPKQHPMA.js", "/build/_shared/chunk-2IC54PV3.js", "/build/_shared/chunk-PDCAP7X3.js", "/build/_shared/chunk-MEXKDBJ7.js", "/build/_shared/chunk-4KF4RRT6.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/logout": { id: "routes/logout", parentId: "root", path: "logout", index: void 0, caseSensitive: void 0, module: "/build/routes/logout-5KEBAQVD.js", imports: void 0, hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, cssBundleHref: void 0, hmr: void 0, url: "/build/manifest-57ACA716.js" };
   }
 });
 
@@ -272,7 +272,7 @@ function App() {
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(
         "meta",
         {
-          "http-equiv": "Cache-Control",
+          httpEquiv: "Cache-Control",
           content: "max-age: 31536000, no-cache, no-store, must-revalidate"
         },
         void 0,
@@ -5318,7 +5318,9 @@ async function getOwnInfo(request2) {
 }
 async function EditInfo(request2, data) {
   let token = await requireUserSession(request2);
-  return token ? await (await fetch(
+  if (!token)
+    return (0, import_node5.redirect)("/login");
+  let resData = await (await fetch(
     "https://registrytotal.herokuapp.com/api/staff/change",
     {
       method: "PUT",
@@ -5328,7 +5330,8 @@ async function EditInfo(request2, data) {
       },
       body: JSON.stringify(data)
     }
-  )).json() : (0, import_node5.redirect)("/login");
+  )).json();
+  return resData === "SUCCEEDED" ? (0, import_node5.redirect)("/info") : (0, import_node5.json)({ message: resData });
 }
 async function getStaffbyId(request2, staffID) {
   let token = await requireUserSession(request2);
@@ -9776,287 +9779,301 @@ __export(home_info_edit_exports, {
 var import_react46 = require("@remix-run/react");
 var import_jsx_dev_runtime49 = require("react/jsx-dev-runtime");
 function InfoEditpage() {
-  let info = (0, import_react46.useMatches)().find((match) => match.id === "routes/_home").data, { name, SSN, dateOfBirth, phone } = info.data;
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)(import_react46.Form, { className: "dark", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)("div", { className: "grid gap-6 mb-6 md:grid-cols-2", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)("div", { children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)(
-          "label",
-          {
-            htmlFor: "name",
-            className: "block mb-2 text-sm font-medium text-gray-900 dark:text-white",
-            children: "Name"
-          },
-          void 0,
-          !1,
-          {
-            fileName: "app/routes/_home.info.edit.jsx",
-            lineNumber: 19,
-            columnNumber: 11
-          },
-          this
-        ),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)(
-          "input",
-          {
-            type: "text",
-            name: "name",
-            id: "name",
-            className: "bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500",
-            placeholder: "Name",
-            required: !0,
-            defaultValue: name
-          },
-          void 0,
-          !1,
-          {
-            fileName: "app/routes/_home.info.edit.jsx",
-            lineNumber: 25,
-            columnNumber: 11
-          },
-          this
-        )
+  let info = (0, import_react46.useMatches)().find((match) => match.id === "routes/_home").data, { name, SSN, dateOfBirth, phone } = info.data, error = (0, import_react46.useActionData)();
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)(import_jsx_dev_runtime49.Fragment, { children: [
+    error && /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)("h3", { className: "text-red-500 text-md bold text-center mb-5", children: [
+      error.message,
+      ", please try again"
+    ] }, void 0, !0, {
+      fileName: "app/routes/_home.info.edit.jsx",
+      lineNumber: 13,
+      columnNumber: 9
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)(import_react46.Form, { className: "dark", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)("div", { className: "grid gap-6 mb-6 md:grid-cols-2", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)("div", { children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)(
+            "label",
+            {
+              htmlFor: "name",
+              className: "block mb-2 text-sm font-medium text-gray-900 dark:text-white",
+              children: "Name"
+            },
+            void 0,
+            !1,
+            {
+              fileName: "app/routes/_home.info.edit.jsx",
+              lineNumber: 20,
+              columnNumber: 13
+            },
+            this
+          ),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)(
+            "input",
+            {
+              type: "text",
+              name: "name",
+              id: "name",
+              className: "bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500",
+              placeholder: "Name",
+              required: !0,
+              defaultValue: name
+            },
+            void 0,
+            !1,
+            {
+              fileName: "app/routes/_home.info.edit.jsx",
+              lineNumber: 26,
+              columnNumber: 13
+            },
+            this
+          )
+        ] }, void 0, !0, {
+          fileName: "app/routes/_home.info.edit.jsx",
+          lineNumber: 19,
+          columnNumber: 11
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)("div", { children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)(
+            "label",
+            {
+              htmlFor: "SSN",
+              className: "block mb-2 text-sm font-medium text-gray-900 dark:text-white",
+              children: "Social Security Number"
+            },
+            void 0,
+            !1,
+            {
+              fileName: "app/routes/_home.info.edit.jsx",
+              lineNumber: 37,
+              columnNumber: 13
+            },
+            this
+          ),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)(
+            "input",
+            {
+              type: "text",
+              name: "SSN",
+              id: "SSN",
+              className: "bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500",
+              placeholder: "Doe",
+              required: !0,
+              defaultValue: SSN,
+              readOnly: !0
+            },
+            void 0,
+            !1,
+            {
+              fileName: "app/routes/_home.info.edit.jsx",
+              lineNumber: 43,
+              columnNumber: 13
+            },
+            this
+          )
+        ] }, void 0, !0, {
+          fileName: "app/routes/_home.info.edit.jsx",
+          lineNumber: 36,
+          columnNumber: 11
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)("div", { children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)(
+            "label",
+            {
+              htmlFor: "dob",
+              className: "block mb-2 text-sm font-medium text-gray-900 dark:text-white",
+              children: "Date Of Birth(dd-mm-yyyy)"
+            },
+            void 0,
+            !1,
+            {
+              fileName: "app/routes/_home.info.edit.jsx",
+              lineNumber: 55,
+              columnNumber: 13
+            },
+            this
+          ),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)(
+            "input",
+            {
+              type: "text",
+              name: "dob",
+              id: "dob",
+              className: "bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500",
+              placeholder: "dd/mm/yyyy",
+              required: !0,
+              defaultValue: formatDate(dateOfBirth)
+            },
+            void 0,
+            !1,
+            {
+              fileName: "app/routes/_home.info.edit.jsx",
+              lineNumber: 61,
+              columnNumber: 13
+            },
+            this
+          )
+        ] }, void 0, !0, {
+          fileName: "app/routes/_home.info.edit.jsx",
+          lineNumber: 54,
+          columnNumber: 11
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)("div", { children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)(
+            "label",
+            {
+              htmlFor: "work",
+              className: "block mb-2 text-sm font-medium text-gray-900 dark:text-white",
+              children: "Works"
+            },
+            void 0,
+            !1,
+            {
+              fileName: "app/routes/_home.info.edit.jsx",
+              lineNumber: 72,
+              columnNumber: 13
+            },
+            this
+          ),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)(
+            "input",
+            {
+              type: "text",
+              id: "work",
+              name: "work",
+              className: "bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500",
+              placeholder: "",
+              defaultValue: info.workFor.name,
+              required: !0,
+              readOnly: !0
+            },
+            void 0,
+            !1,
+            {
+              fileName: "app/routes/_home.info.edit.jsx",
+              lineNumber: 78,
+              columnNumber: 13
+            },
+            this
+          )
+        ] }, void 0, !0, {
+          fileName: "app/routes/_home.info.edit.jsx",
+          lineNumber: 71,
+          columnNumber: 11
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)("div", { children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)(
+            "label",
+            {
+              htmlFor: "phone",
+              className: "block mb-2 text-sm font-medium text-gray-900 dark:text-white",
+              children: "Phone"
+            },
+            void 0,
+            !1,
+            {
+              fileName: "app/routes/_home.info.edit.jsx",
+              lineNumber: 90,
+              columnNumber: 13
+            },
+            this
+          ),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)(
+            "input",
+            {
+              type: "text",
+              id: "phone",
+              name: "phone",
+              className: "bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500",
+              required: !0,
+              defaultValue: phone
+            },
+            void 0,
+            !1,
+            {
+              fileName: "app/routes/_home.info.edit.jsx",
+              lineNumber: 96,
+              columnNumber: 13
+            },
+            this
+          )
+        ] }, void 0, !0, {
+          fileName: "app/routes/_home.info.edit.jsx",
+          lineNumber: 89,
+          columnNumber: 11
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)("div", { children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)(
+            "label",
+            {
+              htmlFor: "email",
+              className: "block mb-2 text-sm font-medium text-gray-900 dark:text-white",
+              children: "Email"
+            },
+            void 0,
+            !1,
+            {
+              fileName: "app/routes/_home.info.edit.jsx",
+              lineNumber: 106,
+              columnNumber: 13
+            },
+            this
+          ),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)(
+            "input",
+            {
+              type: "email",
+              id: "email",
+              name: "email",
+              className: "bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500",
+              placeholder: "example@gmail.com",
+              defaultValue: info.email,
+              readOnly: !0,
+              required: !0
+            },
+            void 0,
+            !1,
+            {
+              fileName: "app/routes/_home.info.edit.jsx",
+              lineNumber: 112,
+              columnNumber: 13
+            },
+            this
+          )
+        ] }, void 0, !0, {
+          fileName: "app/routes/_home.info.edit.jsx",
+          lineNumber: 105,
+          columnNumber: 11
+        }, this)
       ] }, void 0, !0, {
         fileName: "app/routes/_home.info.edit.jsx",
         lineNumber: 18,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)("div", { children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)(
-          "label",
-          {
-            htmlFor: "SSN",
-            className: "block mb-2 text-sm font-medium text-gray-900 dark:text-white",
-            children: "Social Security Number"
-          },
-          void 0,
-          !1,
-          {
-            fileName: "app/routes/_home.info.edit.jsx",
-            lineNumber: 36,
-            columnNumber: 11
-          },
-          this
-        ),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)(
-          "input",
-          {
-            type: "text",
-            name: "SSN",
-            id: "SSN",
-            className: "bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500",
-            placeholder: "Doe",
-            required: !0,
-            defaultValue: SSN,
-            readOnly: !0
-          },
-          void 0,
-          !1,
-          {
-            fileName: "app/routes/_home.info.edit.jsx",
-            lineNumber: 42,
-            columnNumber: 11
-          },
-          this
-        )
-      ] }, void 0, !0, {
-        fileName: "app/routes/_home.info.edit.jsx",
-        lineNumber: 35,
-        columnNumber: 9
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)("div", { children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)(
-          "label",
-          {
-            htmlFor: "dob",
-            className: "block mb-2 text-sm font-medium text-gray-900 dark:text-white",
-            children: "Date Of Birth(dd-mm-yyyy)"
-          },
-          void 0,
-          !1,
-          {
-            fileName: "app/routes/_home.info.edit.jsx",
-            lineNumber: 54,
-            columnNumber: 11
-          },
-          this
-        ),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)(
-          "input",
-          {
-            type: "text",
-            name: "dob",
-            id: "dob",
-            className: "bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500",
-            placeholder: "dd/mm/yyyy",
-            required: !0,
-            defaultValue: formatDate(dateOfBirth)
-          },
-          void 0,
-          !1,
-          {
-            fileName: "app/routes/_home.info.edit.jsx",
-            lineNumber: 60,
-            columnNumber: 11
-          },
-          this
-        )
-      ] }, void 0, !0, {
-        fileName: "app/routes/_home.info.edit.jsx",
-        lineNumber: 53,
-        columnNumber: 9
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)("div", { children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)(
-          "label",
-          {
-            htmlFor: "work",
-            className: "block mb-2 text-sm font-medium text-gray-900 dark:text-white",
-            children: "Works"
-          },
-          void 0,
-          !1,
-          {
-            fileName: "app/routes/_home.info.edit.jsx",
-            lineNumber: 71,
-            columnNumber: 11
-          },
-          this
-        ),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)(
-          "input",
-          {
-            type: "text",
-            id: "work",
-            name: "work",
-            className: "bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500",
-            placeholder: "",
-            defaultValue: info.workFor.name,
-            required: !0,
-            readOnly: !0
-          },
-          void 0,
-          !1,
-          {
-            fileName: "app/routes/_home.info.edit.jsx",
-            lineNumber: 77,
-            columnNumber: 11
-          },
-          this
-        )
-      ] }, void 0, !0, {
-        fileName: "app/routes/_home.info.edit.jsx",
-        lineNumber: 70,
-        columnNumber: 9
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)("div", { children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)(
-          "label",
-          {
-            htmlFor: "phone",
-            className: "block mb-2 text-sm font-medium text-gray-900 dark:text-white",
-            children: "Phone"
-          },
-          void 0,
-          !1,
-          {
-            fileName: "app/routes/_home.info.edit.jsx",
-            lineNumber: 89,
-            columnNumber: 11
-          },
-          this
-        ),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)(
-          "input",
-          {
-            type: "text",
-            id: "phone",
-            name: "phone",
-            className: "bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500",
-            required: !0,
-            defaultValue: phone
-          },
-          void 0,
-          !1,
-          {
-            fileName: "app/routes/_home.info.edit.jsx",
-            lineNumber: 95,
-            columnNumber: 11
-          },
-          this
-        )
-      ] }, void 0, !0, {
-        fileName: "app/routes/_home.info.edit.jsx",
-        lineNumber: 88,
-        columnNumber: 9
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)("div", { children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)(
-          "label",
-          {
-            htmlFor: "email",
-            className: "block mb-2 text-sm font-medium text-gray-900 dark:text-white",
-            children: "Email"
-          },
-          void 0,
-          !1,
-          {
-            fileName: "app/routes/_home.info.edit.jsx",
-            lineNumber: 105,
-            columnNumber: 11
-          },
-          this
-        ),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)(
-          "input",
-          {
-            type: "email",
-            id: "email",
-            name: "email",
-            className: "bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500",
-            placeholder: "example@gmail.com",
-            defaultValue: info.email,
-            readOnly: !0,
-            required: !0
-          },
-          void 0,
-          !1,
-          {
-            fileName: "app/routes/_home.info.edit.jsx",
-            lineNumber: 111,
-            columnNumber: 11
-          },
-          this
-        )
-      ] }, void 0, !0, {
-        fileName: "app/routes/_home.info.edit.jsx",
-        lineNumber: 104,
-        columnNumber: 9
-      }, this)
+      /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)(
+        "button",
+        {
+          formMethod: "put",
+          className: "text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 mx-2",
+          children: "Save"
+        },
+        void 0,
+        !1,
+        {
+          fileName: "app/routes/_home.info.edit.jsx",
+          lineNumber: 124,
+          columnNumber: 9
+        },
+        this
+      )
     ] }, void 0, !0, {
       fileName: "app/routes/_home.info.edit.jsx",
       lineNumber: 17,
       columnNumber: 7
-    }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)(
-      "button",
-      {
-        formMethod: "put",
-        className: "text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 mx-2",
-        children: "Save"
-      },
-      void 0,
-      !1,
-      {
-        fileName: "app/routes/_home.info.edit.jsx",
-        lineNumber: 123,
-        columnNumber: 7
-      },
-      this
-    )
+    }, this)
   ] }, void 0, !0, {
     fileName: "app/routes/_home.info.edit.jsx",
-    lineNumber: 16,
+    lineNumber: 11,
     columnNumber: 5
   }, this);
 }
