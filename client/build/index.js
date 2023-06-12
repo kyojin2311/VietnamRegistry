@@ -34,7 +34,7 @@ __export(assets_manifest_exports, {
 });
 var assets_manifest_default, init_assets_manifest = __esm({
   "server-assets-manifest:@remix-run/dev/assets-manifest"() {
-    assets_manifest_default = { version: "bc109d7f", entry: { module: "/build/entry.client-KXM3BNQY.js", imports: ["/build/_shared/chunk-QE77VWK2.js", "/build/_shared/chunk-ZIEWKVBB.js", "/build/_shared/chunk-RBEN53O4.js", "/build/_shared/chunk-532K2VPY.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-DULYYHZ2.js", imports: ["/build/_shared/chunk-PUJZWP2U.js", "/build/_shared/chunk-YRLBT3MG.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !0 }, "routes/_home": { id: "routes/_home", parentId: "root", path: void 0, index: void 0, caseSensitive: void 0, module: "/build/routes/_home-CM77SISH.js", imports: ["/build/_shared/chunk-KPKQHPMA.js", "/build/_shared/chunk-2IC54PV3.js", "/build/_shared/chunk-PDCAP7X3.js", "/build/_shared/chunk-MEXKDBJ7.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.Inspections.$id": { id: "routes/_home.Inspections.$id", parentId: "routes/_home", path: "Inspections/:id", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.Inspections.$id-7JGK33VO.js", imports: ["/build/_shared/chunk-O7R2KCUK.js", "/build/_shared/chunk-YRLBT3MG.js", "/build/_shared/chunk-GUGLMSUZ.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.Inspections._index": { id: "routes/_home.Inspections._index", parentId: "routes/_home", path: "Inspections", index: !0, caseSensitive: void 0, module: "/build/routes/_home.Inspections._index-HA4E34GU.js", imports: ["/build/_shared/chunk-YRLBT3MG.js"], hasAction: !0, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home._main": { id: "routes/_home._main", parentId: "routes/_home", path: void 0, index: void 0, caseSensitive: void 0, module: "/build/routes/_home._main-OYAUVLXL.js", imports: ["/build/_shared/chunk-OFQHC6HE.js", "/build/_shared/chunk-4CBZHLJK.js", "/build/_shared/chunk-PUJZWP2U.js", "/build/_shared/chunk-YRLBT3MG.js", "/build/_shared/chunk-4KF4RRT6.js", "/build/_shared/chunk-GUGLMSUZ.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home._main._index": { id: "routes/_home._main._index", parentId: "routes/_home._main", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_home._main._index-RBNPIMHO.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home._main.expired": { id: "routes/_home._main.expired", parentId: "routes/_home._main", path: "expired", index: void 0, caseSensitive: void 0, module: "/build/routes/_home._main.expired-ZOCO36LC.js", imports: ["/build/_shared/chunk-OKC3RWCP.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home._main.expiredsoon": { id: "routes/_home._main.expiredsoon", parentId: "routes/_home._main", path: "expiredsoon", index: void 0, caseSensitive: void 0, module: "/build/routes/_home._main.expiredsoon-NEOYBSZQ.js", imports: ["/build/_shared/chunk-OKC3RWCP.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.analystics.$codename": { id: "routes/_home.analystics.$codename", parentId: "routes/_home", path: "analystics/:codename", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.analystics.$codename-GXZDYFTU.js", imports: ["/build/_shared/chunk-OFQHC6HE.js", "/build/_shared/chunk-JPMRNOFY.js", "/build/_shared/chunk-4CBZHLJK.js", "/build/_shared/chunk-PUJZWP2U.js", "/build/_shared/chunk-YRLBT3MG.js", "/build/_shared/chunk-4KF4RRT6.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.analystics.$codename._index": { id: "routes/_home.analystics.$codename._index", parentId: "routes/_home.analystics.$codename", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_home.analystics.$codename._index-AM23EO7P.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.analystics.$codename.expired": { id: "routes/_home.analystics.$codename.expired", parentId: "routes/_home.analystics.$codename", path: "expired", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.analystics.$codename.expired-IGQ6T4KP.js", imports: ["/build/_shared/chunk-OKC3RWCP.js", "/build/_shared/chunk-GUGLMSUZ.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.analystics.$codename.expiredsoon": { id: "routes/_home.analystics.$codename.expiredsoon", parentId: "routes/_home.analystics.$codename", path: "expiredsoon", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.analystics.$codename.expiredsoon-LLQ342Q7.js", imports: ["/build/_shared/chunk-OKC3RWCP.js", "/build/_shared/chunk-GUGLMSUZ.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.analystics._index": { id: "routes/_home.analystics._index", parentId: "routes/_home", path: "analystics", index: !0, caseSensitive: void 0, module: "/build/routes/_home.analystics._index-QIK4HSPW.js", imports: ["/build/_shared/chunk-JPMRNOFY.js", "/build/_shared/chunk-OKC3RWCP.js", "/build/_shared/chunk-YRLBT3MG.js"], hasAction: !0, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.car.$numberPlate._index": { id: "routes/_home.car.$numberPlate._index", parentId: "routes/_home", path: "car/:numberPlate", index: !0, caseSensitive: void 0, module: "/build/routes/_home.car.$numberPlate._index-IS4IEXUB.js", imports: ["/build/_shared/chunk-4KF4RRT6.js", "/build/_shared/chunk-GUGLMSUZ.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.car.$numberPlate.addinspection": { id: "routes/_home.car.$numberPlate.addinspection", parentId: "routes/_home", path: "car/:numberPlate/addinspection", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.car.$numberPlate.addinspection-WF5JOKGV.js", imports: ["/build/_shared/chunk-4KF4RRT6.js", "/build/_shared/chunk-GUGLMSUZ.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.car._index": { id: "routes/_home.car._index", parentId: "routes/_home", path: "car", index: !0, caseSensitive: void 0, module: "/build/routes/_home.car._index-X4Q6J36P.js", imports: ["/build/_shared/chunk-4CBZHLJK.js", "/build/_shared/chunk-PUJZWP2U.js", "/build/_shared/chunk-YRLBT3MG.js", "/build/_shared/chunk-4KF4RRT6.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.info._index": { id: "routes/_home.info._index", parentId: "routes/_home", path: "info", index: !0, caseSensitive: void 0, module: "/build/routes/_home.info._index-F6PDRDPD.js", imports: ["/build/_shared/chunk-QGRJQUMK.js", "/build/_shared/chunk-GUGLMSUZ.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.info.edit": { id: "routes/_home.info.edit", parentId: "routes/_home", path: "info/edit", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.info.edit-D2UVLA66.js", imports: void 0, hasAction: !0, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office": { id: "routes/_home.office", parentId: "routes/_home", path: "office", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.office-VICDH5CF.js", imports: void 0, hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office._index": { id: "routes/_home.office._index", parentId: "routes/_home.office", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_home.office._index-EXID3AT3.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office.add": { id: "routes/_home.office.add", parentId: "routes/_home.office", path: "add", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.office.add-SNKY64RU.js", imports: ["/build/_shared/chunk-PDCAP7X3.js", "/build/_shared/chunk-JPMRNOFY.js", "/build/_shared/chunk-OKC3RWCP.js", "/build/_shared/chunk-YRLBT3MG.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office_.$id": { id: "routes/_home.office_.$id", parentId: "routes/_home", path: "office/:id", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.office_.$id-DWH32SX5.js", imports: ["/build/_shared/chunk-O7R2KCUK.js", "/build/_shared/chunk-OFQHC6HE.js", "/build/_shared/chunk-4CBZHLJK.js", "/build/_shared/chunk-PUJZWP2U.js", "/build/_shared/chunk-YRLBT3MG.js", "/build/_shared/chunk-4KF4RRT6.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office_.$id._index": { id: "routes/_home.office_.$id._index", parentId: "routes/_home.office_.$id", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_home.office_.$id._index-DM6PWPS2.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office_.$id.addStaff": { id: "routes/_home.office_.$id.addStaff", parentId: "routes/_home.office_.$id", path: "addStaff", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.office_.$id.addStaff-EDJ2SM2F.js", imports: ["/build/_shared/chunk-PDCAP7X3.js", "/build/_shared/chunk-OKC3RWCP.js"], hasAction: !0, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office_.$id.expired": { id: "routes/_home.office_.$id.expired", parentId: "routes/_home.office_.$id", path: "expired", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.office_.$id.expired-N5P57BXR.js", imports: ["/build/_shared/chunk-OKC3RWCP.js", "/build/_shared/chunk-GUGLMSUZ.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office_.$id.expiredsoon": { id: "routes/_home.office_.$id.expiredsoon", parentId: "routes/_home.office_.$id", path: "expiredsoon", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.office_.$id.expiredsoon-GBI3CQ4V.js", imports: ["/build/_shared/chunk-OKC3RWCP.js", "/build/_shared/chunk-GUGLMSUZ.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office_.$id_.$userID": { id: "routes/_home.office_.$id_.$userID", parentId: "routes/_home", path: "office/:id/:userID", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.office_.$id_.$userID-GWL73NHO.js", imports: ["/build/_shared/chunk-QGRJQUMK.js", "/build/_shared/chunk-GUGLMSUZ.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.search": { id: "routes/_home.search", parentId: "routes/_home", path: "search", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.search-TA6AGPKO.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/changepass": { id: "routes/changepass", parentId: "root", path: "changepass", index: void 0, caseSensitive: void 0, module: "/build/routes/changepass-YVD26BJF.js", imports: ["/build/_shared/chunk-4KF4RRT6.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/forgot-pass": { id: "routes/forgot-pass", parentId: "root", path: "forgot-pass", index: void 0, caseSensitive: void 0, module: "/build/routes/forgot-pass-BZDC4ZY3.js", imports: ["/build/_shared/chunk-KPKQHPMA.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/forgotpassword": { id: "routes/forgotpassword", parentId: "root", path: "forgotpassword", index: void 0, caseSensitive: void 0, module: "/build/routes/forgotpassword-QLV6EJ7S.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/login": { id: "routes/login", parentId: "root", path: "login", index: void 0, caseSensitive: void 0, module: "/build/routes/login-WK2GTSYK.js", imports: ["/build/_shared/chunk-KPKQHPMA.js", "/build/_shared/chunk-2IC54PV3.js", "/build/_shared/chunk-PDCAP7X3.js", "/build/_shared/chunk-MEXKDBJ7.js", "/build/_shared/chunk-4KF4RRT6.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/logout": { id: "routes/logout", parentId: "root", path: "logout", index: void 0, caseSensitive: void 0, module: "/build/routes/logout-5KEBAQVD.js", imports: void 0, hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, cssBundleHref: void 0, hmr: void 0, url: "/build/manifest-BC109D7F.js" };
+    assets_manifest_default = { version: "f8c76302", entry: { module: "/build/entry.client-KXM3BNQY.js", imports: ["/build/_shared/chunk-QE77VWK2.js", "/build/_shared/chunk-ZIEWKVBB.js", "/build/_shared/chunk-RBEN53O4.js", "/build/_shared/chunk-532K2VPY.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-KGAKQL7P.js", imports: ["/build/_shared/chunk-PUJZWP2U.js", "/build/_shared/chunk-YRLBT3MG.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !0 }, "routes/_home": { id: "routes/_home", parentId: "root", path: void 0, index: void 0, caseSensitive: void 0, module: "/build/routes/_home-6PMMH3OZ.js", imports: ["/build/_shared/chunk-KPKQHPMA.js", "/build/_shared/chunk-2IC54PV3.js", "/build/_shared/chunk-PDCAP7X3.js", "/build/_shared/chunk-MEXKDBJ7.js", "/build/_shared/chunk-4CBZHLJK.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.Inspections.$id": { id: "routes/_home.Inspections.$id", parentId: "routes/_home", path: "Inspections/:id", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.Inspections.$id-7JGK33VO.js", imports: ["/build/_shared/chunk-O7R2KCUK.js", "/build/_shared/chunk-YRLBT3MG.js", "/build/_shared/chunk-GUGLMSUZ.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.Inspections._index": { id: "routes/_home.Inspections._index", parentId: "routes/_home", path: "Inspections", index: !0, caseSensitive: void 0, module: "/build/routes/_home.Inspections._index-HA4E34GU.js", imports: ["/build/_shared/chunk-YRLBT3MG.js"], hasAction: !0, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home._main": { id: "routes/_home._main", parentId: "routes/_home", path: void 0, index: void 0, caseSensitive: void 0, module: "/build/routes/_home._main-OYAUVLXL.js", imports: ["/build/_shared/chunk-OFQHC6HE.js", "/build/_shared/chunk-PUJZWP2U.js", "/build/_shared/chunk-YRLBT3MG.js", "/build/_shared/chunk-4KF4RRT6.js", "/build/_shared/chunk-GUGLMSUZ.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home._main._index": { id: "routes/_home._main._index", parentId: "routes/_home._main", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_home._main._index-RBNPIMHO.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home._main.expired": { id: "routes/_home._main.expired", parentId: "routes/_home._main", path: "expired", index: void 0, caseSensitive: void 0, module: "/build/routes/_home._main.expired-ZOCO36LC.js", imports: ["/build/_shared/chunk-4CBZHLJK.js", "/build/_shared/chunk-OKC3RWCP.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home._main.expiredsoon": { id: "routes/_home._main.expiredsoon", parentId: "routes/_home._main", path: "expiredsoon", index: void 0, caseSensitive: void 0, module: "/build/routes/_home._main.expiredsoon-NEOYBSZQ.js", imports: ["/build/_shared/chunk-4CBZHLJK.js", "/build/_shared/chunk-OKC3RWCP.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.analystics.$codename": { id: "routes/_home.analystics.$codename", parentId: "routes/_home", path: "analystics/:codename", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.analystics.$codename-GXZDYFTU.js", imports: ["/build/_shared/chunk-OFQHC6HE.js", "/build/_shared/chunk-JPMRNOFY.js", "/build/_shared/chunk-PUJZWP2U.js", "/build/_shared/chunk-YRLBT3MG.js", "/build/_shared/chunk-4KF4RRT6.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.analystics.$codename._index": { id: "routes/_home.analystics.$codename._index", parentId: "routes/_home.analystics.$codename", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_home.analystics.$codename._index-AM23EO7P.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.analystics.$codename.expired": { id: "routes/_home.analystics.$codename.expired", parentId: "routes/_home.analystics.$codename", path: "expired", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.analystics.$codename.expired-IGQ6T4KP.js", imports: ["/build/_shared/chunk-4CBZHLJK.js", "/build/_shared/chunk-OKC3RWCP.js", "/build/_shared/chunk-GUGLMSUZ.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.analystics.$codename.expiredsoon": { id: "routes/_home.analystics.$codename.expiredsoon", parentId: "routes/_home.analystics.$codename", path: "expiredsoon", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.analystics.$codename.expiredsoon-LLQ342Q7.js", imports: ["/build/_shared/chunk-4CBZHLJK.js", "/build/_shared/chunk-OKC3RWCP.js", "/build/_shared/chunk-GUGLMSUZ.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.analystics._index": { id: "routes/_home.analystics._index", parentId: "routes/_home", path: "analystics", index: !0, caseSensitive: void 0, module: "/build/routes/_home.analystics._index-L3CEEX2K.js", imports: ["/build/_shared/chunk-JPMRNOFY.js", "/build/_shared/chunk-OKC3RWCP.js", "/build/_shared/chunk-YRLBT3MG.js"], hasAction: !0, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.car.$numberPlate._index": { id: "routes/_home.car.$numberPlate._index", parentId: "routes/_home", path: "car/:numberPlate", index: !0, caseSensitive: void 0, module: "/build/routes/_home.car.$numberPlate._index-IS4IEXUB.js", imports: ["/build/_shared/chunk-4KF4RRT6.js", "/build/_shared/chunk-GUGLMSUZ.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.car.$numberPlate.addinspection": { id: "routes/_home.car.$numberPlate.addinspection", parentId: "routes/_home", path: "car/:numberPlate/addinspection", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.car.$numberPlate.addinspection-WF5JOKGV.js", imports: ["/build/_shared/chunk-4KF4RRT6.js", "/build/_shared/chunk-GUGLMSUZ.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.car._index": { id: "routes/_home.car._index", parentId: "routes/_home", path: "car", index: !0, caseSensitive: void 0, module: "/build/routes/_home.car._index-X4Q6J36P.js", imports: ["/build/_shared/chunk-PUJZWP2U.js", "/build/_shared/chunk-YRLBT3MG.js", "/build/_shared/chunk-4KF4RRT6.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.info._index": { id: "routes/_home.info._index", parentId: "routes/_home", path: "info", index: !0, caseSensitive: void 0, module: "/build/routes/_home.info._index-F6PDRDPD.js", imports: ["/build/_shared/chunk-QGRJQUMK.js", "/build/_shared/chunk-GUGLMSUZ.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.info.edit": { id: "routes/_home.info.edit", parentId: "routes/_home", path: "info/edit", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.info.edit-D2UVLA66.js", imports: void 0, hasAction: !0, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office": { id: "routes/_home.office", parentId: "routes/_home", path: "office", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.office-VICDH5CF.js", imports: void 0, hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office._index": { id: "routes/_home.office._index", parentId: "routes/_home.office", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_home.office._index-EXID3AT3.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office.add": { id: "routes/_home.office.add", parentId: "routes/_home.office", path: "add", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.office.add-SNKY64RU.js", imports: ["/build/_shared/chunk-PDCAP7X3.js", "/build/_shared/chunk-JPMRNOFY.js", "/build/_shared/chunk-OKC3RWCP.js", "/build/_shared/chunk-YRLBT3MG.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office_.$id": { id: "routes/_home.office_.$id", parentId: "routes/_home", path: "office/:id", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.office_.$id-DWH32SX5.js", imports: ["/build/_shared/chunk-O7R2KCUK.js", "/build/_shared/chunk-OFQHC6HE.js", "/build/_shared/chunk-PUJZWP2U.js", "/build/_shared/chunk-YRLBT3MG.js", "/build/_shared/chunk-4KF4RRT6.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office_.$id._index": { id: "routes/_home.office_.$id._index", parentId: "routes/_home.office_.$id", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_home.office_.$id._index-DM6PWPS2.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office_.$id.addStaff": { id: "routes/_home.office_.$id.addStaff", parentId: "routes/_home.office_.$id", path: "addStaff", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.office_.$id.addStaff-EDJ2SM2F.js", imports: ["/build/_shared/chunk-PDCAP7X3.js", "/build/_shared/chunk-OKC3RWCP.js"], hasAction: !0, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office_.$id.expired": { id: "routes/_home.office_.$id.expired", parentId: "routes/_home.office_.$id", path: "expired", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.office_.$id.expired-N5P57BXR.js", imports: ["/build/_shared/chunk-4CBZHLJK.js", "/build/_shared/chunk-OKC3RWCP.js", "/build/_shared/chunk-GUGLMSUZ.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office_.$id.expiredsoon": { id: "routes/_home.office_.$id.expiredsoon", parentId: "routes/_home.office_.$id", path: "expiredsoon", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.office_.$id.expiredsoon-GBI3CQ4V.js", imports: ["/build/_shared/chunk-4CBZHLJK.js", "/build/_shared/chunk-OKC3RWCP.js", "/build/_shared/chunk-GUGLMSUZ.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office_.$id_.$userID": { id: "routes/_home.office_.$id_.$userID", parentId: "routes/_home", path: "office/:id/:userID", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.office_.$id_.$userID-GWL73NHO.js", imports: ["/build/_shared/chunk-QGRJQUMK.js", "/build/_shared/chunk-GUGLMSUZ.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.search": { id: "routes/_home.search", parentId: "routes/_home", path: "search", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.search-TA6AGPKO.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/changepass": { id: "routes/changepass", parentId: "root", path: "changepass", index: void 0, caseSensitive: void 0, module: "/build/routes/changepass-YVD26BJF.js", imports: ["/build/_shared/chunk-4KF4RRT6.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/forgot-pass": { id: "routes/forgot-pass", parentId: "root", path: "forgot-pass", index: void 0, caseSensitive: void 0, module: "/build/routes/forgot-pass-BZDC4ZY3.js", imports: ["/build/_shared/chunk-KPKQHPMA.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/forgotpassword": { id: "routes/forgotpassword", parentId: "root", path: "forgotpassword", index: void 0, caseSensitive: void 0, module: "/build/routes/forgotpassword-QLV6EJ7S.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/login": { id: "routes/login", parentId: "root", path: "login", index: void 0, caseSensitive: void 0, module: "/build/routes/login-WK2GTSYK.js", imports: ["/build/_shared/chunk-KPKQHPMA.js", "/build/_shared/chunk-2IC54PV3.js", "/build/_shared/chunk-PDCAP7X3.js", "/build/_shared/chunk-MEXKDBJ7.js", "/build/_shared/chunk-4KF4RRT6.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/logout": { id: "routes/logout", parentId: "root", path: "logout", index: void 0, caseSensitive: void 0, module: "/build/routes/logout-5KEBAQVD.js", imports: void 0, hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, cssBundleHref: void 0, hmr: void 0, url: "/build/manifest-F8C76302.js" };
   }
 });
 
@@ -271,17 +271,17 @@ function App() {
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("meta", { name: "viewport", content: "width=device-width,initial-scale=1" }, void 0, !1, {
         fileName: "app/root.jsx",
-        lineNumber: 41,
+        lineNumber: 42,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(import_react2.Meta, {}, void 0, !1, {
         fileName: "app/root.jsx",
-        lineNumber: 42,
+        lineNumber: 43,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(import_react2.Links, {}, void 0, !1, {
         fileName: "app/root.jsx",
-        lineNumber: 43,
+        lineNumber: 44,
         columnNumber: 9
       }, this)
     ] }, void 0, !0, {
@@ -292,28 +292,28 @@ function App() {
     /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("body", { className: "dark", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(import_react2.Outlet, { scrollBehavior: "smooth" }, void 0, !1, {
         fileName: "app/root.jsx",
-        lineNumber: 46,
+        lineNumber: 47,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(import_react2.ScrollRestoration, {}, void 0, !1, {
         fileName: "app/root.jsx",
-        lineNumber: 47,
+        lineNumber: 48,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(import_react2.Scripts, {}, void 0, !1, {
         fileName: "app/root.jsx",
-        lineNumber: 48,
+        lineNumber: 49,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(import_react2.LiveReload, {}, void 0, !1, {
         fileName: "app/root.jsx",
-        lineNumber: 49,
+        lineNumber: 50,
         columnNumber: 9
       }, this),
       spinner
     ] }, void 0, !0, {
       fileName: "app/root.jsx",
-      lineNumber: 45,
+      lineNumber: 46,
       columnNumber: 7
     }, this)
   ] }, void 0, !0, {
@@ -331,64 +331,64 @@ function ErrorBoundary() {
       error.statusText
     ] }, void 0, !0, {
       fileName: "app/root.jsx",
-      lineNumber: 64,
+      lineNumber: 65,
       columnNumber: 9
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("p", { children: error.data }, void 0, !1, {
       fileName: "app/root.jsx",
-      lineNumber: 67,
+      lineNumber: 68,
       columnNumber: 9
     }, this)
   ] }, void 0, !0, {
     fileName: "app/root.jsx",
-    lineNumber: 63,
+    lineNumber: 64,
     columnNumber: 7
   }, this) : error instanceof Error ? /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("html", { lang: "en", style: { overflow: "auto" }, children: [
     /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("head", { children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("meta", { charSet: "utf-8" }, void 0, !1, {
         fileName: "app/root.jsx",
-        lineNumber: 74,
+        lineNumber: 75,
         columnNumber: 11
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("meta", { name: "viewport", content: "width=device-width,initial-scale=1" }, void 0, !1, {
         fileName: "app/root.jsx",
-        lineNumber: 75,
+        lineNumber: 76,
         columnNumber: 11
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(import_react2.Meta, {}, void 0, !1, {
         fileName: "app/root.jsx",
-        lineNumber: 76,
+        lineNumber: 77,
         columnNumber: 11
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(import_react2.Links, {}, void 0, !1, {
         fileName: "app/root.jsx",
-        lineNumber: 77,
+        lineNumber: 78,
         columnNumber: 11
       }, this)
     ] }, void 0, !0, {
       fileName: "app/root.jsx",
-      lineNumber: 73,
+      lineNumber: 74,
       columnNumber: 9
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("body", { className: "dark", children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("main", { className: "bg-gray-50 dark:bg-gray-900", children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "flex flex-col justify-center items-center px-6 mx-auto h-screen xl:px-0 dark:bg-gray-900", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "block md:max-w-lg", children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("img", { src: __default, alt: "astronaut image" }, void 0, !1, {
         fileName: "app/root.jsx",
-        lineNumber: 83,
+        lineNumber: 84,
         columnNumber: 17
       }, this) }, void 0, !1, {
         fileName: "app/root.jsx",
-        lineNumber: 82,
+        lineNumber: 83,
         columnNumber: 15
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "text-center xl:max-w-4xl", children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("h1", { className: "mb-3 text-2xl font-bold leading-tight text-gray-900 sm:text-4xl lg:text-5xl dark:text-white", children: "Page not found" }, void 0, !1, {
           fileName: "app/root.jsx",
-          lineNumber: 86,
+          lineNumber: 87,
           columnNumber: 17
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("p", { className: "mb-5 text-base font-normal text-gray-500 md:text-lg dark:text-gray-400", children: error.message }, void 0, !1, {
           fileName: "app/root.jsx",
-          lineNumber: 89,
+          lineNumber: 90,
           columnNumber: 17
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(
@@ -415,7 +415,7 @@ function ErrorBoundary() {
                     !1,
                     {
                       fileName: "app/root.jsx",
-                      lineNumber: 102,
+                      lineNumber: 103,
                       columnNumber: 21
                     },
                     this
@@ -425,7 +425,7 @@ function ErrorBoundary() {
                 !1,
                 {
                   fileName: "app/root.jsx",
-                  lineNumber: 96,
+                  lineNumber: 97,
                   columnNumber: 19
                 },
                 this
@@ -437,36 +437,36 @@ function ErrorBoundary() {
           !0,
           {
             fileName: "app/root.jsx",
-            lineNumber: 92,
+            lineNumber: 93,
             columnNumber: 17
           },
           this
         )
       ] }, void 0, !0, {
         fileName: "app/root.jsx",
-        lineNumber: 85,
+        lineNumber: 86,
         columnNumber: 15
       }, this)
     ] }, void 0, !0, {
       fileName: "app/root.jsx",
-      lineNumber: 81,
+      lineNumber: 82,
       columnNumber: 13
     }, this) }, void 0, !1, {
       fileName: "app/root.jsx",
-      lineNumber: 80,
+      lineNumber: 81,
       columnNumber: 11
     }, this) }, void 0, !1, {
       fileName: "app/root.jsx",
-      lineNumber: 79,
+      lineNumber: 80,
       columnNumber: 9
     }, this)
   ] }, void 0, !0, {
     fileName: "app/root.jsx",
-    lineNumber: 72,
+    lineNumber: 73,
     columnNumber: 7
   }, this) : /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("h1", { children: "Unknown Error" }, void 0, !1, {
     fileName: "app/root.jsx",
-    lineNumber: 117,
+    lineNumber: 118,
     columnNumber: 12
   }, this);
 }
@@ -6304,7 +6304,7 @@ function AnalysticsPage() {
 }
 async function action4({ request: request2 }) {
   let p = (await request2.formData()).get("province"), data = province_default.filter((a) => a.name === p)[0];
-  return console.log(data), data === void 0 ? (0, import_node8.json)({ message: "Can't find province" }) : (0, import_node8.redirect)(`/analystics/${data.codename}`);
+  return data === void 0 ? (0, import_node8.json)({ message: "Can't find province" }) : (0, import_node8.redirect)(`/analystics/${data.codename}`);
 }
 
 // app/routes/_home.Inspections.$id.jsx
@@ -11245,16 +11245,23 @@ var import_react60 = require("@remix-run/react");
 
 // app/components/UI/MainNavigation.jsx
 var import_react58 = require("@remix-run/react"), import_react59 = require("react"), import_react_fontawesome4 = require("@fortawesome/react-fontawesome"), import_free_solid_svg_icons4 = require("@fortawesome/free-solid-svg-icons");
+var import_remix_utils12 = require("remix-utils");
 var import_jsx_dev_runtime60 = require("react/jsx-dev-runtime");
 function MainNavigation() {
-  let data = (0, import_react58.useLoaderData)(), { isAdmin } = data, [hide, setHide] = (0, import_react59.useState)(!1);
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime60.jsxDEV)(import_jsx_dev_runtime60.Fragment, { children: [
+  let data = (0, import_react58.useLoaderData)(), { isAdmin } = data, [hide, setHide] = (0, import_react59.useState)(!1), hideMedia = () => {
+    setHide(!hide);
+  }, clickOut = () => {
+    setHide(!hide);
+  };
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime60.jsxDEV)(import_remix_utils12.ClientOnly, { fallback: /* @__PURE__ */ (0, import_jsx_dev_runtime60.jsxDEV)(Spinner, {}, void 0, !1, {
+    fileName: "app/components/UI/MainNavigation.jsx",
+    lineNumber: 27,
+    columnNumber: 27
+  }, this), children: () => /* @__PURE__ */ (0, import_jsx_dev_runtime60.jsxDEV)(import_jsx_dev_runtime60.Fragment, { children: [
     /* @__PURE__ */ (0, import_jsx_dev_runtime60.jsxDEV)(
       "button",
       {
-        onClick: () => {
-          setHide(!hide);
-        },
+        onClick: hideMedia,
         "aria-controls": "sidebar",
         className: "fixed top-5 left-5 text-gray-600 dark:bg-gray-800 rounded cursor-pointer xl:hidden hover:text-gray-900 hover:bg-gray-100 focus:bg-gray-100 dark:focus:bg-gray-700 focus:ring-2 focus:ring-gray-100 dark:focus:ring-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white",
         children: /* @__PURE__ */ (0, import_jsx_dev_runtime60.jsxDEV)(
@@ -11276,8 +11283,8 @@ function MainNavigation() {
               !1,
               {
                 fileName: "app/components/UI/MainNavigation.jsx",
-                lineNumber: 38,
-                columnNumber: 11
+                lineNumber: 42,
+                columnNumber: 15
               },
               this
             )
@@ -11286,8 +11293,8 @@ function MainNavigation() {
           !1,
           {
             fileName: "app/components/UI/MainNavigation.jsx",
-            lineNumber: 31,
-            columnNumber: 9
+            lineNumber: 35,
+            columnNumber: 13
           },
           this
         )
@@ -11296,8 +11303,8 @@ function MainNavigation() {
       !1,
       {
         fileName: "app/components/UI/MainNavigation.jsx",
-        lineNumber: 26,
-        columnNumber: 7
+        lineNumber: 30,
+        columnNumber: 11
       },
       this
     ),
@@ -11317,13 +11324,13 @@ function MainNavigation() {
               children: [
                 /* @__PURE__ */ (0, import_jsx_dev_runtime60.jsxDEV)("img", { src: logo_default, alt: "Flowbite Logo" }, void 0, !1, {
                   fileName: "app/components/UI/MainNavigation.jsx",
-                  lineNumber: 58,
-                  columnNumber: 13
+                  lineNumber: 62,
+                  columnNumber: 17
                 }, this),
                 /* @__PURE__ */ (0, import_jsx_dev_runtime60.jsxDEV)("span", { className: "self-center text-xl font-semibold whitespace-nowrap dark:text-white" }, void 0, !1, {
                   fileName: "app/components/UI/MainNavigation.jsx",
-                  lineNumber: 59,
-                  columnNumber: 13
+                  lineNumber: 63,
+                  columnNumber: 17
                 }, this)
               ]
             },
@@ -11331,8 +11338,8 @@ function MainNavigation() {
             !0,
             {
               fileName: "app/components/UI/MainNavigation.jsx",
-              lineNumber: 53,
-              columnNumber: 11
+              lineNumber: 57,
+              columnNumber: 15
             },
             this
           ),
@@ -11346,13 +11353,13 @@ function MainNavigation() {
                 children: [
                   /* @__PURE__ */ (0, import_jsx_dev_runtime60.jsxDEV)(import_react_fontawesome4.FontAwesomeIcon, { icon: import_free_solid_svg_icons4.faGauge, size: "lg" }, void 0, !1, {
                     fileName: "app/components/UI/MainNavigation.jsx",
-                    lineNumber: 69,
-                    columnNumber: 17
+                    lineNumber: 73,
+                    columnNumber: 21
                   }, this),
                   /* @__PURE__ */ (0, import_jsx_dev_runtime60.jsxDEV)("span", { className: "ml-3", children: "Dashboard" }, void 0, !1, {
                     fileName: "app/components/UI/MainNavigation.jsx",
-                    lineNumber: 70,
-                    columnNumber: 17
+                    lineNumber: 82,
+                    columnNumber: 21
                   }, this)
                 ]
               },
@@ -11360,14 +11367,14 @@ function MainNavigation() {
               !0,
               {
                 fileName: "app/components/UI/MainNavigation.jsx",
-                lineNumber: 64,
-                columnNumber: 15
+                lineNumber: 68,
+                columnNumber: 19
               },
               this
             ) }, void 0, !1, {
               fileName: "app/components/UI/MainNavigation.jsx",
-              lineNumber: 63,
-              columnNumber: 13
+              lineNumber: 67,
+              columnNumber: 17
             }, this),
             isAdmin === 1 && /* @__PURE__ */ (0, import_jsx_dev_runtime60.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime60.jsxDEV)(
               import_react58.Link,
@@ -11377,13 +11384,13 @@ function MainNavigation() {
                 children: [
                   /* @__PURE__ */ (0, import_jsx_dev_runtime60.jsxDEV)(import_react_fontawesome4.FontAwesomeIcon, { icon: import_free_solid_svg_icons4.faChartLine, size: "lg" }, void 0, !1, {
                     fileName: "app/components/UI/MainNavigation.jsx",
-                    lineNumber: 79,
-                    columnNumber: 19
+                    lineNumber: 91,
+                    columnNumber: 23
                   }, this),
                   /* @__PURE__ */ (0, import_jsx_dev_runtime60.jsxDEV)("span", { className: "flex-1 ml-3 whitespace-nowrap", children: "Analytics" }, void 0, !1, {
                     fileName: "app/components/UI/MainNavigation.jsx",
-                    lineNumber: 80,
-                    columnNumber: 19
+                    lineNumber: 92,
+                    columnNumber: 23
                   }, this)
                 ]
               },
@@ -11391,14 +11398,14 @@ function MainNavigation() {
               !0,
               {
                 fileName: "app/components/UI/MainNavigation.jsx",
-                lineNumber: 75,
-                columnNumber: 17
+                lineNumber: 87,
+                columnNumber: 21
               },
               this
             ) }, void 0, !1, {
               fileName: "app/components/UI/MainNavigation.jsx",
-              lineNumber: 74,
-              columnNumber: 15
+              lineNumber: 86,
+              columnNumber: 19
             }, this),
             /* @__PURE__ */ (0, import_jsx_dev_runtime60.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime60.jsxDEV)(
               import_react58.Link,
@@ -11408,13 +11415,13 @@ function MainNavigation() {
                 children: [
                   /* @__PURE__ */ (0, import_jsx_dev_runtime60.jsxDEV)(import_react_fontawesome4.FontAwesomeIcon, { icon: import_free_solid_svg_icons4.faCar, size: "lg" }, void 0, !1, {
                     fileName: "app/components/UI/MainNavigation.jsx",
-                    lineNumber: 91,
-                    columnNumber: 17
+                    lineNumber: 103,
+                    columnNumber: 21
                   }, this),
                   /* @__PURE__ */ (0, import_jsx_dev_runtime60.jsxDEV)("span", { className: "flex-1 ml-3 whitespace-nowrap", children: "Cars" }, void 0, !1, {
                     fileName: "app/components/UI/MainNavigation.jsx",
-                    lineNumber: 92,
-                    columnNumber: 17
+                    lineNumber: 104,
+                    columnNumber: 21
                   }, this)
                 ]
               },
@@ -11422,14 +11429,14 @@ function MainNavigation() {
               !0,
               {
                 fileName: "app/components/UI/MainNavigation.jsx",
-                lineNumber: 87,
-                columnNumber: 15
+                lineNumber: 99,
+                columnNumber: 19
               },
               this
             ) }, void 0, !1, {
               fileName: "app/components/UI/MainNavigation.jsx",
-              lineNumber: 86,
-              columnNumber: 13
+              lineNumber: 98,
+              columnNumber: 17
             }, this),
             isAdmin === 1 && /* @__PURE__ */ (0, import_jsx_dev_runtime60.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime60.jsxDEV)(
               import_react58.Link,
@@ -11440,13 +11447,13 @@ function MainNavigation() {
                 children: [
                   /* @__PURE__ */ (0, import_jsx_dev_runtime60.jsxDEV)(import_react_fontawesome4.FontAwesomeIcon, { icon: import_free_solid_svg_icons4.faBuilding, size: "lg" }, void 0, !1, {
                     fileName: "app/components/UI/MainNavigation.jsx",
-                    lineNumber: 102,
-                    columnNumber: 19
+                    lineNumber: 114,
+                    columnNumber: 23
                   }, this),
                   /* @__PURE__ */ (0, import_jsx_dev_runtime60.jsxDEV)("span", { className: "flex-1 ml-3 whitespace-nowrap", children: "Centre" }, void 0, !1, {
                     fileName: "app/components/UI/MainNavigation.jsx",
-                    lineNumber: 103,
-                    columnNumber: 19
+                    lineNumber: 115,
+                    columnNumber: 23
                   }, this)
                 ]
               },
@@ -11454,14 +11461,14 @@ function MainNavigation() {
               !0,
               {
                 fileName: "app/components/UI/MainNavigation.jsx",
-                lineNumber: 97,
-                columnNumber: 17
+                lineNumber: 109,
+                columnNumber: 21
               },
               this
             ) }, void 0, !1, {
               fileName: "app/components/UI/MainNavigation.jsx",
-              lineNumber: 96,
-              columnNumber: 15
+              lineNumber: 108,
+              columnNumber: 19
             }, this),
             /* @__PURE__ */ (0, import_jsx_dev_runtime60.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime60.jsxDEV)(
               import_react58.Link,
@@ -11471,13 +11478,13 @@ function MainNavigation() {
                 children: [
                   /* @__PURE__ */ (0, import_jsx_dev_runtime60.jsxDEV)(import_react_fontawesome4.FontAwesomeIcon, { icon: import_free_solid_svg_icons4.faCertificate, size: "lg" }, void 0, !1, {
                     fileName: "app/components/UI/MainNavigation.jsx",
-                    lineNumber: 112,
-                    columnNumber: 17
+                    lineNumber: 126,
+                    columnNumber: 21
                   }, this),
                   /* @__PURE__ */ (0, import_jsx_dev_runtime60.jsxDEV)("span", { className: "flex-1 ml-3 whitespace-nowrap", children: "Inspections" }, void 0, !1, {
                     fileName: "app/components/UI/MainNavigation.jsx",
-                    lineNumber: 113,
-                    columnNumber: 17
+                    lineNumber: 127,
+                    columnNumber: 21
                   }, this)
                 ]
               },
@@ -11485,14 +11492,14 @@ function MainNavigation() {
               !0,
               {
                 fileName: "app/components/UI/MainNavigation.jsx",
-                lineNumber: 108,
-                columnNumber: 15
+                lineNumber: 122,
+                columnNumber: 19
               },
               this
             ) }, void 0, !1, {
               fileName: "app/components/UI/MainNavigation.jsx",
-              lineNumber: 107,
-              columnNumber: 13
+              lineNumber: 121,
+              columnNumber: 17
             }, this),
             /* @__PURE__ */ (0, import_jsx_dev_runtime60.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime60.jsxDEV)(
               import_react58.Link,
@@ -11503,13 +11510,13 @@ function MainNavigation() {
                 children: [
                   /* @__PURE__ */ (0, import_jsx_dev_runtime60.jsxDEV)(import_react_fontawesome4.FontAwesomeIcon, { icon: import_free_solid_svg_icons4.faAddressCard, size: "lg" }, void 0, !1, {
                     fileName: "app/components/UI/MainNavigation.jsx",
-                    lineNumber: 124,
-                    columnNumber: 17
+                    lineNumber: 138,
+                    columnNumber: 21
                   }, this),
                   /* @__PURE__ */ (0, import_jsx_dev_runtime60.jsxDEV)("span", { className: "ml-3", children: "About" }, void 0, !1, {
                     fileName: "app/components/UI/MainNavigation.jsx",
-                    lineNumber: 125,
-                    columnNumber: 17
+                    lineNumber: 139,
+                    columnNumber: 21
                   }, this)
                 ]
               },
@@ -11517,14 +11524,14 @@ function MainNavigation() {
               !0,
               {
                 fileName: "app/components/UI/MainNavigation.jsx",
-                lineNumber: 119,
-                columnNumber: 15
+                lineNumber: 133,
+                columnNumber: 19
               },
               this
             ) }, void 0, !1, {
               fileName: "app/components/UI/MainNavigation.jsx",
-              lineNumber: 118,
-              columnNumber: 13
+              lineNumber: 132,
+              columnNumber: 17
             }, this),
             /* @__PURE__ */ (0, import_jsx_dev_runtime60.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime60.jsxDEV)(
               import_react58.Link,
@@ -11534,13 +11541,13 @@ function MainNavigation() {
                 children: [
                   /* @__PURE__ */ (0, import_jsx_dev_runtime60.jsxDEV)(import_react_fontawesome4.FontAwesomeIcon, { icon: import_free_solid_svg_icons4.faRightFromBracket, size: "lg" }, void 0, !1, {
                     fileName: "app/components/UI/MainNavigation.jsx",
-                    lineNumber: 133,
-                    columnNumber: 17
+                    lineNumber: 147,
+                    columnNumber: 21
                   }, this),
                   /* @__PURE__ */ (0, import_jsx_dev_runtime60.jsxDEV)("span", { className: "flex-1 ml-3 whitespace-nowrap", children: "Sign Out" }, void 0, !1, {
                     fileName: "app/components/UI/MainNavigation.jsx",
-                    lineNumber: 134,
-                    columnNumber: 17
+                    lineNumber: 148,
+                    columnNumber: 21
                   }, this)
                 ]
               },
@@ -11548,32 +11555,32 @@ function MainNavigation() {
               !0,
               {
                 fileName: "app/components/UI/MainNavigation.jsx",
-                lineNumber: 129,
-                columnNumber: 15
+                lineNumber: 143,
+                columnNumber: 19
               },
               this
             ) }, void 0, !1, {
               fileName: "app/components/UI/MainNavigation.jsx",
-              lineNumber: 128,
-              columnNumber: 13
+              lineNumber: 142,
+              columnNumber: 17
             }, this)
           ] }, void 0, !0, {
             fileName: "app/components/UI/MainNavigation.jsx",
-            lineNumber: 62,
-            columnNumber: 11
+            lineNumber: 66,
+            columnNumber: 15
           }, this)
         ] }, void 0, !0, {
           fileName: "app/components/UI/MainNavigation.jsx",
-          lineNumber: 52,
-          columnNumber: 9
+          lineNumber: 56,
+          columnNumber: 13
         }, this)
       },
       void 0,
       !1,
       {
         fileName: "app/components/UI/MainNavigation.jsx",
-        lineNumber: 45,
-        columnNumber: 7
+        lineNumber: 49,
+        columnNumber: 11
       },
       this
     ),
@@ -11581,23 +11588,25 @@ function MainNavigation() {
       "div",
       {
         className: `fixed inset-0 z-10 bg-gray-900/50 dark:bg-gray-900/90 ${hide ? "" : "hidden"}`,
-        onClick: () => {
-          setHide(!hide);
-        },
+        onClick: clickOut,
         id: "sidebarBackdrop"
       },
       void 0,
       !1,
       {
         fileName: "app/components/UI/MainNavigation.jsx",
-        lineNumber: 140,
-        columnNumber: 7
+        lineNumber: 156,
+        columnNumber: 11
       },
       this
     )
   ] }, void 0, !0, {
     fileName: "app/components/UI/MainNavigation.jsx",
-    lineNumber: 25,
+    lineNumber: 29,
+    columnNumber: 9
+  }, this) }, void 0, !1, {
+    fileName: "app/components/UI/MainNavigation.jsx",
+    lineNumber: 27,
     columnNumber: 5
   }, this);
 }
