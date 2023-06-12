@@ -110,3 +110,7 @@ export async function loader({ request, params }) {
   });
   return returnData;
 }
+
+export function shouldRevalidate() {
+  return true;
+}

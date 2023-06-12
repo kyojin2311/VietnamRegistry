@@ -8,8 +8,6 @@ export function meta() {
 }
 export default function addStaffPage() {
   const context = useOutletContext();
-  console.log(context);
-
   return (
     <PageModal title="Provide credentials information to add users">
       <AddForm data={context.staff.name} />
@@ -18,6 +16,12 @@ export default function addStaffPage() {
 }
 export async function action({ request, params }) {
   const formData = await request.formData();
+  var isAdmin;
+  if (formData.get("workFor") === "Cục đăng kiểm Việt Nam") {
+    isAdmin = 1;
+  } else {
+    isAdmin = 0;
+  }
   const data = {
     email: formData.get("email"),
     name: formData.get("name"),
@@ -26,7 +30,7 @@ export async function action({ request, params }) {
     ssn: formData.get("SSN"),
     phone: formData.get("phone"),
     password: "12345678",
-    isAdmin: 0,
+    isAdmin: isAdmin,
   };
   return await addStaff(request, data, params);
 }
