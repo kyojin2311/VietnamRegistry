@@ -42,9 +42,10 @@ export async function getAllOffice(request) {
   }
 }
 //Admin addStaff Function
-export async function addStaff(request, data) {
+export async function addStaff(request, data, params) {
   const token = await requireUserSession(request);
   if (!token) return redirect("/login");
+  const officeID = params.id;
   const response = await fetch(
     "https://registrytotal.herokuapp.com/api/staff/add",
     {
@@ -59,9 +60,9 @@ export async function addStaff(request, data) {
   const resData = await response.json();
   if (resData !== "SUCCEEDED") {
     return json({ message: resData });
+  } else {
+    return redirect(`/office/${officeID}`);
   }
-
-  return redirect("/office");
 }
 
 //Get Inspections by ID
@@ -130,7 +131,11 @@ export async function EditInfo(request, data) {
     }
   );
   const resData = await Fetchdata.json();
-  return resData;
+  if (resData === "SUCCEEDED") {
+    return redirect("/info");
+  } else {
+    return json({ message: resData });
+  }
 }
 
 export async function getStaffbyId(request, staffID) {
@@ -170,11 +175,12 @@ export async function addOffice(request, data) {
     }
   );
   const resData = await response.json();
-  if (resData === "NOT FOUND") {
+  if (resData === "UNAUTHORIZED") {
     throw new Error("You must be admin to access this");
-  } else if (resData === "SERVER UNAVAILABLE") {
-    throw new Error("Something went wrong with the server, please try again");
-  } else return redirect("/office");
+  } else if (resData === "SUCCEEDED") {
+    // throw new Error("Something went wrong with the server, please try again");
+    return redirect("/office");
+  } else return json({ message: resData });
 }
 
 export async function adminCheck(request) {

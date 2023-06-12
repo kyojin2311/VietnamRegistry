@@ -4,7 +4,6 @@ import { Dropdown } from "flowbite-react";
 import { useState, useEffect } from "react";
 import Spinner from "../../util/Loading";
 import ChartCom from "../../util/Chart.client";
-import { Link } from "@remix-run/react";
 export default function OfficeChart(props) {
   const { Data2021, Data2022, Data2023 } = useLoaderData();
   const [year, setYear] = useState(2023);
@@ -124,7 +123,7 @@ export default function OfficeChart(props) {
             <Dropdown.Item onClick={handleClick2021}>Năm 2021</Dropdown.Item>
           </Dropdown>
         </div>
-        {year === 2023 && (
+        {/* {year === 2023 && (
           <div className="flex-shrink-0 ">
             <Link className="inline-flex items-center p-2 text-lg font-medium uppercase rounded-lg text-primary-700 sm:text-sm hover:bg-gray-100 dark:text-primary-500 dark:hover:bg-gray-700">
               Full Report
@@ -144,7 +143,7 @@ export default function OfficeChart(props) {
               </svg>
             </Link>
           </div>
-        )}
+        )} */}
       </div>
     </>
   );

@@ -97,12 +97,10 @@ export async function loader({ request, params }) {
     }
   );
   const staff = await responseStaff.json();
-  console.log(staff);
   const resdata2023 = await response2023.json();
   const resdata2022 = await response2022.json();
   const resdata2021 = await response2021.json();
   const expiredRes = await resExpired.json();
-  console.log(expiredRes);
   const returnData = json({
     staff: staff[0],
     Data2023: resdata2023,
@@ -111,4 +109,8 @@ export async function loader({ request, params }) {
     expired: expiredRes,
   });
   return returnData;
+}
+
+export function shouldRevalidate() {
+  return true;
 }

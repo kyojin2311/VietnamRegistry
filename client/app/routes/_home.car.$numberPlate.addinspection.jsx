@@ -2,6 +2,7 @@ import { useLoaderData, useMatches } from "@remix-run/react";
 import InspectionsAddForm from "../components/Inspections/InspectionAdd";
 import { requireUserSession } from "../services/auth.server";
 import { redirect, json } from "@remix-run/node";
+import { reFormatDate } from "../util/formatDate";
 
 export default function inspectionAdd() {
   const data = useLoaderData();
@@ -38,7 +39,7 @@ export async function action({ request }) {
     owneremail: formData.get("Email"),
     ownerphone: formData.get("Phone"),
     ownerssn: formData.get("SSN"),
-    ownerdob: formData.get("DOB"),
+    ownerdob: reFormatDate(formData.get("DOB")),
     carNumberPlate: formData.get("carNumberPlate"),
     Type: formData.get("Type"),
     Mark: formData.get("Mark"),
@@ -66,7 +67,6 @@ export async function action({ request }) {
     maxOutputToRpmRatio: formData.get("maxOutputToRpmRatio"),
     numberOfTiresAndTireSize: formData.get("numberOfTiresAndTireSize"),
   };
-  console.log(data);
   const response = await fetch(
     "https://registrytotal.herokuapp.com/api/inspection/add",
     {
