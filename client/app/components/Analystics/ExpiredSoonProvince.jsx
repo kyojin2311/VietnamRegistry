@@ -26,7 +26,7 @@ export default function ExpiredSoonProvinceTable() {
   }, [searchInput]);
 
   return (
-    <PageModal title="This is the list of car have already expired">
+    <PageModal title="This is the list of car will be expired soon">
       <div className="pb-4 bg-white dark:bg-gray-700">
         <label for="table-search" className="sr-only">
           Search
