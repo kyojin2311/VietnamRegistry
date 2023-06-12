@@ -34,7 +34,7 @@ __export(assets_manifest_exports, {
 });
 var assets_manifest_default, init_assets_manifest = __esm({
   "server-assets-manifest:@remix-run/dev/assets-manifest"() {
-    assets_manifest_default = { version: "4dc0504a", entry: { module: "/build/entry.client-KXM3BNQY.js", imports: ["/build/_shared/chunk-QE77VWK2.js", "/build/_shared/chunk-ZIEWKVBB.js", "/build/_shared/chunk-RBEN53O4.js", "/build/_shared/chunk-532K2VPY.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-VSJAXR5P.js", imports: ["/build/_shared/chunk-PUJZWP2U.js", "/build/_shared/chunk-YRLBT3MG.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !0 }, "routes/_home": { id: "routes/_home", parentId: "root", path: void 0, index: void 0, caseSensitive: void 0, module: "/build/routes/_home-AV2G6VUO.js", imports: ["/build/_shared/chunk-KPKQHPMA.js", "/build/_shared/chunk-2IC54PV3.js", "/build/_shared/chunk-PDCAP7X3.js", "/build/_shared/chunk-MEXKDBJ7.js", "/build/_shared/chunk-4CBZHLJK.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.Inspections.$id": { id: "routes/_home.Inspections.$id", parentId: "routes/_home", path: "Inspections/:id", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.Inspections.$id-CCEZCGMZ.js", imports: ["/build/_shared/chunk-O7R2KCUK.js", "/build/_shared/chunk-YRLBT3MG.js", "/build/_shared/chunk-RI7KFSFX.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.Inspections._index": { id: "routes/_home.Inspections._index", parentId: "routes/_home", path: "Inspections", index: !0, caseSensitive: void 0, module: "/build/routes/_home.Inspections._index-HA4E34GU.js", imports: ["/build/_shared/chunk-YRLBT3MG.js"], hasAction: !0, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home._main": { id: "routes/_home._main", parentId: "routes/_home", path: void 0, index: void 0, caseSensitive: void 0, module: "/build/routes/_home._main-X5OBHKWK.js", imports: ["/build/_shared/chunk-OFQHC6HE.js", "/build/_shared/chunk-PUJZWP2U.js", "/build/_shared/chunk-YRLBT3MG.js", "/build/_shared/chunk-4KF4RRT6.js", "/build/_shared/chunk-RI7KFSFX.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home._main._index": { id: "routes/_home._main._index", parentId: "routes/_home._main", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_home._main._index-RBNPIMHO.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home._main.expired": { id: "routes/_home._main.expired", parentId: "routes/_home._main", path: "expired", index: void 0, caseSensitive: void 0, module: "/build/routes/_home._main.expired-JOTX6GSI.js", imports: ["/build/_shared/chunk-4CBZHLJK.js", "/build/_shared/chunk-OKC3RWCP.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home._main.expiredsoon": { id: "routes/_home._main.expiredsoon", parentId: "routes/_home._main", path: "expiredsoon", index: void 0, caseSensitive: void 0, module: "/build/routes/_home._main.expiredsoon-UL4DVMHX.js", imports: ["/build/_shared/chunk-4CBZHLJK.js", "/build/_shared/chunk-OKC3RWCP.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.analystics.$codename": { id: "routes/_home.analystics.$codename", parentId: "routes/_home", path: "analystics/:codename", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.analystics.$codename-GXZDYFTU.js", imports: ["/build/_shared/chunk-OFQHC6HE.js", "/build/_shared/chunk-JPMRNOFY.js", "/build/_shared/chunk-PUJZWP2U.js", "/build/_shared/chunk-YRLBT3MG.js", "/build/_shared/chunk-4KF4RRT6.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.analystics.$codename._index": { id: "routes/_home.analystics.$codename._index", parentId: "routes/_home.analystics.$codename", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_home.analystics.$codename._index-AM23EO7P.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.analystics.$codename.expired": { id: "routes/_home.analystics.$codename.expired", parentId: "routes/_home.analystics.$codename", path: "expired", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.analystics.$codename.expired-QAZOIKRK.js", imports: ["/build/_shared/chunk-4CBZHLJK.js", "/build/_shared/chunk-OKC3RWCP.js", "/build/_shared/chunk-RI7KFSFX.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.analystics.$codename.expiredsoon": { id: "routes/_home.analystics.$codename.expiredsoon", parentId: "routes/_home.analystics.$codename", path: "expiredsoon", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.analystics.$codename.expiredsoon-4QZJJOAI.js", imports: ["/build/_shared/chunk-4CBZHLJK.js", "/build/_shared/chunk-OKC3RWCP.js", "/build/_shared/chunk-RI7KFSFX.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.analystics._index": { id: "routes/_home.analystics._index", parentId: "routes/_home", path: "analystics", index: !0, caseSensitive: void 0, module: "/build/routes/_home.analystics._index-L3CEEX2K.js", imports: ["/build/_shared/chunk-JPMRNOFY.js", "/build/_shared/chunk-OKC3RWCP.js", "/build/_shared/chunk-YRLBT3MG.js"], hasAction: !0, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.car.$numberPlate._index": { id: "routes/_home.car.$numberPlate._index", parentId: "routes/_home", path: "car/:numberPlate", index: !0, caseSensitive: void 0, module: "/build/routes/_home.car.$numberPlate._index-VA2TLVMN.js", imports: ["/build/_shared/chunk-4KF4RRT6.js", "/build/_shared/chunk-RI7KFSFX.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.car.$numberPlate.addinspection": { id: "routes/_home.car.$numberPlate.addinspection", parentId: "routes/_home", path: "car/:numberPlate/addinspection", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.car.$numberPlate.addinspection-PAFEX7OJ.js", imports: ["/build/_shared/chunk-4KF4RRT6.js", "/build/_shared/chunk-RI7KFSFX.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.car._index": { id: "routes/_home.car._index", parentId: "routes/_home", path: "car", index: !0, caseSensitive: void 0, module: "/build/routes/_home.car._index-X4Q6J36P.js", imports: ["/build/_shared/chunk-PUJZWP2U.js", "/build/_shared/chunk-YRLBT3MG.js", "/build/_shared/chunk-4KF4RRT6.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.info._index": { id: "routes/_home.info._index", parentId: "routes/_home", path: "info", index: !0, caseSensitive: void 0, module: "/build/routes/_home.info._index-GSRB6UJ2.js", imports: ["/build/_shared/chunk-QGRJQUMK.js", "/build/_shared/chunk-RI7KFSFX.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.info.edit": { id: "routes/_home.info.edit", parentId: "routes/_home", path: "info/edit", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.info.edit-OR35R3XT.js", imports: ["/build/_shared/chunk-RI7KFSFX.js"], hasAction: !0, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office": { id: "routes/_home.office", parentId: "routes/_home", path: "office", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.office-VICDH5CF.js", imports: void 0, hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office._index": { id: "routes/_home.office._index", parentId: "routes/_home.office", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_home.office._index-EXID3AT3.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office.add": { id: "routes/_home.office.add", parentId: "routes/_home.office", path: "add", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.office.add-HDE7HMZO.js", imports: ["/build/_shared/chunk-PDCAP7X3.js", "/build/_shared/chunk-JPMRNOFY.js", "/build/_shared/chunk-OKC3RWCP.js", "/build/_shared/chunk-YRLBT3MG.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office_.$id": { id: "routes/_home.office_.$id", parentId: "routes/_home", path: "office/:id", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.office_.$id-DWH32SX5.js", imports: ["/build/_shared/chunk-O7R2KCUK.js", "/build/_shared/chunk-OFQHC6HE.js", "/build/_shared/chunk-PUJZWP2U.js", "/build/_shared/chunk-YRLBT3MG.js", "/build/_shared/chunk-4KF4RRT6.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office_.$id._index": { id: "routes/_home.office_.$id._index", parentId: "routes/_home.office_.$id", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_home.office_.$id._index-DM6PWPS2.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office_.$id.addStaff": { id: "routes/_home.office_.$id.addStaff", parentId: "routes/_home.office_.$id", path: "addStaff", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.office_.$id.addStaff-SABQCVG3.js", imports: ["/build/_shared/chunk-PDCAP7X3.js", "/build/_shared/chunk-OKC3RWCP.js", "/build/_shared/chunk-RI7KFSFX.js"], hasAction: !0, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office_.$id.expired": { id: "routes/_home.office_.$id.expired", parentId: "routes/_home.office_.$id", path: "expired", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.office_.$id.expired-NLYZ2Q3I.js", imports: ["/build/_shared/chunk-4CBZHLJK.js", "/build/_shared/chunk-OKC3RWCP.js", "/build/_shared/chunk-RI7KFSFX.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office_.$id.expiredsoon": { id: "routes/_home.office_.$id.expiredsoon", parentId: "routes/_home.office_.$id", path: "expiredsoon", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.office_.$id.expiredsoon-A6TXIBMR.js", imports: ["/build/_shared/chunk-4CBZHLJK.js", "/build/_shared/chunk-OKC3RWCP.js", "/build/_shared/chunk-RI7KFSFX.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office_.$id_.$userID": { id: "routes/_home.office_.$id_.$userID", parentId: "routes/_home", path: "office/:id/:userID", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.office_.$id_.$userID-NE5UDTOH.js", imports: ["/build/_shared/chunk-QGRJQUMK.js", "/build/_shared/chunk-RI7KFSFX.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.search": { id: "routes/_home.search", parentId: "routes/_home", path: "search", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.search-TA6AGPKO.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/changepass": { id: "routes/changepass", parentId: "root", path: "changepass", index: void 0, caseSensitive: void 0, module: "/build/routes/changepass-YVD26BJF.js", imports: ["/build/_shared/chunk-4KF4RRT6.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/forgot-pass": { id: "routes/forgot-pass", parentId: "root", path: "forgot-pass", index: void 0, caseSensitive: void 0, module: "/build/routes/forgot-pass-BZDC4ZY3.js", imports: ["/build/_shared/chunk-KPKQHPMA.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/forgotpassword": { id: "routes/forgotpassword", parentId: "root", path: "forgotpassword", index: void 0, caseSensitive: void 0, module: "/build/routes/forgotpassword-QLV6EJ7S.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/login": { id: "routes/login", parentId: "root", path: "login", index: void 0, caseSensitive: void 0, module: "/build/routes/login-WK2GTSYK.js", imports: ["/build/_shared/chunk-KPKQHPMA.js", "/build/_shared/chunk-2IC54PV3.js", "/build/_shared/chunk-PDCAP7X3.js", "/build/_shared/chunk-MEXKDBJ7.js", "/build/_shared/chunk-4KF4RRT6.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/logout": { id: "routes/logout", parentId: "root", path: "logout", index: void 0, caseSensitive: void 0, module: "/build/routes/logout-5KEBAQVD.js", imports: void 0, hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, cssBundleHref: void 0, hmr: void 0, url: "/build/manifest-4DC0504A.js" };
+    assets_manifest_default = { version: "9a4f778c", entry: { module: "/build/entry.client-KXM3BNQY.js", imports: ["/build/_shared/chunk-QE77VWK2.js", "/build/_shared/chunk-ZIEWKVBB.js", "/build/_shared/chunk-RBEN53O4.js", "/build/_shared/chunk-532K2VPY.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-ZZ3KRETX.js", imports: ["/build/_shared/chunk-PUJZWP2U.js", "/build/_shared/chunk-YRLBT3MG.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !0 }, "routes/_home": { id: "routes/_home", parentId: "root", path: void 0, index: void 0, caseSensitive: void 0, module: "/build/routes/_home-AV2G6VUO.js", imports: ["/build/_shared/chunk-KPKQHPMA.js", "/build/_shared/chunk-2IC54PV3.js", "/build/_shared/chunk-PDCAP7X3.js", "/build/_shared/chunk-MEXKDBJ7.js", "/build/_shared/chunk-4CBZHLJK.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.Inspections.$id": { id: "routes/_home.Inspections.$id", parentId: "routes/_home", path: "Inspections/:id", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.Inspections.$id-VATMP34T.js", imports: ["/build/_shared/chunk-O7R2KCUK.js", "/build/_shared/chunk-YRLBT3MG.js", "/build/_shared/chunk-RI7KFSFX.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.Inspections._index": { id: "routes/_home.Inspections._index", parentId: "routes/_home", path: "Inspections", index: !0, caseSensitive: void 0, module: "/build/routes/_home.Inspections._index-HA4E34GU.js", imports: ["/build/_shared/chunk-YRLBT3MG.js"], hasAction: !0, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home._main": { id: "routes/_home._main", parentId: "routes/_home", path: void 0, index: void 0, caseSensitive: void 0, module: "/build/routes/_home._main-X5OBHKWK.js", imports: ["/build/_shared/chunk-OFQHC6HE.js", "/build/_shared/chunk-PUJZWP2U.js", "/build/_shared/chunk-YRLBT3MG.js", "/build/_shared/chunk-4KF4RRT6.js", "/build/_shared/chunk-RI7KFSFX.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home._main._index": { id: "routes/_home._main._index", parentId: "routes/_home._main", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_home._main._index-RBNPIMHO.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home._main.expired": { id: "routes/_home._main.expired", parentId: "routes/_home._main", path: "expired", index: void 0, caseSensitive: void 0, module: "/build/routes/_home._main.expired-JOTX6GSI.js", imports: ["/build/_shared/chunk-4CBZHLJK.js", "/build/_shared/chunk-OKC3RWCP.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home._main.expiredsoon": { id: "routes/_home._main.expiredsoon", parentId: "routes/_home._main", path: "expiredsoon", index: void 0, caseSensitive: void 0, module: "/build/routes/_home._main.expiredsoon-UL4DVMHX.js", imports: ["/build/_shared/chunk-4CBZHLJK.js", "/build/_shared/chunk-OKC3RWCP.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.analystics.$codename": { id: "routes/_home.analystics.$codename", parentId: "routes/_home", path: "analystics/:codename", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.analystics.$codename-GXZDYFTU.js", imports: ["/build/_shared/chunk-OFQHC6HE.js", "/build/_shared/chunk-JPMRNOFY.js", "/build/_shared/chunk-PUJZWP2U.js", "/build/_shared/chunk-YRLBT3MG.js", "/build/_shared/chunk-4KF4RRT6.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.analystics.$codename._index": { id: "routes/_home.analystics.$codename._index", parentId: "routes/_home.analystics.$codename", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_home.analystics.$codename._index-AM23EO7P.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.analystics.$codename.expired": { id: "routes/_home.analystics.$codename.expired", parentId: "routes/_home.analystics.$codename", path: "expired", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.analystics.$codename.expired-QAZOIKRK.js", imports: ["/build/_shared/chunk-4CBZHLJK.js", "/build/_shared/chunk-OKC3RWCP.js", "/build/_shared/chunk-RI7KFSFX.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.analystics.$codename.expiredsoon": { id: "routes/_home.analystics.$codename.expiredsoon", parentId: "routes/_home.analystics.$codename", path: "expiredsoon", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.analystics.$codename.expiredsoon-4QZJJOAI.js", imports: ["/build/_shared/chunk-4CBZHLJK.js", "/build/_shared/chunk-OKC3RWCP.js", "/build/_shared/chunk-RI7KFSFX.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.analystics._index": { id: "routes/_home.analystics._index", parentId: "routes/_home", path: "analystics", index: !0, caseSensitive: void 0, module: "/build/routes/_home.analystics._index-L3CEEX2K.js", imports: ["/build/_shared/chunk-JPMRNOFY.js", "/build/_shared/chunk-OKC3RWCP.js", "/build/_shared/chunk-YRLBT3MG.js"], hasAction: !0, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.car.$numberPlate._index": { id: "routes/_home.car.$numberPlate._index", parentId: "routes/_home", path: "car/:numberPlate", index: !0, caseSensitive: void 0, module: "/build/routes/_home.car.$numberPlate._index-VA2TLVMN.js", imports: ["/build/_shared/chunk-4KF4RRT6.js", "/build/_shared/chunk-RI7KFSFX.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.car.$numberPlate.addinspection": { id: "routes/_home.car.$numberPlate.addinspection", parentId: "routes/_home", path: "car/:numberPlate/addinspection", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.car.$numberPlate.addinspection-PAFEX7OJ.js", imports: ["/build/_shared/chunk-4KF4RRT6.js", "/build/_shared/chunk-RI7KFSFX.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.car._index": { id: "routes/_home.car._index", parentId: "routes/_home", path: "car", index: !0, caseSensitive: void 0, module: "/build/routes/_home.car._index-X4Q6J36P.js", imports: ["/build/_shared/chunk-PUJZWP2U.js", "/build/_shared/chunk-YRLBT3MG.js", "/build/_shared/chunk-4KF4RRT6.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.info._index": { id: "routes/_home.info._index", parentId: "routes/_home", path: "info", index: !0, caseSensitive: void 0, module: "/build/routes/_home.info._index-GSRB6UJ2.js", imports: ["/build/_shared/chunk-QGRJQUMK.js", "/build/_shared/chunk-RI7KFSFX.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.info.edit": { id: "routes/_home.info.edit", parentId: "routes/_home", path: "info/edit", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.info.edit-OR35R3XT.js", imports: ["/build/_shared/chunk-RI7KFSFX.js"], hasAction: !0, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office": { id: "routes/_home.office", parentId: "routes/_home", path: "office", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.office-VICDH5CF.js", imports: void 0, hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office._index": { id: "routes/_home.office._index", parentId: "routes/_home.office", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_home.office._index-EXID3AT3.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office.add": { id: "routes/_home.office.add", parentId: "routes/_home.office", path: "add", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.office.add-HDE7HMZO.js", imports: ["/build/_shared/chunk-PDCAP7X3.js", "/build/_shared/chunk-JPMRNOFY.js", "/build/_shared/chunk-OKC3RWCP.js", "/build/_shared/chunk-YRLBT3MG.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office_.$id": { id: "routes/_home.office_.$id", parentId: "routes/_home", path: "office/:id", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.office_.$id-DWH32SX5.js", imports: ["/build/_shared/chunk-O7R2KCUK.js", "/build/_shared/chunk-OFQHC6HE.js", "/build/_shared/chunk-PUJZWP2U.js", "/build/_shared/chunk-YRLBT3MG.js", "/build/_shared/chunk-4KF4RRT6.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office_.$id._index": { id: "routes/_home.office_.$id._index", parentId: "routes/_home.office_.$id", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_home.office_.$id._index-DM6PWPS2.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office_.$id.addStaff": { id: "routes/_home.office_.$id.addStaff", parentId: "routes/_home.office_.$id", path: "addStaff", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.office_.$id.addStaff-SABQCVG3.js", imports: ["/build/_shared/chunk-PDCAP7X3.js", "/build/_shared/chunk-OKC3RWCP.js", "/build/_shared/chunk-RI7KFSFX.js"], hasAction: !0, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office_.$id.expired": { id: "routes/_home.office_.$id.expired", parentId: "routes/_home.office_.$id", path: "expired", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.office_.$id.expired-NLYZ2Q3I.js", imports: ["/build/_shared/chunk-4CBZHLJK.js", "/build/_shared/chunk-OKC3RWCP.js", "/build/_shared/chunk-RI7KFSFX.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office_.$id.expiredsoon": { id: "routes/_home.office_.$id.expiredsoon", parentId: "routes/_home.office_.$id", path: "expiredsoon", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.office_.$id.expiredsoon-A6TXIBMR.js", imports: ["/build/_shared/chunk-4CBZHLJK.js", "/build/_shared/chunk-OKC3RWCP.js", "/build/_shared/chunk-RI7KFSFX.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office_.$id_.$userID": { id: "routes/_home.office_.$id_.$userID", parentId: "routes/_home", path: "office/:id/:userID", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.office_.$id_.$userID-NE5UDTOH.js", imports: ["/build/_shared/chunk-QGRJQUMK.js", "/build/_shared/chunk-RI7KFSFX.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.search": { id: "routes/_home.search", parentId: "routes/_home", path: "search", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.search-TA6AGPKO.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/changepass": { id: "routes/changepass", parentId: "root", path: "changepass", index: void 0, caseSensitive: void 0, module: "/build/routes/changepass-YVD26BJF.js", imports: ["/build/_shared/chunk-4KF4RRT6.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/forgot-pass": { id: "routes/forgot-pass", parentId: "root", path: "forgot-pass", index: void 0, caseSensitive: void 0, module: "/build/routes/forgot-pass-BZDC4ZY3.js", imports: ["/build/_shared/chunk-KPKQHPMA.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/forgotpassword": { id: "routes/forgotpassword", parentId: "root", path: "forgotpassword", index: void 0, caseSensitive: void 0, module: "/build/routes/forgotpassword-QLV6EJ7S.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/login": { id: "routes/login", parentId: "root", path: "login", index: void 0, caseSensitive: void 0, module: "/build/routes/login-WK2GTSYK.js", imports: ["/build/_shared/chunk-KPKQHPMA.js", "/build/_shared/chunk-2IC54PV3.js", "/build/_shared/chunk-PDCAP7X3.js", "/build/_shared/chunk-MEXKDBJ7.js", "/build/_shared/chunk-4KF4RRT6.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/logout": { id: "routes/logout", parentId: "root", path: "logout", index: void 0, caseSensitive: void 0, module: "/build/routes/logout-5KEBAQVD.js", imports: void 0, hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, cssBundleHref: void 0, hmr: void 0, url: "/build/manifest-9A4F778C.js" };
   }
 });
 
@@ -269,19 +269,34 @@ function App() {
         lineNumber: 40,
         columnNumber: 9
       }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(
+        "meta",
+        {
+          "http-equiv": "Cache-Control",
+          content: "max-age: 31536000, no-cache, no-store, must-revalidate"
+        },
+        void 0,
+        !1,
+        {
+          fileName: "app/root.jsx",
+          lineNumber: 42,
+          columnNumber: 9
+        },
+        this
+      ),
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("meta", { name: "viewport", content: "width=device-width,initial-scale=1" }, void 0, !1, {
         fileName: "app/root.jsx",
-        lineNumber: 42,
+        lineNumber: 46,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(import_react2.Meta, {}, void 0, !1, {
         fileName: "app/root.jsx",
-        lineNumber: 43,
+        lineNumber: 47,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(import_react2.Links, {}, void 0, !1, {
         fileName: "app/root.jsx",
-        lineNumber: 44,
+        lineNumber: 48,
         columnNumber: 9
       }, this)
     ] }, void 0, !0, {
@@ -292,28 +307,28 @@ function App() {
     /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("body", { className: "dark", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(import_react2.Outlet, { scrollBehavior: "smooth" }, void 0, !1, {
         fileName: "app/root.jsx",
-        lineNumber: 47,
+        lineNumber: 51,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(import_react2.ScrollRestoration, {}, void 0, !1, {
         fileName: "app/root.jsx",
-        lineNumber: 48,
+        lineNumber: 52,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(import_react2.Scripts, {}, void 0, !1, {
         fileName: "app/root.jsx",
-        lineNumber: 49,
+        lineNumber: 53,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(import_react2.LiveReload, {}, void 0, !1, {
         fileName: "app/root.jsx",
-        lineNumber: 50,
+        lineNumber: 54,
         columnNumber: 9
       }, this),
       spinner
     ] }, void 0, !0, {
       fileName: "app/root.jsx",
-      lineNumber: 46,
+      lineNumber: 50,
       columnNumber: 7
     }, this)
   ] }, void 0, !0, {
@@ -331,64 +346,64 @@ function ErrorBoundary() {
       error.statusText
     ] }, void 0, !0, {
       fileName: "app/root.jsx",
-      lineNumber: 65,
+      lineNumber: 69,
       columnNumber: 9
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("p", { children: error.data }, void 0, !1, {
       fileName: "app/root.jsx",
-      lineNumber: 68,
+      lineNumber: 72,
       columnNumber: 9
     }, this)
   ] }, void 0, !0, {
     fileName: "app/root.jsx",
-    lineNumber: 64,
+    lineNumber: 68,
     columnNumber: 7
   }, this) : error instanceof Error ? /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("html", { lang: "en", style: { overflow: "auto" }, children: [
     /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("head", { children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("meta", { charSet: "utf-8" }, void 0, !1, {
         fileName: "app/root.jsx",
-        lineNumber: 75,
+        lineNumber: 79,
         columnNumber: 11
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("meta", { name: "viewport", content: "width=device-width,initial-scale=1" }, void 0, !1, {
         fileName: "app/root.jsx",
-        lineNumber: 76,
+        lineNumber: 80,
         columnNumber: 11
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(import_react2.Meta, {}, void 0, !1, {
         fileName: "app/root.jsx",
-        lineNumber: 77,
+        lineNumber: 81,
         columnNumber: 11
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(import_react2.Links, {}, void 0, !1, {
         fileName: "app/root.jsx",
-        lineNumber: 78,
+        lineNumber: 82,
         columnNumber: 11
       }, this)
     ] }, void 0, !0, {
       fileName: "app/root.jsx",
-      lineNumber: 74,
+      lineNumber: 78,
       columnNumber: 9
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("body", { className: "dark", children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("main", { className: "bg-gray-50 dark:bg-gray-900", children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "flex flex-col justify-center items-center px-6 mx-auto h-screen xl:px-0 dark:bg-gray-900", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "block md:max-w-lg", children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("img", { src: __default, alt: "astronaut image" }, void 0, !1, {
         fileName: "app/root.jsx",
-        lineNumber: 84,
+        lineNumber: 88,
         columnNumber: 17
       }, this) }, void 0, !1, {
         fileName: "app/root.jsx",
-        lineNumber: 83,
+        lineNumber: 87,
         columnNumber: 15
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "text-center xl:max-w-4xl", children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("h1", { className: "mb-3 text-2xl font-bold leading-tight text-gray-900 sm:text-4xl lg:text-5xl dark:text-white", children: "Page not found" }, void 0, !1, {
           fileName: "app/root.jsx",
-          lineNumber: 87,
+          lineNumber: 91,
           columnNumber: 17
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("p", { className: "mb-5 text-base font-normal text-gray-500 md:text-lg dark:text-gray-400", children: error.message }, void 0, !1, {
           fileName: "app/root.jsx",
-          lineNumber: 90,
+          lineNumber: 94,
           columnNumber: 17
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(
@@ -415,7 +430,7 @@ function ErrorBoundary() {
                     !1,
                     {
                       fileName: "app/root.jsx",
-                      lineNumber: 103,
+                      lineNumber: 107,
                       columnNumber: 21
                     },
                     this
@@ -425,7 +440,7 @@ function ErrorBoundary() {
                 !1,
                 {
                   fileName: "app/root.jsx",
-                  lineNumber: 97,
+                  lineNumber: 101,
                   columnNumber: 19
                 },
                 this
@@ -437,36 +452,36 @@ function ErrorBoundary() {
           !0,
           {
             fileName: "app/root.jsx",
-            lineNumber: 93,
+            lineNumber: 97,
             columnNumber: 17
           },
           this
         )
       ] }, void 0, !0, {
         fileName: "app/root.jsx",
-        lineNumber: 86,
+        lineNumber: 90,
         columnNumber: 15
       }, this)
     ] }, void 0, !0, {
       fileName: "app/root.jsx",
-      lineNumber: 82,
+      lineNumber: 86,
       columnNumber: 13
     }, this) }, void 0, !1, {
       fileName: "app/root.jsx",
-      lineNumber: 81,
+      lineNumber: 85,
       columnNumber: 11
     }, this) }, void 0, !1, {
       fileName: "app/root.jsx",
-      lineNumber: 80,
+      lineNumber: 84,
       columnNumber: 9
     }, this)
   ] }, void 0, !0, {
     fileName: "app/root.jsx",
-    lineNumber: 73,
+    lineNumber: 77,
     columnNumber: 7
   }, this) : /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("h1", { children: "Unknown Error" }, void 0, !1, {
     fileName: "app/root.jsx",
-    lineNumber: 118,
+    lineNumber: 122,
     columnNumber: 12
   }, this);
 }
@@ -6509,6 +6524,7 @@ function InspectionsForm({ data }) {
                 "input",
                 {
                   type: "checkbox",
+                  readOnly: !0,
                   className: "w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
                 },
                 void 0,
@@ -6543,7 +6559,7 @@ function InspectionsForm({ data }) {
       /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("section", { className: "m-4", children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("h2", { className: "sm:text-2xl text-xl font-medium title-font mb-2 text-gray-900 text-center dark:text-red-500", children: "2. TH\xD4NG S\u1ED0 K\u1EF8 THU\u1EACT\u2002(SPECIFICATIONS)" }, void 0, !1, {
           fileName: "app/components/Inspections/InspectionsForm.jsx",
-          lineNumber: 87,
+          lineNumber: 88,
           columnNumber: 15
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("div", { className: "text-left flex w-full  mt-1", children: [
@@ -6552,7 +6568,7 @@ function InspectionsForm({ data }) {
             data.car.specification.wheelFormula
           ] }, void 0, !0, {
             fileName: "app/components/Inspections/InspectionsForm.jsx",
-            lineNumber: 91,
+            lineNumber: 92,
             columnNumber: 17
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("div", { className: "flex-1", children: [
@@ -6560,42 +6576,42 @@ function InspectionsForm({ data }) {
             data.car.specification.wheelTread
           ] }, void 0, !0, {
             fileName: "app/components/Inspections/InspectionsForm.jsx",
-            lineNumber: 94,
+            lineNumber: 95,
             columnNumber: 17
           }, this)
         ] }, void 0, !0, {
           fileName: "app/components/Inspections/InspectionsForm.jsx",
-          lineNumber: 90,
+          lineNumber: 91,
           columnNumber: 15
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("div", { className: "text-left flex w-full  italic text-sm", children: [
           /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("div", { className: "flex-1", children: "(Wheel Formula)" }, void 0, !1, {
             fileName: "app/components/Inspections/InspectionsForm.jsx",
-            lineNumber: 99,
+            lineNumber: 100,
             columnNumber: 17
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("div", { className: "flex-1", children: "(Wheel Tread)" }, void 0, !1, {
             fileName: "app/components/Inspections/InspectionsForm.jsx",
-            lineNumber: 100,
+            lineNumber: 101,
             columnNumber: 17
           }, this)
         ] }, void 0, !0, {
           fileName: "app/components/Inspections/InspectionsForm.jsx",
-          lineNumber: 98,
+          lineNumber: 99,
           columnNumber: 15
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("div", { className: "text-left  w-full mt-1", children: [
           "K\xEDch th\u01B0\u1EDBc bao:",
           /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("span", { className: "italic text-sm", children: "(Overall Dimension)" }, void 0, !1, {
             fileName: "app/components/Inspections/InspectionsForm.jsx",
-            lineNumber: 104,
+            lineNumber: 105,
             columnNumber: 17
           }, this),
           " ",
           data.car.specification.overallDimension
         ] }, void 0, !0, {
           fileName: "app/components/Inspections/InspectionsForm.jsx",
-          lineNumber: 102,
+          lineNumber: 103,
           columnNumber: 15
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("div", { className: "text-left  w-full mt-1", children: [
@@ -6603,54 +6619,54 @@ function InspectionsForm({ data }) {
             "KT khoang h\xE0nh l\xFD l\u1EDBn nh\u1EA5t:",
             /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("span", { className: "italic text-sm", children: "(Largest luggage container Dimension)" }, void 0, !1, {
               fileName: "app/components/Inspections/InspectionsForm.jsx",
-              lineNumber: 110,
+              lineNumber: 111,
               columnNumber: 19
             }, this)
           ] }, void 0, !0, {
             fileName: "app/components/Inspections/InspectionsForm.jsx",
-            lineNumber: 108,
+            lineNumber: 109,
             columnNumber: 17
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("div", { className: "block w-full", children: data.car.specification.luggageContainer }, void 0, !1, {
             fileName: "app/components/Inspections/InspectionsForm.jsx",
-            lineNumber: 115,
+            lineNumber: 116,
             columnNumber: 17
           }, this)
         ] }, void 0, !0, {
           fileName: "app/components/Inspections/InspectionsForm.jsx",
-          lineNumber: 107,
+          lineNumber: 108,
           columnNumber: 15
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("div", { className: "text-left  w-full mt-1", children: [
           "Chi\u1EC1u d\xE0i c\u01A1 s\u1EDF:",
           /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("span", { className: "italic text-sm", children: "(WheelBase)" }, void 0, !1, {
             fileName: "app/components/Inspections/InspectionsForm.jsx",
-            lineNumber: 121,
+            lineNumber: 122,
             columnNumber: 17
           }, this),
           " ",
           data.car.specification.wheelBase
         ] }, void 0, !0, {
           fileName: "app/components/Inspections/InspectionsForm.jsx",
-          lineNumber: 119,
+          lineNumber: 120,
           columnNumber: 15
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("div", { className: "text-left  w-full mt-1", children: [
           "Kh\u1ED1i l\u01B0\u1EE3ng b\u1EA3n th\xE2n:",
           /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("span", { className: "italic text-sm", children: "(KerbMass)" }, void 0, !1, {
             fileName: "app/components/Inspections/InspectionsForm.jsx",
-            lineNumber: 126,
+            lineNumber: 127,
             columnNumber: 17
           }, this),
           data.car.specification.kerbMass
         ] }, void 0, !0, {
           fileName: "app/components/Inspections/InspectionsForm.jsx",
-          lineNumber: 124,
+          lineNumber: 125,
           columnNumber: 15
         }, this)
       ] }, void 0, !0, {
         fileName: "app/components/Inspections/InspectionsForm.jsx",
-        lineNumber: 86,
+        lineNumber: 87,
         columnNumber: 13
       }, this)
     ] }, void 0, !0, {
@@ -6666,17 +6682,17 @@ function InspectionsForm({ data }) {
           data.car.specification.authorizedPayload
         ] }, void 0, !0, {
           fileName: "app/components/Inspections/InspectionsForm.jsx",
-          lineNumber: 136,
+          lineNumber: 137,
           columnNumber: 17
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("div", { className: "block w-full italic text-sm", children: "(Design/Authorize Payload)" }, void 0, !1, {
           fileName: "app/components/Inspections/InspectionsForm.jsx",
-          lineNumber: 140,
+          lineNumber: 141,
           columnNumber: 17
         }, this)
       ] }, void 0, !0, {
         fileName: "app/components/Inspections/InspectionsForm.jsx",
-        lineNumber: 135,
+        lineNumber: 136,
         columnNumber: 15
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("div", { className: "text-left  w-full mt-1", children: [
@@ -6686,17 +6702,17 @@ function InspectionsForm({ data }) {
           data.car.specification.authorizedTotalMass
         ] }, void 0, !0, {
           fileName: "app/components/Inspections/InspectionsForm.jsx",
-          lineNumber: 145,
+          lineNumber: 146,
           columnNumber: 17
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("div", { className: "block w-full italic text-sm", children: "(Design/Authorize total mass)" }, void 0, !1, {
           fileName: "app/components/Inspections/InspectionsForm.jsx",
-          lineNumber: 149,
+          lineNumber: 150,
           columnNumber: 17
         }, this)
       ] }, void 0, !0, {
         fileName: "app/components/Inspections/InspectionsForm.jsx",
-        lineNumber: 144,
+        lineNumber: 145,
         columnNumber: 15
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("div", { className: "text-left  w-full mt-1", children: [
@@ -6706,17 +6722,17 @@ function InspectionsForm({ data }) {
           data.car.specification.authorizedTowedMass
         ] }, void 0, !0, {
           fileName: "app/components/Inspections/InspectionsForm.jsx",
-          lineNumber: 154,
+          lineNumber: 155,
           columnNumber: 17
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("div", { className: "block w-full italic text-sm", children: "(Design/Authorize towed mass)" }, void 0, !1, {
           fileName: "app/components/Inspections/InspectionsForm.jsx",
-          lineNumber: 158,
+          lineNumber: 159,
           columnNumber: 17
         }, this)
       ] }, void 0, !0, {
         fileName: "app/components/Inspections/InspectionsForm.jsx",
-        lineNumber: 153,
+        lineNumber: 154,
         columnNumber: 15
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("div", { className: "text-left  w-full mt-1", children: [
@@ -6725,56 +6741,56 @@ function InspectionsForm({ data }) {
           data.car.specification.carriedNo
         ] }, void 0, !0, {
           fileName: "app/components/Inspections/InspectionsForm.jsx",
-          lineNumber: 163,
+          lineNumber: 164,
           columnNumber: 17
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("div", { className: "block w-full italic text-sm", children: "(Permission No. of Pers Carried: seat, stood place, laying place)" }, void 0, !1, {
           fileName: "app/components/Inspections/InspectionsForm.jsx",
-          lineNumber: 166,
+          lineNumber: 167,
           columnNumber: 17
         }, this)
       ] }, void 0, !0, {
         fileName: "app/components/Inspections/InspectionsForm.jsx",
-        lineNumber: 162,
+        lineNumber: 163,
         columnNumber: 15
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("div", { className: "text-left  w-full mt-1", children: [
         "Lo\u1EA1i nhi\xEAn li\u1EC7u:",
         /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("span", { className: "italic text-sm", children: "(Type of Fuel Used)" }, void 0, !1, {
           fileName: "app/components/Inspections/InspectionsForm.jsx",
-          lineNumber: 173,
+          lineNumber: 174,
           columnNumber: 17
         }, this),
         data.car.specification.fuel
       ] }, void 0, !0, {
         fileName: "app/components/Inspections/InspectionsForm.jsx",
-        lineNumber: 171,
+        lineNumber: 172,
         columnNumber: 15
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("div", { className: "text-left  w-full mt-1", children: [
         "Th\u1EC3 t\xEDch l\xE0m vi\u1EC7c c\u1EE7a \u0111\u1ED9ng c\u01A1:",
         /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("span", { className: "italic text-sm", children: "(Engine displacement)" }, void 0, !1, {
           fileName: "app/components/Inspections/InspectionsForm.jsx",
-          lineNumber: 178,
+          lineNumber: 179,
           columnNumber: 17
         }, this),
         data.car.specification.engineDisplacement
       ] }, void 0, !0, {
         fileName: "app/components/Inspections/InspectionsForm.jsx",
-        lineNumber: 176,
+        lineNumber: 177,
         columnNumber: 15
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("div", { className: "text-left  w-full mt-1", children: [
         "C\xF4ng su\u1EA5t l\u1EDBn nh\u1EA5t/t\u1ED1c \u0111\u1ED9 quay:",
         /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("span", { className: "italic text-sm", children: "(Max. output/rpm)" }, void 0, !1, {
           fileName: "app/components/Inspections/InspectionsForm.jsx",
-          lineNumber: 183,
+          lineNumber: 184,
           columnNumber: 17
         }, this),
         data.car.specification.maxOutputToRpmRatio
       ] }, void 0, !0, {
         fileName: "app/components/Inspections/InspectionsForm.jsx",
-        lineNumber: 181,
+        lineNumber: 182,
         columnNumber: 15
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("div", { className: "text-left  w-full mt-1", children: [
@@ -6782,72 +6798,72 @@ function InspectionsForm({ data }) {
           "S\u1ED1 l\u01B0\u1EE3ng l\u1ED1p, c\u1EE1 l\u1ED1p/tr\u1EE5c:",
           /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("span", { className: "italic text-sm", children: "(Number of Tires; Tire size/axle)" }, void 0, !1, {
             fileName: "app/components/Inspections/InspectionsForm.jsx",
-            lineNumber: 189,
+            lineNumber: 190,
             columnNumber: 19
           }, this)
         ] }, void 0, !0, {
           fileName: "app/components/Inspections/InspectionsForm.jsx",
-          lineNumber: 187,
+          lineNumber: 188,
           columnNumber: 17
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("div", { children: [
           /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("div", { children: data.car.specification.numberOfTiresAndTireSize }, void 0, !1, {
             fileName: "app/components/Inspections/InspectionsForm.jsx",
-            lineNumber: 194,
+            lineNumber: 195,
             columnNumber: 19
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("div", { children: data.car.specification.numberOfTiresAndTireSize }, void 0, !1, {
             fileName: "app/components/Inspections/InspectionsForm.jsx",
-            lineNumber: 195,
+            lineNumber: 196,
             columnNumber: 19
           }, this)
         ] }, void 0, !0, {
           fileName: "app/components/Inspections/InspectionsForm.jsx",
-          lineNumber: 193,
+          lineNumber: 194,
           columnNumber: 17
         }, this)
       ] }, void 0, !0, {
         fileName: "app/components/Inspections/InspectionsForm.jsx",
-        lineNumber: 186,
+        lineNumber: 187,
         columnNumber: 15
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("div", { className: "container flex flex-wrap mx-auto items-center pt-3", children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("div", { className: "flex-initial w-1/3 pt-5", children: [
           /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("div", { className: "text-left  w-full mt-1", children: "S\u1ED1 phi\u1EBFu ki\u1EC3m \u0111\u1ECBnh:" }, void 0, !1, {
             fileName: "app/components/Inspections/InspectionsForm.jsx",
-            lineNumber: 200,
+            lineNumber: 201,
             columnNumber: 19
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("div", { className: "italic text-sm ", children: "(Inspection Report No)" }, void 0, !1, {
             fileName: "app/components/Inspections/InspectionsForm.jsx",
-            lineNumber: 203,
+            lineNumber: 204,
             columnNumber: 19
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("div", { className: " text-left", children: data.regisNum }, void 0, !1, {
             fileName: "app/components/Inspections/InspectionsForm.jsx",
-            lineNumber: 204,
+            lineNumber: 205,
             columnNumber: 19
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("div", { className: "text-left  w-full mt-1", children: "C\xF3 hi\u1EC7u l\u1EF1c \u0111\u1EBFn h\u1EBFt ng\xE0y:" }, void 0, !1, {
             fileName: "app/components/Inspections/InspectionsForm.jsx",
-            lineNumber: 205,
+            lineNumber: 206,
             columnNumber: 19
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("div", { className: "italic text-sm ", children: [
             "(Valid Until)",
             /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("span", { className: " text-md text-left", children: formatDate(data.expiredDate) }, void 0, !1, {
               fileName: "app/components/Inspections/InspectionsForm.jsx",
-              lineNumber: 210,
+              lineNumber: 211,
               columnNumber: 21
             }, this)
           ] }, void 0, !0, {
             fileName: "app/components/Inspections/InspectionsForm.jsx",
-            lineNumber: 208,
+            lineNumber: 209,
             columnNumber: 19
           }, this)
         ] }, void 0, !0, {
           fileName: "app/components/Inspections/InspectionsForm.jsx",
-          lineNumber: 199,
+          lineNumber: 200,
           columnNumber: 17
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("div", { className: "flex-initial w-2/3", children: [
@@ -6857,47 +6873,47 @@ function InspectionsForm({ data }) {
             formatDate(data.regisDate)
           ] }, void 0, !0, {
             fileName: "app/components/Inspections/InspectionsForm.jsx",
-            lineNumber: 216,
+            lineNumber: 217,
             columnNumber: 19
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("div", { className: "italic text-sm  text-center", children: "(Issue on Date/Month/Year)" }, void 0, !1, {
             fileName: "app/components/Inspections/InspectionsForm.jsx",
-            lineNumber: 219,
+            lineNumber: 220,
             columnNumber: 19
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("div", { children: [
             /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("h3", { className: "font-medium title-font text-center ", children: "\u0110\u01A0N V\u1ECA KI\u1EC2M \u0110\u1ECANH" }, void 0, !1, {
               fileName: "app/components/Inspections/InspectionsForm.jsx",
-              lineNumber: 223,
+              lineNumber: 224,
               columnNumber: 21
             }, this),
             /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("div", { className: "mt-3 dark:text-red-700 text-center font-medium block", children: data.regisPlace.name }, void 0, !1, {
               fileName: "app/components/Inspections/InspectionsForm.jsx",
-              lineNumber: 226,
+              lineNumber: 227,
               columnNumber: 21
             }, this)
           ] }, void 0, !0, {
             fileName: "app/components/Inspections/InspectionsForm.jsx",
-            lineNumber: 222,
+            lineNumber: 223,
             columnNumber: 19
           }, this)
         ] }, void 0, !0, {
           fileName: "app/components/Inspections/InspectionsForm.jsx",
-          lineNumber: 215,
+          lineNumber: 216,
           columnNumber: 17
         }, this)
       ] }, void 0, !0, {
         fileName: "app/components/Inspections/InspectionsForm.jsx",
-        lineNumber: 198,
+        lineNumber: 199,
         columnNumber: 15
       }, this)
     ] }, void 0, !0, {
       fileName: "app/components/Inspections/InspectionsForm.jsx",
-      lineNumber: 134,
+      lineNumber: 135,
       columnNumber: 13
     }, this) }, void 0, !1, {
       fileName: "app/components/Inspections/InspectionsForm.jsx",
-      lineNumber: 133,
+      lineNumber: 134,
       columnNumber: 11
     }, this)
   ] }, void 0, !0, {
