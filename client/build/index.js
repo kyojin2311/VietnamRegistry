@@ -34,7 +34,7 @@ __export(assets_manifest_exports, {
 });
 var assets_manifest_default, init_assets_manifest = __esm({
   "server-assets-manifest:@remix-run/dev/assets-manifest"() {
-    assets_manifest_default = { version: "50cdbe46", entry: { module: "/build/entry.client-W4TXQQ2T.js", imports: ["/build/_shared/chunk-52JS6F46.js", "/build/_shared/chunk-MRPPUX3F.js", "/build/_shared/chunk-RQ7GWW3B.js", "/build/_shared/chunk-DG4HR4CT.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-3FRY4ZF5.js", imports: ["/build/_shared/chunk-2ZE3FT2E.js", "/build/_shared/chunk-4XM7QDXF.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !0 }, "routes/_home": { id: "routes/_home", parentId: "root", path: void 0, index: void 0, caseSensitive: void 0, module: "/build/routes/_home-6CG4KJ7T.js", imports: ["/build/_shared/chunk-IDR7SUUB.js", "/build/_shared/chunk-KPKQHPMA.js", "/build/_shared/chunk-NHPJXLCO.js", "/build/_shared/chunk-AF3DCVCM.js", "/build/_shared/chunk-ORJIJL2D.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.Inspections.$id": { id: "routes/_home.Inspections.$id", parentId: "routes/_home", path: "Inspections/:id", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.Inspections.$id-CDZ5F7AA.js", imports: ["/build/_shared/chunk-CQ6B4OCZ.js", "/build/_shared/chunk-4XM7QDXF.js", "/build/_shared/chunk-CNSHZ57Q.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.Inspections._index": { id: "routes/_home.Inspections._index", parentId: "routes/_home", path: "Inspections", index: !0, caseSensitive: void 0, module: "/build/routes/_home.Inspections._index-ULI2GZH7.js", imports: ["/build/_shared/chunk-4XM7QDXF.js"], hasAction: !0, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home._main": { id: "routes/_home._main", parentId: "routes/_home", path: void 0, index: void 0, caseSensitive: void 0, module: "/build/routes/_home._main-RBNJP4U4.js", imports: ["/build/_shared/chunk-CXDSJXHH.js", "/build/_shared/chunk-2ZE3FT2E.js", "/build/_shared/chunk-4XM7QDXF.js", "/build/_shared/chunk-2L3TLXHT.js", "/build/_shared/chunk-CNSHZ57Q.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home._main._index": { id: "routes/_home._main._index", parentId: "routes/_home._main", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_home._main._index-CFZFAQKC.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home._main.expired": { id: "routes/_home._main.expired", parentId: "routes/_home._main", path: "expired", index: void 0, caseSensitive: void 0, module: "/build/routes/_home._main.expired-NFG2WYVE.js", imports: ["/build/_shared/chunk-ORJIJL2D.js", "/build/_shared/chunk-2W2NOZVU.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home._main.expiredsoon": { id: "routes/_home._main.expiredsoon", parentId: "routes/_home._main", path: "expiredsoon", index: void 0, caseSensitive: void 0, module: "/build/routes/_home._main.expiredsoon-FZCWPO6I.js", imports: ["/build/_shared/chunk-ORJIJL2D.js", "/build/_shared/chunk-2W2NOZVU.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.analystics.$codename": { id: "routes/_home.analystics.$codename", parentId: "routes/_home", path: "analystics/:codename", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.analystics.$codename-ZLK3MBYO.js", imports: ["/build/_shared/chunk-CXDSJXHH.js", "/build/_shared/chunk-JPMRNOFY.js", "/build/_shared/chunk-2ZE3FT2E.js", "/build/_shared/chunk-4XM7QDXF.js", "/build/_shared/chunk-2L3TLXHT.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.analystics.$codename._index": { id: "routes/_home.analystics.$codename._index", parentId: "routes/_home.analystics.$codename", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_home.analystics.$codename._index-C3T7AASK.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.analystics.$codename.expired": { id: "routes/_home.analystics.$codename.expired", parentId: "routes/_home.analystics.$codename", path: "expired", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.analystics.$codename.expired-KY2ZE3AW.js", imports: ["/build/_shared/chunk-ORJIJL2D.js", "/build/_shared/chunk-2W2NOZVU.js", "/build/_shared/chunk-CNSHZ57Q.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.analystics.$codename.expiredsoon": { id: "routes/_home.analystics.$codename.expiredsoon", parentId: "routes/_home.analystics.$codename", path: "expiredsoon", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.analystics.$codename.expiredsoon-MOSS7TZ2.js", imports: ["/build/_shared/chunk-ORJIJL2D.js", "/build/_shared/chunk-2W2NOZVU.js", "/build/_shared/chunk-CNSHZ57Q.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.analystics._index": { id: "routes/_home.analystics._index", parentId: "routes/_home", path: "analystics", index: !0, caseSensitive: void 0, module: "/build/routes/_home.analystics._index-ZVRU5VPI.js", imports: ["/build/_shared/chunk-JPMRNOFY.js", "/build/_shared/chunk-2W2NOZVU.js", "/build/_shared/chunk-4XM7QDXF.js"], hasAction: !0, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.car.$numberPlate._index": { id: "routes/_home.car.$numberPlate._index", parentId: "routes/_home", path: "car/:numberPlate", index: !0, caseSensitive: void 0, module: "/build/routes/_home.car.$numberPlate._index-RMJDFY5J.js", imports: ["/build/_shared/chunk-2L3TLXHT.js", "/build/_shared/chunk-CNSHZ57Q.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.car.$numberPlate.addinspection": { id: "routes/_home.car.$numberPlate.addinspection", parentId: "routes/_home", path: "car/:numberPlate/addinspection", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.car.$numberPlate.addinspection-V3TOWDQI.js", imports: ["/build/_shared/chunk-2L3TLXHT.js", "/build/_shared/chunk-CNSHZ57Q.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.car._index": { id: "routes/_home.car._index", parentId: "routes/_home", path: "car", index: !0, caseSensitive: void 0, module: "/build/routes/_home.car._index-R4EY23MU.js", imports: ["/build/_shared/chunk-2ZE3FT2E.js", "/build/_shared/chunk-4XM7QDXF.js", "/build/_shared/chunk-2L3TLXHT.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.info._index": { id: "routes/_home.info._index", parentId: "routes/_home", path: "info", index: !0, caseSensitive: void 0, module: "/build/routes/_home.info._index-CEGOL4HM.js", imports: ["/build/_shared/chunk-QGRJQUMK.js", "/build/_shared/chunk-CNSHZ57Q.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.info.edit": { id: "routes/_home.info.edit", parentId: "routes/_home", path: "info/edit", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.info.edit-DIEDGLMK.js", imports: ["/build/_shared/chunk-CNSHZ57Q.js"], hasAction: !0, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office": { id: "routes/_home.office", parentId: "routes/_home", path: "office", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.office-7RVZIUL6.js", imports: void 0, hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office._index": { id: "routes/_home.office._index", parentId: "routes/_home.office", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_home.office._index-SS2XENQ7.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office.add": { id: "routes/_home.office.add", parentId: "routes/_home.office", path: "add", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.office.add-KQ4ABYYV.js", imports: ["/build/_shared/chunk-AF3DCVCM.js", "/build/_shared/chunk-JPMRNOFY.js", "/build/_shared/chunk-2W2NOZVU.js", "/build/_shared/chunk-4XM7QDXF.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office_.$id": { id: "routes/_home.office_.$id", parentId: "routes/_home", path: "office/:id", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.office_.$id-QCXBLGDZ.js", imports: ["/build/_shared/chunk-CQ6B4OCZ.js", "/build/_shared/chunk-CXDSJXHH.js", "/build/_shared/chunk-2ZE3FT2E.js", "/build/_shared/chunk-4XM7QDXF.js", "/build/_shared/chunk-2L3TLXHT.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office_.$id._index": { id: "routes/_home.office_.$id._index", parentId: "routes/_home.office_.$id", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_home.office_.$id._index-RDW222FZ.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office_.$id.addStaff": { id: "routes/_home.office_.$id.addStaff", parentId: "routes/_home.office_.$id", path: "addStaff", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.office_.$id.addStaff-XN226CCR.js", imports: ["/build/_shared/chunk-AF3DCVCM.js", "/build/_shared/chunk-2W2NOZVU.js", "/build/_shared/chunk-CNSHZ57Q.js"], hasAction: !0, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office_.$id.expired": { id: "routes/_home.office_.$id.expired", parentId: "routes/_home.office_.$id", path: "expired", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.office_.$id.expired-HDNNZUBT.js", imports: ["/build/_shared/chunk-ORJIJL2D.js", "/build/_shared/chunk-2W2NOZVU.js", "/build/_shared/chunk-CNSHZ57Q.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office_.$id.expiredsoon": { id: "routes/_home.office_.$id.expiredsoon", parentId: "routes/_home.office_.$id", path: "expiredsoon", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.office_.$id.expiredsoon-B2QLBM5G.js", imports: ["/build/_shared/chunk-ORJIJL2D.js", "/build/_shared/chunk-2W2NOZVU.js", "/build/_shared/chunk-CNSHZ57Q.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office_.$id_.$userID": { id: "routes/_home.office_.$id_.$userID", parentId: "routes/_home", path: "office/:id/:userID", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.office_.$id_.$userID-ESV4K3PR.js", imports: ["/build/_shared/chunk-QGRJQUMK.js", "/build/_shared/chunk-CNSHZ57Q.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.search": { id: "routes/_home.search", parentId: "routes/_home", path: "search", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.search-5XEW27VJ.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/forgot-pass": { id: "routes/forgot-pass", parentId: "root", path: "forgot-pass", index: void 0, caseSensitive: void 0, module: "/build/routes/forgot-pass-ESYPYIDH.js", imports: ["/build/_shared/chunk-KPKQHPMA.js"], hasAction: !0, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/login": { id: "routes/login", parentId: "root", path: "login", index: void 0, caseSensitive: void 0, module: "/build/routes/login-DA6524F7.js", imports: ["/build/_shared/chunk-IDR7SUUB.js", "/build/_shared/chunk-KPKQHPMA.js", "/build/_shared/chunk-NHPJXLCO.js", "/build/_shared/chunk-AF3DCVCM.js", "/build/_shared/chunk-2L3TLXHT.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/logout": { id: "routes/logout", parentId: "root", path: "logout", index: void 0, caseSensitive: void 0, module: "/build/routes/logout-YO44EPFE.js", imports: void 0, hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/reset-password.$token.$userId": { id: "routes/reset-password.$token.$userId", parentId: "root", path: "reset-password/:token/:userId", index: void 0, caseSensitive: void 0, module: "/build/routes/reset-password.$token.$userId-USPO3XOT.js", imports: ["/build/_shared/chunk-KPKQHPMA.js"], hasAction: !0, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, cssBundleHref: void 0, hmr: void 0, url: "/build/manifest-50CDBE46.js" };
+    assets_manifest_default = { version: "dcf80f61", entry: { module: "/build/entry.client-W4TXQQ2T.js", imports: ["/build/_shared/chunk-52JS6F46.js", "/build/_shared/chunk-MRPPUX3F.js", "/build/_shared/chunk-RQ7GWW3B.js", "/build/_shared/chunk-DG4HR4CT.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-XPZA364X.js", imports: ["/build/_shared/chunk-2ZE3FT2E.js", "/build/_shared/chunk-4XM7QDXF.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !0 }, "routes/_home": { id: "routes/_home", parentId: "root", path: void 0, index: void 0, caseSensitive: void 0, module: "/build/routes/_home-6CG4KJ7T.js", imports: ["/build/_shared/chunk-IDR7SUUB.js", "/build/_shared/chunk-KPKQHPMA.js", "/build/_shared/chunk-NHPJXLCO.js", "/build/_shared/chunk-AF3DCVCM.js", "/build/_shared/chunk-ORJIJL2D.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.Inspections.$id": { id: "routes/_home.Inspections.$id", parentId: "routes/_home", path: "Inspections/:id", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.Inspections.$id-CDZ5F7AA.js", imports: ["/build/_shared/chunk-CQ6B4OCZ.js", "/build/_shared/chunk-4XM7QDXF.js", "/build/_shared/chunk-CNSHZ57Q.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.Inspections._index": { id: "routes/_home.Inspections._index", parentId: "routes/_home", path: "Inspections", index: !0, caseSensitive: void 0, module: "/build/routes/_home.Inspections._index-ULI2GZH7.js", imports: ["/build/_shared/chunk-4XM7QDXF.js"], hasAction: !0, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home._main": { id: "routes/_home._main", parentId: "routes/_home", path: void 0, index: void 0, caseSensitive: void 0, module: "/build/routes/_home._main-RBNJP4U4.js", imports: ["/build/_shared/chunk-CXDSJXHH.js", "/build/_shared/chunk-2ZE3FT2E.js", "/build/_shared/chunk-4XM7QDXF.js", "/build/_shared/chunk-2L3TLXHT.js", "/build/_shared/chunk-CNSHZ57Q.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home._main._index": { id: "routes/_home._main._index", parentId: "routes/_home._main", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_home._main._index-CFZFAQKC.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home._main.expired": { id: "routes/_home._main.expired", parentId: "routes/_home._main", path: "expired", index: void 0, caseSensitive: void 0, module: "/build/routes/_home._main.expired-NFG2WYVE.js", imports: ["/build/_shared/chunk-ORJIJL2D.js", "/build/_shared/chunk-2W2NOZVU.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home._main.expiredsoon": { id: "routes/_home._main.expiredsoon", parentId: "routes/_home._main", path: "expiredsoon", index: void 0, caseSensitive: void 0, module: "/build/routes/_home._main.expiredsoon-FZCWPO6I.js", imports: ["/build/_shared/chunk-ORJIJL2D.js", "/build/_shared/chunk-2W2NOZVU.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.analystics.$codename": { id: "routes/_home.analystics.$codename", parentId: "routes/_home", path: "analystics/:codename", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.analystics.$codename-ZLK3MBYO.js", imports: ["/build/_shared/chunk-CXDSJXHH.js", "/build/_shared/chunk-JPMRNOFY.js", "/build/_shared/chunk-2ZE3FT2E.js", "/build/_shared/chunk-4XM7QDXF.js", "/build/_shared/chunk-2L3TLXHT.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.analystics.$codename._index": { id: "routes/_home.analystics.$codename._index", parentId: "routes/_home.analystics.$codename", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_home.analystics.$codename._index-C3T7AASK.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.analystics.$codename.expired": { id: "routes/_home.analystics.$codename.expired", parentId: "routes/_home.analystics.$codename", path: "expired", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.analystics.$codename.expired-KY2ZE3AW.js", imports: ["/build/_shared/chunk-ORJIJL2D.js", "/build/_shared/chunk-2W2NOZVU.js", "/build/_shared/chunk-CNSHZ57Q.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.analystics.$codename.expiredsoon": { id: "routes/_home.analystics.$codename.expiredsoon", parentId: "routes/_home.analystics.$codename", path: "expiredsoon", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.analystics.$codename.expiredsoon-MOSS7TZ2.js", imports: ["/build/_shared/chunk-ORJIJL2D.js", "/build/_shared/chunk-2W2NOZVU.js", "/build/_shared/chunk-CNSHZ57Q.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.analystics._index": { id: "routes/_home.analystics._index", parentId: "routes/_home", path: "analystics", index: !0, caseSensitive: void 0, module: "/build/routes/_home.analystics._index-ZVRU5VPI.js", imports: ["/build/_shared/chunk-JPMRNOFY.js", "/build/_shared/chunk-2W2NOZVU.js", "/build/_shared/chunk-4XM7QDXF.js"], hasAction: !0, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.car.$numberPlate._index": { id: "routes/_home.car.$numberPlate._index", parentId: "routes/_home", path: "car/:numberPlate", index: !0, caseSensitive: void 0, module: "/build/routes/_home.car.$numberPlate._index-RMJDFY5J.js", imports: ["/build/_shared/chunk-2L3TLXHT.js", "/build/_shared/chunk-CNSHZ57Q.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.car.$numberPlate.addinspection": { id: "routes/_home.car.$numberPlate.addinspection", parentId: "routes/_home", path: "car/:numberPlate/addinspection", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.car.$numberPlate.addinspection-V3TOWDQI.js", imports: ["/build/_shared/chunk-2L3TLXHT.js", "/build/_shared/chunk-CNSHZ57Q.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.car._index": { id: "routes/_home.car._index", parentId: "routes/_home", path: "car", index: !0, caseSensitive: void 0, module: "/build/routes/_home.car._index-R4EY23MU.js", imports: ["/build/_shared/chunk-2ZE3FT2E.js", "/build/_shared/chunk-4XM7QDXF.js", "/build/_shared/chunk-2L3TLXHT.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.info._index": { id: "routes/_home.info._index", parentId: "routes/_home", path: "info", index: !0, caseSensitive: void 0, module: "/build/routes/_home.info._index-CEGOL4HM.js", imports: ["/build/_shared/chunk-QGRJQUMK.js", "/build/_shared/chunk-CNSHZ57Q.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.info.edit": { id: "routes/_home.info.edit", parentId: "routes/_home", path: "info/edit", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.info.edit-DIEDGLMK.js", imports: ["/build/_shared/chunk-CNSHZ57Q.js"], hasAction: !0, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office": { id: "routes/_home.office", parentId: "routes/_home", path: "office", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.office-7RVZIUL6.js", imports: void 0, hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office._index": { id: "routes/_home.office._index", parentId: "routes/_home.office", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_home.office._index-SS2XENQ7.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office.add": { id: "routes/_home.office.add", parentId: "routes/_home.office", path: "add", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.office.add-KQ4ABYYV.js", imports: ["/build/_shared/chunk-AF3DCVCM.js", "/build/_shared/chunk-JPMRNOFY.js", "/build/_shared/chunk-2W2NOZVU.js", "/build/_shared/chunk-4XM7QDXF.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office_.$id": { id: "routes/_home.office_.$id", parentId: "routes/_home", path: "office/:id", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.office_.$id-IYVVR3QU.js", imports: ["/build/_shared/chunk-CQ6B4OCZ.js", "/build/_shared/chunk-CXDSJXHH.js", "/build/_shared/chunk-2ZE3FT2E.js", "/build/_shared/chunk-4XM7QDXF.js", "/build/_shared/chunk-2L3TLXHT.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office_.$id._index": { id: "routes/_home.office_.$id._index", parentId: "routes/_home.office_.$id", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_home.office_.$id._index-RDW222FZ.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office_.$id.addStaff": { id: "routes/_home.office_.$id.addStaff", parentId: "routes/_home.office_.$id", path: "addStaff", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.office_.$id.addStaff-XN226CCR.js", imports: ["/build/_shared/chunk-AF3DCVCM.js", "/build/_shared/chunk-2W2NOZVU.js", "/build/_shared/chunk-CNSHZ57Q.js"], hasAction: !0, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office_.$id.expired": { id: "routes/_home.office_.$id.expired", parentId: "routes/_home.office_.$id", path: "expired", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.office_.$id.expired-HDNNZUBT.js", imports: ["/build/_shared/chunk-ORJIJL2D.js", "/build/_shared/chunk-2W2NOZVU.js", "/build/_shared/chunk-CNSHZ57Q.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office_.$id.expiredsoon": { id: "routes/_home.office_.$id.expiredsoon", parentId: "routes/_home.office_.$id", path: "expiredsoon", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.office_.$id.expiredsoon-B2QLBM5G.js", imports: ["/build/_shared/chunk-ORJIJL2D.js", "/build/_shared/chunk-2W2NOZVU.js", "/build/_shared/chunk-CNSHZ57Q.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.office_.$id_.$userID": { id: "routes/_home.office_.$id_.$userID", parentId: "routes/_home", path: "office/:id/:userID", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.office_.$id_.$userID-ESV4K3PR.js", imports: ["/build/_shared/chunk-QGRJQUMK.js", "/build/_shared/chunk-CNSHZ57Q.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_home.search": { id: "routes/_home.search", parentId: "routes/_home", path: "search", index: void 0, caseSensitive: void 0, module: "/build/routes/_home.search-5XEW27VJ.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/forgot-pass": { id: "routes/forgot-pass", parentId: "root", path: "forgot-pass", index: void 0, caseSensitive: void 0, module: "/build/routes/forgot-pass-ESYPYIDH.js", imports: ["/build/_shared/chunk-KPKQHPMA.js"], hasAction: !0, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/login": { id: "routes/login", parentId: "root", path: "login", index: void 0, caseSensitive: void 0, module: "/build/routes/login-DA6524F7.js", imports: ["/build/_shared/chunk-IDR7SUUB.js", "/build/_shared/chunk-KPKQHPMA.js", "/build/_shared/chunk-NHPJXLCO.js", "/build/_shared/chunk-AF3DCVCM.js", "/build/_shared/chunk-2L3TLXHT.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/logout": { id: "routes/logout", parentId: "root", path: "logout", index: void 0, caseSensitive: void 0, module: "/build/routes/logout-YO44EPFE.js", imports: void 0, hasAction: !0, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/reset-password.$token.$userId": { id: "routes/reset-password.$token.$userId", parentId: "root", path: "reset-password/:token/:userId", index: void 0, caseSensitive: void 0, module: "/build/routes/reset-password.$token.$userId-USPO3XOT.js", imports: ["/build/_shared/chunk-KPKQHPMA.js"], hasAction: !0, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, cssBundleHref: void 0, hmr: void 0, url: "/build/manifest-DCF80F61.js" };
   }
 });
 
@@ -91,27 +91,27 @@ __export(entry_server_exports, {
   default: () => handleRequest
 });
 var import_node_stream = require("node:stream"), import_node = require("@remix-run/node"), import_react = require("@remix-run/react"), import_isbot = __toESM(require("isbot")), import_server = require("react-dom/server"), import_jsx_dev_runtime = require("react/jsx-dev-runtime"), ABORT_DELAY = 5e3;
-function handleRequest(request2, responseStatusCode, responseHeaders, remixContext) {
-  return (0, import_isbot.default)(request2.headers.get("user-agent")) ? handleBotRequest(
-    request2,
+function handleRequest(request, responseStatusCode, responseHeaders, remixContext) {
+  return (0, import_isbot.default)(request.headers.get("user-agent")) ? handleBotRequest(
+    request,
     responseStatusCode,
     responseHeaders,
     remixContext
   ) : handleBrowserRequest(
-    request2,
+    request,
     responseStatusCode,
     responseHeaders,
     remixContext
   );
 }
-function handleBotRequest(request2, responseStatusCode, responseHeaders, remixContext) {
+function handleBotRequest(request, responseStatusCode, responseHeaders, remixContext) {
   return new Promise((resolve, reject) => {
     let { pipe, abort } = (0, import_server.renderToPipeableStream)(
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(
         import_react.RemixServer,
         {
           context: remixContext,
-          url: request2.url,
+          url: request.url,
           abortDelay: ABORT_DELAY
         },
         void 0,
@@ -144,14 +144,14 @@ function handleBotRequest(request2, responseStatusCode, responseHeaders, remixCo
     setTimeout(abort, ABORT_DELAY);
   });
 }
-function handleBrowserRequest(request2, responseStatusCode, responseHeaders, remixContext) {
+function handleBrowserRequest(request, responseStatusCode, responseHeaders, remixContext) {
   return new Promise((resolve, reject) => {
     let { pipe, abort } = (0, import_server.renderToPipeableStream)(
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(
         import_react.RemixServer,
         {
           context: remixContext,
-          url: request2.url,
+          url: request.url,
           abortDelay: ABORT_DELAY
         },
         void 0,
@@ -196,7 +196,7 @@ __export(root_exports, {
 var import_css_bundle = __toESM(require_server());
 
 // app/styles/tailwind.css
-var tailwind_default = "/build/_assets/tailwind-BMWS2TFQ.css";
+var tailwind_default = "/build/_assets/tailwind-22TAXTVL.css";
 
 // app/root.jsx
 var import_remix_utils = require("remix-utils");
@@ -262,21 +262,6 @@ function App() {
         lineNumber: 40,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(
-        "meta",
-        {
-          httpEquiv: "Cache-Control",
-          content: "max-age: 31536000, no-cache, no-store, must-revalidate"
-        },
-        void 0,
-        !1,
-        {
-          fileName: "app/root.jsx",
-          lineNumber: 42,
-          columnNumber: 9
-        },
-        this
-      ),
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("meta", { name: "viewport", content: "width=device-width,initial-scale=1" }, void 0, !1, {
         fileName: "app/root.jsx",
         lineNumber: 46,
@@ -758,13 +743,13 @@ async function createUserSession(sessionToken, redirectPath) {
     }
   });
 }
-async function getUserFromSession(request2) {
-  let data = request2.headers.get("cookie"), token = (await sessionStorage.getSession(data)).get("sessionToken");
+async function getUserFromSession(request) {
+  let data = request.headers.get("cookie"), token = (await sessionStorage.getSession(data)).get("sessionToken");
   return token || null;
 }
-async function destroyUserSession(request2) {
+async function destroyUserSession(request) {
   let session = await sessionStorage.getSession(
-    request2.headers.get("cookie")
+    request.headers.get("cookie")
   );
   return (0, import_node2.redirect)("/login", {
     headers: {
@@ -772,8 +757,8 @@ async function destroyUserSession(request2) {
     }
   });
 }
-async function requireUserSession(request2) {
-  let token = await getUserFromSession(request2);
+async function requireUserSession(request) {
+  let token = await getUserFromSession(request);
   if (!token)
     throw (0, import_node2.redirect)("/login");
   return token;
@@ -1296,8 +1281,8 @@ function ProvinceExpiredSoon() {
     columnNumber: 10
   }, this);
 }
-async function loader({ request: request2, params }) {
-  let token = await requireUserSession(request2);
+async function loader({ request, params }) {
+  let token = await requireUserSession(request);
   if (!token)
     return redirect("/login");
   let codename = params.codename, province = province_default.filter((a) => a.codename === codename)[0].name, url = "https://registrytotal.herokuapp.com/api/office/own/outdatecar", dataPass_1 = {
@@ -2815,8 +2800,8 @@ function InspectionAdd() {
     columnNumber: 10
   }, this);
 }
-async function loader2({ request: request2, params }) {
-  let token = await requireUserSession(request2);
+async function loader2({ request, params }) {
+  let token = await requireUserSession(request);
   if (!token)
     return (0, import_node3.redirect)("/login");
   let fetchData = {
@@ -2834,11 +2819,11 @@ async function loader2({ request: request2, params }) {
     }
   )).json();
 }
-async function action({ request: request2 }) {
-  let token = await requireUserSession(request2);
+async function action({ request }) {
+  let token = await requireUserSession(request);
   if (!token)
     return (0, import_node3.redirect)("/login");
-  let formData = await request2.formData(), data = {
+  let formData = await request.formData(), data = {
     ownername: formData.get("OwnerName"),
     owneremail: formData.get("Email"),
     ownerphone: formData.get("Phone"),
@@ -3109,8 +3094,8 @@ function ProvinceExpired() {
     columnNumber: 10
   }, this);
 }
-async function loader3({ request: request2, params }) {
-  let token = await requireUserSession(request2);
+async function loader3({ request, params }) {
+  let token = await requireUserSession(request);
   if (!token)
     return redirect("/login");
   let codename = params.codename, province = province_default.filter((a) => a.codename === codename)[0].name, url = "https://registrytotal.herokuapp.com/api/office/own/outdatecar", dataPass_1 = {
@@ -4040,8 +4025,8 @@ function CarInfoPage() {
     columnNumber: 10
   }, this);
 }
-async function loader4({ request: request2, params }) {
-  let token = await requireUserSession(request2);
+async function loader4({ request, params }) {
+  let token = await requireUserSession(request);
   if (!token)
     return redirect("/login");
   let fetchData = {
@@ -4285,8 +4270,8 @@ function OfficeExpiredSoonPage() {
     columnNumber: 10
   }, this);
 }
-async function loader5({ request: request2, params }) {
-  let token = await requireUserSession(request2);
+async function loader5({ request, params }) {
+  let token = await requireUserSession(request);
   if (!token)
     return redirect("/login");
   let url = "https://registrytotal.herokuapp.com/api/office/" + params.id + "/outdatecar", dataPass_1 = {
@@ -4486,8 +4471,8 @@ function ResetPage() {
     columnNumber: 10
   }, this);
 }
-async function action2({ request: request2, params }) {
-  let formData = await request2.formData(), data = {
+async function action2({ request, params }) {
+  let formData = await request.formData(), data = {
     newpassword: formData.get("newpassword"),
     confirmpassword: formData.get("cfpassword")
   }, resData = await (await fetch(
@@ -5003,8 +4988,8 @@ function ProvinceAna() {
     columnNumber: 5
   }, this);
 }
-async function loader6({ request: request2, params }) {
-  let token = await requireUserSession(request2);
+async function loader6({ request, params }) {
+  let token = await requireUserSession(request);
   if (!token)
     return (0, import_node5.redirect)("/login");
   let codename = params.codename, province = province_default.filter((a) => a.codename === codename)[0].name, fetch1 = {
@@ -5387,8 +5372,8 @@ async function login(email, password) {
     return createUserSession(user.session, "/");
   }
 }
-async function getAllOffice(request2) {
-  let token = await requireUserSession(request2);
+async function getAllOffice(request) {
+  let token = await requireUserSession(request);
   if (!token)
     return (0, import_node6.redirect)("/login");
   let resData = await (await fetch("https://registrytotal.herokuapp.com/api/office", {
@@ -5402,8 +5387,8 @@ async function getAllOffice(request2) {
     throw new Error("You must be admin to access this page");
   return resData;
 }
-async function addStaff(request2, data, params) {
-  let token = await requireUserSession(request2);
+async function addStaff(request, data, params) {
+  let token = await requireUserSession(request);
   if (!token)
     return (0, import_node6.redirect)("/login");
   let officeID = params.id, resData = await (await fetch(
@@ -5419,8 +5404,8 @@ async function addStaff(request2, data, params) {
   )).json();
   return resData !== "SUCCEEDED" ? (0, import_node6.json)({ message: resData }) : (0, import_node6.redirect)(`/office/${officeID}`);
 }
-async function getInspections(params, request2) {
-  let token = await requireUserSession(request2);
+async function getInspections(params, request) {
+  let token = await requireUserSession(request);
   if (!token)
     return (0, import_node6.redirect)("/login");
   let url = "https://registrytotal.herokuapp.com/api/inspection/" + params.id;
@@ -5432,8 +5417,8 @@ async function getInspections(params, request2) {
     }
   })).json();
 }
-async function findInspectionsById(request2, id) {
-  let token = await requireUserSession(request2);
+async function findInspectionsById(request, id) {
+  let token = await requireUserSession(request);
   if (!token)
     return (0, import_node6.redirect)("/login");
   let url = "https://registrytotal.herokuapp.com/api/inspection/" + id;
@@ -5447,8 +5432,8 @@ async function findInspectionsById(request2, id) {
     throw new Error("Cannot find this Registration Number");
   return (0, import_node6.redirect)(`/Inspections/${id}`);
 }
-async function getOwnInfo(request2) {
-  let response = await requireUserSession(request2);
+async function getOwnInfo(request) {
+  let response = await requireUserSession(request);
   if (!response)
     return (0, import_node6.redirect)("/login");
   let resData = await (await fetch(
@@ -5465,8 +5450,8 @@ async function getOwnInfo(request2) {
     throw new Error("Not Found");
   return resData;
 }
-async function EditInfo(request2, data) {
-  let token = await requireUserSession(request2);
+async function EditInfo(request, data) {
+  let token = await requireUserSession(request);
   if (!token)
     return (0, import_node6.redirect)("/login");
   let resData = await (await fetch(
@@ -5482,8 +5467,8 @@ async function EditInfo(request2, data) {
   )).json();
   return resData === "SUCCEEDED" ? (0, import_node6.redirect)("/info") : (0, import_node6.json)({ message: resData });
 }
-async function getStaffbyId(request2, staffID) {
-  let token = await requireUserSession(request2);
+async function getStaffbyId(request, staffID) {
+  let token = await requireUserSession(request);
   if (!token)
     return (0, import_node6.redirect)("/login");
   let resData = await (await fetch(
@@ -5500,8 +5485,8 @@ async function getStaffbyId(request2, staffID) {
     throw new Error("You must be admin to access this page");
   return resData;
 }
-async function addOffice(request2, data) {
-  let token = await requireUserSession(request2);
+async function addOffice(request, data) {
+  let token = await requireUserSession(request);
   if (!token)
     return (0, import_node6.redirect)("/login");
   let resData = await (await fetch(
@@ -5519,13 +5504,13 @@ async function addOffice(request2, data) {
     throw new Error("You must be admin to access this");
   return resData === "SUCCEEDED" ? (0, import_node6.redirect)("/office") : (0, import_node6.json)({ message: resData });
 }
-async function adminCheck(request2) {
-  if ((await getOwnInfo(request2)).isAdmin === 0)
+async function adminCheck(request) {
+  if ((await getOwnInfo(request)).isAdmin === 0)
     throw new Error("You must be ad administrator to access this");
   return null;
 }
-async function findCarbyNumberPlate(request2, numberPlate) {
-  let token = await requireUserSession(request2);
+async function findCarbyNumberPlate(request, numberPlate) {
+  let token = await requireUserSession(request);
   if (!token)
     return (0, import_node6.redirect)("/login");
   let fetchData = {
@@ -5563,8 +5548,8 @@ function AddStaffPage() {
     columnNumber: 5
   }, this);
 }
-async function action3({ request: request2, params }) {
-  let formData = await request2.formData();
+async function action3({ request, params }) {
+  let formData = await request.formData();
   var isAdmin;
   formData.get("workFor") === "C\u1EE5c \u0111\u0103ng ki\u1EC3m Vi\u1EC7t Nam" ? isAdmin = 1 : isAdmin = 0;
   let data = {
@@ -5577,7 +5562,7 @@ async function action3({ request: request2, params }) {
     password: "12345678",
     isAdmin
   };
-  return await addStaff(request2, data, params);
+  return await addStaff(request, data, params);
 }
 
 // app/routes/_home.office_.$id_.$userID.jsx
@@ -5846,9 +5831,9 @@ function StaffInfoPage() {
     columnNumber: 10
   }, this);
 }
-async function loader7({ request: request2, params }) {
+async function loader7({ request, params }) {
   try {
-    return await getStaffbyId(request2, params.userID);
+    return await getStaffbyId(request, params.userID);
   } catch (error) {
     throw new Error(`${error.message}`);
   }
@@ -6079,8 +6064,8 @@ function OfficeExpiredPage() {
     columnNumber: 10
   }, this);
 }
-async function loader8({ request: request2, params }) {
-  let token = await requireUserSession(request2);
+async function loader8({ request, params }) {
+  let token = await requireUserSession(request);
   if (!token)
     return redirect("/login");
   let url = "https://registrytotal.herokuapp.com/api/office/" + params.id + "/outdatecar", dataPass_1 = {
@@ -6113,10 +6098,10 @@ function InspectionSearchPage() {
     columnNumber: 10
   }, this);
 }
-async function action4({ request: request2 }) {
-  let id = (await request2.formData()).get("InspectId");
+async function action4({ request }) {
+  let id = (await request.formData()).get("InspectId");
   try {
-    return await findInspectionsById(request2, id);
+    return await findInspectionsById(request, id);
   } catch (error) {
     return (0, import_node7.json)({ message: error.message });
   }
@@ -6366,8 +6351,8 @@ function ExpiredSoon() {
     columnNumber: 10
   }, this);
 }
-async function loader9({ request: request2 }) {
-  let token = await requireUserSession(request2);
+async function loader9({ request }) {
+  let token = await requireUserSession(request);
   if (!token)
     return redirect("/login");
   let url = "https://registrytotal.herokuapp.com/api/office/own/outdatecar", dataPass_1 = {
@@ -6522,8 +6507,8 @@ function AnalysticsPage() {
     columnNumber: 5
   }, this);
 }
-async function action5({ request: request2 }) {
-  let p = (await request2.formData()).get("province"), data = province_default.filter((a) => a.name === p)[0];
+async function action5({ request }) {
+  let p = (await request.formData()).get("province"), data = province_default.filter((a) => a.name === p)[0];
   return data === void 0 ? (0, import_node8.json)({ message: "Can't find province" }) : (0, import_node8.redirect)(`/analystics/${data.codename}`);
 }
 
@@ -7445,8 +7430,8 @@ function InpectionsPage() {
     columnNumber: 5
   }, this);
 }
-async function loader10({ request: request2, params }) {
-  return await getInspections(params, request2);
+async function loader10({ request, params }) {
+  return await getInspections(params, request);
 }
 
 // app/routes/_home._main.expired.jsx
@@ -7674,8 +7659,8 @@ function Expired() {
     columnNumber: 10
   }, this);
 }
-async function loader11({ request: request2 }) {
-  let token = await requireUserSession(request2);
+async function loader11({ request }) {
+  let token = await requireUserSession(request);
   if (!token)
     return redirect("/login");
   let url = "https://registrytotal.herokuapp.com/api/office/own/outdatecar", dataPass_1 = {
@@ -8004,8 +7989,7 @@ function meta3({ matches }) {
 var home_office_id_exports = {};
 __export(home_office_id_exports, {
   default: () => OfficeDetailPage,
-  loader: () => loader12,
-  shouldRevalidate: () => shouldRevalidate2
+  loader: () => loader12
 });
 var import_node9 = require("@remix-run/node");
 var import_react44 = require("@remix-run/react");
@@ -8760,8 +8744,8 @@ function OfficeDetailPage() {
     columnNumber: 5
   }, this);
 }
-async function loader12({ request: request2, params }) {
-  let token = await requireUserSession(request2);
+async function loader12({ request, params }) {
+  let token = await requireUserSession(request);
   if (!token)
     return (0, import_node9.redirect)("/login");
   let url = "https://registrytotal.herokuapp.com/api/office/" + params.id + "/car", data2023 = {
@@ -8824,9 +8808,6 @@ async function loader12({ request: request2, params }) {
     Data2021: resdata2021,
     expired: expiredRes
   });
-}
-function shouldRevalidate2() {
-  return !0;
 }
 
 // app/routes/_home.car._index.jsx
@@ -9591,13 +9572,13 @@ function CarIndex() {
     columnNumber: 5
   }, this);
 }
-async function loader13({ request: request2 }) {
-  return requireUserSession(request2) ? null : (0, import_node10.redirect)("/login");
+async function loader13({ request }) {
+  return requireUserSession(request) ? null : (0, import_node10.redirect)("/login");
 }
-async function action6({ request: request2 }) {
-  let numberPlate = (await request2.formData()).get("NumberPlate");
+async function action6({ request }) {
+  let numberPlate = (await request.formData()).get("NumberPlate");
   try {
-    return await findCarbyNumberPlate(request2, numberPlate);
+    return await findCarbyNumberPlate(request, numberPlate);
   } catch (error) {
     return (0, import_node10.json)({ message: error.message });
   }
@@ -9873,15 +9854,15 @@ function AddOfficePage() {
     columnNumber: 5
   }, this);
 }
-async function loader14({ request: request2 }) {
+async function loader14({ request }) {
   try {
-    return await adminCheck(request2);
+    return await adminCheck(request);
   } catch (error) {
     throw new Error(`${error.message}`);
   }
 }
-async function action7({ request: request2 }) {
-  let formData = await request2.formData(), fetchData = {
+async function action7({ request }) {
+  let formData = await request.formData(), fetchData = {
     name: formData.get("OfficeName"),
     address: formData.get("Address"),
     hotline: formData.get("Hotline"),
@@ -9889,7 +9870,7 @@ async function action7({ request: request2 }) {
     city: formData.get("city")
   };
   try {
-    return await addOffice(request2, fetchData);
+    return await addOffice(request, fetchData);
   } catch (error) {
     throw new Error(`${error.message}`);
   }
@@ -10202,15 +10183,15 @@ function InfoEditpage() {
     columnNumber: 5
   }, this);
 }
-async function action8({ request: request2 }) {
-  let formData = await request2.formData(), data = {
+async function action8({ request }) {
+  let formData = await request.formData(), data = {
     email: formData.get("email"),
     name: formData.get("name"),
     dob: reFormatDate(formData.get("dob")),
     ssn: formData.get("SSN"),
     phone: formData.get("phone")
   };
-  return await EditInfo(request2, data);
+  return await EditInfo(request, data);
 }
 
 // app/routes/_home.office.jsx
@@ -10429,10 +10410,10 @@ function OfficePage() {
     columnNumber: 5
   }, this);
 }
-async function loader15({ request: request2 }) {
+async function loader15({ request }) {
   try {
-    let data = await adminCheck(request2);
-    return await getAllOffice(request2);
+    let data = await adminCheck(request);
+    return await getAllOffice(request);
   } catch (error) {
     throw new Error(`${error.message}`);
   }
@@ -10976,8 +10957,8 @@ function MainPage() {
     columnNumber: 5
   }, this);
 }
-async function loader16({ request: request2 }) {
-  let token = await requireUserSession(request2);
+async function loader16({ request }) {
+  let token = await requireUserSession(request);
   if (!token)
     return (0, import_node11.redirect)("/login");
   let url = "https://registrytotal.herokuapp.com/api/office/own/car", dataPass = {
@@ -11190,8 +11171,8 @@ function ForgotPasswordPage() {
     columnNumber: 5
   }, this);
 }
-async function action9({ request: request2 }) {
-  let data = (await request2.formData()).get("resetemail"), resData = await (await fetch(
+async function action9({ request }) {
+  let data = (await request.formData()).get("resetemail"), resData = await (await fetch(
     "https://registrytotal.herokuapp.com/api/staff/forgot-password",
     {
       method: "POST",
@@ -11207,24 +11188,20 @@ async function action9({ request: request2 }) {
 // app/routes/logout.js
 var logout_exports = {};
 __export(logout_exports, {
-  action: () => action10,
-  loader: () => loader17
+  action: () => action10
 });
 var import_node13 = require("@remix-run/node");
-async function action10({ request: request2 }) {
-  if (request2.method !== "POST")
+async function action10({ request }) {
+  if (request.method !== "POST")
     throw (0, import_node13.json)({ message: "Invalid request method" }, { status: 400 });
-  return await destroyUserSession(request2);
-}
-function loader17() {
-  return redirect("/login");
+  return await destroyUserSession(request);
 }
 
 // app/routes/_home.jsx
 var home_exports = {};
 __export(home_exports, {
   default: () => HomeLayout,
-  loader: () => loader18
+  loader: () => loader17
 });
 var import_react60 = require("@remix-run/react");
 
@@ -11623,9 +11600,9 @@ function HomeLayout() {
     columnNumber: 5
   }, this);
 }
-async function loader18({ request: request2 }) {
+async function loader17({ request }) {
   try {
-    return await getOwnInfo(request2);
+    return await getOwnInfo(request);
   } catch {
     throw new Error("Not found");
   }
@@ -11636,7 +11613,7 @@ var login_exports = {};
 __export(login_exports, {
   action: () => action11,
   default: () => LoginPage,
-  loader: () => loader19
+  loader: () => loader18
 });
 
 // app/components/UI/Login.jsx
@@ -11829,11 +11806,11 @@ function LoginPage() {
     columnNumber: 10
   }, this);
 }
-async function loader19({ request: request2 }) {
-  return await getUserFromSession(request2) ? (0, import_node14.redirect)("/") : null;
+async function loader18({ request }) {
+  return await getUserFromSession(request) ? (0, import_node14.redirect)("/") : null;
 }
-async function action11({ request: request2 }) {
-  let formData = await request2.formData(), data = {
+async function action11({ request }) {
+  let formData = await request.formData(), data = {
     email: formData.get("email"),
     password: formData.get("password")
   };

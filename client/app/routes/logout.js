@@ -7,6 +7,6 @@ export async function action({ request }) {
   return await destroyUserSession(request);
 }
 
-export function loader() {
-  return redirect("/login");
-}
+// export function loader() {
+//   return redirect("/login");
+// }

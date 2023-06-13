@@ -48,27 +48,3 @@ export async function requireUserSession(request) {
   }
   return token;
 }
-export async function changePassword(cu, moi, confirmMoi) {
-  const token = await getUserFromSession(request);
-  if (!token) {
-    redirect("login");
-  }
-  const data = {
-    passwordCurrent: cu,
-    password: moi,
-    passwordConfirm: confirmMoi,
-  };
-  const response = await fetch(
-    "https://sleepy-coast-93816.herokuapp.com/api/v1/users/updatePassword",
-    {
-      method: "PATCH",
-      headers: {
-        "content-type": "application/json",
-        Authorization: `Bearer ${token}`,
-      },
-      body: JSON.stringify(data),
-    }
-  );
-  const resData = await response.json();
-  return resData;
-}
