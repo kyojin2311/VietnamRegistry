@@ -1,4 +1,4 @@
-import { Link, useLoaderData, useMatches } from "@remix-run/react";
+import { Link, useLoaderData} from "@remix-run/react";
 import link from "../../images/ava.png";
 import { formatDate } from "../../util/formatDate";
 export default function StaffInfo() {
@@ -36,11 +36,11 @@ export default function StaffInfo() {
                 </div>
               </div>
               <div className="mt-24 text-md font-light dark:text-green-300">
-                <Link to="#" className="flex flex-wrap">
+                <div  className="flex flex-wrap">
                   <span className="mb-5 text-lg font-bold ">
                     Thông tin cá nhân
                   </span>
-                </Link>
+                </div>
                 <dl className="max-w-md text-gray-900 divide-y divide-gray-200 dark:text-white dark:divide-gray-700">
                   <div className="flex flex-col pb-3">
                     <dt className="mb-1 text-gray-500 md:text-lg dark:text-gray-400">

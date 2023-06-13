@@ -1,8 +1,7 @@
 import ForgotPass from "../components/UI/ForgotPassword";
 import { json } from "@remix-run/node";
-import { Alert } from "flowbite-react";
 import { useActionData } from "@remix-run/react";
-export default function forgotPassWordPage() {
+export default function ForgotPasswordPage() {
   const message = useActionData();
   return (
     <>

@@ -1,6 +1,6 @@
 import { requireUserSession } from "../services/auth.server";
 import ExpiredTable from "../components/Dashboard/Expired";
-export default function ExpiredSoon() {
+export default function Expired() {
   return <ExpiredTable />;
 }
 export async function loader({ request }) {

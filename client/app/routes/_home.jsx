@@ -14,6 +14,10 @@ export default function HomeLayout() {
   );
 }
 export async function loader({ request }) {
+  try{
   const data = await getOwnInfo(request);
-  return data;
+  return data; }
+  catch(err){
+    throw new Error("Not found");
+  }
 }

@@ -39,10 +39,10 @@ export default function App() {
       <head>
         <meta charSet="utf-8" />
         {/* <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src https://*; child-src 'none';" /> */}
-        <meta
+        {/* <meta
           httpEquiv="Cache-Control"
           content="max-age: 31536000, no-cache, no-store, must-revalidate"
-        ></meta>
+        ></meta> */}
         <meta name="viewport" content="width=device-width,initial-scale=1" />
         <Meta />
         <Links />
