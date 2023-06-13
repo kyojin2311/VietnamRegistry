@@ -21,7 +21,7 @@ export async function action({ request, params }) {
       body: JSON.stringify(data),
     }
   );
-  const resData = response.json();
+  const resData = await response.json();
   if (resData === "Password reset Successfully") {
     return redirect("/login");
   } else {
