@@ -112,7 +112,8 @@ export async function getOwnInfo(request) {
     }
   );
   const resData = await data.json();
-  return resData;
+  if(resData === "NOT FOUND") throw new Error("Not Found");
+  else return resData;
 }
 
 export async function EditInfo(request, data) {
