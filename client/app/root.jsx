@@ -51,7 +51,6 @@ export default function App() {
         <Outlet scrollBehavior="smooth" />
         <ScrollRestoration />
         <Scripts />
-        <script src="assets/preline/dist/preline.js"></script>
         <LiveReload />
         {spinner}
       </body>
