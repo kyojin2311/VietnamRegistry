@@ -1,7 +1,10 @@
+import { useMatches } from "@remix-run/react";
 import CarPage from "../components/CarPage/CarPage";
 import { requireUserSession } from "../services/auth.server";
 export default function CarInfoPage() {
-  return <CarPage />;
+  const matches = useMatches();
+  const isAdmin = matches.filter((a) => a.id === 'routes/_home')[0].data.isAdmin;
+  return <CarPage isAdmin={isAdmin}/>;
 }
 
 export async function loader({ request, params }) {

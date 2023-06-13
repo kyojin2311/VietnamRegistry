@@ -1,8 +1,6 @@
 import { Modal } from "flowbite-react";
 import { Form, useActionData, useNavigate } from "@remix-run/react";
 import { Alert } from "flowbite-react";
-import { faCircleInfo } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 export default function SearchModal(props) {
   const navigate = useNavigate();
   const clickHandler = () => {

@@ -25,7 +25,7 @@ export default function ExpiredSoonOfficeTable() {
   }, [searchInput]);
 
   return (
-    <PageModal title="This is the list of car have already expired">
+    <PageModal title="This is the list of car will be expired soon">
       <div className="pb-4 bg-white dark:bg-gray-700">
         <label for="table-search" className="sr-only">
           Search
@@ -77,7 +77,9 @@ export default function ExpiredSoonOfficeTable() {
                     {dt.numberPlate}
                   </Table.Cell>
                   <Table.Cell>{formatDate(dt.registDate)}</Table.Cell>
-                  <Table.Cell>{formatDate(dt.expiredDate)}</Table.Cell>
+                  <Table.Cell className="dark:text-red-400">
+                    {formatDate(dt.expiredDate)}
+                  </Table.Cell>
                   <Table.Cell>{dt.city}</Table.Cell>
                   <Table.Cell>
                     <Link

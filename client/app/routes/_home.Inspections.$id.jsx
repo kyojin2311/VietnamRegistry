@@ -10,7 +10,6 @@ import Staff from "../components/Inspections/registedStaff";
 
 export default function InpectionsPage() {
   const data = useLoaderData();
-  console.log(data);
   const componentsRef = useRef();
   const handlePrint = useReactToPrint({
     content: () => componentsRef.current,

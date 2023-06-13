@@ -21,7 +21,7 @@ export default function InspectionsForm({ data }) {
                 </div>
               </div>
               <div className="text-left flex w-full  italic text-sm">
-                <div className="flex-1">(Registration Number)</div>
+                <div className="flex-1">(Car NumberPlate)</div>
                 <div className="flex-1">(Vehicle Inspection No.)</div>
               </div>
               <div className="text-left  w-full mt-1">

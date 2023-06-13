@@ -5088,6 +5088,11 @@ input:checked + .toggle-bg {
   color: rgb(74 29 150 / var(--tw-text-opacity));
 }
 
+:is(.dark .dark\:text-red-400) {
+  --tw-text-opacity: 1;
+  color: rgb(249 128 128 / var(--tw-text-opacity));
+}
+
 :is(.dark .dark\:text-red-500) {
   --tw-text-opacity: 1;
   color: rgb(240 82 82 / var(--tw-text-opacity));

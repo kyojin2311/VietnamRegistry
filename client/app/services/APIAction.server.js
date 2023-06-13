@@ -93,7 +93,6 @@ export async function findInspectionsById(request, id) {
     },
   });
   const resData = await response.json();
-  console.log(resData);
   if (resData === null) {
     throw new Error("Cannot find this Registration Number");
   } else return redirect(`/Inspections/${id}`);

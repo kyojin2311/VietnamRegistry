@@ -92,7 +92,7 @@ export function ErrorBoundary() {
                   Page not found
                 </h1>
                 <p className="mb-5 text-base font-normal text-gray-500 md:text-lg dark:text-gray-400">
-                  {error.message}
+                  {/* {error.message} */}
                 </p>
                 <Link
                   to="/"
