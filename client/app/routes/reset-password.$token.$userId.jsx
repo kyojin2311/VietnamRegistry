@@ -1,6 +1,5 @@
-import { json, redirect } from "react-router";
 import ResetBox from "../components/UI/ResetBox";
-
+import { json, redirect } from "@remix-run/node";
 export default function ResetPage() {
   return <ResetBox />;
 }
