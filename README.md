@@ -4,7 +4,7 @@
 
   - Thành viên 1: Ngô Quý Bảo, 21021454, làm hệ thống backend, cơ sở dữ liệu.
 
-  - Thành viên 2: Phạm Văn Thạch, 21020239, làm phần giao diện frontend, logic trang web, tương tác người dùng.
+  - Thành viên 2: Phạm Văn Thạch, 21020239, làm phần giao diện frontend, logic trang web, tương tác người dùng, thiế kế Model cơ sở dữ liệu
 
   - Thành viên 3: Trần Phương Hoa, 21020201, thiết kế trang web, đóng góp ý tưởng, kiểm tra các tính năng.
 
