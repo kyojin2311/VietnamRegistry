@@ -6,7 +6,6 @@ import { formatDate } from "../../util/formatDate";
 export default function OwnInfo() {
   const matches = useMatches();
   const info = matches.find((match) => match.id === "routes/_home");
-  // const info = useLoaderData();
   const { name, SSN, dateOfBirth, phone } = info.data.data;
   const formattedDate = formatDate(dateOfBirth);
   const inspection = info.data.registed.sort(function (a, b) {

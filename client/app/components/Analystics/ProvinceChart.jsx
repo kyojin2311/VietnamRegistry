@@ -4,7 +4,6 @@ import { Dropdown } from "flowbite-react";
 import { useState, useEffect } from "react";
 import Spinner from "../../util/Loading";
 import ChartCom from "../../util/Chart.client";
-import { Link } from "@remix-run/react";
 export default function ProvinceChart() {
   const province = useLoaderData().province;
   const { Data2021, Data2022, Data2023 } = useLoaderData();

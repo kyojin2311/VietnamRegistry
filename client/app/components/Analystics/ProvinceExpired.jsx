@@ -23,7 +23,6 @@ export default function ProvinceExpired() {
         </div>
         <div className="w-full dark:text-right">
           <Link
-            prefetch="render"
             to="expiredsoon"
             className="inline-flex items-center p-2 text-lg font-medium uppercase rounded-lg text-primary-700 sm:text-sm hover:bg-gray-100 dark:text-primary-500 dark:hover:bg-gray-700"
           >
@@ -63,7 +62,6 @@ export default function ProvinceExpired() {
         </div>
         <div className="w-full dark:text-right">
           <Link
-            prefetch="render"
             to="expired"
             className="inline-flex items-center p-2 text-lg font-medium uppercase rounded-lg text-primary-700 sm:text-sm hover:bg-gray-100 dark:text-primary-500 dark:hover:bg-gray-700"
           >

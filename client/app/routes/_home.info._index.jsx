@@ -1,7 +1,9 @@
+import { ClientOnly } from "remix-utils";
 import OwnInfo from "../components/About/OwnInfo";
+import Spinner from "../util/Loading";
 
 export default function Infopage() {
-  return <OwnInfo />;
+  return <ClientOnly fallback={<Spinner />}>{() => <OwnInfo />}</ClientOnly>;
 }
 
 export function meta({ matches }) {

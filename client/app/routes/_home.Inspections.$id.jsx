@@ -1,4 +1,3 @@
-import { Button } from "flowbite-react";
 import InspectionsForm from "../components/Inspections/InspectionsForm";
 import { getInspections } from "../services/APIAction.server";
 import { useLoaderData } from "@remix-run/react";
