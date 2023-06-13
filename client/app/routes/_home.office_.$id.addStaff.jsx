@@ -6,7 +6,7 @@ import { reFormatDate } from "../util/formatDate";
 export function meta() {
   return [{ title: "Add Staff" }];
 }
-export default function addStaffPage() {
+export default function AddStaffPage() {
   const context = useOutletContext();
   return (
     <PageModal title="Provide credentials information to add users">

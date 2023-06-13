@@ -1,3 +1,3 @@
-export default function officeMain() {
+export default function OfficeMain() {
     return <></>
 }

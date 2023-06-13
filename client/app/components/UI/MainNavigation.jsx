@@ -92,7 +92,9 @@ export default function MainNavigation() {
                     className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700"
                   >
                     <FontAwesomeIcon icon={faCar} size="lg" />
-                    <span className="flex-1 ml-3 whitespace-nowrap">Search for Cars</span>
+                    <span className="flex-1 ml-3 whitespace-nowrap">
+                      Search for Cars
+                    </span>
                   </Link>
                 </li>
                 {isAdmin === 1 && (
@@ -122,7 +124,6 @@ export default function MainNavigation() {
                 </li>
                 <li>
                   <Link
-                    prefetch="render"
                     to="/info"
                     className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 active:bg-gray-700"
                   >

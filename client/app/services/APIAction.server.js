@@ -112,6 +112,7 @@ export async function getOwnInfo(request) {
     }
   );
   const resData = await data.json();
+  console.log(resData);
   if(resData === "NOT FOUND") throw new Error("Not Found");
   else return resData;
 }

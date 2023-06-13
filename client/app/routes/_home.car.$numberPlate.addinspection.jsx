@@ -4,7 +4,7 @@ import { requireUserSession } from "../services/auth.server";
 import { redirect, json } from "@remix-run/node";
 import { reFormatDate } from "../util/formatDate";
 
-export default function inspectionAdd() {
+export default function InspectionAdd() {
   const data = useLoaderData();
   return <InspectionsAddForm data={data}></InspectionsAddForm>;
 }
