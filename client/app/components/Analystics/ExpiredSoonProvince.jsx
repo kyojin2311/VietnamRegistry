@@ -78,7 +78,7 @@ export default function ExpiredSoonProvinceTable() {
                     {dt.numberPlate}
                   </Table.Cell>
                   <Table.Cell>{formatDate(dt.registDate)}</Table.Cell>
-                  <Table.Cell>{formatDate(dt.expiredDate)}</Table.Cell>
+                  <Table.Cell className="dark:text-red-400">{formatDate(dt.expiredDate)}</Table.Cell>
                   <Table.Cell>{dt.city}</Table.Cell>
                   <Table.Cell>
                     <Link
