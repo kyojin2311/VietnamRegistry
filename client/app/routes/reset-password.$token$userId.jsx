@@ -10,11 +10,12 @@ export async function action({ request, params }) {
   const data = {
     newpassword: formData.get("newpassword"),
     confirmpassword: formData.get("cfpassword"),
-    token: params.token,
-    userId: params.userId,
   };
   const response = await fetch(
-    "https://registrytotal.herokuapp.com/api/staff/reset-password",
+    "https://registrytotal.herokuapp.com/api/staff/reset-password/" +
+      params.token +
+      "/" +
+      params.userId,
     {
       method: "POST",
       headers: { "Content-Type": "application/json" },
